@@ -10,7 +10,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "ANAQUEL30",
+    "familia": "ANAQUEL",
     "variantes_familia": [
       {
         "codigo": "ANAQUEL30COLOR",
@@ -91,7 +91,26 @@
       "madre": 313511,
       "mayorista1": 197512,
       "mayorista2": 235133
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ANAQUEL30B",
+        "descripcion": "30cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL30COLOR",
+        "descripcion": "30cm Color"
+      },
+      {
+        "codigo": "ANAQUEL40B",
+        "descripcion": "40cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL40COLOR",
+        "descripcion": "40cm Color"
+      }
+    ]
   },
   {
     "codigo": "ANAQUEL30COLOR",
@@ -108,7 +127,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "ANAQUEL30",
+    "familia": "ANAQUEL",
     "variantes_familia": [
       {
         "codigo": "ANAQUEL30COLOR",
@@ -243,7 +262,26 @@
       "madre": 438988,
       "mayorista1": 276562,
       "mayorista2": 329241
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ANAQUEL30B",
+        "descripcion": "30cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL30COLOR",
+        "descripcion": "30cm Color"
+      },
+      {
+        "codigo": "ANAQUEL40B",
+        "descripcion": "40cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL40COLOR",
+        "descripcion": "40cm Color"
+      }
+    ]
   },
   {
     "codigo": "ANAQUEL40B",
@@ -256,7 +294,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "ANAQUEL40",
+    "familia": "ANAQUEL",
     "variantes_familia": [
       {
         "codigo": "ANAQUEL40COLOR",
@@ -337,7 +375,26 @@
       "madre": 349690,
       "mayorista1": 220305,
       "mayorista2": 262267
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ANAQUEL30B",
+        "descripcion": "30cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL30COLOR",
+        "descripcion": "30cm Color"
+      },
+      {
+        "codigo": "ANAQUEL40B",
+        "descripcion": "40cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL40COLOR",
+        "descripcion": "40cm Color"
+      }
+    ]
   },
   {
     "codigo": "ANAQUEL40COLOR",
@@ -354,7 +411,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "ANAQUEL40",
+    "familia": "ANAQUEL",
     "variantes_familia": [
       {
         "codigo": "ANAQUEL40COLOR",
@@ -489,7 +546,26 @@
       "madre": 489566,
       "mayorista1": 308427,
       "mayorista2": 367174
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ANAQUEL30B",
+        "descripcion": "30cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL30COLOR",
+        "descripcion": "30cm Color"
+      },
+      {
+        "codigo": "ANAQUEL40B",
+        "descripcion": "40cm Blanco"
+      },
+      {
+        "codigo": "ANAQUEL40COLOR",
+        "descripcion": "40cm Color"
+      }
+    ]
   },
   {
     "codigo": "5004",
@@ -1325,7 +1401,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "ESK7025",
+    "familia": "ESK_LED",
     "variantes_familia": [
       {
         "codigo": "ESK7025",
@@ -1376,7 +1452,26 @@
       "madre": 305190,
       "mayorista1": 244152,
       "mayorista2": 228893
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ESK7025",
+        "descripcion": "90x80"
+      },
+      {
+        "codigo": "ESK70252",
+        "descripcion": "80x80"
+      },
+      {
+        "codigo": "ESK70253",
+        "descripcion": "60x80"
+      },
+      {
+        "codigo": "ESK7060/1",
+        "descripcion": "Circular 60"
+      }
+    ]
   },
   {
     "codigo": "ESK70252",
@@ -1387,7 +1482,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "ESK70252",
+    "familia": "ESK_LED",
     "variantes_familia": [
       {
         "codigo": "ESK70252",
@@ -1438,7 +1533,26 @@
       "madre": 285794,
       "mayorista1": 228635,
       "mayorista2": 214345
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ESK7025",
+        "descripcion": "90x80"
+      },
+      {
+        "codigo": "ESK70252",
+        "descripcion": "80x80"
+      },
+      {
+        "codigo": "ESK70253",
+        "descripcion": "60x80"
+      },
+      {
+        "codigo": "ESK7060/1",
+        "descripcion": "Circular 60"
+      }
+    ]
   },
   {
     "codigo": "ESK70253",
@@ -1449,7 +1563,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "ESK70253",
+    "familia": "ESK_LED",
     "variantes_familia": [
       {
         "codigo": "ESK70253",
@@ -1500,7 +1614,26 @@
       "madre": 251850,
       "mayorista1": 201480,
       "mayorista2": 188888
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ESK7025",
+        "descripcion": "90x80"
+      },
+      {
+        "codigo": "ESK70252",
+        "descripcion": "80x80"
+      },
+      {
+        "codigo": "ESK70253",
+        "descripcion": "60x80"
+      },
+      {
+        "codigo": "ESK7060/1",
+        "descripcion": "Circular 60"
+      }
+    ]
   },
   {
     "codigo": "ESK7060/1",
@@ -1511,7 +1644,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "ESK7060/1",
+    "familia": "ESK_LED",
     "variantes_familia": [
       {
         "codigo": "ESK7060/1",
@@ -1560,7 +1693,26 @@
       "madre": 243970,
       "mayorista1": 195176,
       "mayorista2": 182978
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "ESK7025",
+        "descripcion": "90x80"
+      },
+      {
+        "codigo": "ESK70252",
+        "descripcion": "80x80"
+      },
+      {
+        "codigo": "ESK70253",
+        "descripcion": "60x80"
+      },
+      {
+        "codigo": "ESK7060/1",
+        "descripcion": "Circular 60"
+      }
+    ]
   },
   {
     "codigo": "ESKOVAL",
@@ -2275,7 +2427,7 @@
       "SAHARA",
       "TERRA"
     ],
-    "familia": "EDM60",
+    "familia": "EDM",
     "variantes_familia": [
       {
         "codigo": "EDM60",
@@ -2380,7 +2532,26 @@
       "madre": 483274,
       "mayorista1": 304463,
       "mayorista2": 362455
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "EDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "EDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "EDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "EDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   },
   {
     "codigo": "EDM60N",
@@ -2398,7 +2569,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "EDM60N",
+    "familia": "EDM",
     "variantes_familia": [
       {
         "codigo": "EDM60N",
@@ -2508,7 +2679,26 @@
       "madre": 483274,
       "mayorista1": 304463,
       "mayorista2": 362455
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "EDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "EDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "EDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "EDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   },
   {
     "codigo": "EDM80",
@@ -2526,7 +2716,7 @@
       "SAHARA",
       "TERRA"
     ],
-    "familia": "EDM80",
+    "familia": "EDM",
     "variantes_familia": [
       {
         "codigo": "EDM80",
@@ -2630,7 +2820,26 @@
       "madre": 539902,
       "mayorista1": 340138,
       "mayorista2": 404926
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "EDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "EDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "EDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "EDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   },
   {
     "codigo": "EDM80N",
@@ -2648,7 +2857,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "EDM80N",
+    "familia": "EDM",
     "variantes_familia": [
       {
         "codigo": "EDM80N",
@@ -2757,7 +2966,26 @@
       "madre": 539902,
       "mayorista1": 340138,
       "mayorista2": 404926
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "EDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "EDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "EDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "EDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   },
   {
     "codigo": "M537",
@@ -2924,7 +3152,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA050",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA050",
@@ -3004,7 +3232,46 @@
       "madre": 9950,
       "mayorista1": 7960,
       "mayorista2": 8955
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA060M",
@@ -3015,7 +3282,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA060M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA060M",
@@ -3105,7 +3372,46 @@
       "madre": 12096,
       "mayorista1": 9676,
       "mayorista2": 10886
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA080M",
@@ -3116,7 +3422,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA080M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA080M",
@@ -3208,7 +3514,46 @@
       "madre": 15094,
       "mayorista1": 12075,
       "mayorista2": 13584
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA090M",
@@ -3219,7 +3564,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA090M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA090M",
@@ -3309,7 +3654,46 @@
       "madre": 16592,
       "mayorista1": 13274,
       "mayorista2": 14933
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA110M",
@@ -3320,7 +3704,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA110M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA110M",
@@ -3409,7 +3793,46 @@
       "madre": 22313,
       "mayorista1": 17850,
       "mayorista2": 20082
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA120M",
@@ -3420,7 +3843,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA120M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA120M",
@@ -3507,7 +3930,46 @@
       "madre": 23812,
       "mayorista1": 19049,
       "mayorista2": 21431
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA140M",
@@ -3518,7 +3980,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA140M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA140M",
@@ -3605,7 +4067,46 @@
       "madre": 26810,
       "mayorista1": 21448,
       "mayorista2": 24129
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA150M",
@@ -3616,7 +4117,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA150M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA150M",
@@ -3704,7 +4205,46 @@
       "madre": 28309,
       "mayorista1": 22647,
       "mayorista2": 25478
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPA190M",
@@ -3715,7 +4255,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "TAPA190M",
+    "familia": "TAPA_MELAMINA",
     "variantes_familia": [
       {
         "codigo": "TAPA190M",
@@ -3805,7 +4345,46 @@
       "madre": 34305,
       "mayorista1": 27444,
       "mayorista2": 30874
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPA050",
+        "descripcion": "050cm"
+      },
+      {
+        "codigo": "TAPA060M",
+        "descripcion": "060cm"
+      },
+      {
+        "codigo": "TAPA080M",
+        "descripcion": "080cm"
+      },
+      {
+        "codigo": "TAPA090M",
+        "descripcion": "090cm"
+      },
+      {
+        "codigo": "TAPA110M",
+        "descripcion": "110cm"
+      },
+      {
+        "codigo": "TAPA120M",
+        "descripcion": "120cm"
+      },
+      {
+        "codigo": "TAPA140M",
+        "descripcion": "140cm"
+      },
+      {
+        "codigo": "TAPA150M",
+        "descripcion": "150cm"
+      },
+      {
+        "codigo": "TAPA190M",
+        "descripcion": "190cm"
+      }
+    ]
   },
   {
     "codigo": "TAPAMARMOL060",
@@ -3822,7 +4401,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "TAPAMARMOL060",
+    "familia": "TAPA_MARMOL",
     "variantes_familia": [
       {
         "codigo": "TAPAMARMOL060",
@@ -3914,7 +4493,26 @@
       "madre": 91488,
       "mayorista1": 73190,
       "mayorista2": 82339
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPAMARMOL060",
+        "descripcion": "60cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL060N",
+        "descripcion": "60cm Negro Marquina"
+      },
+      {
+        "codigo": "TAPAMARMOL080",
+        "descripcion": "80cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL080N",
+        "descripcion": "80cm Negro Marquina"
+      }
+    ]
   },
   {
     "codigo": "TAPAMARMOL060N",
@@ -3932,7 +4530,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "TAPAMARMOL060N",
+    "familia": "TAPA_MARMOL",
     "variantes_familia": [
       {
         "codigo": "TAPAMARMOL060N",
@@ -4030,7 +4628,26 @@
       "madre": 73191,
       "mayorista1": 58553,
       "mayorista2": 65872
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPAMARMOL060",
+        "descripcion": "60cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL060N",
+        "descripcion": "60cm Negro Marquina"
+      },
+      {
+        "codigo": "TAPAMARMOL080",
+        "descripcion": "80cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL080N",
+        "descripcion": "80cm Negro Marquina"
+      }
+    ]
   },
   {
     "codigo": "TAPAMARMOL080",
@@ -4047,7 +4664,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "TAPAMARMOL080",
+    "familia": "TAPA_MARMOL",
     "variantes_familia": [
       {
         "codigo": "TAPAMARMOL080",
@@ -4139,7 +4756,26 @@
       "madre": 115894,
       "mayorista1": 92715,
       "mayorista2": 104304
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPAMARMOL060",
+        "descripcion": "60cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL060N",
+        "descripcion": "60cm Negro Marquina"
+      },
+      {
+        "codigo": "TAPAMARMOL080",
+        "descripcion": "80cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL080N",
+        "descripcion": "80cm Negro Marquina"
+      }
+    ]
   },
   {
     "codigo": "TAPAMARMOL080N",
@@ -4157,7 +4793,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "TAPAMARMOL080N",
+    "familia": "TAPA_MARMOL",
     "variantes_familia": [
       {
         "codigo": "TAPAMARMOL080N",
@@ -4255,7 +4891,26 @@
       "madre": 92715,
       "mayorista1": 74172,
       "mayorista2": 83443
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "TAPAMARMOL060",
+        "descripcion": "60cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL060N",
+        "descripcion": "60cm Negro Marquina"
+      },
+      {
+        "codigo": "TAPAMARMOL080",
+        "descripcion": "80cm Mármol Beige"
+      },
+      {
+        "codigo": "TAPAMARMOL080N",
+        "descripcion": "80cm Negro Marquina"
+      }
+    ]
   },
   {
     "codigo": "Z8",
@@ -9348,7 +10003,7 @@
       "SAHARA",
       "TERRA"
     ],
-    "familia": "VEDM60",
+    "familia": "VEDM",
     "variantes_familia": [
       {
         "codigo": "VEDM60",
@@ -9452,7 +10107,26 @@
       "madre": 391798,
       "mayorista1": 246833,
       "mayorista2": 293848
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "VEDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "VEDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "VEDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "VEDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   },
   {
     "codigo": "VEDM60N",
@@ -9470,7 +10144,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "VEDM60N",
+    "familia": "VEDM",
     "variantes_familia": [
       {
         "codigo": "VEDM60N",
@@ -9579,7 +10253,26 @@
       "madre": 391798,
       "mayorista1": 246833,
       "mayorista2": 293848
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "VEDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "VEDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "VEDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "VEDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   },
   {
     "codigo": "VEDM80",
@@ -9597,7 +10290,7 @@
       "SAHARA",
       "TERRA"
     ],
-    "familia": "VEDM80",
+    "familia": "VEDM",
     "variantes_familia": [
       {
         "codigo": "VEDM80",
@@ -9700,7 +10393,26 @@
       "madre": 424105,
       "mayorista1": 267186,
       "mayorista2": 318079
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "VEDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "VEDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "VEDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "VEDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   },
   {
     "codigo": "VEDM80N",
@@ -9718,7 +10430,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "VEDM80N",
+    "familia": "VEDM",
     "variantes_familia": [
       {
         "codigo": "VEDM80N",
@@ -9826,6 +10538,25 @@
       "madre": 424105,
       "mayorista1": 267186,
       "mayorista2": 318079
-    }
+    },
+    "tipo_familia": "medida_color",
+    "variantes_familia_medida": [
+      {
+        "codigo": "VEDM60",
+        "descripcion": "60cm Blanco"
+      },
+      {
+        "codigo": "VEDM60N",
+        "descripcion": "60cm Nero"
+      },
+      {
+        "codigo": "VEDM80",
+        "descripcion": "80cm Blanco"
+      },
+      {
+        "codigo": "VEDM80N",
+        "descripcion": "80cm Nero"
+      }
+    ]
   }
 ]

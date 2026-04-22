@@ -253,13 +253,13 @@ function formatearBusqueda(resultado, perfil, listaPrecios = "madre") {
 
   // ── FAMILIA DE MEDIDAS: mostrar todas las variantes compactas (ej: mesadas de loza) ──
   const topResultado = resultado.resultados[0];
-  if (topResultado?.tipo_familia === "medida" && topResultado?.variantes_familia_medida?.length > 1) {
+  if ((topResultado?.tipo_familia === "medida" || topResultado?.tipo_familia === "medida_color") && topResultado?.variantes_familia_medida?.length > 1) {
     const lines = [];
     const nombre_familia = topResultado.nombre.split(" ").slice(0, 4).join(" ");
     lines.push(`📐 *${nombre_familia}* — opciones disponibles:`);
 
     resultado.resultados
-      .filter(p => p.tipo_familia === "medida")
+      .filter(p => p.tipo_familia === "medida" || p.tipo_familia === "medida_color")
       .forEach(p => {
         const stockStr = perfil === "interno"
           ? `${p.stock_total} uds`
@@ -267,7 +267,9 @@ function formatearBusqueda(resultado, perfil, listaPrecios = "madre") {
         const precioStr = perfil === "interno"
           ? `$${p.precio_madre}|$${p.precio_may1}|$${p.precio_may2}`
           : `$${perfil === "pdv" ? p.precio_madre : precioSegunLista(p, listaPrecios)}`;
-        lines.push(`  → *${p.codigo}* ${p.nombre.replace(/MESADA DE LOZA /i,"").trim()} | ${stockStr} | ${precioStr}`);
+        const varInfo = p.variantes_familia_medida?.find(v => v.codigo === p.codigo);
+        const label = varInfo?.descripcion || p.codigo;
+        lines.push(`  → *${p.codigo}* (${label}) | ${stockStr} | ${precioStr}`);
       });
 
     lines.push(`\n¿Cuál medida necesitás?`);
