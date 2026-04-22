@@ -445,7 +445,13 @@ QUÉ SÍ HACÉS CUANDO TE FALTA UN DATO:
   const catalogoMaestroStr = `📋 CATÁLOGO MAESTRO (fuente de verdad, actualizada desde Dux):
 ${catalogoMaestro.resumenParaPrompt()}
 
-IMPORTANTE: estos son TODOS los rubros, medidas, líneas y colores que existen. No hay más. Si el cliente nombra algo que no está acá, NO inventes — rebotá amable.`;
+IMPORTANTE:
+- Esos son TODOS los rubros, subrubros, medidas y colores que existen. No hay más.
+- Los colores y medidas dependen del SUBRUBRO (línea), no solo del rubro:
+  · Ej: NERO y TERRA solo existen en VANITORY MARBELA (y en mesadas de MÁRMOL). NO hay vanitorios Piatto ni Classic en Nero o Terra.
+  · Ej: BLANCO no está en Marbela (Marbela es línea premium solo en colores y mármoles).
+  · Ej: VANITORY MARBELA solo viene en 60 y 80 cm. Si piden Marbela de 45 cm, no existe.
+- Si el cliente nombra un color o medida que no está en el subrubro correcto → aclarale cuáles sí hay. NO adaptes un producto a un valor inexistente.`;
 
   const basePersona = `Sos Abril, asesora comercial de MH Amoblamientos — fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos).
 Atendés por WhatsApp en español rioplatense, con tono humano, directo y sin vueltas.`;
@@ -842,7 +848,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.5",
+    version: "3.6",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -862,7 +868,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.5 — Scope: baño (89 productos) + CATÁLOGO MAESTRO en prompt`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.6 — Catálogo maestro desglosado por subrubro`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);

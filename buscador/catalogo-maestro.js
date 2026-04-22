@@ -22,40 +22,45 @@ function cargar() {
     rubroByCode[p.codigo] = { rubro: p.rubro, sub_rubro: p.sub_rubro };
   });
 
+  // Agrupar por rubro + subrubro (los colores y medidas varían según subrubro/línea)
   const porRubro = {};
 
   cat.forEach(p => {
     const info = rubroByCode[p.codigo] || {};
     const rubro = info.rubro || "DESCONOCIDO";
-    if (!porRubro[rubro]) {
-      porRubro[rubro] = {
+    const subrubro = info.sub_rubro || "(sin subrubro)";
+
+    if (!porRubro[rubro]) porRubro[rubro] = { total: 0, subrubros: {} };
+    if (!porRubro[rubro].subrubros[subrubro]) {
+      porRubro[rubro].subrubros[subrubro] = {
         medidas: new Set(),
         colores: new Set(),
-        lineas: new Set(),
-        subrubros: new Set(),
         codigos: new Set()
       };
     }
-    porRubro[rubro].codigos.add(p.codigo);
-    if (p.medida) porRubro[rubro].medidas.add(p.medida);
-    (p.colores || []).forEach(c => porRubro[rubro].colores.add(String(c).toUpperCase()));
-    (p.colores_disponibles || []).forEach(c => porRubro[rubro].colores.add(String(c).toUpperCase()));
+    const bucket = porRubro[rubro].subrubros[subrubro];
+    bucket.codigos.add(p.codigo);
+    if (p.medida) bucket.medidas.add(p.medida);
+    (p.colores || []).forEach(c => bucket.colores.add(String(c).toUpperCase()));
+    (p.colores_disponibles || []).forEach(c => bucket.colores.add(String(c).toUpperCase()));
     (p.variantes_familia || []).forEach(v =>
-      (v.colores || []).forEach(c => porRubro[rubro].colores.add(String(c).toUpperCase()))
+      (v.colores || []).forEach(c => bucket.colores.add(String(c).toUpperCase()))
     );
-    if (p.linea) porRubro[rubro].lineas.add(p.linea);
-    if (info.sub_rubro) porRubro[rubro].subrubros.add(info.sub_rubro);
   });
 
   const salida = {};
   Object.entries(porRubro).forEach(([r, v]) => {
-    salida[r] = {
-      medidas: [...v.medidas].sort((a, b) => parseInt(a) - parseInt(b)),
-      colores: [...v.colores].sort(),
-      lineas: [...v.lineas].sort(),
-      subrubros: [...v.subrubros].sort(),
-      total: v.codigos.size
-    };
+    const subrubrosSalida = {};
+    let total = 0;
+    Object.entries(v.subrubros).forEach(([sr, info]) => {
+      subrubrosSalida[sr] = {
+        total: info.codigos.size,
+        medidas: [...info.medidas].sort((a, b) => parseInt(a) - parseInt(b)),
+        colores: [...info.colores].sort()
+      };
+      total += info.codigos.size;
+    });
+    salida[r] = { total, subrubros: subrubrosSalida };
   });
 
   _cache = { total: cat.length, porRubro: salida };
@@ -63,7 +68,8 @@ function cargar() {
   return _cache;
 }
 
-// Devuelve un string compacto para inyectar en el system prompt
+// Devuelve un string compacto para inyectar en el system prompt.
+// Desglose rubro → subrubro → medidas/colores (los colores varían según subrubro/línea).
 function resumenParaPrompt() {
   const data = cargar();
   if (!data) return "";
@@ -71,12 +77,13 @@ function resumenParaPrompt() {
   const lineas = [`Total en catálogo: ${data.total} productos (SOLO esto existe — nada más).`];
 
   Object.entries(data.porRubro).forEach(([rubro, info]) => {
-    const parts = [`  • ${rubro} (${info.total} productos)`];
-    if (info.subrubros.length) parts.push(`subrubros: ${info.subrubros.join(" / ")}`);
-    if (info.medidas.length) parts.push(`medidas: ${info.medidas.join(", ")} cm`);
-    if (info.lineas.length) parts.push(`líneas: ${info.lineas.join(", ")}`);
-    if (info.colores.length) parts.push(`colores: ${info.colores.join(", ")}`);
-    lineas.push(parts.join(" | "));
+    lineas.push(`\n• ${rubro} (${info.total} productos):`);
+    Object.entries(info.subrubros).forEach(([sr, sub]) => {
+      const parts = [`    ▸ ${sr} (${sub.total})`];
+      if (sub.medidas.length) parts.push(`medidas: ${sub.medidas.join(", ")} cm`);
+      if (sub.colores.length) parts.push(`colores: ${sub.colores.join(", ")}`);
+      lineas.push(parts.join(" | "));
+    });
   });
 
   return lineas.join("\n");
