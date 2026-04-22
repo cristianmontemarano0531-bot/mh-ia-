@@ -1,8 +1,17 @@
 const fs = require("fs");
 const path = require("path");
 
-// FUENTE DE VERDAD: solo 89 productos de baño (curados desde Dux)
+// FUENTE DE VERDAD: productos de baño (curados desde Dux)
 const RUBROS_FILE = path.join(__dirname, "../datos-dux/rubros-bano.json");
+const DISCONTINUADOS_FILE = path.join(__dirname, "../config/discontinuados.json");
+
+function cargarDiscontinuados() {
+  if (!fs.existsSync(DISCONTINUADOS_FILE)) return new Set();
+  try {
+    const { codigos } = JSON.parse(fs.readFileSync(DISCONTINUADOS_FILE, "utf8"));
+    return new Set((codigos || []).map(c => String(c).toUpperCase()));
+  } catch { return new Set(); }
+}
 
 // Rubros de baño que vendemos por WhatsApp
 const RUBROS_VISIBLES = ["MUEBLES", "BACHAS", "MESADAS", "ESPEJOS Y BOTIQUINES"];
@@ -91,14 +100,16 @@ function obtenerSubrubros(rubro) {
   return arbol[rubro]?.subrubros || [];
 }
 
-// Obtener códigos de productos de un rubro (+ subrubro opcional)
+// Obtener códigos de productos de un rubro (+ subrubro opcional), excluyendo discontinuados
 function obtenerProductos(rubro, subrubro = null) {
   const arbol = cargarArbol();
   const data = arbol[rubro];
   if (!data) return [];
-  if (!subrubro) return data.productos;
+  const discontinuados = cargarDiscontinuados();
+  const filtrar = (codigos) => codigos.filter(c => !discontinuados.has(String(c).toUpperCase()));
+  if (!subrubro) return filtrar(data.productos);
   const sr = data.subrubros.find(s => s.nombre.toLowerCase() === subrubro.toLowerCase());
-  return sr ? sr.codigos : data.productos;
+  return filtrar(sr ? sr.codigos : data.productos);
 }
 
 // Detectar si el texto es una respuesta a subrubro ofrecido

@@ -1,0 +1,9 @@
+{
+  "_comentario": "Códigos que ya no se venden. Se filtran de búsquedas, catálogo maestro y listados. Si el cliente los activa de nuevo en Dux, quitarlos de acá.",
+  "codigos": [
+    "V80ECO1C",
+    "V80ECO1CCOLOR",
+    "V80U1C",
+    "V80U1CCOLOR"
+  ]
+}

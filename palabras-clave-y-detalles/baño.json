@@ -2420,11 +2420,6 @@
     "medida": "60",
     "guardado": "",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "TERRA"
     ],
     "familia": "EDM",
@@ -2432,16 +2427,14 @@
       {
         "codigo": "EDM60",
         "colores": [
-          "terra",
-          "marmol beige"
+          "terra"
         ],
         "es_blanco": false,
         "es_color": true
       }
     ],
     "colores_disponibles": [
-      "terra",
-      "marmol beige"
+      "terra"
     ],
     "relacionados": [
       "TAPAMARMOL060",
@@ -2562,11 +2555,6 @@
     "medida": "60",
     "guardado": "",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "NERO"
     ],
     "familia": "EDM",
@@ -2574,16 +2562,14 @@
       {
         "codigo": "EDM60N",
         "colores": [
-          "nero",
-          "marmol negro"
+          "nero"
         ],
         "es_blanco": false,
         "es_color": true
       }
     ],
     "colores_disponibles": [
-      "nero",
-      "marmol negro"
+      "nero"
     ],
     "relacionados": [
       "TAPAMARMOL060N",
@@ -2709,11 +2695,6 @@
     "medida": "80",
     "guardado": "",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "TERRA"
     ],
     "familia": "EDM",
@@ -2721,16 +2702,14 @@
       {
         "codigo": "EDM80",
         "colores": [
-          "terra",
-          "marmol beige"
+          "terra"
         ],
         "es_blanco": false,
         "es_color": true
       }
     ],
     "colores_disponibles": [
-      "terra",
-      "marmol beige"
+      "terra"
     ],
     "relacionados": [
       "TAPAMARMOL080",
@@ -2850,11 +2829,6 @@
     "medida": "80",
     "guardado": "",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "NERO"
     ],
     "familia": "EDM",
@@ -2862,16 +2836,14 @@
       {
         "codigo": "EDM80N",
         "colores": [
-          "nero",
-          "marmol negro"
+          "nero"
         ],
         "es_blanco": false,
         "es_color": true
       }
     ],
     "colores_disponibles": [
-      "nero",
-      "marmol negro"
+      "nero"
     ],
     "relacionados": [
       "TAPAMARMOL080N",
@@ -12510,11 +12482,6 @@
     "medida": "60",
     "guardado": "cajones",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "TERRA"
     ],
     "familia": "V60U",
@@ -12725,11 +12692,6 @@
     "medida": "60",
     "guardado": "cajones",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "NERO"
     ],
     "familia": "V60U",
@@ -12945,11 +12907,6 @@
     "medida": "80",
     "guardado": "cajones",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "TERRA"
     ],
     "familia": "V80U",
@@ -13185,11 +13142,6 @@
     "medida": "80",
     "guardado": "cajones",
     "colores": [
-      "HORMIGON",
-      "GRAFITO",
-      "MEZZO",
-      "CAJU",
-      "SAHARA",
       "NERO"
     ],
     "familia": "V80U",

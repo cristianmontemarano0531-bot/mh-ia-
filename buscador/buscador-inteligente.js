@@ -3,12 +3,24 @@ const path = require("path");
 
 const CATALOGO_DIR = path.join(__dirname, "../palabras-clave-y-detalles");
 const DATA_DIR = path.join(__dirname, "../datos-dux");
+const DISCONTINUADOS_FILE = path.join(__dirname, "../config/discontinuados.json");
+
+// ─── DISCONTINUADOS (códigos a excluir de búsquedas y listados) ───────────────
+function cargarDiscontinuados() {
+  if (!fs.existsSync(DISCONTINUADOS_FILE)) return new Set();
+  try {
+    const { codigos } = JSON.parse(fs.readFileSync(DISCONTINUADOS_FILE, "utf8"));
+    return new Set((codigos || []).map(c => String(c).toUpperCase()));
+  } catch { return new Set(); }
+}
 
 // ─── CARGAR CATÁLOGO Y DATOS ──────────────────────────────────────────────────
 function cargarCatalogo(seccion = "baño") {
   const archivo = path.join(CATALOGO_DIR, `${seccion}.json`);
   if (!fs.existsSync(archivo)) return [];
-  return JSON.parse(fs.readFileSync(archivo, "utf8"));
+  const discontinuados = cargarDiscontinuados();
+  return JSON.parse(fs.readFileSync(archivo, "utf8"))
+    .filter(p => !discontinuados.has(String(p.codigo).toUpperCase()));
 }
 
 function cargarStock() {
@@ -350,5 +362,6 @@ module.exports = {
   listarPorCodigos,
   cargarCatalogo,
   cargarStock,
-  cargarPrecios
+  cargarPrecios,
+  cargarDiscontinuados
 };

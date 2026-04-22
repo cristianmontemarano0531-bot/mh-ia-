@@ -3,10 +3,19 @@ const path = require("path");
 
 const BANO_FILE = path.join(__dirname, "../palabras-clave-y-detalles/baño.json");
 const PBANO_FILE = path.join(__dirname, "../datos-dux/productos-bano.json");
+const DISCONTINUADOS_FILE = path.join(__dirname, "../config/discontinuados.json");
 
 let _cache = null;
 let _cacheTs = 0;
 const TTL = 60 * 1000; // 60s
+
+function cargarDiscontinuados() {
+  if (!fs.existsSync(DISCONTINUADOS_FILE)) return new Set();
+  try {
+    const { codigos } = JSON.parse(fs.readFileSync(DISCONTINUADOS_FILE, "utf8"));
+    return new Set((codigos || []).map(c => String(c).toUpperCase()));
+  } catch { return new Set(); }
+}
 
 function cargar() {
   const now = Date.now();
@@ -14,8 +23,11 @@ function cargar() {
 
   if (!fs.existsSync(BANO_FILE) || !fs.existsSync(PBANO_FILE)) return null;
 
-  const cat = JSON.parse(fs.readFileSync(BANO_FILE, "utf8"));
-  const pbano = JSON.parse(fs.readFileSync(PBANO_FILE, "utf8"));
+  const discontinuados = cargarDiscontinuados();
+  const cat = JSON.parse(fs.readFileSync(BANO_FILE, "utf8"))
+    .filter(p => !discontinuados.has(String(p.codigo).toUpperCase()));
+  const pbano = JSON.parse(fs.readFileSync(PBANO_FILE, "utf8"))
+    .filter(p => !discontinuados.has(String(p.codigo).toUpperCase()));
 
   const rubroByCode = {};
   pbano.forEach(p => {

@@ -447,11 +447,14 @@ ${catalogoMaestro.resumenParaPrompt()}
 
 IMPORTANTE:
 - Esos son TODOS los rubros, subrubros, medidas y colores que existen. No hay más.
-- Los colores y medidas dependen del SUBRUBRO (línea), no solo del rubro:
-  · Ej: NERO y TERRA solo existen en VANITORY MARBELA (y en mesadas de MÁRMOL). NO hay vanitorios Piatto ni Classic en Nero o Terra.
-  · Ej: BLANCO no está en Marbela (Marbela es línea premium solo en colores y mármoles).
-  · Ej: VANITORY MARBELA solo viene en 60 y 80 cm. Si piden Marbela de 45 cm, no existe.
-- Si el cliente nombra un color o medida que no está en el subrubro correcto → aclarale cuáles sí hay. NO adaptes un producto a un valor inexistente.`;
+- Los colores y medidas dependen del SUBRUBRO (línea), no solo del rubro. Recordá las reglas duras:
+  · VANITORY PIATTO → medidas 30 a 150 cm; colores: BLANCO o línea color (Cajú/Grafito/Hormigón/Mezzo/Sahara).
+  · VANITORY MARBELA → SOLO medidas 60 y 80 cm; SOLO colores NERO o TERRA. Nada más.
+  · VANITORY CLASSIC → SOLO medidas 50 y 60 cm; SOLO color BLANCO.
+  · BACHAS → solo en BLANCO (loza o sintético).
+  · MESADAS DE LOZA → BLANCO o NEGRO MATE.
+  · MESADAS DE MÁRMOL → colores de la línea mármol (ver catálogo).
+- Si el cliente nombra un color o medida que no está en el subrubro correcto, aclarale cuáles sí hay. NO adaptes un producto a un valor inexistente.`;
 
   const basePersona = `Sos Abril, asesora comercial de MH Amoblamientos — fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos).
 Atendés por WhatsApp en español rioplatense, con tono humano, directo y sin vueltas.`;
@@ -848,7 +851,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.6",
+    version: "3.7",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -868,7 +871,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.6 — Catálogo maestro desglosado por subrubro`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.7 — 85 productos activos, Marbela solo NERO/TERRA, Classic solo BLANCO`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);
