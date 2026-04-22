@@ -32,6 +32,31 @@ function normalizar(texto) {
     .trim();
 }
 
+// ─── LEVENSHTEIN (para typos) ─────────────────────────────────────────────────
+function levenshtein(a, b) {
+  if (Math.abs(a.length - b.length) > 3) return 99;
+  const m = a.length, n = b.length;
+  const dp = Array.from({ length: m + 1 }, (_, i) => Array(n + 1).fill(0).map((_, j) => j === 0 ? i : 0));
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i-1] === b[j-1] ? dp[i-1][j-1] : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+    }
+  }
+  return dp[m][n];
+}
+
+// ─── DETECTAR CONSULTA GENÉRICA ───────────────────────────────────────────────
+function esConsultaGenerica(consulta) {
+  const q = normalizar(consulta);
+  const patrones = ["que tienen", "que hay", "que modelos", "cuales tienen", "que productos", "que venden",
+    "tienen vanitor", "me mostras", "me muestras", "que me ofrecen", "que tienen de",
+    "vanitorios tienen", "espejos tienen", "bachas tienen", "mesadas tienen",
+    "tienen de vanitor", "tienen de espejo", "tienen de bacha", "que lineas", "que marcas"
+  ];
+  return patrones.some(p => q.includes(p));
+}
+
 // ─── EXTRAER MEDIDAS DE LA CONSULTA ────────────────────────────────────────────
 function extraerMedidas(consulta) {
   const medidas = new Set();
@@ -72,12 +97,12 @@ function extraerColores(consulta) {
 }
 
 // ─── SCORING DE BÚSQUEDA ──────────────────────────────────────────────────────
-function calcularScore(producto, consulta, medidas, colores) {
+function calcularScore(producto, consulta, medidas, colores, contextoCliente) {
   const q = normalizar(consulta);
   const palabras = q.split(/\s+/).filter(p => p.length > 1);
   let score = 0;
 
-  // 1. KEYWORDS DEL CATÁLOGO (motor de busqueda + tags)
+  // 1. KEYWORDS DEL CATÁLOGO
   const keywords = (producto.keywords || []).map(normalizar);
   const todosKeywords = [
     ...keywords,
@@ -88,23 +113,28 @@ function calcularScore(producto, consulta, medidas, colores) {
   ];
 
   palabras.forEach(palabra => {
-    // Palabra exacta en keywords
     if (todosKeywords.includes(palabra)) {
       score += 15;
     } else {
-      // Palabra contenida
       todosKeywords.forEach(kw => {
         if (kw.includes(palabra) && palabra.length > 2) score += 5;
         if (palabra.includes(kw) && kw.length > 3) score += 3;
+        // Levenshtein para typos (solo palabras largas)
+        if (palabra.length >= 5 && kw.length >= 5 && levenshtein(palabra, kw) === 1) score += 8;
       });
     }
   });
 
-  // 2. CÓDIGO EXACTO
-  if (normalizar(producto.codigo) === q) {
+  // 2. CÓDIGO EXACTO O PARCIAL
+  const codNorm = normalizar(producto.codigo);
+  if (codNorm === q) {
     score += 100;
-  } else if (palabras.some(p => normalizar(producto.codigo).includes(p))) {
-    score += 30;
+  } else if (palabras.some(p => p.length >= 4 && codNorm === p)) {
+    score += 80; // código exacto como parte de la query
+  } else if (palabras.some(p => p.length >= 4 && codNorm.startsWith(p))) {
+    score += 40;
+  } else if (palabras.some(p => codNorm.includes(p) && p.length >= 3)) {
+    score += 20;
   }
 
   // 3. MEDIDA EXACTA
@@ -119,24 +149,34 @@ function calcularScore(producto, consulta, medidas, colores) {
   // 4. COLORES COINCIDENTES
   const productosColores = (producto.colores || []).map(normalizar);
   colores.forEach(color => {
-    if (productosColores.includes(normalizar(color))) {
-      score += 20;
-    }
+    if (productosColores.includes(normalizar(color))) score += 20;
   });
 
   // 5. BONUS POR CATEGORÍA EXPLÍCITA
   if (q.includes("cajones") && producto.guardado === "cajones") score += 15;
   if (q.includes("puertas") && producto.guardado === "puertas") score += 15;
-  if (q.includes("bacha") && producto.categoria === "bacha") score += 20;
-  if (q.includes("mesada") && producto.categoria === "mesada") score += 20;
-  if (q.includes("espejo") && producto.categoria === "espejo") score += 20;
-  if (q.includes("marbela") && producto.linea === "marbela") score += 20;
+  if ((q.includes("bacha") || q.includes("bachas") || q.includes("pileta")) && producto.categoria === "bacha") score += 20;
+  if ((q.includes("mesada") || q.includes("mesadas")) && producto.categoria === "mesada") score += 20;
+  if ((q.includes("espejo") || q.includes("espejos")) && producto.categoria === "espejo") score += 20;
+  if ((q.includes("marbela") || q.includes("marmol")) && producto.linea === "marbela") score += 20;
+  if ((q.includes("vanitor") || q.includes("banitorio") || q.includes("mueble")) && producto.categoria === "vanitory") score += 15;
+
+  // 6. BOOST POR HISTORIAL DEL CLIENTE (reforma 7)
+  if (contextoCliente) {
+    const prefsColor = (contextoCliente.preferencias_color || []).map(c => normalizar(c));
+    const prefsMedida = contextoCliente.preferencias_medida || [];
+
+    productosColores.forEach(c => {
+      if (prefsColor.includes(c)) score += 10;
+    });
+    if (producto.medida && prefsMedida.includes(producto.medida)) score += 10;
+  }
 
   return score;
 }
 
 // ─── BUSCAR PRODUCTOS ─────────────────────────────────────────────────────────
-function buscar(consulta, seccion = "baño", limit = 5) {
+function buscar(consulta, seccion = "baño", limit = 5, contextoCliente = null) {
   const catalogo = cargarCatalogo(seccion);
   const stock = cargarStock();
   const precios = cargarPrecios();
@@ -145,7 +185,20 @@ function buscar(consulta, seccion = "baño", limit = 5) {
     return {
       error: `No hay productos en la sección '${seccion}'`,
       resultados: [],
-      debug: null
+      consulta_generica: false
+    };
+  }
+
+  // Detectar consulta genérica (reforma 4)
+  if (esConsultaGenerica(consulta)) {
+    return {
+      consulta,
+      seccion,
+      consulta_generica: true,
+      medidas_detectadas: [],
+      colores_detectados: [],
+      resultados: [],
+      confianza: "generica"
     };
   }
 
@@ -156,13 +209,13 @@ function buscar(consulta, seccion = "baño", limit = 5) {
   const resultados = catalogo
     .map(prod => ({
       ...prod,
-      score: calcularScore(prod, consulta, medidas, colores),
+      score: calcularScore(prod, consulta, medidas, colores, contextoCliente),
       stock_info: stock[prod.codigo] || { stockTotal: 0, variantes: {} },
       precio_madre: precios["57669"]?.items[prod.codigo]?.precio || 0,
       precio_may1: precios["58940"]?.items[prod.codigo]?.precio || 0,
       precio_may2: precios["59895"]?.items[prod.codigo]?.precio || 0
     }))
-    .filter(p => p.score > 0)
+    .filter(p => p.score >= 20)  // Reforma 2: umbral mínimo 20
     .sort((a, b) => b.score - a.score)
     .slice(0, limit);
 
@@ -184,9 +237,16 @@ function buscar(consulta, seccion = "baño", limit = 5) {
       precio_may1: r.precio_may1,
       precio_may2: r.precio_may2,
       linea: r.linea,
-      guardado: r.guardado
+      guardado: r.guardado,
+      familia: r.familia || "",
+      variantes_familia: r.variantes_familia || [],
+      colores_disponibles: r.colores_disponibles || [],
+      relacionados: r.relacionados || [],
+      frase: r.frase || ""
     })),
-    confianza: resultados.length > 0 ? (resultados[0].score > 30 ? "alta" : "media") : "baja"
+    confianza: resultados.length > 0 ? (resultados[0].score >= 60 ? "alta" : resultados[0].score >= 30 ? "media" : "baja") : "baja",
+    consulta_generica: false,
+    pedir_mas_detalle: resultados.length === 0 || (resultados.length > 0 && resultados[0].score < 30)
   };
 }
 
@@ -214,6 +274,12 @@ function buscarPorCodigo(codigo, seccion = "baño") {
     precio_may2: precios["59895"]?.items[producto.codigo]?.precio || 0,
     linea: producto.linea,
     guardado: producto.guardado,
+    familia: producto.familia || "",
+    variantes_familia: producto.variantes_familia || [],
+    colores_disponibles: producto.colores_disponibles || [],
+    relacionados: producto.relacionados || [],
+    frase: producto.frase || "",
+    desc_larga: producto.desc_larga || "",
     descripcion: producto.nombre
   };
 }

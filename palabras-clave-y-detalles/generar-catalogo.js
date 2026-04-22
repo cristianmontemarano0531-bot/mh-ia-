@@ -4,6 +4,13 @@ const path = require("path");
 const DATA_DIR = path.join(__dirname, "../datos-dux");
 const CATALOGO_DIR = __dirname;
 
+// ─── CARGAR ENRIQUECIMIENTO DESDE BASE MH (Excel exportado) ──────────────────
+function cargarBaseMH() {
+  const archivo = path.join(CATALOGO_DIR, "base-mh.json");
+  if (!fs.existsSync(archivo)) return { productos: {}, familias: {} };
+  return JSON.parse(fs.readFileSync(archivo, "utf8"));
+}
+
 // ─── MAPEO DE RUBROS A SECCIONES ─────────────────────────────────────────────
 const RUBROS_SECCION = {
   "MUEBLES": "baño",
@@ -48,14 +55,14 @@ const COLORES_KEYWORDS = {
 
 // ─── PALABRAS GENERALES POR CATEGORÍA ────────────────────────────────────────
 const CATEGORIA_KEYWORDS = {
-  "vanitory": ["vanitory", "vanitori", "banitorio", "mueble baño", "mueble de baño"],
-  "bacha": ["bacha", "pileta", "lavatorio", "lavamanos", "bacha de apoyo"],
-  "mesada": ["mesada", "tapa", "mesada integrada"],
-  "espejo": ["espejo", "espejo de baño", "espejo con luz", "espejo led"],
-  "anaquel": ["anaquel", "botiquin", "botiquín", "colgante superior", "modulo superior"],
-  "alacena": ["alacena", "alacená"],
+  "vanitory": ["vanitory", "vanitori", "vanitorios", "banitorio", "mueble baño", "mueble de baño", "mueble bano", "mueble para baño", "mueble bajo"],
+  "bacha": ["bacha", "bachas", "pileta", "piletas", "lavatorio", "lavamanos", "bacha de apoyo", "bacha loza", "loza", "porcelana"],
+  "mesada": ["mesada", "mesadas", "tapa", "tapas", "mesada integrada", "encimera"],
+  "espejo": ["espejo", "espejos", "espejo de baño", "espejo con luz", "espejo led", "luz led", "espejo touch", "espejo luminoso"],
+  "anaquel": ["anaquel", "anaqueles", "botiquin", "botiquín", "botiquines", "colgante superior", "modulo superior", "modulito"],
+  "alacena": ["alacena", "alacenas", "alacená"],
   "bajo_mesada": ["bajo mesada", "bajomesada", "bajo de", "bajo"],
-  "modulo": ["modulo", "módulo", "interior placard", "placard"],
+  "modulo": ["modulo", "módulo", "modulos", "interior placard", "placard"],
   "frente": ["frente placard", "frente", "puerta placard"],
 };
 
@@ -135,13 +142,13 @@ function esComponente(nombre, codigo) {
 }
 
 // ─── GENERAR KEYWORDS ─────────────────────────────────────────────────────────
-function generarKeywords(nombre, codigo, categoria, colores, medida, guardado, linea) {
+function generarKeywords(nombre, codigo, categoria, colores, medida, guardado, linea, baseMH) {
   const kw = new Set();
 
   // Código siempre es keyword
   kw.add(codigo.toLowerCase());
   // Variantes del código sin sufijos comunes
-  kw.add(codigo.toLowerCase().replace("color", "").replace("b", ""));
+  kw.add(codigo.toLowerCase().replace("color", "").replace(/b$/, ""));
 
   // Nombre partido en palabras (sin stopwords)
   const stopwords = new Set(["de", "con", "en", "y", "a", "el", "la", "los", "las", "un", "una", "para", "por", "cm", "al"]);
@@ -175,6 +182,35 @@ function generarKeywords(nombre, codigo, categoria, colores, medida, guardado, l
   if (linea === "piatto") { kw.add("piatto"); kw.add("piato"); }
   if (linea === "classic") { kw.add("classic"); kw.add("clasico"); kw.add("clásico"); kw.add("de pie"); }
 
+  // ── ENRIQUECIMIENTO DESDE BASE MH (Excel) ──
+  if (baseMH) {
+    // Motor de busqueda del Excel
+    (baseMH.motor_keywords || []).forEach(k => kw.add(k));
+    // Tags del Excel
+    (baseMH.tags || []).forEach(k => kw.add(k));
+    // Colores del Excel como keywords textuales
+    (baseMH.colores_excel || []).forEach(c => {
+      if (c) kw.add(c.toLowerCase());
+      (COLORES_KEYWORDS[c.toUpperCase()] || []).forEach(v => kw.add(v));
+    });
+    // Familia como keyword
+    if (baseMH.familia) {
+      kw.add(baseMH.familia.toLowerCase());
+    }
+    // Tipo instalacion
+    if (baseMH.tipo_instalacion) {
+      baseMH.tipo_instalacion.toLowerCase().split(/\s+/).forEach(w => {
+        if (w.length > 2) kw.add(w);
+      });
+    }
+    // Ideal para
+    if (baseMH.ideal_para) {
+      baseMH.ideal_para.toLowerCase().split(/\s+/).forEach(w => {
+        if (w.length > 2) kw.add(w);
+      });
+    }
+  }
+
   return [...kw].filter(k => k.length > 1).sort();
 }
 
@@ -185,13 +221,18 @@ function generarCatalogo() {
   const productos = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "productos.json")));
   const stock = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "stock.json")));
   const precios = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "precios.json")));
+  const baseMH = cargarBaseMH();
 
   const catalogo = { baño: [], cocina: [], placard: [] };
   let total = 0;
+  let enriquecidos = 0;
 
   productos.forEach(p => {
     const seccion = RUBROS_SECCION[p.rubro];
-    if (!seccion) return; // Ignorar materia prima, ajustables, etc.
+    if (!seccion) return;
+
+    const mhData = baseMH.productos[p.codigo] || null;
+    if (mhData) enriquecidos++;
 
     const medida = extraerMedida(p.nombre);
     const colores = detectarColores(p.nombre, p.codigo);
@@ -199,12 +240,22 @@ function generarCatalogo() {
     const categoria = detectarCategoria(p.nombre, p.rubro, p.codigo);
     const linea = detectarLinea(p.nombre, p.codigo, p.rubro);
     const componente = esComponente(p.nombre, p.codigo);
-    const keywords = generarKeywords(p.nombre, p.codigo, categoria, colores, medida, guardado, linea);
+    const keywords = generarKeywords(p.nombre, p.codigo, categoria, colores, medida, guardado, linea, mhData);
 
     const stockInfo = stock[p.codigo] || { stockTotal: 0, variantes: {} };
     const precioMadre = precios["57669"]?.items[p.codigo]?.precio || 0;
     const precioMay1 = precios["58940"]?.items[p.codigo]?.precio || 0;
     const precioMay2 = precios["59895"]?.items[p.codigo]?.precio || 0;
+
+    // Familia y variantes desde base MH
+    const familia = mhData?.familia || p.codigo.replace(/COLOR$/, "").replace(/B$/, "");
+    const variantesRaw = baseMH.familias[familia] || [];
+    const variantes_familia = variantesRaw.map(v => ({
+      codigo: v.codigo,
+      colores: v.colores,
+      es_blanco: v.es_blanco,
+      es_color: v.es_color
+    }));
 
     const item = {
       codigo: p.codigo,
@@ -215,6 +266,12 @@ function generarCatalogo() {
       medida: medida || "",
       guardado,
       colores,
+      familia,
+      variantes_familia,
+      colores_disponibles: mhData?.colores_excel || [],
+      relacionados: mhData?.relacionados || [],
+      desc_larga: mhData?.desc_larga || "",
+      frase: mhData?.frase || "",
       es_componente: componente,
       keywords,
       stock: stockInfo.stockTotal,
@@ -259,6 +316,7 @@ function generarCatalogo() {
   const totalKb = (fs.statSync(path.join(CATALOGO_DIR, "catalogo.json")).size / 1024).toFixed(1);
   console.log(`\n✅ catalogo/catalogo.json → ${total} productos totales (${totalKb} KB)`);
   console.log(`   Baño: ${catalogo.baño.length} | Cocina: ${catalogo.cocina.length} | Placard: ${catalogo.placard.length}`);
+  console.log(`   Enriquecidos con base MH: ${enriquecidos}/${total}`);
 }
 
 generarCatalogo();

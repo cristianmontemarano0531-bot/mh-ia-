@@ -30,6 +30,7 @@ function cargarMemoria(numero) {
       numero: numero.replace(/[^\d]/g, ""),
       nombre: null,
       perfil: null,
+      lista_precios: "madre",   // "madre" | "may1" | "may2"
       primera_consulta: fechaHoy(),
       ultima_consulta: fechaHoy(),
       total_consultas: 0,
@@ -39,7 +40,12 @@ function cargarMemoria(numero) {
         ultimo_producto: null,
         productos_vistos: [],
         preferencias_color: [],
-        preferencias_medida: []
+        preferencias_medida: [],
+        esperando_nombre: false,
+        esperando_si_cliente: false,
+        esperando_nombre_y_cuit: false,
+        cuit: null,
+        cliente_verificado: false
       }
     };
   }
@@ -173,6 +179,89 @@ function resumenCliente(numero) {
     : "[Cliente nuevo sin historial]";
 }
 
+// ─── HELPERS DE ESTADO ───────────────────────────────────────────────────────
+function esPrimeraVezHoy(numero) {
+  const memoria = cargarMemoria(numero);
+  return memoria.ultima_consulta !== fechaHoy();
+}
+
+function esNumeroNuevo(numero) {
+  const memoria = cargarMemoria(numero);
+  return !memoria.nombre || memoria.nombre === "Cliente" || memoria.total_consultas === 0;
+}
+
+function estaEsperandoNombre(numero) {
+  const memoria = cargarMemoria(numero);
+  return !!(memoria.contexto && memoria.contexto.esperando_nombre);
+}
+
+function marcarEsperandoNombre(numero, esperando) {
+  const memoria = cargarMemoria(numero);
+  memoria.contexto.esperando_nombre = esperando;
+  guardarMemoria(numero, memoria);
+}
+
+function estaEsperandoSiCliente(numero) {
+  const memoria = cargarMemoria(numero);
+  return !!(memoria.contexto && memoria.contexto.esperando_si_cliente);
+}
+
+function marcarEsperandoSiCliente(numero, esperando) {
+  const memoria = cargarMemoria(numero);
+  memoria.contexto.esperando_si_cliente = esperando;
+  guardarMemoria(numero, memoria);
+}
+
+function estaEsperandoNombreYCuit(numero) {
+  const memoria = cargarMemoria(numero);
+  return !!(memoria.contexto && memoria.contexto.esperando_nombre_y_cuit);
+}
+
+function marcarEsperandoNombreYCuit(numero, esperando) {
+  const memoria = cargarMemoria(numero);
+  memoria.contexto.esperando_nombre_y_cuit = esperando;
+  guardarMemoria(numero, memoria);
+}
+
+function guardarCuit(numero, cuit, verificado = false) {
+  const memoria = cargarMemoria(numero);
+  memoria.contexto.cuit = cuit;
+  memoria.contexto.cliente_verificado = verificado;
+  guardarMemoria(numero, memoria);
+}
+
+function esClienteVerificado(numero) {
+  const memoria = cargarMemoria(numero);
+  return !!(memoria.contexto && memoria.contexto.cliente_verificado);
+}
+
+function asignarListaPrecios(numero, lista) {
+  // lista: "madre" | "may1" | "may2"
+  const listas = ["madre", "may1", "may2"];
+  if (!listas.includes(lista)) return false;
+  const mem = cargarMemoria(numero);
+  mem.lista_precios = lista;
+  guardarMemoria(numero, mem);
+  return true;
+}
+
+function obtenerListaPrecios(numero) {
+  const mem = cargarMemoria(numero);
+  return mem.lista_precios || "madre";
+}
+
+function guardarNombreDesdeChat(numero, nombre) {
+  const nombreLimpio = nombre.trim().split(/\s+/).map(w =>
+    w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()
+  ).join(" ");
+  const memoria = cargarMemoria(numero);
+  memoria.nombre = nombreLimpio;
+  if (!memoria.perfil) memoria.perfil = "externo";
+  memoria.contexto.esperando_nombre = false;
+  guardarMemoria(numero, memoria);
+  return nombreLimpio;
+}
+
 // ─── LISTAR TODOS LOS CLIENTES ────────────────────────────────────────────────
 function listarClientes() {
   const archivos = fs.readdirSync(MEMORIA_DIR).filter(f => f.endsWith(".json"));
@@ -197,5 +286,18 @@ module.exports = {
   obtenerHistorialClaude,
   generarSaludo,
   resumenCliente,
-  listarClientes
+  listarClientes,
+  esPrimeraVezHoy,
+  esNumeroNuevo,
+  estaEsperandoNombre,
+  marcarEsperandoNombre,
+  guardarNombreDesdeChat,
+  asignarListaPrecios,
+  obtenerListaPrecios,
+  estaEsperandoSiCliente,
+  marcarEsperandoSiCliente,
+  estaEsperandoNombreYCuit,
+  marcarEsperandoNombreYCuit,
+  guardarCuit,
+  esClienteVerificado
 };

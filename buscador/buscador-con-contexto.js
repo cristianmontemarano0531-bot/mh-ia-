@@ -32,8 +32,8 @@ function buscarConContexto(numero, consulta, opciones = {}) {
     }
   }
 
-  // 3. BUSCAR EN EL CATÁLOGO
-  const resultados = buscador.buscar(consulta, seccion_busqueda, limit);
+  // 3. BUSCAR EN EL CATÁLOGO (con contexto del cliente para boost historial)
+  const resultados = buscador.buscar(consulta, seccion_busqueda, limit, mem.contexto);
 
   // 4. ENRIQUECER CON CONTEXTO
   const respuesta = {

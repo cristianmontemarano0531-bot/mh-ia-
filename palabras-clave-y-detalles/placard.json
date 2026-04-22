@@ -8,6 +8,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "FRE180",
+    "variantes_familia": [
+      {
+        "codigo": "FRE180",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "2ptas",
@@ -41,6 +54,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "FRE200",
+    "variantes_familia": [
+      {
+        "codigo": "FRE200",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "2ptas",
@@ -74,6 +100,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "FRE300",
+    "variantes_familia": [
+      {
+        "codigo": "FRE300",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "2ptas",
@@ -107,6 +146,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "FRE400",
+    "variantes_familia": [
+      {
+        "codigo": "FRE400",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "2ptas",
@@ -142,6 +194,19 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "40",
+    "variantes_familia": [
+      {
+        "codigo": "40B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40",
@@ -159,6 +224,7 @@
       "estantes",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables"
@@ -187,6 +253,19 @@
     "medida": "40",
     "guardado": "cajones",
     "colores": [],
+    "familia": "40C",
+    "variantes_familia": [
+      {
+        "codigo": "40C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40",
@@ -201,6 +280,7 @@
       "estantes",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables",
@@ -230,6 +310,19 @@
     "medida": "40",
     "guardado": "estantes",
     "colores": [],
+    "familia": "40H",
+    "variantes_familia": [
+      {
+        "codigo": "40H",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40",
@@ -244,6 +337,7 @@
       "inferiores",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables"
@@ -272,6 +366,19 @@
     "medida": "90",
     "guardado": "",
     "colores": [],
+    "familia": "40J",
+    "variantes_familia": [
+      {
+        "codigo": "40J",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40cm",
@@ -286,6 +393,7 @@
       "interior",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "noventa",
       "placard",
@@ -315,6 +423,19 @@
     "medida": "60",
     "guardado": "estantes",
     "colores": [],
+    "familia": "60A",
+    "variantes_familia": [
+      {
+        "codigo": "60A",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60",
@@ -325,6 +446,7 @@
       "estantes",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables",
@@ -355,6 +477,19 @@
     "medida": "60",
     "guardado": "cajones",
     "colores": [],
+    "familia": "60D",
+    "variantes_familia": [
+      {
+        "codigo": "60D",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60",
@@ -368,6 +503,7 @@
       "estantes",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables",
@@ -399,6 +535,19 @@
     "medida": "60",
     "guardado": "estantes",
     "colores": [],
+    "familia": "60E",
+    "variantes_familia": [
+      {
+        "codigo": "60E",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60",
@@ -410,6 +559,7 @@
       "estantes",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables",
@@ -440,6 +590,19 @@
     "medida": "60",
     "guardado": "cajones",
     "colores": [],
+    "familia": "60F",
+    "variantes_familia": [
+      {
+        "codigo": "60F",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60",
@@ -455,6 +618,7 @@
       "interior placard",
       "mas",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables",
@@ -486,6 +650,19 @@
     "medida": "60",
     "guardado": "estantes",
     "colores": [],
+    "familia": "60G",
+    "variantes_familia": [
+      {
+        "codigo": "60G",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60",
@@ -499,6 +676,7 @@
       "inferiores",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "regulables",
@@ -529,6 +707,19 @@
     "medida": "60",
     "guardado": "estantes",
     "colores": [],
+    "familia": "60I",
+    "variantes_familia": [
+      {
+        "codigo": "60I",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60",
@@ -540,6 +731,7 @@
       "estantes",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "seisenta",
@@ -570,9 +762,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40G",
+    "variantes_familia": [
+      {
+        "codigo": "40G",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40g",
+      "pa90-2+es40-2+ca40(3",
       "pa90-2+es40-2+ca40(3)"
     ],
     "stock": 0,
@@ -599,6 +805,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40I",
+    "variantes_familia": [
+      {
+        "codigo": "40I",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40i",
@@ -628,6 +847,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40K",
+    "variantes_familia": [
+      {
+        "codigo": "40K",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40k",
@@ -657,9 +889,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40L",
+    "variantes_familia": [
+      {
+        "codigo": "40L",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40l",
+      "pa90-2+es40-2+ca40(2",
       "pa90-2+es40-2+ca40(2)"
     ],
     "stock": 0,
@@ -686,6 +932,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40M",
+    "variantes_familia": [
+      {
+        "codigo": "40M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40m",
@@ -715,9 +974,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40N",
+    "variantes_familia": [
+      {
+        "codigo": "40N",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40n",
+      "pa90+es40+ca40(2",
       "pa90+es40+ca40(2)"
     ],
     "stock": 4,
@@ -744,9 +1017,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40P",
+    "variantes_familia": [
+      {
+        "codigo": "40P",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40p",
+      "pa90+es40+ca40(3",
       "pa90+es40+ca40(3)"
     ],
     "stock": 2.66666667,
@@ -773,6 +1060,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40Q",
+    "variantes_familia": [
+      {
+        "codigo": "40Q",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40q",
@@ -802,9 +1102,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "40R",
+    "variantes_familia": [
+      {
+        "codigo": "40R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "40r",
+      "pa90-2+es40-2+ca40(3",
       "pa90-2+es40-2+ca40(3)"
     ],
     "stock": 0,
@@ -831,9 +1145,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60H",
+    "variantes_familia": [
+      {
+        "codigo": "60H",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60h",
+      "pa90-2+es60-2+ca60(2",
       "pa90-2+es60-2+ca60(2)"
     ],
     "stock": 0,
@@ -860,6 +1188,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60J",
+    "variantes_familia": [
+      {
+        "codigo": "60J",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60j",
@@ -889,6 +1230,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60K",
+    "variantes_familia": [
+      {
+        "codigo": "60K",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60k",
@@ -918,9 +1272,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60L",
+    "variantes_familia": [
+      {
+        "codigo": "60L",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60l",
+      "pa90-2+es60-2+ca60(2",
       "pa90-2+es60-2+ca60(2)"
     ],
     "stock": 0,
@@ -947,6 +1315,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60M",
+    "variantes_familia": [
+      {
+        "codigo": "60M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60m",
@@ -976,9 +1357,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60N",
+    "variantes_familia": [
+      {
+        "codigo": "60N",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60n",
+      "pa90+es60+ca60(2",
       "pa90+es60+ca60(2)"
     ],
     "stock": 0,
@@ -1005,9 +1400,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60P",
+    "variantes_familia": [
+      {
+        "codigo": "60P",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60p",
+      "pa90+es60+ca60(3",
       "pa90+es60+ca60(3)"
     ],
     "stock": 0,
@@ -1034,6 +1443,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60Q",
+    "variantes_familia": [
+      {
+        "codigo": "60Q",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60q",
@@ -1063,9 +1485,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "60R",
+    "variantes_familia": [
+      {
+        "codigo": "60R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60r",
+      "pa90-2+es60-2+ca60(3",
       "pa90-2+es60-2+ca60(3)"
     ],
     "stock": 0,
@@ -1092,12 +1528,24 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "BRR1",
+    "variantes_familia": [
+      {
+        "codigo": "BRR1",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "barral",
       "brr1",
       "colgar",
-      "rr1",
       "soportes"
     ],
     "stock": -49.34,
@@ -1124,12 +1572,24 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "BRR2",
+    "variantes_familia": [
+      {
+        "codigo": "BRR2",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "barral",
       "brr2",
       "colgar",
-      "rr2",
       "soportes"
     ],
     "stock": -6.48,
@@ -1156,12 +1616,24 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "BRR3",
+    "variantes_familia": [
+      {
+        "codigo": "BRR3",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "barral",
       "brr3",
       "colgar",
-      "rr3",
       "soportes"
     ],
     "stock": 0,
@@ -1188,6 +1660,19 @@
     "medida": "40",
     "guardado": "estantes",
     "colores": [],
+    "familia": "CA40",
+    "variantes_familia": [
+      {
+        "codigo": "CA40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "40",
@@ -1224,6 +1709,19 @@
     "medida": "40",
     "guardado": "cajones",
     "colores": [],
+    "familia": "ES40",
+    "variantes_familia": [
+      {
+        "codigo": "ES40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "40",
@@ -1260,6 +1758,19 @@
     "medida": "40",
     "guardado": "estantes",
     "colores": [],
+    "familia": "ES40-2",
+    "variantes_familia": [
+      {
+        "codigo": "ES40-2",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "40",
@@ -1296,6 +1807,19 @@
     "medida": "60",
     "guardado": "cajones",
     "colores": [],
+    "familia": "ES60",
+    "variantes_familia": [
+      {
+        "codigo": "ES60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "60",
@@ -1333,6 +1857,19 @@
     "medida": "60",
     "guardado": "estantes",
     "colores": [],
+    "familia": "ES60-2",
+    "variantes_familia": [
+      {
+        "codigo": "ES60-2",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "60",
@@ -1370,6 +1907,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "PA90",
+    "variantes_familia": [
+      {
+        "codigo": "PA90",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "90x45",
@@ -1400,6 +1950,19 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "PA90-2",
+    "variantes_familia": [
+      {
+        "codigo": "PA90-2",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "90x45",
@@ -1430,11 +1993,26 @@
     "medida": "",
     "guardado": "estantes",
     "colores": [],
+    "familia": "TCH1",
+    "variantes_familia": [
+      {
+        "codigo": "TCH1",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "18",
       "baulera",
       "estante",
       "melamina",
+      "mm",
       "piso",
       "tch1"
     ],
@@ -1462,11 +2040,26 @@
     "medida": "",
     "guardado": "estantes",
     "colores": [],
+    "familia": "TCH2",
+    "variantes_familia": [
+      {
+        "codigo": "TCH2",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "18",
       "baulera",
       "estante",
       "melamina",
+      "mm",
       "piso",
       "tch2"
     ],
@@ -1494,11 +2087,26 @@
     "medida": "",
     "guardado": "estantes",
     "colores": [],
+    "familia": "TCH3",
+    "variantes_familia": [
+      {
+        "codigo": "TCH3",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "18",
       "baulera",
       "estante",
       "melamina",
+      "mm",
       "piso",
       "tch3"
     ],
@@ -1526,11 +2134,26 @@
     "medida": "",
     "guardado": "estantes",
     "colores": [],
+    "familia": "TCH4",
+    "variantes_familia": [
+      {
+        "codigo": "TCH4",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "18",
       "baulera",
       "estante",
       "melamina",
+      "mm",
       "piso",
       "tch4"
     ],
@@ -1558,11 +2181,26 @@
     "medida": "",
     "guardado": "estantes",
     "colores": [],
+    "familia": "TCH5",
+    "variantes_familia": [
+      {
+        "codigo": "TCH5",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "18",
       "baulera",
       "estante",
       "melamina",
+      "mm",
       "piso",
       "tch5"
     ],
@@ -1590,11 +2228,26 @@
     "medida": "",
     "guardado": "estantes",
     "colores": [],
+    "familia": "TCH6",
+    "variantes_familia": [
+      {
+        "codigo": "TCH6",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "18",
       "baulera",
       "estante",
       "melamina",
+      "mm",
       "piso",
       "tch6"
     ],
@@ -1622,6 +2275,19 @@
     "medida": "60",
     "guardado": "cajones",
     "colores": [],
+    "familia": "CA60",
+    "variantes_familia": [
+      {
+        "codigo": "CA60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "60",
@@ -1635,6 +2301,7 @@
       "el de 60",
       "interior placard",
       "modulo",
+      "modulos",
       "módulo",
       "placard",
       "seisenta",
@@ -1665,11 +2332,24 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "CUBO40",
+    "variantes_familia": [
+      {
+        "codigo": "CUBO40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "40",
       "cubo",
       "cubo40",
-      "cuo40",
       "interior placard",
       "modulo",
       "modulos",
@@ -1701,11 +2381,24 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "CUBO60",
+    "variantes_familia": [
+      {
+        "codigo": "CUBO60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
+      "60",
       "cubo",
       "cubo60",
-      "cuo60",
       "interior placard",
       "modulo",
       "modulos",
@@ -1737,6 +2430,19 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "PLPUERTA",
+    "variantes_familia": [
+      {
+        "codigo": "PLPUERTA",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "agregada",

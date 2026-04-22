@@ -8,10 +8,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A100",
+    "variantes_familia": [
+      {
+        "codigo": "A100",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a100",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -40,10 +54,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A30",
+    "variantes_familia": [
+      {
+        "codigo": "A30",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a30",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -72,10 +100,24 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "A30V",
+    "variantes_familia": [
+      {
+        "codigo": "A30V",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a30v",
       "alacena",
+      "alacenas",
       "alacená",
       "vidriada"
     ],
@@ -103,10 +145,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A35",
+    "variantes_familia": [
+      {
+        "codigo": "A35",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a35",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -135,10 +191,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A40",
+    "variantes_familia": [
+      {
+        "codigo": "A40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a40",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -167,10 +237,24 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "A40V",
+    "variantes_familia": [
+      {
+        "codigo": "A40V",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a40v",
       "alacena",
+      "alacenas",
       "alacená",
       "vidriada"
     ],
@@ -198,10 +282,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A45",
+    "variantes_familia": [
+      {
+        "codigo": "A45",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a45",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -230,10 +328,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A50",
+    "variantes_familia": [
+      {
+        "codigo": "A50",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a50",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -262,10 +374,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A60",
+    "variantes_familia": [
+      {
+        "codigo": "A60B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a60",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -294,11 +426,31 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "A60",
+    "variantes_familia": [
+      {
+        "codigo": "A60B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a60",
       "a60b",
       "alacena",
+      "alacenas",
       "alacená",
       "bodega"
     ],
@@ -326,10 +478,30 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "A60PM",
+    "variantes_familia": [
+      {
+        "codigo": "A60PMB",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A60PM",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a60pm",
       "alacena",
+      "alacenas",
       "alacená",
       "micro",
       "porta"
@@ -358,11 +530,31 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "A60PM",
+    "variantes_familia": [
+      {
+        "codigo": "A60PMB",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A60PM",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a60pm",
       "a60pmb",
       "alacena",
+      "alacenas",
       "alacená",
       "bodega",
       "micro",
@@ -392,10 +584,24 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "A60R",
+    "variantes_familia": [
+      {
+        "codigo": "A60R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a60r",
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles"
@@ -426,10 +632,24 @@
     "colores": [
       "NERO"
     ],
+    "familia": "A60RID",
+    "variantes_familia": [
+      {
+        "codigo": "A60RID",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a60rid",
       "alacena",
+      "alacenas",
       "alacená",
       "marmol negro",
       "mármol negro",
@@ -463,10 +683,24 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "A60RV",
+    "variantes_familia": [
+      {
+        "codigo": "A60RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a60rv",
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -496,11 +730,25 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A60SH",
+    "variantes_familia": [
+      {
+        "codigo": "A60SH",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60x45",
       "a60sh",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -531,10 +779,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A70",
+    "variantes_familia": [
+      {
+        "codigo": "A70B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A70",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a70",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -563,11 +831,31 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "A70",
+    "variantes_familia": [
+      {
+        "codigo": "A70B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A70",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a70",
       "a70b",
       "alacena",
+      "alacenas",
       "alacená",
       "bodega"
     ],
@@ -595,10 +883,24 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "A70R",
+    "variantes_familia": [
+      {
+        "codigo": "A70R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a70r",
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles"
@@ -627,10 +929,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A80",
+    "variantes_familia": [
+      {
+        "codigo": "A80B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A80",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a80",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -659,11 +981,31 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "A80",
+    "variantes_familia": [
+      {
+        "codigo": "A80B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "A80",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a80",
       "a80b",
       "alacena",
+      "alacenas",
       "alacená",
       "bodega"
     ],
@@ -691,10 +1033,24 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "A80R",
+    "variantes_familia": [
+      {
+        "codigo": "A80R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a80r",
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles"
@@ -723,10 +1079,24 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "A80RV",
+    "variantes_familia": [
+      {
+        "codigo": "A80RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a80rv",
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -756,10 +1126,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "A90",
+    "variantes_familia": [
+      {
+        "codigo": "A90",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "a90",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas"
@@ -788,12 +1172,26 @@
     "medida": "30",
     "guardado": "puertas",
     "colores": [],
+    "familia": "ESC30",
+    "variantes_familia": [
+      {
+        "codigo": "ESC30",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "195x57x30",
       "30",
       "30cm",
       "alacena",
+      "alacenas",
       "alacená",
       "de 30",
       "dos",
@@ -828,12 +1226,26 @@
     "medida": "40",
     "guardado": "puertas",
     "colores": [],
+    "familia": "ESC40",
+    "variantes_familia": [
+      {
+        "codigo": "ESC40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "195x57x40",
       "40",
       "40cm",
       "alacena",
+      "alacenas",
       "alacená",
       "cuarenta",
       "de 40",
@@ -868,12 +1280,26 @@
     "medida": "50",
     "guardado": "puertas",
     "colores": [],
+    "familia": "ESC50",
+    "variantes_familia": [
+      {
+        "codigo": "ESC50",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "195x57x40",
       "50",
       "50cm",
       "alacena",
+      "alacenas",
       "alacená",
       "cincuenta",
       "de 50",
@@ -908,9 +1334,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "S60R",
+    "variantes_familia": [
+      {
+        "codigo": "S60R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -940,9 +1380,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "S60RV",
+    "variantes_familia": [
+      {
+        "codigo": "S60RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -973,9 +1427,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "S80R",
+    "variantes_familia": [
+      {
+        "codigo": "S80R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1005,9 +1473,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "S80RV",
+    "variantes_familia": [
+      {
+        "codigo": "S80RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1038,9 +1520,23 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA100",
+    "variantes_familia": [
+      {
+        "codigo": "UA100",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1070,9 +1566,23 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA30",
+    "variantes_familia": [
+      {
+        "codigo": "UA30",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1102,9 +1612,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UA30V",
+    "variantes_familia": [
+      {
+        "codigo": "UA30V",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "ua30v",
       "vidriada"
@@ -1133,9 +1657,23 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA35",
+    "variantes_familia": [
+      {
+        "codigo": "UA35",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1165,9 +1703,23 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA40",
+    "variantes_familia": [
+      {
+        "codigo": "UA40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1197,9 +1749,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UA40V",
+    "variantes_familia": [
+      {
+        "codigo": "UA40V",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "ua40v",
       "vidriada"
@@ -1228,9 +1794,23 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA45",
+    "variantes_familia": [
+      {
+        "codigo": "UA45",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1260,9 +1840,23 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA50",
+    "variantes_familia": [
+      {
+        "codigo": "UA50",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1292,9 +1886,29 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA60",
+    "variantes_familia": [
+      {
+        "codigo": "UA60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA60B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1324,9 +1938,29 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UA60",
+    "variantes_familia": [
+      {
+        "codigo": "UA60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA60B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "bodega",
       "ua60",
@@ -1356,9 +1990,29 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UA60PM",
+    "variantes_familia": [
+      {
+        "codigo": "UA60PMB",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA60PM",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "micro",
       "porta",
@@ -1388,9 +2042,29 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UA60PM",
+    "variantes_familia": [
+      {
+        "codigo": "UA60PMB",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA60PM",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "bodega",
       "micro",
@@ -1422,9 +2096,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "UA60R",
+    "variantes_familia": [
+      {
+        "codigo": "UA60R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1456,9 +2144,23 @@
     "colores": [
       "NERO"
     ],
+    "familia": "UA60RID",
+    "variantes_familia": [
+      {
+        "codigo": "UA60RID",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "marmol negro",
       "mármol negro",
@@ -1493,9 +2195,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "UA60RV",
+    "variantes_familia": [
+      {
+        "codigo": "UA60RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1526,10 +2242,24 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA60SH",
+    "variantes_familia": [
+      {
+        "codigo": "UA60SH",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "60x45",
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1561,9 +2291,29 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA70",
+    "variantes_familia": [
+      {
+        "codigo": "UA70B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA70",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1593,9 +2343,29 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UA70",
+    "variantes_familia": [
+      {
+        "codigo": "UA70B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA70",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "bodega",
       "ua70",
@@ -1625,9 +2395,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "UA70R",
+    "variantes_familia": [
+      {
+        "codigo": "UA70R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1657,9 +2441,29 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA80",
+    "variantes_familia": [
+      {
+        "codigo": "UA80B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA80",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1689,9 +2493,29 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UA80",
+    "variantes_familia": [
+      {
+        "codigo": "UA80B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      },
+      {
+        "codigo": "UA80",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "bodega",
       "ua80",
@@ -1721,9 +2545,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "UA80R",
+    "variantes_familia": [
+      {
+        "codigo": "UA80R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1753,9 +2591,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "UA80RV",
+    "variantes_familia": [
+      {
+        "codigo": "UA80RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1786,9 +2638,23 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UA90",
+    "variantes_familia": [
+      {
+        "codigo": "UA90",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "puerta",
       "puertas",
@@ -1818,12 +2684,26 @@
     "medida": "30",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UESC30",
+    "variantes_familia": [
+      {
+        "codigo": "UESC30",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "195x57x30",
       "30",
       "30cm",
       "alacena",
+      "alacenas",
       "alacená",
       "de 30",
       "dos",
@@ -1858,12 +2738,26 @@
     "medida": "40",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UESC40",
+    "variantes_familia": [
+      {
+        "codigo": "UESC40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "195x57x40",
       "40",
       "40cm",
       "alacena",
+      "alacenas",
       "alacená",
       "cuarenta",
       "de 40",
@@ -1898,12 +2792,26 @@
     "medida": "40",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UESC50",
+    "variantes_familia": [
+      {
+        "codigo": "UESC50",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "195x57x40",
       "40",
       "40cm",
       "alacena",
+      "alacenas",
       "alacená",
       "cuarenta",
       "de 40",
@@ -1938,9 +2846,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "US60R",
+    "variantes_familia": [
+      {
+        "codigo": "US60R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -1970,9 +2892,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "US60RV",
+    "variantes_familia": [
+      {
+        "codigo": "US60RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -2003,9 +2939,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "US80R",
+    "variantes_familia": [
+      {
+        "codigo": "US80R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -2035,9 +2985,23 @@
     "medida": "",
     "guardado": "rebatible",
     "colores": [],
+    "familia": "US80RV",
+    "variantes_familia": [
+      {
+        "codigo": "US80RV",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "rebatible",
       "rebatibles",
@@ -2068,15 +3032,30 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "B10-25",
+    "variantes_familia": [
+      {
+        "codigo": "B10-25",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "10-25",
       "b10-25",
       "bajo",
       "bandejero",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": -8,
     "stock_variantes": {
@@ -2102,16 +3081,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B100",
+    "variantes_familia": [
+      {
+        "codigo": "B100",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "100",
       "b100",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -10,
     "stock_variantes": {
@@ -2139,21 +3133,36 @@
     "colores": [
       "NERO"
     ],
+    "familia": "B100R",
+    "variantes_familia": [
+      {
+        "codigo": "B100R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "100r",
       "b100r",
       "bajo",
+      "encimera",
       "marmol negro",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "mármol negro",
       "negro",
       "negro marquina",
       "nero",
       "néro",
       "rinconero",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -3,
     "stock_variantes": {
@@ -2179,16 +3188,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B30",
+    "variantes_familia": [
+      {
+        "codigo": "B30",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "30",
       "b30",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -6,
     "stock_variantes": {
@@ -2214,16 +3238,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B35",
+    "variantes_familia": [
+      {
+        "codigo": "B35",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "35",
       "b35",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -6,
     "stock_variantes": {
@@ -2249,16 +3288,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B40",
+    "variantes_familia": [
+      {
+        "codigo": "B40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "40",
       "b40",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -6,
     "stock_variantes": {
@@ -2284,17 +3338,32 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "B40 2C",
+    "variantes_familia": [
+      {
+        "codigo": "B40 2C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "40 2c",
       "b40 2c",
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2320,17 +3389,32 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "B40 3C",
+    "variantes_familia": [
+      {
+        "codigo": "B40 3C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "40 3c",
       "b40 3c",
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": -23,
     "stock_variantes": {
@@ -2356,17 +3440,32 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "B40 4C",
+    "variantes_familia": [
+      {
+        "codigo": "B40 4C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "40 4c",
       "b40 4c",
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": -5,
     "stock_variantes": {
@@ -2392,16 +3491,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B45",
+    "variantes_familia": [
+      {
+        "codigo": "B45",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "45",
       "b45",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2427,16 +3541,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B50",
+    "variantes_familia": [
+      {
+        "codigo": "B50",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "50",
       "b50",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -5,
     "stock_variantes": {
@@ -2462,16 +3591,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B60",
+    "variantes_familia": [
+      {
+        "codigo": "B60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "60",
       "b60",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -9,
     "stock_variantes": {
@@ -2497,17 +3641,32 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "B60 2C",
+    "variantes_familia": [
+      {
+        "codigo": "B60 2C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "60 2c",
       "b60 2c",
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": -2,
     "stock_variantes": {
@@ -2533,17 +3692,32 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "B60 3C",
+    "variantes_familia": [
+      {
+        "codigo": "B60 3C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "60 3c",
       "b60 3c",
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": -3,
     "stock_variantes": {
@@ -2569,17 +3743,32 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "B60 4C",
+    "variantes_familia": [
+      {
+        "codigo": "B60 4C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "60 4c",
       "b60 4c",
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2607,9 +3796,22 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "B60PH",
+    "variantes_familia": [
+      {
+        "codigo": "B60PHB",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "60phb",
+      "b60ph",
       "b60phb",
       "bajo",
       "bl",
@@ -2618,11 +3820,14 @@
       "blanco",
       "el blanco",
       "en blanco",
+      "encimera",
       "horno",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "porta",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -21,
     "stock_variantes": {
@@ -2648,16 +3853,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B70",
+    "variantes_familia": [
+      {
+        "codigo": "B70",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "70",
       "b70",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -10,
     "stock_variantes": {
@@ -2683,16 +3903,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B80",
+    "variantes_familia": [
+      {
+        "codigo": "B80",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "80",
       "b80",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -11,
     "stock_variantes": {
@@ -2718,17 +3953,32 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "B80 3C",
+    "variantes_familia": [
+      {
+        "codigo": "B80 3C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "80 3c",
       "b80 3c",
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
-      "tapa"
+      "mesadas",
+      "tapa",
+      "tapas"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2754,16 +4004,31 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "B90",
+    "variantes_familia": [
+      {
+        "codigo": "B90",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "90",
       "b90",
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -20,
     "stock_variantes": {
@@ -2791,21 +4056,36 @@
     "colores": [
       "NERO"
     ],
+    "familia": "B90R",
+    "variantes_familia": [
+      {
+        "codigo": "B90R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
-      "90r",
       "b90r",
       "bajo",
+      "encimera",
       "marmol negro",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "mármol negro",
       "negro",
       "negro marquina",
       "nero",
       "néro",
       "rinconero",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -3,
     "stock_variantes": {
@@ -2831,14 +4111,29 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UB10-25",
+    "variantes_familia": [
+      {
+        "codigo": "UB10-25",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "bandejero",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u10-25",
+      "tapas",
       "ub10-25"
     ],
     "stock": -3,
@@ -2865,15 +4160,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB100",
+    "variantes_familia": [
+      {
+        "codigo": "UB100",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u100",
+      "tapas",
       "ub100"
     ],
     "stock": -2,
@@ -2902,12 +4212,27 @@
     "colores": [
       "NERO"
     ],
+    "familia": "UB100R",
+    "variantes_familia": [
+      {
+        "codigo": "UB100R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "marmol negro",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "mármol negro",
       "negro",
       "negro marquina",
@@ -2915,7 +4240,7 @@
       "néro",
       "rinconero",
       "tapa",
-      "u100r",
+      "tapas",
       "ub100r"
     ],
     "stock": -4,
@@ -2942,15 +4267,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB30",
+    "variantes_familia": [
+      {
+        "codigo": "UB30",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u30",
+      "tapas",
       "ub30"
     ],
     "stock": -6,
@@ -2977,15 +4317,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB35",
+    "variantes_familia": [
+      {
+        "codigo": "UB35",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u35",
+      "tapas",
       "ub35"
     ],
     "stock": -2,
@@ -3012,15 +4367,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB40",
+    "variantes_familia": [
+      {
+        "codigo": "UB40",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u40",
+      "tapas",
       "ub40"
     ],
     "stock": -7,
@@ -3047,16 +4417,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB40 2C",
+    "variantes_familia": [
+      {
+        "codigo": "UB40 2C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u40 2c",
+      "tapas",
       "ub40 2c"
     ],
     "stock": -1,
@@ -3083,16 +4468,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB40 3C",
+    "variantes_familia": [
+      {
+        "codigo": "UB40 3C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u40 3c",
+      "tapas",
       "ub40 3c"
     ],
     "stock": -7,
@@ -3119,16 +4519,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB40 4C",
+    "variantes_familia": [
+      {
+        "codigo": "UB40 4C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u40 4c",
+      "tapas",
       "ub40 4c"
     ],
     "stock": 0,
@@ -3155,15 +4570,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB45",
+    "variantes_familia": [
+      {
+        "codigo": "UB45",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u45",
+      "tapas",
       "ub45"
     ],
     "stock": -1,
@@ -3190,15 +4620,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB50",
+    "variantes_familia": [
+      {
+        "codigo": "UB50",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u50",
+      "tapas",
       "ub50"
     ],
     "stock": -3,
@@ -3225,15 +4670,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB60",
+    "variantes_familia": [
+      {
+        "codigo": "UB60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u60",
+      "tapas",
       "ub60"
     ],
     "stock": -2,
@@ -3260,16 +4720,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB60 2C",
+    "variantes_familia": [
+      {
+        "codigo": "UB60 2C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u60 2c",
+      "tapas",
       "ub60 2c"
     ],
     "stock": -6,
@@ -3296,16 +4771,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB60 3C",
+    "variantes_familia": [
+      {
+        "codigo": "UB60 3C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u60 3c",
+      "tapas",
       "ub60 3c"
     ],
     "stock": -2,
@@ -3332,16 +4822,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB60 4C",
+    "variantes_familia": [
+      {
+        "codigo": "UB60 4C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u60 4c",
+      "tapas",
       "ub60 4c"
     ],
     "stock": -1,
@@ -3368,15 +4873,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB70",
+    "variantes_familia": [
+      {
+        "codigo": "UB70",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u70",
+      "tapas",
       "ub70"
     ],
     "stock": -1,
@@ -3403,15 +4923,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB80",
+    "variantes_familia": [
+      {
+        "codigo": "UB80",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u80",
+      "tapas",
       "ub80"
     ],
     "stock": -15,
@@ -3438,16 +4973,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB80 2C",
+    "variantes_familia": [
+      {
+        "codigo": "UB80 2C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u80 2c",
+      "tapas",
       "ub80 2c"
     ],
     "stock": 0,
@@ -3474,16 +5024,31 @@
     "medida": "",
     "guardado": "cajones",
     "colores": [],
+    "familia": "UB80 3C",
+    "variantes_familia": [
+      {
+        "codigo": "UB80 3C",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
       "cajon",
       "cajonera",
       "cajones",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "tapa",
-      "u80 3c",
+      "tapas",
       "ub80 3c"
     ],
     "stock": -1,
@@ -3510,15 +5075,30 @@
     "medida": "",
     "guardado": "puertas",
     "colores": [],
+    "familia": "UB90",
+    "variantes_familia": [
+      {
+        "codigo": "UB90",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "puerta",
       "puertas",
       "tapa",
-      "u90",
+      "tapas",
       "ub90"
     ],
     "stock": -3,
@@ -3547,12 +5127,27 @@
     "colores": [
       "NERO"
     ],
+    "familia": "UB90R",
+    "variantes_familia": [
+      {
+        "codigo": "UB90R",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": false,
     "keywords": [
       "bajo",
+      "encimera",
       "marmol negro",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "mármol negro",
       "negro",
       "negro marquina",
@@ -3560,7 +5155,7 @@
       "néro",
       "rinconero",
       "tapa",
-      "u90r",
+      "tapas",
       "ub90r"
     ],
     "stock": -1,
@@ -3593,9 +5188,23 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "PANEL A",
+    "variantes_familia": [
+      {
+        "codigo": "PANEL A",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "arena",
       "beige",
@@ -3657,9 +5266,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "PM",
+    "variantes_familia": [
+      {
+        "codigo": "PM",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "microondas",
       "pm",
@@ -3695,9 +5318,23 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "UPANEL A",
+    "variantes_familia": [
+      {
+        "codigo": "UPANEL A",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "arena",
       "beige",
@@ -3759,9 +5396,23 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "UPM",
+    "variantes_familia": [
+      {
+        "codigo": "UPM",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "alacena",
+      "alacenas",
       "alacená",
       "microondas",
       "porta",
@@ -3798,6 +5449,19 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "PANEL ",
+    "variantes_familia": [
+      {
+        "codigo": "PANEL B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "arena",
@@ -3817,6 +5481,7 @@
       "el meso",
       "el oscuro",
       "en blanco",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -3830,6 +5495,7 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
@@ -3845,7 +5511,8 @@
       "sahara",
       "sahará",
       "sajara",
-      "tapa"
+      "tapa",
+      "tapas"
     ],
     "stock": -10,
     "stock_variantes": {
@@ -3878,6 +5545,19 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "UPANEL ",
+    "variantes_familia": [
+      {
+        "codigo": "UPANEL B",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "",
     "es_componente": true,
     "keywords": [
       "arena",
@@ -3897,6 +5577,7 @@
       "el meso",
       "el oscuro",
       "en blanco",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -3910,6 +5591,7 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
@@ -3924,6 +5606,7 @@
       "sahará",
       "sajara",
       "tapa",
+      "tapas",
       "upanel ",
       "upanel b"
     ],

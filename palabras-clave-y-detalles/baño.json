@@ -10,6 +10,35 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "ANAQUEL30",
+    "variantes_familia": [
+      {
+        "codigo": "ANAQUEL30COLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      },
+      {
+        "codigo": "ANAQUEL30B",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Modulo superior colgante de 30 cm de ancho con tres puertas. Ideal para sumar guardado sin ocupar espacio en el piso. Melamina 18 mm con unero integrado. Se entrega armado.",
+    "frase": "Suma espacio de guardado sin perder estilo.",
     "es_componente": false,
     "keywords": [
       "30",
@@ -17,12 +46,15 @@
       "anaquel",
       "anaquel30",
       "anaquel30b",
+      "anaqueles",
       "bl",
       "blanc",
       "blanca",
       "blanco",
       "botiquin",
+      "botiquines",
       "botiquín",
+      "colgante",
       "colgante superior",
       "colgar",
       "color",
@@ -30,11 +62,18 @@
       "el blanco",
       "el de 30",
       "en blanco",
+      "espacio",
+      "estilo",
+      "guardado",
+      "modulito",
       "modulo superior",
+      "perder",
       "piato",
       "piatto",
       "puerta",
       "puertas",
+      "sin",
+      "suma",
       "treinta",
       "tres",
       "uñero"
@@ -69,6 +108,39 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "ANAQUEL30",
+    "variantes_familia": [
+      {
+        "codigo": "ANAQUEL30COLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      },
+      {
+        "codigo": "ANAQUEL30B",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [],
+    "desc_larga": "Modulo superior colgante de 30 cm de ancho con tres puertas. Ideal para sumar guardado sin ocupar espacio en el piso. Melamina 18 mm con unero integrado. Se entrega armado.",
+    "frase": "Suma espacio de guardado sin perder estilo.",
     "es_componente": false,
     "keywords": [
       "30",
@@ -76,13 +148,16 @@
       "anaquel",
       "anaquel30",
       "anaquel30color",
+      "anaqueles",
       "arena",
       "beige",
       "botiquin",
+      "botiquines",
       "botiquín",
       "cajou",
       "caju",
       "cajú",
+      "colgante",
       "colgante superior",
       "colgar",
       "color",
@@ -92,11 +167,14 @@
       "el gris",
       "el meso",
       "el oscuro",
+      "espacio",
+      "estilo",
       "grafito",
       "grafitto",
       "gris",
       "gris oscuro",
       "gráfito",
+      "guardado",
       "hormigon",
       "hormigón",
       "kaju",
@@ -108,10 +186,12 @@
       "mezo",
       "mezzo",
       "mezó",
+      "modulito",
       "modulo superior",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perder",
       "piato",
       "piatto",
       "puerta",
@@ -120,6 +200,8 @@
       "sahara",
       "sahará",
       "sajara",
+      "sin",
+      "suma",
       "treinta",
       "tres",
       "uñero"
@@ -174,6 +256,35 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "ANAQUEL40",
+    "variantes_familia": [
+      {
+        "codigo": "ANAQUEL40COLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      },
+      {
+        "codigo": "ANAQUEL40B",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Modulo superior colgante de 40 cm de ancho con tres puertas. Ideal para sumar guardado sin ocupar espacio en el piso. Melamina 18 mm con unero integrado. Se entrega armado.",
+    "frase": "Suma espacio de guardado sin perder estilo.",
     "es_componente": false,
     "keywords": [
       "40",
@@ -181,12 +292,15 @@
       "anaquel",
       "anaquel40",
       "anaquel40b",
+      "anaqueles",
       "bl",
       "blanc",
       "blanca",
       "blanco",
       "botiquin",
+      "botiquines",
       "botiquín",
+      "colgante",
       "colgante superior",
       "colgar",
       "color",
@@ -195,11 +309,18 @@
       "el blanco",
       "el de 40",
       "en blanco",
+      "espacio",
+      "estilo",
+      "guardado",
+      "modulito",
       "modulo superior",
+      "perder",
       "piato",
       "piatto",
       "puerta",
       "puertas",
+      "sin",
+      "suma",
       "tres",
       "uñero"
     ],
@@ -233,6 +354,39 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "ANAQUEL40",
+    "variantes_familia": [
+      {
+        "codigo": "ANAQUEL40COLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      },
+      {
+        "codigo": "ANAQUEL40B",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [],
+    "desc_larga": "Modulo superior colgante de 40 cm de ancho con tres puertas. Ideal para sumar guardado sin ocupar espacio en el piso. Melamina 18 mm con unero integrado. Se entrega armado.",
+    "frase": "Suma espacio de guardado sin perder estilo.",
     "es_componente": false,
     "keywords": [
       "40",
@@ -240,13 +394,16 @@
       "anaquel",
       "anaquel40",
       "anaquel40color",
+      "anaqueles",
       "arena",
       "beige",
       "botiquin",
+      "botiquines",
       "botiquín",
       "cajou",
       "caju",
       "cajú",
+      "colgante",
       "colgante superior",
       "colgar",
       "color",
@@ -257,11 +414,14 @@
       "el gris",
       "el meso",
       "el oscuro",
+      "espacio",
+      "estilo",
       "grafito",
       "grafitto",
       "gris",
       "gris oscuro",
       "gráfito",
+      "guardado",
       "hormigon",
       "hormigón",
       "kaju",
@@ -273,10 +433,12 @@
       "mezo",
       "mezzo",
       "mezó",
+      "modulito",
       "modulo superior",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perder",
       "piato",
       "piatto",
       "puerta",
@@ -285,6 +447,8 @@
       "sahara",
       "sahará",
       "sajara",
+      "sin",
+      "suma",
       "tres",
       "uñero"
     ],
@@ -336,21 +500,54 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "5004",
+    "variantes_familia": [
+      {
+        "codigo": "5004",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Diseno limpio y elegante para tu bano.",
     "es_componente": false,
     "keywords": [
       "13.5",
+      "37",
       "5004",
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
+      "bl",
+      "blanc",
       "blanca",
+      "blanco",
       "cuadrada",
+      "diseno",
+      "el blanco",
+      "elegante",
+      "en blanco",
       "lavamanos",
       "lavatorio",
+      "limpio",
       "loza",
       "piato",
       "piatto",
-      "pileta"
+      "pileta",
+      "piletas",
+      "porcelana",
+      "toilette",
+      "tu"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -376,20 +573,53 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "5007",
+    "variantes_familia": [
+      {
+        "codigo": "5007",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Diseno limpio y elegante para tu bano.",
     "es_componente": false,
     "keywords": [
+      "48",
       "5007",
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
+      "bl",
+      "blanc",
       "blanca",
+      "blanco",
+      "diseno",
+      "el blanco",
+      "elegante",
+      "en blanco",
       "lavamanos",
       "lavatorio",
+      "limpio",
       "loza",
       "piato",
       "piatto",
       "pileta",
-      "rectangular"
+      "piletas",
+      "porcelana",
+      "rectangular",
+      "toilette",
+      "tu"
     ],
     "stock": 1,
     "stock_variantes": {
@@ -415,21 +645,55 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "5012",
+    "variantes_familia": [
+      {
+        "codigo": "5012",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Forma redonda, elegancia natural.",
     "es_componente": false,
     "keywords": [
+      "32",
       "32.5",
       "5012",
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
+      "bl",
+      "blanc",
       "blanca",
+      "blanco",
+      "chico",
+      "circular",
+      "el blanco",
+      "elegancia",
+      "en blanco",
+      "forma",
       "lavamanos",
       "lavatorio",
       "loza",
+      "natural",
       "piato",
       "piatto",
       "pileta",
-      "redonda"
+      "piletas",
+      "porcelana",
+      "redonda",
+      "toilette"
     ],
     "stock": 1,
     "stock_variantes": {
@@ -455,21 +719,55 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "5017",
+    "variantes_familia": [
+      {
+        "codigo": "5017",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Amplitud y funcionalidad en un solo producto.",
     "es_componente": false,
     "keywords": [
       "5017",
+      "51",
       "51.5",
+      "amplitud",
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
+      "bl",
+      "blanc",
       "blanca",
+      "blanco",
+      "el blanco",
+      "en blanco",
+      "funcionalidad",
+      "grande",
       "lavamanos",
       "lavatorio",
       "loza",
       "piato",
       "piatto",
       "pileta",
-      "rectangular"
+      "piletas",
+      "porcelana",
+      "principal",
+      "producto",
+      "rectangular",
+      "solo"
     ],
     "stock": 1,
     "stock_variantes": {
@@ -495,21 +793,54 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "5020",
+    "variantes_familia": [
+      {
+        "codigo": "5020",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Forma redonda, elegancia natural.",
     "es_componente": false,
     "keywords": [
       "14.5",
+      "40",
       "5020",
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
+      "bl",
+      "blanc",
       "blanca",
+      "blanco",
+      "circular",
+      "el blanco",
+      "elegancia",
+      "en blanco",
+      "forma",
       "lavamanos",
       "lavatorio",
       "loza",
+      "natural",
       "piato",
       "piatto",
       "pileta",
-      "redonda"
+      "piletas",
+      "porcelana",
+      "redonda",
+      "toilette"
     ],
     "stock": 1,
     "stock_variantes": {
@@ -535,21 +866,55 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "5021",
+    "variantes_familia": [
+      {
+        "codigo": "5021",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Suavidad y estilo en cada detalle.",
     "es_componente": false,
     "keywords": [
+      "41",
       "41.5",
       "5021",
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
+      "bl",
+      "blanc",
       "blanca",
+      "blanco",
+      "cada",
+      "detalle",
+      "el blanco",
+      "en blanco",
+      "estilo",
       "lavamanos",
       "lavatorio",
       "loza",
+      "oval",
       "ovalada",
       "piato",
       "piatto",
-      "pileta"
+      "pileta",
+      "piletas",
+      "porcelana",
+      "suavidad",
+      "toilette"
     ],
     "stock": 1,
     "stock_variantes": {
@@ -577,28 +942,57 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "A146PIAZZA",
+    "variantes_familia": [
+      {
+        "codigo": "A146PIAZZA",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "VMINIB",
+      "VMINICOLOR"
+    ],
+    "desc_larga": "Vanitory colgante de 45 cm de ancho, ideal para toilettes o espacios reducidos. Fabricado en melamina de 18 mm, una puerta con apertura por unero. Se entrega armado. Compatible con bacha Terl o de loza.",
+    "frase": "Pequeno en tamano, gigante en funcionalidad.",
     "es_componente": false,
     "keywords": [
       "a146piazza",
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "chico",
+      "colgante",
       "color",
       "el blanco",
       "en blanco",
+      "funcionalidad",
+      "gigante",
       "lavamanos",
       "lavatorio",
+      "loza",
       "monocomando",
+      "pequeno",
       "piato",
       "piatto",
       "piazza",
       "pileta",
+      "piletas",
       "porcelana",
+      "puertas",
       "rectangular",
+      "tamano",
+      "toilette",
       "vmini"
     ],
     "stock": 0,
@@ -627,28 +1021,57 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "BLUNAM",
+    "variantes_familia": [
+      {
+        "codigo": "BLUNAM",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": false,
     "keywords": [
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
       "bl",
       "blanc",
       "blanca",
       "blanco",
       "blunam",
+      "cada",
       "circular",
       "color",
+      "detalle",
       "el blanco",
+      "elegancia",
       "en blanco",
       "lavamanos",
       "lavatorio",
-      "lunam",
+      "loza",
       "marmol",
+      "marmol sintetico",
       "monocomando",
+      "natural",
       "piato",
       "piatto",
       "pileta",
+      "piletas",
+      "porcelana",
+      "premium",
+      "redonda",
       "sintetico"
     ],
     "stock": 4,
@@ -677,25 +1100,54 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "JANEM",
+    "variantes_familia": [
+      {
+        "codigo": "JANEM",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": false,
     "keywords": [
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "cada",
       "color",
+      "detalle",
       "el blanco",
+      "elegancia",
       "en blanco",
       "janem",
       "lavamanos",
       "lavatorio",
+      "loza",
       "marmol",
+      "marmol sintetico",
+      "natural",
       "piato",
       "piatto",
       "pileta",
+      "piletas",
+      "porcelana",
+      "premium",
       "rectangular",
       "sintetico"
     ],
@@ -725,28 +1177,58 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "TER1",
+    "variantes_familia": [
+      {
+        "codigo": "TER1",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "VMINIB",
+      "VMINICOLOR"
+    ],
+    "desc_larga": "Vanitory colgante de 45 cm de ancho, ideal para toilettes o espacios reducidos. Fabricado en melamina de 18 mm, una puerta con apertura por unero. Se entrega armado. Compatible con bacha Terl o de loza.",
+    "frase": "Pequeno en tamano, gigante en funcionalidad.",
     "es_componente": false,
     "keywords": [
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "chico",
+      "colgante",
       "color",
       "el blanco",
       "en blanco",
+      "funcionalidad",
+      "gigante",
       "lavamanos",
       "lavatorio",
+      "loza",
       "marmol",
       "monocomando",
+      "pequeno",
       "piato",
       "piatto",
       "pileta",
+      "piletas",
+      "porcelana",
+      "puertas",
       "rectangular",
       "sintetico",
+      "tamano",
       "ter1",
+      "toilette",
       "vmini"
     ],
     "stock": 0,
@@ -773,21 +1255,50 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TER2",
+    "variantes_familia": [
+      {
+        "codigo": "TER2",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "VMINIB",
+      "VMINICOLOR"
+    ],
+    "desc_larga": "Vanitory colgante de 45 cm de ancho, ideal para toilettes o espacios reducidos. Fabricado en melamina de 18 mm, una puerta con apertura por unero. Se entrega armado. Compatible con bacha Terl o de loza.",
+    "frase": "Pequeno en tamano, gigante en funcionalidad.",
     "es_componente": false,
     "keywords": [
       "apoyo",
       "bacha",
       "bacha de apoyo",
+      "bacha loza",
+      "bachas",
+      "bano",
       "blanca",
+      "chico",
+      "colgante",
+      "funcionalidad",
+      "gigante",
       "lavamanos",
       "lavatorio",
       "loza",
       "monocomando",
+      "pequeno",
       "piato",
       "piatto",
       "pileta",
+      "piletas",
+      "porcelana",
+      "puertas",
       "rectangular",
+      "tamano",
       "ter2",
+      "toilette",
       "vmini"
     ],
     "stock": 6,
@@ -814,19 +1325,42 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "ESK7025",
+    "variantes_familia": [
+      {
+        "codigo": "ESK7025",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "90x80",
+      "bano",
+      "diseno",
       "esk7025",
       "espejo",
       "espejo con luz",
       "espejo de baño",
       "espejo led",
+      "espejo luminoso",
+      "espejo touch",
+      "espejos",
+      "funcionalidad",
       "led",
       "luz",
+      "luz led",
+      "mueble",
       "piato",
       "piatto",
+      "principal",
       "rectangular",
+      "solo",
       "touch"
     ],
     "stock": 0,
@@ -853,19 +1387,42 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "ESK70252",
+    "variantes_familia": [
+      {
+        "codigo": "ESK70252",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "80x80",
+      "bano",
+      "diseno",
       "esk70252",
       "espejo",
       "espejo con luz",
       "espejo de baño",
       "espejo led",
+      "espejo luminoso",
+      "espejo touch",
+      "espejos",
+      "funcionalidad",
       "led",
       "luz",
+      "luz led",
+      "mueble",
       "piato",
       "piatto",
+      "principal",
       "rectangular",
+      "solo",
       "touch"
     ],
     "stock": 3,
@@ -892,19 +1449,42 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "ESK70253",
+    "variantes_familia": [
+      {
+        "codigo": "ESK70253",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "60x80",
+      "bano",
+      "diseno",
       "esk70253",
       "espejo",
       "espejo con luz",
       "espejo de baño",
       "espejo led",
+      "espejo luminoso",
+      "espejo touch",
+      "espejos",
+      "funcionalidad",
       "led",
       "luz",
+      "luz led",
+      "mueble",
       "piato",
       "piatto",
+      "principal",
       "rectangular",
+      "solo",
       "touch"
     ],
     "stock": 2,
@@ -931,18 +1511,40 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "ESK7060/1",
+    "variantes_familia": [
+      {
+        "codigo": "ESK7060/1",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
+      "60",
       "circular",
+      "diseno",
       "esk7060/1",
       "espejo",
       "espejo con luz",
       "espejo de baño",
       "espejo led",
+      "espejo luminoso",
+      "espejo touch",
+      "espejos",
+      "funcionalidad",
       "led",
       "luz",
+      "luz led",
+      "mueble",
       "piato",
       "piatto",
+      "solo",
       "touch"
     ],
     "stock": 0,
@@ -969,19 +1571,42 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "ESKOVAL",
+    "variantes_familia": [
+      {
+        "codigo": "ESKOVAL",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "50x80",
+      "bano",
+      "diseno",
       "eskoval",
       "espejo",
       "espejo con luz",
       "espejo de baño",
       "espejo led",
+      "espejo luminoso",
+      "espejo touch",
+      "espejos",
+      "funcionalidad",
       "led",
       "luz",
+      "luz led",
+      "mueble",
       "oval",
       "piato",
       "piatto",
+      "principal",
+      "solo",
       "touch"
     ],
     "stock": 2,
@@ -1008,18 +1633,43 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "DLOZA1201",
+    "variantes_familia": [
+      {
+        "codigo": "DLOZA1201",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V120UB",
+      "V120UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
+      "120",
       "120x46",
+      "apoyar",
       "bacha",
       "blanca",
+      "diseno",
       "dloza1201",
+      "encimera",
+      "funcionalidad",
       "loza",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
-      "tapa"
+      "solo",
+      "tapa",
+      "tapas"
     ],
     "stock": 19,
     "stock_variantes": {
@@ -1051,20 +1701,52 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "DLOZA120DOBLE",
+    "variantes_familia": [
+      {
+        "codigo": "DLOZA120DOBLE",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Mesada de loza blanca 120x46 con doble bacha. Para vanitorios de 120 cm.",
+    "frase": "Doble funcionalidad, un solo mueble.",
     "es_componente": false,
     "keywords": [
+      "120",
       "120x46",
+      "apoyo",
       "bacha",
+      "bano",
+      "bl",
+      "blanc",
       "blanca",
+      "blanco",
       "dloza120doble",
-      "dloza120dole",
       "doble",
+      "doble bacha",
+      "el blanco",
+      "en blanco",
+      "encimera",
+      "funcionalidad",
       "loza",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
-      "tapa"
+      "solo",
+      "suite",
+      "tapa",
+      "tapas"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1090,17 +1772,43 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "DLOZA50",
+    "variantes_familia": [
+      {
+        "codigo": "DLOZA50",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V50U",
+      "V50UCOLOR",
+      "V50CLAH"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
+      "50",
       "50x40",
+      "apoyar",
       "blanca",
+      "diseno",
       "dloza50",
+      "encimera",
+      "funcionalidad",
       "loza",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
-      "tapa"
+      "solo",
+      "tapa",
+      "tapas"
     ],
     "stock": 37,
     "stock_variantes": {
@@ -1132,17 +1840,48 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "DLOZA60",
+    "variantes_familia": [
+      {
+        "codigo": "DLOZA60",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V60CLAC",
+      "V60CLAH",
+      "V60TC",
+      "V60T",
+      "V60UCB",
+      "V60UCCOLOR",
+      "V60UB",
+      "V60UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
+      "60",
       "60x46",
+      "apoyar",
       "blanca",
+      "diseno",
       "dloza60",
+      "encimera",
+      "funcionalidad",
       "loza",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
-      "tapa"
+      "solo",
+      "tapa",
+      "tapas"
     ],
     "stock": 26,
     "stock_variantes": {
@@ -1174,17 +1913,50 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "DLOZA80",
+    "variantes_familia": [
+      {
+        "codigo": "DLOZA80",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V80CLAC",
+      "V80CLAH",
+      "V80TC",
+      "V80T",
+      "V80UCB",
+      "V80UCCOLOR",
+      "V80UB",
+      "V80UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
+      "80",
       "80x46",
+      "apoyar",
+      "bano",
       "blanca",
+      "diseno",
       "dloza80",
+      "encimera",
+      "funcionalidad",
       "loza",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
-      "tapa"
+      "principal",
+      "solo",
+      "tapa",
+      "tapas"
     ],
     "stock": 92,
     "stock_variantes": {
@@ -1216,18 +1988,51 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "DLOZA80NM",
+    "variantes_familia": [
+      {
+        "codigo": "DLOZA80NM",
+        "colores": [
+          "negro mate"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "negro mate"
+    ],
+    "relacionados": [],
+    "desc_larga": "Mesada de loza negro mate 80x46. Para vanitorios de 80 cm.",
+    "frase": "Estilo oscuro, impacto visual garantizado.",
     "es_componente": false,
     "keywords": [
+      "80",
       "80x46",
+      "apoyo",
+      "bano",
+      "dark",
+      "diseno",
       "dloza80nm",
+      "encimera",
+      "estilo",
+      "garantizado",
+      "impacto",
       "loza",
       "mate",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "moderno",
       "negro",
+      "negro mate",
+      "oscura",
+      "oscuro",
       "piato",
       "piatto",
-      "tapa"
+      "tapa",
+      "tapas",
+      "visual"
     ],
     "stock": 1,
     "stock_variantes": {
@@ -1266,25 +2071,55 @@
       "SAHARA",
       "TERRA"
     ],
+    "familia": "EDM60",
+    "variantes_familia": [
+      {
+        "codigo": "EDM60",
+        "colores": [
+          "terra",
+          "marmol beige"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "terra",
+      "marmol beige"
+    ],
+    "relacionados": [
+      "TAPAMARMOL060",
+      "DLOZA60",
+      "ESK70253"
+    ],
+    "desc_larga": "Vanitory Marbela de 60 cm con tapa acrilica marmol Terra. Mueble de colgar con dos cajones. Melamina con terminacion premium. Tapa acrilica con efecto marmol beige. Se entrega armado.",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": false,
     "keywords": [
       "60",
       "60cm",
       "acrilico",
       "arena",
+      "bano",
       "beige",
+      "cada",
+      "cajones",
       "cajou",
       "caju",
       "cajú",
+      "colgante",
       "colgar",
       "color",
       "de 60",
+      "detalle",
       "edm60",
       "el caju",
       "el de 60",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -1302,6 +2137,7 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
@@ -1309,9 +2145,12 @@
       "mezó",
       "mármol",
       "mármol beige",
+      "natural",
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
+      "principal",
       "saara",
       "sahara",
       "sahará",
@@ -1319,6 +2158,7 @@
       "seisenta",
       "sesenta",
       "tapa",
+      "tapas",
       "terra",
       "tierra",
       "vanitory"
@@ -1354,25 +2194,54 @@
       "SAHARA",
       "NERO"
     ],
+    "familia": "EDM60N",
+    "variantes_familia": [
+      {
+        "codigo": "EDM60N",
+        "colores": [
+          "nero",
+          "marmol negro"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "nero",
+      "marmol negro"
+    ],
+    "relacionados": [
+      "TAPAMARMOL060N",
+      "DLOZA60",
+      "ESK70253"
+    ],
+    "desc_larga": "Vanitory Marbela de 60 cm con tapa acrilica marmol Nero. Mueble de colgar con dos cajones. Melamina con terminacion premium. Tapa acrilica con efecto marmol negro marquina. Se entrega armado.",
+    "frase": "Un diseno moderno y minimalista que resalta por su elegancia.",
     "es_componente": false,
     "keywords": [
       "60",
       "60cm",
       "acrilico",
       "arena",
+      "bano",
       "beige",
+      "cajones",
       "cajou",
       "caju",
       "cajú",
+      "colgante",
       "colgar",
       "color",
       "de 60",
+      "diseno",
       "edm60n",
       "el caju",
       "el de 60",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -1390,11 +2259,14 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "minimalista",
+      "moderno",
       "mármol",
       "mármol negro",
       "negro",
@@ -1404,13 +2276,19 @@
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
+      "principal",
+      "que",
+      "resalta",
       "saara",
       "sahara",
       "sahará",
       "sajara",
       "seisenta",
       "sesenta",
+      "su",
       "tapa",
+      "tapas",
       "vanitory"
     ],
     "stock": 3,
@@ -1444,25 +2322,55 @@
       "SAHARA",
       "TERRA"
     ],
+    "familia": "EDM80",
+    "variantes_familia": [
+      {
+        "codigo": "EDM80",
+        "colores": [
+          "terra",
+          "marmol beige"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "terra",
+      "marmol beige"
+    ],
+    "relacionados": [
+      "TAPAMARMOL080",
+      "DLOZA80",
+      "ESK70252"
+    ],
+    "desc_larga": "Vanitory Marbela de 80 cm con tapa acrilica marmol Terra. Mueble de colgar con dos cajones. Melamina con terminacion premium. Tapa acrilica con efecto marmol beige. Se entrega armado.",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
       "acrilico",
       "arena",
+      "bano",
       "beige",
+      "cada",
+      "cajones",
       "cajou",
       "caju",
       "cajú",
+      "colgante",
       "colgar",
       "color",
       "de 80",
+      "detalle",
       "edm80",
       "el caju",
       "el de 80",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -1480,6 +2388,7 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
@@ -1487,15 +2396,19 @@
       "mezó",
       "mármol",
       "mármol beige",
+      "natural",
       "ochenta",
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
+      "principal",
       "saara",
       "sahara",
       "sahará",
       "sajara",
       "tapa",
+      "tapas",
       "terra",
       "tierra",
       "vanitory"
@@ -1531,25 +2444,54 @@
       "SAHARA",
       "NERO"
     ],
+    "familia": "EDM80N",
+    "variantes_familia": [
+      {
+        "codigo": "EDM80N",
+        "colores": [
+          "nero",
+          "marmol negro"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "nero",
+      "marmol negro"
+    ],
+    "relacionados": [
+      "TAPAMARMOL080N",
+      "DLOZA80",
+      "ESK70252"
+    ],
+    "desc_larga": "Vanitory Marbela de 80 cm con tapa acrilica marmol Nero. Mueble de colgar con dos cajones. Melamina con terminacion premium. Tapa acrilica con efecto marmol negro marquina. Se entrega armado.",
+    "frase": "Un diseno moderno y minimalista que resalta por su elegancia.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
       "acrilico",
       "arena",
+      "bano",
       "beige",
+      "cajones",
       "cajou",
       "caju",
       "cajú",
+      "colgante",
       "colgar",
       "color",
       "de 80",
+      "diseno",
       "edm80n",
       "el caju",
       "el de 80",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -1567,11 +2509,14 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "minimalista",
+      "moderno",
       "mármol",
       "mármol negro",
       "negro",
@@ -1582,11 +2527,17 @@
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
+      "principal",
+      "que",
+      "resalta",
       "saara",
       "sahara",
       "sahará",
       "sajara",
+      "su",
       "tapa",
+      "tapas",
       "vanitory"
     ],
     "stock": 0,
@@ -1615,23 +2566,50 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "M537",
+    "variantes_familia": [
+      {
+        "codigo": "M537",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V50U",
+      "V50UCOLOR",
+      "V50CLAH"
+    ],
+    "desc_larga": "Vanitory de colgar de 50 cm de ancho. Cuenta con 2 cajones con correderas metalicas y apertura por unero. Melamina de 18 mm. Compacto y funcional, ideal para banos chicos. Se entrega armado.",
+    "frase": "Diseno compacto, ideal para banos chicos.",
     "es_componente": false,
     "keywords": [
+      "apoyar",
+      "banos",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "cajones",
+      "chicos",
       "color",
+      "compacto",
+      "diseno",
       "el blanco",
       "en blanco",
+      "encimera",
+      "ideal",
       "m537",
       "marmol",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "piato",
       "piatto",
       "sintetico",
       "tapa",
+      "tapas",
       "v50"
     ],
     "stock": 0,
@@ -1666,8 +2644,28 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "MAR60",
+    "variantes_familia": [
+      {
+        "codigo": "MAR60",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Mesada marmol sintetico color blanco para vanitory de 60 cm.",
+    "frase": "Estilo marmol al mejor precio.",
     "es_componente": false,
     "keywords": [
+      "60",
+      "apoyo",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -1675,14 +2673,21 @@
       "color",
       "el blanco",
       "en blanco",
+      "encimera",
+      "estilo",
       "mar60",
       "marmol",
+      "marmol sintetico",
+      "mejor",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "piato",
       "piatto",
+      "precio",
       "sintetico",
       "tapa",
+      "tapas",
       "v60"
     ],
     "stock": 1,
@@ -1715,16 +2720,41 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA050",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA050",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V50U",
+      "V50UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "050",
+      "50",
+      "apoyar",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "solo",
       "tapa",
       "tapa050",
+      "tapas",
       "vanitory"
     ],
     "stock": 0,
@@ -1781,16 +2811,45 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA060M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA060M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V60TC",
+      "V60T",
+      "V60UCB",
+      "V60UCCOLOR",
+      "V60UB",
+      "V60UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "060",
+      "60",
+      "apoyar",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "solo",
       "tapa",
       "tapa060m",
+      "tapas",
       "vanitory"
     ],
     "stock": 6,
@@ -1853,16 +2912,47 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA080M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA080M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V80TC",
+      "V80T",
+      "V80UCB",
+      "V80UCCOLOR",
+      "V80UB",
+      "V80UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "080",
+      "80",
+      "apoyar",
+      "bano",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "principal",
+      "solo",
       "tapa",
       "tapa080m",
+      "tapas",
       "vanitory"
     ],
     "stock": 10,
@@ -1925,16 +3015,45 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA090M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA090M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V90UCB",
+      "V90UCCOLOR",
+      "V90UB",
+      "V90UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "090",
+      "90",
+      "apoyar",
+      "bano",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "principal",
+      "solo",
       "tapa",
       "tapa090m",
+      "tapas",
       "vanitory"
     ],
     "stock": 7,
@@ -1997,16 +3116,44 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA110M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA110M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V110UCB",
+      "V110UCCOLOR",
+      "V110UB",
+      "V110UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "110",
+      "apoyar",
+      "bano",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "principal",
+      "solo",
       "tapa",
       "tapa110m",
+      "tapas",
       "vanitory"
     ],
     "stock": 1,
@@ -2069,16 +3216,42 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA120M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA120M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V120UCB",
+      "V120UCCOLOR",
+      "V120UB",
+      "V120UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "120",
+      "apoyar",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "solo",
       "tapa",
       "tapa120m",
+      "tapas",
       "vanitory"
     ],
     "stock": 2,
@@ -2141,16 +3314,42 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA140M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA140M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V140UCB",
+      "V140UCCOLOR",
+      "V140UB",
+      "V140UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "140",
+      "apoyar",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "solo",
       "tapa",
       "tapa140m",
+      "tapas",
       "vanitory"
     ],
     "stock": 4,
@@ -2213,16 +3412,43 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA150M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA150M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V150UCB",
+      "V150UCCOLOR",
+      "V150UB",
+      "V150UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "150",
+      "50",
+      "apoyar",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "solo",
       "tapa",
       "tapa150m",
+      "tapas",
       "vanitory"
     ],
     "stock": 8,
@@ -2285,16 +3511,45 @@
     "medida": "",
     "guardado": "",
     "colores": [],
+    "familia": "TAPA190M",
+    "variantes_familia": [
+      {
+        "codigo": "TAPA190M",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "V190UCB",
+      "V190UCCOLOR",
+      "V190UB",
+      "V190UCOLOR"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "190",
+      "90",
+      "apoyar",
+      "bano",
+      "diseno",
+      "encimera",
+      "funcionalidad",
       "melamina",
       "mesada",
       "mesada integrada",
+      "mesadas",
+      "mueble",
       "piato",
       "piatto",
+      "principal",
+      "solo",
       "tapa",
       "tapa190m",
+      "tapas",
       "vanitory"
     ],
     "stock": 0,
@@ -2363,20 +3618,46 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "TAPAMARMOL060",
+    "variantes_familia": [
+      {
+        "codigo": "TAPAMARMOL060",
+        "colores": [
+          "marmol beige",
+          "terra"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "marmol beige",
+      "terra"
+    ],
+    "relacionados": [],
+    "desc_larga": "Tapa acrilica en color marmol beige para vanitory de 60 cm. Para linea Marbela.",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": false,
     "keywords": [
       "060",
+      "60",
       "acrilico",
+      "apoyo",
       "arena",
+      "bano",
       "beige",
+      "cada",
       "cajou",
       "caju",
       "cajú",
       "color",
+      "detalle",
       "el caju",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -2388,25 +3669,33 @@
       "madera",
       "marbela",
       "marmol",
+      "marmol beige",
       "marron",
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
       "mármol",
+      "mármol beige",
+      "natural",
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
       "saara",
       "sahara",
       "sahará",
       "sajara",
       "tapa",
-      "tapamarmol060"
+      "tapamarmol060",
+      "tapas",
+      "terra",
+      "tierra"
     ],
     "stock": 2,
     "stock_variantes": {
@@ -2439,20 +3728,45 @@
       "SAHARA",
       "NERO"
     ],
+    "familia": "TAPAMARMOL060N",
+    "variantes_familia": [
+      {
+        "codigo": "TAPAMARMOL060N",
+        "colores": [
+          "marmol negro",
+          "nero"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "marmol negro",
+      "nero"
+    ],
+    "relacionados": [],
+    "desc_larga": "Tapa acrilica en color marmol negro marquina para vanitory de 60 cm. Para linea Marbela.",
+    "frase": "Un diseno moderno y minimalista que resalta por su elegancia.",
     "es_componente": false,
     "keywords": [
       "060",
+      "60",
       "acrilico",
+      "apoyo",
       "arena",
+      "bano",
       "beige",
       "cajou",
       "caju",
       "cajú",
       "color",
+      "diseno",
       "el caju",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -2470,11 +3784,14 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "minimalista",
+      "moderno",
       "mármol",
       "mármol negro",
       "negro",
@@ -2484,12 +3801,17 @@
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
+      "que",
+      "resalta",
       "saara",
       "sahara",
       "sahará",
       "sajara",
+      "su",
       "tapa",
-      "tapamarmol060n"
+      "tapamarmol060n",
+      "tapas"
     ],
     "stock": 3,
     "stock_variantes": {
@@ -2521,20 +3843,46 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "TAPAMARMOL080",
+    "variantes_familia": [
+      {
+        "codigo": "TAPAMARMOL080",
+        "colores": [
+          "marmol beige",
+          "terra"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "marmol beige",
+      "terra"
+    ],
+    "relacionados": [],
+    "desc_larga": "Tapa acrilica en color marmol beige para vanitory de 80 cm. Para linea Marbela.",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": false,
     "keywords": [
       "080",
+      "80",
       "acrilico",
+      "apoyo",
       "arena",
+      "bano",
       "beige",
+      "cada",
       "cajou",
       "caju",
       "cajú",
       "color",
+      "detalle",
       "el caju",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -2546,25 +3894,33 @@
       "madera",
       "marbela",
       "marmol",
+      "marmol beige",
       "marron",
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
       "mármol",
+      "mármol beige",
+      "natural",
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
       "saara",
       "sahara",
       "sahará",
       "sajara",
       "tapa",
-      "tapamarmol080"
+      "tapamarmol080",
+      "tapas",
+      "terra",
+      "tierra"
     ],
     "stock": 3,
     "stock_variantes": {
@@ -2597,20 +3953,45 @@
       "SAHARA",
       "NERO"
     ],
+    "familia": "TAPAMARMOL080N",
+    "variantes_familia": [
+      {
+        "codigo": "TAPAMARMOL080N",
+        "colores": [
+          "marmol negro",
+          "nero"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "marmol negro",
+      "nero"
+    ],
+    "relacionados": [],
+    "desc_larga": "Tapa acrilica en color marmol negro marquina para vanitory de 80 cm. Para linea Marbela.",
+    "frase": "Un diseno moderno y minimalista que resalta por su elegancia.",
     "es_componente": false,
     "keywords": [
       "080",
+      "80",
       "acrilico",
+      "apoyo",
       "arena",
+      "bano",
       "beige",
       "cajou",
       "caju",
       "cajú",
       "color",
+      "diseno",
       "el caju",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
+      "encimera",
       "grafito",
       "grafitto",
       "gris",
@@ -2628,11 +4009,14 @@
       "marrón",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "minimalista",
+      "moderno",
       "mármol",
       "mármol negro",
       "negro",
@@ -2642,12 +4026,17 @@
       "ormigon",
       "ormigón",
       "oscuro",
+      "premium",
+      "que",
+      "resalta",
       "saara",
       "sahara",
       "sahará",
       "sajara",
+      "su",
       "tapa",
-      "tapamarmol080n"
+      "tapamarmol080n",
+      "tapas"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2675,8 +4064,28 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "Z8",
+    "variantes_familia": [
+      {
+        "codigo": "Z8",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Mesada marmol sintetico color blanco para vanitory de 80 cm.",
+    "frase": "Estilo marmol al mejor precio.",
     "es_componente": false,
     "keywords": [
+      "80",
+      "apoyo",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -2684,13 +4093,20 @@
       "color",
       "el blanco",
       "en blanco",
+      "encimera",
+      "estilo",
       "marmol",
+      "marmol sintetico",
+      "mejor",
       "mesada",
       "mesada integrada",
+      "mesadas",
       "piato",
       "piatto",
+      "precio",
       "sintetico",
       "tapa",
+      "tapas",
       "v80",
       "z8"
     ],
@@ -2726,6 +4142,35 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V30UC",
+    "variantes_familia": [
+      {
+        "codigo": "V30UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V30UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "30",
@@ -2742,20 +4187,28 @@
       "color",
       "complemento",
       "de 30",
+      "diseno",
       "dos",
       "el blanco",
       "el de 30",
       "en blanco",
+      "funcionalidad",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
+      "solo",
       "treinta",
       "uñero",
       "v30",
       "v30uc",
       "v30ucb",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 8,
@@ -2788,6 +4241,39 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V30UC",
+    "variantes_familia": [
+      {
+        "codigo": "V30UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V30UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "30",
@@ -2805,12 +4291,14 @@
       "color",
       "complemento",
       "de 30",
+      "diseno",
       "dos",
       "el caju",
       "el de 30",
       "el gris",
       "el meso",
       "el oscuro",
+      "funcionalidad",
       "grafito",
       "grafitto",
       "gris",
@@ -2827,8 +4315,12 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
@@ -2838,12 +4330,14 @@
       "sahara",
       "sahará",
       "sajara",
+      "solo",
       "treinta",
       "uñero",
       "v30",
       "v30uc",
       "v30uccolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 29,
@@ -2896,34 +4390,64 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V50CLAH",
+    "variantes_familia": [
+      {
+        "codigo": "V50CLAH",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "M537",
+      "DLOZA50",
+      "ESK7060/1",
+      "TAPA050"
+    ],
+    "desc_larga": "Vanitory de colgar de 50 cm de ancho. Cuenta con 2 cajones con correderas metalicas y apertura por unero. Melamina de 18 mm. Compacto y funcional, ideal para banos chicos. Se entrega armado.",
+    "frase": "Diseno compacto, ideal para banos chicos.",
     "es_componente": false,
     "keywords": [
       "50",
       "50cm",
       "banitorio",
+      "banos",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "cajones",
+      "chicos",
       "cincuenta",
       "clasico",
       "classic",
       "clásico",
       "color",
+      "compacto",
+      "compatible",
       "de 50",
       "de pie",
+      "diseno",
       "el blanco",
       "el de 50",
       "en blanco",
       "hueco",
+      "ideal",
+      "m537",
       "modelo",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "pie",
       "roble",
       "v50",
       "v50clah",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -2952,25 +4476,70 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V50U",
+    "variantes_familia": [
+      {
+        "codigo": "V50UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V50UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "M537",
+      "DLOZA50",
+      "ESK7060/1",
+      "TAPA050"
+    ],
+    "desc_larga": "Vanitory de colgar de 50 cm de ancho. Cuenta con 2 cajones con correderas metalicas y apertura por unero. Melamina de 18 mm. Compacto y funcional, ideal para banos chicos. Se entrega armado.",
+    "frase": "Diseno compacto, ideal para banos chicos.",
     "es_componente": false,
     "keywords": [
       "50",
       "50cm",
       "banitorio",
+      "banos",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "cajones",
+      "chicos",
       "cincuenta",
       "colgar",
       "color",
+      "compacto",
+      "compatible",
       "de 50",
+      "diseno",
       "dos",
       "el blanco",
       "el de 50",
       "en blanco",
+      "ideal",
+      "m537",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
       "puerta",
@@ -2980,6 +4549,7 @@
       "v50u",
       "v50ub",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 3,
@@ -3012,20 +4582,64 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V50U",
+    "variantes_familia": [
+      {
+        "codigo": "V50UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V50UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "M537",
+      "DLOZA50",
+      "ESK7060/1",
+      "TAPA050"
+    ],
+    "desc_larga": "Vanitory de colgar de 50 cm de ancho. Cuenta con 2 cajones con correderas metalicas y apertura por unero. Melamina de 18 mm. Compacto y funcional, ideal para banos chicos. Se entrega armado.",
+    "frase": "Diseno compacto, ideal para banos chicos.",
     "es_componente": false,
     "keywords": [
       "50",
       "50cm",
       "arena",
       "banitorio",
+      "banos",
       "beige",
+      "cajones",
       "cajou",
       "caju",
       "cajú",
+      "chicos",
       "cincuenta",
       "colgar",
       "color",
+      "compacto",
+      "compatible",
       "de 50",
+      "diseno",
       "dos",
       "el caju",
       "el de 50",
@@ -3039,7 +4653,9 @@
       "gráfito",
       "hormigon",
       "hormigón",
+      "ideal",
       "kaju",
+      "m537",
       "madera",
       "marron",
       "marrón",
@@ -3048,8 +4664,11 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
@@ -3066,6 +4685,7 @@
       "v50u",
       "v50ucolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 25,
@@ -3118,6 +4738,23 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V60CLAC",
+    "variantes_familia": [
+      {
+        "codigo": "V60CLAC",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "DLOZA60",
+      "ESK70253",
+      "TAPA060M"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "60",
@@ -3136,18 +4773,26 @@
       "color",
       "de 60",
       "de pie",
+      "diseno",
       "el blanco",
       "el de 60",
       "en blanco",
+      "funcionalidad",
       "modelo",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "pie",
       "seisenta",
       "sesenta",
+      "solo",
       "v60",
       "v60clac",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 5,
@@ -3176,6 +4821,23 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V60CLAH",
+    "variantes_familia": [
+      {
+        "codigo": "V60CLAH",
+        "colores": [],
+        "es_blanco": false,
+        "es_color": false
+      }
+    ],
+    "colores_disponibles": [],
+    "relacionados": [
+      "DLOZA60",
+      "ESK70253",
+      "TAPA060M"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "60",
@@ -3191,20 +4853,28 @@
       "color",
       "de 60",
       "de pie",
+      "diseno",
       "el blanco",
       "el de 60",
       "en blanco",
+      "funcionalidad",
       "hueco",
       "modelo",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "pie",
       "roble",
       "seisenta",
       "sesenta",
+      "solo",
       "v60",
       "v60clah",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 2,
@@ -3233,6 +4903,40 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V60U",
+    "variantes_familia": [
+      {
+        "codigo": "V60UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "DLOZA60",
+      "ESK70253",
+      "V30UCB",
+      "TAPA060M"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "60",
@@ -3245,22 +4949,30 @@
       "colgar",
       "color",
       "de 60",
+      "diseno",
       "dos",
       "el blanco",
       "el de 60",
       "en blanco",
+      "funcionalidad",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
       "puerta",
       "puertas",
       "seisenta",
       "sesenta",
+      "solo",
       "uñero",
       "v60u",
       "v60ub",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 1,
@@ -3289,6 +5001,40 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V60UC",
+    "variantes_familia": [
+      {
+        "codigo": "V60UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "DLOZA60",
+      "ESK70253",
+      "V30UCB",
+      "TAPA060M"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "60",
@@ -3304,20 +5050,28 @@
       "colgar",
       "color",
       "de 60",
+      "diseno",
       "dos",
       "el blanco",
       "el de 60",
       "en blanco",
+      "funcionalidad",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
       "seisenta",
       "sesenta",
+      "solo",
       "uñero",
       "v60uc",
       "v60ucb",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -3350,12 +5104,51 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V60UC",
+    "variantes_familia": [
+      {
+        "codigo": "V60UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "DLOZA60",
+      "ESK70253",
+      "V30UCCOLOR",
+      "TAPA060M"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Diseno compacto, ideal para banos chicos.",
     "es_componente": false,
     "keywords": [
       "60",
       "60cm",
       "arena",
       "banitorio",
+      "banos",
       "beige",
       "cajon",
       "cajonera",
@@ -3363,9 +5156,12 @@
       "cajou",
       "caju",
       "cajú",
+      "chicos",
       "colgar",
       "color",
+      "compacto",
       "de 60",
+      "diseno",
       "dos",
       "el caju",
       "el de 60",
@@ -3379,6 +5175,7 @@
       "gráfito",
       "hormigon",
       "hormigón",
+      "ideal",
       "kaju",
       "madera",
       "marron",
@@ -3388,8 +5185,11 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
@@ -3405,6 +5205,7 @@
       "v60uc",
       "v60uccolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 13,
@@ -3461,6 +5262,44 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V60U",
+    "variantes_familia": [
+      {
+        "codigo": "V60UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "DLOZA60",
+      "ESK70253",
+      "V30UCCOLOR",
+      "TAPA060M"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": false,
     "keywords": [
       "60",
@@ -3474,12 +5313,14 @@
       "colgar",
       "color",
       "de 60",
+      "diseno",
       "dos",
       "el caju",
       "el de 60",
       "el gris",
       "el meso",
       "el oscuro",
+      "funcionalidad",
       "grafito",
       "grafitto",
       "gris",
@@ -3496,8 +5337,12 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
@@ -3511,10 +5356,12 @@
       "sajara",
       "seisenta",
       "sesenta",
+      "solo",
       "uñero",
       "v60u",
       "v60ucolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 9,
@@ -3567,6 +5414,35 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V80ECO1C",
+    "variantes_familia": [
+      {
+        "codigo": "V80ECO1C",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Vanitory de colgar de 80 cm con un cajon. Linea economica. Melamina 18mm. Color blanco. Se entrega armado.",
+    "frase": "Funcionalidad al mejor precio.",
     "es_componente": false,
     "keywords": [
       "25cm",
@@ -3574,6 +5450,7 @@
       "80cm",
       "altura",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -3584,20 +5461,31 @@
       "clasico",
       "classic",
       "clásico",
+      "colgante",
       "colgar",
       "colr",
       "de 80",
       "de pie",
+      "eco",
+      "economico",
       "el blanco",
       "el de 80",
       "en blanco",
+      "funcionalidad",
+      "mejor",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
       "pollera",
+      "precio",
+      "principal",
       "tipo",
       "v80eco1c",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 64,
@@ -3630,6 +5518,39 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V80ECO1C",
+    "variantes_familia": [
+      {
+        "codigo": "V80ECO1C",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [],
+    "desc_larga": "Vanitory de colgar de 80 cm con un cajon. Linea economica. Melamina 18mm. Disponible en colores. Se entrega armado.",
+    "frase": "Funcionalidad al mejor precio.",
     "es_componente": false,
     "keywords": [
       "25cm",
@@ -3638,6 +5559,7 @@
       "altura",
       "arena",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -3648,15 +5570,19 @@
       "clasico",
       "classic",
       "clásico",
+      "colgante",
       "colgar",
       "color",
       "de 80",
       "de pie",
+      "eco",
+      "economico",
       "el caju",
       "el de 80",
       "el gris",
       "el meso",
       "el oscuro",
+      "funcionalidad",
       "grafito",
       "grafitto",
       "gris",
@@ -3668,18 +5594,24 @@
       "madera",
       "marron",
       "marrón",
+      "mejor",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
       "ormigon",
       "ormigón",
       "oscuro",
       "pollera",
+      "precio",
+      "principal",
       "saara",
       "sahara",
       "sahará",
@@ -3688,6 +5620,7 @@
       "v80eco1c",
       "v80eco1ccolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -3740,11 +5673,41 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V80U1C",
+    "variantes_familia": [
+      {
+        "codigo": "V80U1C",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [],
+    "desc_larga": "Vanitory de colgar 80 cm con un cajon y un hueco. Unero. Melamina 18mm. Color blanco. Se entrega armado.",
+    "frase": "Espacio y funcionalidad en perfecto equilibrio.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -3755,6 +5718,7 @@
       "clasico",
       "classic",
       "clásico",
+      "colgante",
       "colgar",
       "color",
       "de 80",
@@ -3762,13 +5726,23 @@
       "el blanco",
       "el de 80",
       "en blanco",
+      "equilibrio",
+      "espacio",
+      "funcionalidad",
       "hueco",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
+      "perfecto",
+      "principal",
+      "unero",
       "uñero",
       "v80u1c",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -3801,12 +5775,46 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V80U1C",
+    "variantes_familia": [
+      {
+        "codigo": "V80U1C",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [],
+    "desc_larga": "Vanitory de colgar 80 cm con un cajon y un hueco. Unero. Melamina 18mm. Disponible en colores. Se entrega armado.",
+    "frase": "Espacio y funcionalidad en perfecto equilibrio.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
       "arena",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -3817,6 +5825,7 @@
       "clasico",
       "classic",
       "clásico",
+      "colgante",
       "colgar",
       "color",
       "de 80",
@@ -3826,6 +5835,9 @@
       "el gris",
       "el meso",
       "el oscuro",
+      "equilibrio",
+      "espacio",
+      "funcionalidad",
       "grafito",
       "grafitto",
       "gris",
@@ -3843,20 +5855,27 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perfecto",
+      "principal",
       "saara",
       "sahara",
       "sahará",
       "sajara",
+      "unero",
       "uñero",
       "v80u1c",
       "v80u1ccolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -3909,27 +5928,76 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V80U",
+    "variantes_familia": [
+      {
+        "codigo": "V80UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "DLOZA80",
+      "ESK70252",
+      "V30UCB",
+      "TAPA080M"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
+      "bajo",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "cajones",
       "colgar",
       "color",
+      "compatible",
       "de 80",
+      "diseno",
       "dos",
       "el blanco",
       "el de 80",
       "en blanco",
+      "entre",
+      "equilibrio",
+      "espacio",
+      "m538",
+      "mesada",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
       "puerta",
       "puertas",
       "uñero",
@@ -3937,6 +6005,7 @@
       "v80u",
       "v80ub",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 7,
@@ -3965,11 +6034,47 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V80UC",
+    "variantes_familia": [
+      {
+        "codigo": "V80UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "DLOZA80",
+      "ESK70252",
+      "V30UCB",
+      "TAPA080M"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
+      "bajo",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -3979,21 +6084,35 @@
       "cajones",
       "colgar",
       "color",
+      "compatible",
       "de 80",
+      "diseno",
       "dos",
       "el blanco",
       "el de 80",
       "en blanco",
+      "entre",
+      "equilibrio",
+      "espacio",
+      "m538",
+      "mesada",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
+      "puertas",
       "uñero",
       "v80c",
       "v80uc",
       "v80ucb",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 8,
@@ -4026,12 +6145,52 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V80UC",
+    "variantes_familia": [
+      {
+        "codigo": "V80UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "DLOZA80",
+      "ESK70252",
+      "V30UCCOLOR",
+      "TAPA080M"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
       "arena",
+      "bajo",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -4041,13 +6200,18 @@
       "cajú",
       "colgar",
       "color",
+      "compatible",
       "de 80",
+      "diseno",
       "dos",
       "el caju",
       "el de 80",
       "el gris",
       "el meso",
       "el oscuro",
+      "entre",
+      "equilibrio",
+      "espacio",
       "grafito",
       "grafitto",
       "gris",
@@ -4056,22 +6220,30 @@
       "hormigon",
       "hormigón",
       "kaju",
+      "m538",
       "madera",
       "marron",
       "marrón",
+      "mesada",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
+      "puertas",
       "saara",
       "sahara",
       "sahará",
@@ -4081,6 +6253,7 @@
       "v80uc",
       "v80uccolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 17,
@@ -4137,25 +6310,71 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V80U",
+    "variantes_familia": [
+      {
+        "codigo": "V80UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "DLOZA80",
+      "ESK70252",
+      "V30UCCOLOR",
+      "TAPA080M"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": false,
     "keywords": [
       "80",
       "80cm",
       "arena",
+      "bajo",
       "banitorio",
+      "bano",
       "beige",
+      "cajones",
       "cajou",
       "caju",
       "cajú",
       "colgar",
       "color",
+      "compatible",
       "de 80",
+      "diseno",
       "dos",
       "el caju",
       "el de 80",
       "el gris",
       "el meso",
       "el oscuro",
+      "entre",
+      "equilibrio",
+      "espacio",
       "grafito",
       "grafitto",
       "gris",
@@ -4164,22 +6383,29 @@
       "hormigon",
       "hormigón",
       "kaju",
+      "m538",
       "madera",
       "marron",
       "marrón",
+      "mesada",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ochenta",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
       "puerta",
       "puertas",
       "saara",
@@ -4191,6 +6417,7 @@
       "v80u",
       "v80ucolor",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 19,
@@ -4243,31 +6470,80 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "VMINI",
+    "variantes_familia": [
+      {
+        "codigo": "VMINIB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "VMINICOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "A146PIAZZA",
+      "TER1",
+      "TER2",
+      "ESKOVAL"
+    ],
+    "desc_larga": "Vanitory colgante de 45 cm de ancho, ideal para toilettes o espacios reducidos. Fabricado en melamina de 18 mm, una puerta con apertura por unero. Se entrega armado. Compatible con bacha Terl o de loza.",
+    "frase": "Pequeno en tamano, gigante en funcionalidad.",
     "es_componente": false,
     "keywords": [
       "45",
       "45cm",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
       "blanco",
+      "chico",
+      "colgante",
       "colgar",
       "color",
+      "compatible",
       "cuarenta y cinco",
       "de 45",
       "el blanco",
       "el de 45",
       "en blanco",
+      "funcionalidad",
+      "gigante",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
+      "pequeno",
       "piato",
       "piatto",
       "puerta",
       "puertas",
       "rebatible",
+      "tamano",
+      "ter1",
+      "ter2",
+      "toilette",
       "uñero",
       "vanitori",
+      "vanitorios",
       "vanitory",
       "vmini",
       "vminib"
@@ -4302,18 +6578,60 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "VMINI",
+    "variantes_familia": [
+      {
+        "codigo": "VMINIB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "VMINICOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "A146PIAZZA",
+      "TER1",
+      "TER2",
+      "ESKOVAL"
+    ],
+    "desc_larga": "Vanitory colgante de 45 cm de ancho, ideal para toilettes o espacios reducidos. Fabricado en melamina de 18 mm, una puerta con apertura por unero. Se entrega armado. Compatible con bacha Terl o de loza.",
+    "frase": "Pequeno en tamano, gigante en funcionalidad.",
     "es_componente": false,
     "keywords": [
       "45",
       "45cm",
       "arena",
       "banitorio",
+      "bano",
       "beige",
       "cajou",
       "caju",
       "cajú",
+      "chico",
+      "colgante",
       "colgar",
       "color",
+      "compatible",
       "cuarenta y cinco",
       "de 45",
       "el caju",
@@ -4321,6 +6639,8 @@
       "el gris",
       "el meso",
       "el oscuro",
+      "funcionalidad",
+      "gigante",
       "grafito",
       "grafitto",
       "gris",
@@ -4337,11 +6657,15 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
+      "pequeno",
       "piato",
       "piatto",
       "puerta",
@@ -4351,8 +6675,13 @@
       "sahara",
       "sahará",
       "sajara",
+      "tamano",
+      "ter1",
+      "ter2",
+      "toilette",
       "uñero",
       "vanitori",
+      "vanitorios",
       "vanitory",
       "vmini",
       "vminicolor"
@@ -4407,12 +6736,46 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V110U",
+    "variantes_familia": [
+      {
+        "codigo": "V110UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V110UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "TAPA110M",
+      ".ESK70252"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": true,
     "keywords": [
       "(es",
       "110",
       "110cm",
+      "bajo",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -4425,20 +6788,31 @@
       "color",
       "componente",
       "de 110",
+      "diseno",
       "dos",
       "el blanco",
       "el de 110",
       "en blanco",
+      "entre",
+      "equilibrio",
+      "espacio",
+      "mesada",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
       "puertas",
       "uñero",
       "v110u",
       "v110ub",
       "v80ub+v30ucb)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -4467,12 +6841,46 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V110UC",
+    "variantes_familia": [
+      {
+        "codigo": "V110UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V110UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "TAPA110M",
+      "ESK70252"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": true,
     "keywords": [
       "(es",
       "110",
       "110cm",
+      "bajo",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -4486,18 +6894,30 @@
       "componente",
       "cuatro",
       "de 110",
+      "diseno",
       "el blanco",
       "el de 110",
       "en blanco",
+      "entre",
+      "equilibrio",
+      "espacio",
+      "mesada",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
+      "puertas",
       "uñero",
       "v110uc",
       "v110ucb",
       "v80ucb+v30ucb)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -4530,13 +6950,51 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V110UC",
+    "variantes_familia": [
+      {
+        "codigo": "V110UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V110UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "TAPA110M",
+      "ESK70252"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": true,
     "keywords": [
       "(es",
       "110",
       "110cm",
       "arena",
+      "bajo",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -4550,11 +7008,15 @@
       "componente",
       "cuatro",
       "de 110",
+      "diseno",
       "el caju",
       "el de 110",
       "el gris",
       "el meso",
       "el oscuro",
+      "entre",
+      "equilibrio",
+      "espacio",
       "grafito",
       "grafitto",
       "gris",
@@ -4566,18 +7028,25 @@
       "madera",
       "marron",
       "marrón",
+      "mesada",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
+      "puertas",
       "saara",
       "sahara",
       "sahará",
@@ -4587,6 +7056,7 @@
       "v110uccolor",
       "v80uccolor+v30uccolor)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -4619,13 +7089,51 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V110U",
+    "variantes_familia": [
+      {
+        "codigo": "V110UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V110UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "TAPA110M",
+      "ESK70252"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": true,
     "keywords": [
       "(es",
       "110",
       "110cm",
       "arena",
+      "bajo",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -4638,12 +7146,16 @@
       "color",
       "componente",
       "de 110",
+      "diseno",
       "dos",
       "el caju",
       "el de 110",
       "el gris",
       "el meso",
       "el oscuro",
+      "entre",
+      "equilibrio",
+      "espacio",
       "grafito",
       "grafitto",
       "gris",
@@ -4655,18 +7167,24 @@
       "madera",
       "marron",
       "marrón",
+      "mesada",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
       "puertas",
       "saara",
       "sahara",
@@ -4677,6 +7195,7 @@
       "v110ucolor",
       "v80ucolor+v30uccolor)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -4729,6 +7248,39 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V120U",
+    "variantes_familia": [
+      {
+        "codigo": "V120UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V120UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "TAPA120M",
+      "DLOZA1201",
+      "ESK7025"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": true,
     "keywords": [
       "(es",
@@ -4749,20 +7301,28 @@
       "componente",
       "cuatro",
       "de 120",
+      "diseno",
       "dos",
       "el blanco",
       "el de 120",
       "en blanco",
+      "funcionalidad",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
       "puertas",
+      "solo",
       "uñero",
       "v120u",
       "v120ub",
       "v60ub+v30ucb+v30ucb)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 1,
@@ -4791,12 +7351,46 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V120UC",
+    "variantes_familia": [
+      {
+        "codigo": "V120UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V120UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "DLOZA1201",
+      "V30UCB",
+      "TAPA120M"
+    ],
+    "desc_larga": "Vanitory de colgar de 120 cm con 6 cajones. Color blanco. Melamina 18mm con unero. Compuesto por modulos. Se entrega armado.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": true,
     "keywords": [
       "(es",
       "120",
       "120cm",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -4806,22 +7400,35 @@
       "cajones",
       "cien veinte",
       "ciento veinte",
+      "colgante",
       "colgar",
       "color",
       "componente",
       "de 120",
+      "diseno",
       "el blanco",
       "el de 120",
       "en blanco",
+      "funcionalidad",
+      "grande",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
+      "principal",
+      "seis",
+      "solo",
+      "suite",
       "uñero",
       "v120uc",
       "v120ucb",
       "v30ucb+v60ucb+v30ucb)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -4854,6 +7461,43 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V120UC",
+    "variantes_familia": [
+      {
+        "codigo": "V120UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V120UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "DLOZA1201",
+      "V30UCCOLOR",
+      "TAPA120M"
+    ],
+    "desc_larga": "Vanitory de colgar de 120 cm con 6 cajones. Disponible en colores. Melamina 18mm con unero. Compuesto por modulos. Se entrega armado.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": true,
     "keywords": [
       "(es",
@@ -4861,6 +7505,7 @@
       "120cm",
       "arena",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -4870,17 +7515,21 @@
       "cajú",
       "cien veinte",
       "ciento veinte",
+      "colgante",
       "colgar",
       "color",
       "componente",
       "de 120",
+      "diseno",
       "el caju",
       "el de 120",
       "el gris",
       "el meso",
       "el oscuro",
+      "funcionalidad",
       "grafito",
       "grafitto",
+      "grande",
       "gris",
       "gris oscuro",
       "gráfito",
@@ -4895,22 +7544,31 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
       "piato",
       "piatto",
+      "principal",
       "saara",
       "sahara",
       "sahará",
       "sajara",
+      "seis",
+      "solo",
+      "suite",
       "uñero",
       "v120uc",
       "v120uccolor",
       "v30uccolor+v60uccolor+v30uccolor)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -4967,6 +7625,43 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V120U",
+    "variantes_familia": [
+      {
+        "codigo": "V120UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V120UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "TAPA120M",
+      "DLOZA1201",
+      "ESK7025"
+    ],
+    "desc_larga": "Mueble de bano fabricado en melamina de alta calidad. Diseno funcional, moderno y listo para instalar.",
+    "frase": "Funcionalidad y diseno en un solo mueble.",
     "es_componente": true,
     "keywords": [
       "(es",
@@ -4988,12 +7683,14 @@
       "componente",
       "cuatro",
       "de 120",
+      "diseno",
       "dos",
       "el caju",
       "el de 120",
       "el gris",
       "el meso",
       "el oscuro",
+      "funcionalidad",
       "grafito",
       "grafitto",
       "gris",
@@ -5010,8 +7707,12 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
@@ -5022,11 +7723,13 @@
       "sahara",
       "sahará",
       "sajara",
+      "solo",
       "uñero",
       "v120u",
       "v120ucolor",
       "v60ucolor+v30uccolor+v30uccolor)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": -7,
@@ -5079,12 +7782,46 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V140U",
+    "variantes_familia": [
+      {
+        "codigo": "V140UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V140UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "TAPA140M",
+      "ESK7025"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": true,
     "keywords": [
       "(es",
       "140",
       "140cm",
+      "bajo",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -5098,20 +7835,31 @@
       "componente",
       "cuatro",
       "de 140",
+      "diseno",
       "dos",
       "el blanco",
       "el de 140",
       "en blanco",
+      "entre",
+      "equilibrio",
+      "espacio",
+      "mesada",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
       "puertas",
       "uñero",
       "v140u",
       "v140ub",
       "v80ub+v30ucb+v30ucb)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -5144,13 +7892,51 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V140U",
+    "variantes_familia": [
+      {
+        "codigo": "V140UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V140UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "TAPA140M",
+      "ESK7025"
+    ],
+    "desc_larga": "Vanitory de 80 cm de ancho, de colgar o apoyar, con combinacion de puertas y cajones segun el modelo. Melamina de 18 mm. Apertura por unero. Ideal para banos medianos. Se entrega armado.",
+    "frase": "Equilibrio perfecto entre espacio y diseno.",
     "es_componente": true,
     "keywords": [
       "(es",
       "140",
       "140cm",
       "arena",
+      "bajo",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -5164,12 +7950,16 @@
       "componente",
       "cuatro",
       "de 140",
+      "diseno",
       "dos",
       "el caju",
       "el de 140",
       "el gris",
       "el meso",
       "el oscuro",
+      "entre",
+      "equilibrio",
+      "espacio",
       "grafito",
       "grafitto",
       "gris",
@@ -5181,18 +7971,24 @@
       "madera",
       "marron",
       "marrón",
+      "mesada",
       "meso",
       "messo",
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
+      "perfecto",
       "piato",
       "piatto",
+      "principal",
       "puertas",
       "saara",
       "sahara",
@@ -5203,6 +7999,7 @@
       "v140ucolor",
       "v80ucolor+v30uccolor+v30uccolor)",
       "vanitori",
+      "vanitorios",
       "vanitory"
     ],
     "stock": 0,
@@ -5255,12 +8052,46 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V150U",
+    "variantes_familia": [
+      {
+        "codigo": "V150UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V150UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "TAPA150M",
+      "ESK7025"
+    ],
+    "desc_larga": "Vanitory de 1,50 m con formato similar al V140 pero mas ancho o con mayor modulacion. Ideal para doble bacha o espacios grandes. Melamina 18 mm. De colgar. Se entrega armado.",
+    "frase": "Vanitory XL para banos que impresionan.",
     "es_componente": true,
     "keywords": [
       "(es",
       "150",
       "150cm",
+      "50",
       "banitorio",
+      "banos",
       "bl",
       "blanc",
       "blanca",
@@ -5277,17 +8108,24 @@
       "el blanco",
       "el de 150",
       "en blanco",
+      "impresionan",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
       "puertas",
+      "que",
       "uñero",
       "v150u",
       "v150ub",
       "v60ub+v60ub+v30ucb)",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "xl"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5315,12 +8153,48 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V150UC",
+    "variantes_familia": [
+      {
+        "codigo": "V150UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V150UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "DLOZA1201",
+      "V30UCB",
+      "TAPA150M"
+    ],
+    "desc_larga": "Vanitory de colgar de 150 cm con 6 cajones. Color blanco. Melamina 18mm con unero. Compatible con doble bacha. Se entrega armado.",
+    "frase": "Vanitory XL para banos que impresionan.",
     "es_componente": true,
     "keywords": [
       "(es",
       "150",
       "150cm",
+      "bacha",
       "banitorio",
+      "bano",
+      "banos",
       "bl",
       "blanc",
       "blanca",
@@ -5329,24 +8203,38 @@
       "cajonera",
       "cajones",
       "ciento cincuenta",
+      "colgante",
       "colgar",
       "color",
       "componente",
       "de 150",
+      "doble",
       "el blanco",
       "el de 150",
       "en blanco",
+      "extra",
+      "grande",
+      "impresionan",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "piato",
       "piatto",
+      "principal",
+      "que",
+      "seis",
+      "suite",
       "uñero",
       "v150ub",
       "v150uc",
       "v150ucb",
       "v60ucb+v30ucb+v60ucb)",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "xl"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5378,13 +8266,53 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V150UC",
+    "variantes_familia": [
+      {
+        "codigo": "V150UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V150UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "DLOZA1201",
+      "V30UCCOLOR",
+      "TAPA150M"
+    ],
+    "desc_larga": "Vanitory de colgar de 150 cm con 6 cajones. Disponible en colores. Melamina 18mm con unero. Compatible con doble bacha. Se entrega armado.",
+    "frase": "Vanitory XL para banos que impresionan.",
     "es_componente": true,
     "keywords": [
       "(es",
       "150",
       "150cm",
       "arena",
+      "bacha",
       "banitorio",
+      "bano",
+      "banos",
       "beige",
       "cajon",
       "cajonera",
@@ -5393,22 +8321,27 @@
       "caju",
       "cajú",
       "ciento cincuenta",
+      "colgante",
       "colgar",
       "color",
       "componente",
       "de 150",
+      "doble",
       "el caju",
       "el de 150",
       "el gris",
       "el meso",
       "el oscuro",
+      "extra",
       "grafito",
       "grafitto",
+      "grande",
       "gris",
       "gris oscuro",
       "gráfito",
       "hormigon",
       "hormigón",
+      "impresionan",
       "kaju",
       "madera",
       "marron",
@@ -5418,23 +8351,32 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
       "piato",
       "piatto",
+      "principal",
+      "que",
       "saara",
       "sahara",
       "sahará",
       "sajara",
+      "seis",
+      "suite",
       "uñero",
       "v150uc",
       "v150uccolor",
       "v60uccolor+v30uccolor+v60uccolor+)",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "xl"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5490,13 +8432,51 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V150U",
+    "variantes_familia": [
+      {
+        "codigo": "V150UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V150UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "TAPA150M",
+      "ESK7025"
+    ],
+    "desc_larga": "Vanitory de 1,50 m con formato similar al V140 pero mas ancho o con mayor modulacion. Ideal para doble bacha o espacios grandes. Melamina 18 mm. De colgar. Se entrega armado.",
+    "frase": "Vanitory XL para banos que impresionan.",
     "es_componente": true,
     "keywords": [
       "(es",
       "150",
       "150cm",
+      "50",
       "arena",
       "banitorio",
+      "banos",
       "beige",
       "cajon",
       "cajonera",
@@ -5522,6 +8502,7 @@
       "gráfito",
       "hormigon",
       "hormigón",
+      "impresionan",
       "kaju",
       "madera",
       "marron",
@@ -5531,14 +8512,18 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "ormigon",
       "ormigón",
       "oscuro",
       "piato",
       "piatto",
       "puertas",
+      "que",
       "saara",
       "sahara",
       "sahará",
@@ -5548,7 +8533,9 @@
       "v150ucolor",
       "v60ucolor+v60ucolor+v30uccolor)",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "xl"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5600,12 +8587,46 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V90U",
+    "variantes_familia": [
+      {
+        "codigo": "V90UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V90UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "TAPA90M",
+      "ESK7025",
+      "V30UCB"
+    ],
+    "desc_larga": "Vanitory de 90 cm en versiones colgantes y apoyadas. Disponible con cajon + puerta o 3 cajones. Fabricado en melamina de alta calidad. Ideal para banos modernos. Se entrega armado.",
+    "frase": "Versatil, moderno y con gran capacidad de guardado.",
     "es_componente": true,
     "keywords": [
       "(es",
       "90",
       "90cm",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -5613,6 +8634,8 @@
       "cajon",
       "cajonera",
       "cajones",
+      "capacidad",
+      "colgante",
       "colgar",
       "color",
       "componente",
@@ -5621,18 +8644,27 @@
       "el blanco",
       "el de 90",
       "en blanco",
+      "gran",
+      "guardado",
+      "moderno",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "noventa",
       "piato",
       "piatto",
+      "principal",
       "puertas",
       "uñero",
       "v60ub+v30ucb)",
       "v90u",
       "v90ub",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "versatil"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5660,12 +8692,46 @@
     "colores": [
       "BLANCO"
     ],
+    "familia": "V90UC",
+    "variantes_familia": [
+      {
+        "codigo": "V90UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V90UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "blanco"
+    ],
+    "relacionados": [
+      "TAPA90M",
+      "ESK7025",
+      "V30UCB"
+    ],
+    "desc_larga": "Vanitory de 90 cm en versiones colgantes y apoyadas. Disponible con cajon + puerta o 3 cajones. Fabricado en melamina de alta calidad. Ideal para banos modernos. Se entrega armado.",
+    "frase": "Versatil, moderno y con gran capacidad de guardado.",
     "es_componente": true,
     "keywords": [
       "(es",
       "90",
       "90cm",
       "banitorio",
+      "bano",
       "bl",
       "blanc",
       "blanca",
@@ -5673,6 +8739,8 @@
       "cajon",
       "cajonera",
       "cajones",
+      "capacidad",
+      "colgante",
       "colgar",
       "color",
       "componente",
@@ -5681,17 +8749,27 @@
       "el blanco",
       "el de 90",
       "en blanco",
+      "gran",
+      "guardado",
+      "moderno",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "noventa",
       "piato",
       "piatto",
+      "principal",
+      "puertas",
       "uñero",
       "v60ucb+v30ucb)",
       "v90uc",
       "v90ucb",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "versatil"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5723,6 +8801,43 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V90UC",
+    "variantes_familia": [
+      {
+        "codigo": "V90UCB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V90UCCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "TAPA90M",
+      "ESK7025",
+      "V30UCCOLOR"
+    ],
+    "desc_larga": "Vanitory de 90 cm en versiones colgantes y apoyadas. Disponible con cajon + puerta o 3 cajones. Fabricado en melamina de alta calidad. Ideal para banos modernos. Se entrega armado.",
+    "frase": "Versatil, moderno y con gran capacidad de guardado.",
     "es_componente": true,
     "keywords": [
       "(es",
@@ -5730,6 +8845,7 @@
       "90cm",
       "arena",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -5737,6 +8853,8 @@
       "cajou",
       "caju",
       "cajú",
+      "capacidad",
+      "colgante",
       "colgar",
       "color",
       "componente",
@@ -5749,9 +8867,11 @@
       "el oscuro",
       "grafito",
       "grafitto",
+      "gran",
       "gris",
       "gris oscuro",
       "gráfito",
+      "guardado",
       "hormigon",
       "hormigón",
       "kaju",
@@ -5763,14 +8883,20 @@
       "mezo",
       "mezzo",
       "mezó",
+      "moderno",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "noventa",
       "ormigon",
       "ormigón",
       "oscuro",
       "piato",
       "piatto",
+      "principal",
+      "puertas",
       "saara",
       "sahara",
       "sahará",
@@ -5780,7 +8906,9 @@
       "v90uc",
       "v90uccolor",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "versatil"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5836,6 +8964,43 @@
       "CAJU",
       "SAHARA"
     ],
+    "familia": "V90U",
+    "variantes_familia": [
+      {
+        "codigo": "V90UB",
+        "colores": [
+          "blanco"
+        ],
+        "es_blanco": true,
+        "es_color": false
+      },
+      {
+        "codigo": "V90UCOLOR",
+        "colores": [
+          "sahara",
+          "grafito",
+          "mezzo",
+          "caju",
+          "hormigon"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "sahara",
+      "grafito",
+      "mezzo",
+      "caju",
+      "hormigon"
+    ],
+    "relacionados": [
+      "TAPA90M",
+      "ESK7025",
+      "V30UCCOLOR"
+    ],
+    "desc_larga": "Vanitory de 90 cm en versiones colgantes y apoyadas. Disponible con cajon + puerta o 3 cajones. Fabricado en melamina de alta calidad. Ideal para banos modernos. Se entrega armado.",
+    "frase": "Versatil, moderno y con gran capacidad de guardado.",
     "es_componente": true,
     "keywords": [
       "(es",
@@ -5843,6 +9008,7 @@
       "90cm",
       "arena",
       "banitorio",
+      "bano",
       "beige",
       "cajon",
       "cajonera",
@@ -5850,6 +9016,8 @@
       "cajou",
       "caju",
       "cajú",
+      "capacidad",
+      "colgante",
       "colgar",
       "color",
       "componente",
@@ -5862,9 +9030,11 @@
       "el oscuro",
       "grafito",
       "grafitto",
+      "gran",
       "gris",
       "gris oscuro",
       "gráfito",
+      "guardado",
       "hormigon",
       "hormigón",
       "kaju",
@@ -5876,14 +9046,19 @@
       "mezo",
       "mezzo",
       "mezó",
+      "moderno",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "noventa",
       "ormigon",
       "ormigón",
       "oscuro",
       "piato",
       "piatto",
+      "principal",
       "puertas",
       "saara",
       "sahara",
@@ -5894,7 +9069,9 @@
       "v90u",
       "v90ucolor",
       "vanitori",
-      "vanitory"
+      "vanitorios",
+      "vanitory",
+      "versatil"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -5951,6 +9128,23 @@
       "SAHARA",
       "TERRA"
     ],
+    "familia": "VEDM60",
+    "variantes_familia": [
+      {
+        "codigo": "VEDM60",
+        "colores": [
+          "terra"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "terra"
+    ],
+    "relacionados": [],
+    "desc_larga": "Componente: mueble Marbela 60cm sin tapa. No se vende solo.",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": true,
     "keywords": [
       "60",
@@ -5959,6 +9153,7 @@
       "arena",
       "banitorio",
       "beige",
+      "cada",
       "cajon",
       "cajonera",
       "cajones",
@@ -5967,13 +9162,16 @@
       "cajú",
       "colgar",
       "color",
+      "componente",
       "de 60",
+      "detalle",
       "dos",
       "el caju",
       "el de 60",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
       "grafito",
       "grafitto",
       "gris",
@@ -5994,10 +9192,15 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "mármol",
       "mármol beige",
+      "natural",
       "ormigon",
       "ormigón",
       "oscuro",
@@ -6007,9 +9210,12 @@
       "sajara",
       "seisenta",
       "sesenta",
+      "sin",
+      "tapa",
       "terra",
       "tierra",
       "vanitori",
+      "vanitorios",
       "vanitory",
       "vedm60"
     ],
@@ -6044,6 +9250,23 @@
       "SAHARA",
       "NERO"
     ],
+    "familia": "VEDM60N",
+    "variantes_familia": [
+      {
+        "codigo": "VEDM60N",
+        "colores": [
+          "nero"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "nero"
+    ],
+    "relacionados": [],
+    "desc_larga": "Componente: mueble Marbela 60cm sin tapa. No se vende solo.",
+    "frase": "Un diseno moderno y minimalista que resalta por su elegancia.",
     "es_componente": true,
     "keywords": [
       "60",
@@ -6060,13 +9283,16 @@
       "cajú",
       "colgar",
       "color",
+      "componente",
       "de 60",
+      "diseno",
       "dos",
       "el caju",
       "el de 60",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
       "grafito",
       "grafitto",
       "gris",
@@ -6087,8 +9313,14 @@
       "mezo",
       "mezzo",
       "mezó",
+      "minimalista",
+      "moderno",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "mármol",
       "mármol negro",
       "negro",
@@ -6098,13 +9330,19 @@
       "ormigon",
       "ormigón",
       "oscuro",
+      "que",
+      "resalta",
       "saara",
       "sahara",
       "sahará",
       "sajara",
       "seisenta",
       "sesenta",
+      "sin",
+      "su",
+      "tapa",
       "vanitori",
+      "vanitorios",
       "vanitory",
       "vedm60n"
     ],
@@ -6139,6 +9377,23 @@
       "SAHARA",
       "TERRA"
     ],
+    "familia": "VEDM80",
+    "variantes_familia": [
+      {
+        "codigo": "VEDM80",
+        "colores": [
+          "terra"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "terra"
+    ],
+    "relacionados": [],
+    "desc_larga": "Componente: mueble Marbela 80cm sin tapa. No se vende solo.",
+    "frase": "Elegancia natural en cada detalle.",
     "es_componente": true,
     "keywords": [
       "80",
@@ -6147,6 +9402,7 @@
       "arena",
       "banitorio",
       "beige",
+      "cada",
       "cajon",
       "cajonera",
       "cajones",
@@ -6155,13 +9411,16 @@
       "cajú",
       "colgar",
       "color",
+      "componente",
       "de 80",
+      "detalle",
       "dos",
       "el caju",
       "el de 80",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
       "grafito",
       "grafitto",
       "gris",
@@ -6182,10 +9441,15 @@
       "mezo",
       "mezzo",
       "mezó",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "mármol",
       "mármol beige",
+      "natural",
       "ochenta",
       "ormigon",
       "ormigón",
@@ -6194,9 +9458,12 @@
       "sahara",
       "sahará",
       "sajara",
+      "sin",
+      "tapa",
       "terra",
       "tierra",
       "vanitori",
+      "vanitorios",
       "vanitory",
       "vedm80"
     ],
@@ -6231,6 +9498,23 @@
       "SAHARA",
       "NERO"
     ],
+    "familia": "VEDM80N",
+    "variantes_familia": [
+      {
+        "codigo": "VEDM80N",
+        "colores": [
+          "nero"
+        ],
+        "es_blanco": false,
+        "es_color": true
+      }
+    ],
+    "colores_disponibles": [
+      "nero"
+    ],
+    "relacionados": [],
+    "desc_larga": "Componente: mueble Marbela 80cm sin tapa. No se vende solo.",
+    "frase": "Un diseno moderno y minimalista que resalta por su elegancia.",
     "es_componente": true,
     "keywords": [
       "80",
@@ -6247,13 +9531,16 @@
       "cajú",
       "colgar",
       "color",
+      "componente",
       "de 80",
+      "diseno",
       "dos",
       "el caju",
       "el de 80",
       "el gris",
       "el meso",
       "el oscuro",
+      "elegancia",
       "grafito",
       "grafitto",
       "gris",
@@ -6274,8 +9561,14 @@
       "mezo",
       "mezzo",
       "mezó",
+      "minimalista",
+      "moderno",
+      "mueble",
+      "mueble bajo",
+      "mueble bano",
       "mueble baño",
       "mueble de baño",
+      "mueble para baño",
       "mármol",
       "mármol negro",
       "negro",
@@ -6286,11 +9579,17 @@
       "ormigon",
       "ormigón",
       "oscuro",
+      "que",
+      "resalta",
       "saara",
       "sahara",
       "sahará",
       "sajara",
+      "sin",
+      "su",
+      "tapa",
       "vanitori",
+      "vanitorios",
       "vanitory",
       "vedm80n"
     ],
