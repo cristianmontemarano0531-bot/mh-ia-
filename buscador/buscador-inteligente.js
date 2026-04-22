@@ -169,6 +169,23 @@ function calcularScore(producto, consulta, medidas, colores, contextoCliente) {
   // 5. BONUS POR CATEGORÍA EXPLÍCITA
   if (q.includes("cajones") && producto.guardado === "cajones") score += 15;
   if (q.includes("puertas") && producto.guardado === "puertas") score += 15;
+  if ((q.includes("hueco") || q.includes("estante")) && producto.guardado === "hueco") score += 15;
+
+  // 5b. TIPO DE INSTALACIÓN: de pie vs colgante/uñero
+  const pideDePie = /\b(de pie|piso|apoyar|apoyado)\b/.test(q);
+  const pideColgante = /\b(colgante|colgar|unero|uñero)\b/.test(q);
+  const esClassic = producto.linea === "classic";
+  const esMarbela = producto.linea === "marbela";
+  const esPiatto  = producto.linea === "piatto";
+
+  if (pideDePie) {
+    if (esClassic) score += 20;          // Classic es la única línea "de pie"
+    if (esPiatto || esMarbela) score -= 25; // Piatto y Marbela son colgantes
+  }
+  if (pideColgante) {
+    if (esPiatto || esMarbela) score += 20;
+    if (esClassic) score -= 25;
+  }
   if ((q.includes("bacha") || q.includes("bachas") || q.includes("pileta")) && producto.categoria === "bacha") score += 20;
   if ((q.includes("mesada") || q.includes("mesadas")) && producto.categoria === "mesada") score += 20;
   if ((q.includes("espejo") || q.includes("espejos")) && producto.categoria === "espejo") score += 20;

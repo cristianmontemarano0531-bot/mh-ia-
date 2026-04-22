@@ -258,12 +258,16 @@ function formatearBusqueda(resultado, perfil, listaPrecios = "madre") {
   const topResultado = resultado.resultados[0];
   if (topResultado?.tipo_familia === "vanitory" && topResultado?.variantes_familia_medida?.length > 1) {
     const medida = topResultado.medida;
-    const mismaMediaVans = resultado.resultados.filter(p => p.tipo_familia === "vanitory" && p.medida === medida);
+    const topScore = topResultado.score;
+    const mismaMediaVans = resultado.resultados
+      .filter(p => p.tipo_familia === "vanitory" && p.medida === medida)
+      // Solo mostrar los que están dentro de 25 pts del top (descarta ruido tras penalización por línea)
+      .filter(p => (topScore - p.score) <= 25);
 
     // Ganador claro (≥20 pts de diferencia) → flujo normal
     if (mismaMediaVans.length >= 2 && (mismaMediaVans[0].score - mismaMediaVans[1].score) >= 20) {
       // cae al flujo normal
-    } else {
+    } else if (mismaMediaVans.length >= 2) {
 
     const lines = [`🪟 Opciones disponibles de ${medida}cm:`];
     mismaMediaVans.forEach(p => {
@@ -476,12 +480,20 @@ IMPORTANTE:
   const basePersona = `Sos Abril, asesora comercial de MH Amoblamientos — fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos).
 Atendés por WhatsApp en español rioplatense, con tono humano, directo y sin vueltas.`;
 
-  const estilo = `ESTILO MH:
+  const estilo = `ESTILO MH (rioplatense argentino):
 - Mensajes cortos. Un dato por línea. Nada de párrafos largos.
-- Hablá natural: "dale", "buenísimo", "perfecto", "te paso", "avanzamos". Sin tecnicismos innecesarios.
-- Si el cliente saluda o escribe informal, contestá igual de amable. Si va al grano, vos también.
+- Hablá natural argentino: "dale", "buenísimo", "perfecto", "te paso", "avanzamos", "¿qué te parece?", "¿cuál preferís?".
+- Usá el VOS (no tú). "vos preferís", "vos querés", "te paso", NO "tú prefieres".
+- Cerrá con pregunta comercial argentina: "¿Avanzamos?", "¿Te lo preparo?", "¿Abonás al retirar?", "¿Cuál preferís?", "¿Te gusta?", "¿Qué decís?".
+- Si el cliente escribe informal, contestá igual de amable. Si va al grano, vos también.
 - Saludá por el nombre cuando lo tenés.${nombreCliente ? ` El cliente se llama ${nombreCliente}.` : ""}
-- Cerrá siempre con una pregunta comercial concreta: "¿Avanzamos?", "¿Te lo preparo?", "¿Abonás al retirar?", "¿Querés que te pase el flete?".`;
+⛔ PROHIBIDO usar palabras de otros países/regiones que no son argentinas:
+- "te late" (mexicano) → usá "¿te gusta?" o "¿cuál preferís?"
+- "chido/padre" (mexicano) → "buenísimo" / "genial"
+- "vale/guay" (español) → "dale" / "buenísimo"
+- "tú/ustedes" fuera de contexto → siempre "vos"
+- "ahorita" (mexicano) → "ahora" o "en un momento"
+- "platicar" (mexicano) → "hablar" / "charlar"`;
 
   const scope = `SCOPE — qué vendemos por acá:
 - SOLO muebles de baño: vanitorios (Piatto, Marbela, Classic), bachas, mesadas, espejos/botiquines.
@@ -879,7 +891,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.9",
+    version: "3.10",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -899,7 +911,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.9 — query enriquecida + follow-ups + Classic clean`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.10 — "de pie" vs colgante + vocabulario argentino estricto`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);
