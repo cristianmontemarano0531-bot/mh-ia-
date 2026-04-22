@@ -29,6 +29,8 @@ function normalizar(texto) {
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[-]/g, " ")   // guión → espacio (para transcripciones de audio como "B-Mini")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
