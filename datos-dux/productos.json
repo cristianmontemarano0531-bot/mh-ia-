@@ -1,0 +1,2725 @@
+[
+  {
+    "codigo": "100",
+    "nombre": "CORRGUADOS",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "101",
+    "nombre": "`TELGOPOR",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "103",
+    "nombre": "TELGOPOR PLANCHA",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "127639",
+    "nombre": "BOLSA DE PEGAMENTO PARA PEGADORA DE CANTOS RAKOLL 570X25KG",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "128718",
+    "nombre": "TARUGO DE MADERA 8X30 1000 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "2005CM",
+    "nombre": "TIRADOR PATAGONIA MATE PEON",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40114435",
+    "nombre": "TORNILLO AMARILLO 3,5 X 35MM CAJA X 500 UNIDANES SKO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40114959",
+    "nombre": "TORNILLO NEGRO 6X3/4 (3,5 X 19) SKO 1000 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40B",
+    "nombre": "MODULO CON ESTANTES REGULABLES 40 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40C",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y 3 CAJONES TELESCOPICOS 40 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40G",
+    "nombre": "PA90-2+ES40-2+CA40(3)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40H",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y DOS BANDEJAS INFERIORES 40 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40I",
+    "nombre": "PA90-2+ES40-2+CA40",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40J",
+    "nombre": "40J MODULO PARA INTERIOR DE PLACARD 90CM H POR 40CM DE ANCHO PARA ARMAR EN UNA SOLA CAJA",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40K",
+    "nombre": "PA90+ES40",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40L",
+    "nombre": "PA90-2+ES40-2+CA40(2)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40M",
+    "nombre": "PA90+ES40+CA40",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40N",
+    "nombre": "PA90+ES40+CA40(2)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40P",
+    "nombre": "PA90+ES40+CA40(3)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40Q",
+    "nombre": "PA90-2+ES40-2+CA40",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "40R",
+    "nombre": "PA90-2+ES40-2+CA40(3)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "5004",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA CUADRADA 37 X 37 X 13.5 H",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "5007",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR 48 X 37 X 14 H",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "5012",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA REDONDA 32.5",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "5017",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR 51.5 X 43 X 14 H",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "5020",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA REDONDA 40 X 40 X 14.5 H",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "5021",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA OVALADA 41.5 X 33 X 14 H",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60A",
+    "nombre": "MODULO CON ESTANTES REGULABLES 60 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60D",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y 3 CAJONES TELESCOPICOS 60 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60E",
+    "nombre": "MODULO CON ESTANTES Y CUBOS REGULABLES 60 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60F",
+    "nombre": "MODULO CON ESTANTES Y CUBOS REGULABLES MAS 3 CAJONES TELESCOPICOS 60 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60G",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y DOS BANDEJAS INFERIORES 60 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60H",
+    "nombre": "PA90-2+ES60-2+CA60(2)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60I",
+    "nombre": "MODULO CON ESTANTES Y BARRAL SUPERIOR 60 CM.",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60J",
+    "nombre": "PA90-2+ES60-2",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60K",
+    "nombre": "PA90+ES60",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60L",
+    "nombre": "PA90-2+ES60-2+CA60(2)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60M",
+    "nombre": "PA90+ES60+CA60",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60N",
+    "nombre": "PA90+ES60+CA60(2)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60P",
+    "nombre": "PA90+ES60+CA60(3)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60Q",
+    "nombre": "PA90-2+ES60-2+CA60",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "60R",
+    "nombre": "PA90-2+ES60-2+CA60(3)",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A100",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A146PIAZZA",
+    "nombre": "BACHA PIAZZA DE APOYO EN PORCELANA RECTANGULAR MONOCOMANDO COLOR BLANCO PARA VMINI",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A30",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A30CD",
+    "nombre": "ALACENA 30CM UNA PUERTA DERECHA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A30CI",
+    "nombre": "ALACENA 30CM UNA PUERTA IZQUIERDA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A30CVD",
+    "nombre": "ALACENA 30CM UNA PUERTA DERECHA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A30CVI",
+    "nombre": "ALACENA 30CM UNA PUERTA IZQUIERDA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A30V",
+    "nombre": "ALACENA VIDRIADA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A35",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A40",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A40CD",
+    "nombre": "ALACENA 40CM UNA PUERTA DERECHA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A40CI",
+    "nombre": "ALACENA 40CM UNA PUERTA IZQUIERDA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A40CVD",
+    "nombre": "ALACENA 40CM UNA PUERTA DERECHA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A40CVI",
+    "nombre": "ALACENA 40CM UNA PUERTA IZQUIERDA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A40V",
+    "nombre": "ALACENA VIDRIADA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A45",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A45BC",
+    "nombre": "ALACENA 60CM UNA PUERTA DE ABRIR IZQUIERDA 45CM MAS BODEGA",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A50",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60B",
+    "nombre": "ALACENA BODEGA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60C",
+    "nombre": "ALACENA 60CM DOS PUERTAS COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60PM",
+    "nombre": "ALACENA PORTA MICRO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60PMB",
+    "nombre": "ALACENA PORTA MICRO BODEGA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60PMBC",
+    "nombre": "ALACENA 60CM PORTA MICROONDAS BODEGA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60PMC",
+    "nombre": "ALACENA 60CM PORTA MICROONDAS PUERTA REVATIBLE COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60R",
+    "nombre": "ALACENA REBATIBLE",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60RID",
+    "nombre": "ALACENA RINCONERO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A60SH",
+    "nombre": "ALACENA 2 PUERTAS SOBRE SPAR 60X45",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A70",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A70B",
+    "nombre": "ALACENA BODEGA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A70R",
+    "nombre": "ALACENA REBATIBLE",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A80",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A80B",
+    "nombre": "ALACENA BODEGA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A80C",
+    "nombre": "ALACENA 80CM DOS PUERTAS COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A80R",
+    "nombre": "ALACENA REBATIBLE",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A80RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "A90",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "AJUSMHCOCINA",
+    "nombre": "COCINA MH",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "AJUSTABLE1",
+    "nombre": "HERRAJES ARRAIAL AJUSTABLE",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "AJUSTABLE10",
+    "nombre": "PRODUCTO:",
+    "rubro": "",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "AJUSTABLE2",
+    "nombre": "PLACAS AJUSTABLE",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "AJUSTABLECOCINA",
+    "nombre": "AJUSTABLE PARA COCINA",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "AJUSTABLEMHCOCINA",
+    "nombre": "MODULADO PARA MUEBLES DE COCINA",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "AJUSTABLEMHMPLACARD",
+    "nombre": "AJUSTABLE MODULOS DE PLACARD",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ANAQUEL30B",
+    "nombre": "ANAQUEL 30CM UÑERO DE COLGAR CON TRES PUERTAS COLOR BLANCO",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ANAQUEL30COLOR",
+    "nombre": "ANAQUEL 30CM UÑERO DE COLGAR CON TRES PUERTAS COLOR",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ANAQUEL40B",
+    "nombre": "ANAQUEL 40CM UÑERO DE COLGAR CON TRES PUERTAS COLOR BLANCO",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ANAQUEL40COLOR",
+    "nombre": "ANAQUEL 40CM UÑERO DE COLGAR CON TRES PUERTAS COLOR",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B10-25",
+    "nombre": "BAJO MESADA BANDEJERO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B100",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B100R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B30",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B35",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B40",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B40 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B40 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B40 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B45",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B50",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B60",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B60 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B60 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B60 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B60PHB",
+    "nombre": "BAJO MESADA PORTA HORNO BAJO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B70",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B80",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B80 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B90",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "B90R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BIC-1",
+    "nombre": "LINEA LIBERTY BIDET DE PIE DE LOZA BLANCO 1 Y 3 AGUJEROS MEDIDAS 520MM X 360MM X 400MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BIC-3",
+    "nombre": "LINEA PRIDE BIODET DE PIE EN LOZA BLANCO MONOCOMANDO MEDIDAS 535MM X 350MM X 405MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BIR-1",
+    "nombre": "LINEA UTOPIA BIDET DE PIE LOZA BLANCO CON DESCARGA VERTICAL MONOCOMANDO MEDIDAS 535MM X 355MM X 385MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BIR-2",
+    "nombre": "LINEA ICON BIDET DE PIE DE LOZA BLANCO 1 Y 3 AGUJEROS MEDIDAS 350MM X 370MM X 405MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BIR-3",
+    "nombre": "LINEA SYMPHONY BIDET DE PIE EN LOZA BLANCO 1 Y 3 AGUJEROS MEDIDAS 525MM X 350MM X 405MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BISA",
+    "nombre": "BISAGRA CON FRENO BASE 3D POR UNIDAD",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BLACKTOUCH",
+    "nombre": "MELAMINA 18MM MEGRO EXTRA MATTE LINEA TACTIL FA PLAC 275X130",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BLUNAM",
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO CIRCULAR PARA MONOCOMANDO COLOR BLANCO",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BO",
+    "nombre": "BONIFICACION",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BRR1",
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BRR2",
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BRR3",
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BRZ-1740-B",
+    "nombre": "CORREDERA Z 400MM BLANCA",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BWC035",
+    "nombre": "BISAGRA CAZOLETA 35 STD DUCASSE CODO 0 COMUN X UNIDAD",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "BWFRE35N",
+    "nombre": "BISAGRA NEGRA CODO 0 CON FRENO Y BASE HAITS X UNIDAD",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CA40",
+    "nombre": "4 BASES DE 40CM CON PALO Y 2 ESTANTES",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CA60",
+    "nombre": "CAJON DE 60CM PARA APLICAR EN MODULO UNA UNIDAD",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CATALOGO",
+    "nombre": "CATALOGO MH",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 0
+  },
+  {
+    "codigo": "CL200",
+    "nombre": "KIT DE PLACARD GRUPO EURO CLASSIC X 2MT 2 HOJAS",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CL200N",
+    "nombre": "KIT DE PLACARD * NEGRO * GRUPO EURO CLASSIC X 2MT 2 HOJAS",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CL300",
+    "nombre": "KIL DE PLACARD GRUPO EURO CLASSIC X 3MT 2 HOJAS",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CLAV",
+    "nombre": "CLAVO PUNTA PARIS CABEZA CHATA 1000 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "COLG0012",
+    "nombre": "COLGADOR DE ALACENA REGULABLE BLANCO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "COLOCACION",
+    "nombre": "COLOCACION EN OBRA",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "COMBUSTIBLE",
+    "nombre": "COMBUSTIBLE",
+    "rubro": "",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CRETO02",
+    "nombre": "PLACA CRETTO ENCOFRADO 2830 X 1140 X 5 MM",
+    "rubro": "REVESTIMIENTO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CRETO03",
+    "nombre": "PLACA CRETTO CEMENTO VARILLADO 2750 X 1060 X 8,5 MM",
+    "rubro": "REVESTIMIENTO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CRETO04",
+    "nombre": "PLACA CRETTO HORMIGON 3110 X 1180 X 4 MM",
+    "rubro": "REVESTIMIENTO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CRETTO01",
+    "nombre": "PLACA SIMIL TRAVERTINO FLEXIBLE 244 CM X 120 CM X 2.5 MM",
+    "rubro": "REVESTIMIENTO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CTR",
+    "nombre": "CINTA DE EMBALAJE 48MM X 100 METROS TRANSPARENTE",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CUBO40",
+    "nombre": "CUBO SOBREPONER A MODULOS 40",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "CUBO60",
+    "nombre": "CUBO SOBREPONER A MODULOS 60",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "DLOZA1201",
+    "nombre": "MESADA DE LOZA BLANCA 120X46 UNA BACHA",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "DLOZA120DOBLE",
+    "nombre": "MESADA DE LOZA BLANCA 120X46 DOBLE BACHA",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "DLOZA50",
+    "nombre": "MESADA DE LOZA BLANCA 50X40",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "DLOZA60",
+    "nombre": "MESADA DE LOZA BLANCA 60X46",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "DLOZA80",
+    "nombre": "MESADA DE LOZA BLANCA 80X46",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "DLOZA80NM",
+    "nombre": "MESADA DE LOZA NEGRO MATE 80X46",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EADN",
+    "nombre": "ESCUADRA PLASTICA DE ARMAR DOBLE COLOR NEGRA",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EDM60",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 60CM CON TAPA DE ACRILICO EN MARMOL COLOR TERRA EDM60",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EDM60N",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 60CM CON TAPA DE ACRILICO EN MARMOL COLOR NERO EDM60N",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EDM80",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 80CM CON TAPA DE ACRILICO EN MARMOL COLOR TERRA EDM80",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EDM80N",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 80CM CON TAPA DE ACRILICO EN MARMOL COLOR NERO EDM80N",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EHP8X100",
+    "nombre": "PATAS OCTOGONAL PLASTICAS KIT DE 4",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EHPE100",
+    "nombre": "PATAS PLASTICAS REDONDAS 10CM KIT DE 4",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EMB",
+    "nombre": "EMBALAJE EN CAJA PARA EXPRESO",
+    "rubro": "",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EPZ",
+    "nombre": "ESCUADRA PLANA ALACENA 9X9",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ES40",
+    "nombre": "CAJON 40CM",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ES40-2",
+    "nombre": "2 BASES DE 40CM CON PALO Y ESTANTE",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ES60",
+    "nombre": "CAJON 60CM",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ES60-2",
+    "nombre": "2 BASES DE 60CM CON PALO Y ESTANTE",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESC30",
+    "nombre": "ESCOBERO DE 30CM DOS PUERTAS 195X57X30",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESC40",
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESC50",
+    "nombre": "ESCOBERO DE 50CM DOS PUERTAS 195X57X40",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESK7025",
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 90X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESK70252",
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 80X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESK70253",
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 60X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESK7060/1",
+    "nombre": "ESPEJO CIRCULAR CON LUZ LED Y TOUCH 60",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ESKOVAL",
+    "nombre": "ESPEJO OVAL CON LUZ LED Y TOUCH 50X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EXHA12",
+    "nombre": "TURBO VENTILADOR 12 PULGADAS 3 ASPAS 3 VELOCIDADES PLASTICO TRB12",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EXPO1",
+    "nombre": "EXPOSITOR VANITORYS MEDIO",
+    "rubro": "EXPOSITORES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "EXPO2",
+    "nombre": "EXPOSITOR VANITORYS MODULO COLGANTE",
+    "rubro": "EXPOSITORES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "F-6-1000",
+    "nombre": "SOPORTE DE ESTANTE 5X5 ZINCADO X 1000 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "FILOB22",
+    "nombre": "FILO PRE ENCOLADO BLANCO 22MM 50 M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "FLETE",
+    "nombre": "FLETE",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "FRE180",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "FRE200",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "FRE300",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "FRE400",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "GREYTOUCH",
+    "nombre": "MELAMINA 18MM GRIS EXTRA MATTE LINEA TACTIL FA PLAC 275X130",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "GT4530Z",
+    "nombre": "CORREDERA TELESCOPICA 45MM X 30CM GRUPO EURO X UNIDAD",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "GT4540Z",
+    "nombre": "CORREDERA TELESCOPICA 45MM X 40CM GRUPO EURO X UNIDAD",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "GT4545Z",
+    "nombre": "CORREDERA TELESCOPICA 45MM X 45CM GRUPO EURO X UNIDAD",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "IMR-1",
+    "nombre": "LINEA UTOPIA INODORO DE LOZA BLANCO CON DESCARGA VERTICAL 250MM CON TAPA CIERRE SUAVE DE PP MEDIDAS 705MM X 400MM X 765MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "INC-1",
+    "nombre": "LINEA LIBERTY INODORO DE LOZA BLANCO CON DESCARGA VERTICAL 250MM / CON TAPA DE CIERRE SUAVE PP / UF MEDIDAS 600MM X 383MM X 790MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "INC-3",
+    "nombre": "LINEA PRIDE INODORO DE DOS PIEZAS EN LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMPLESS CON TAPA CIERRE SUAVE UF MEDIDAS 650MM X 375MM X 830MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "INR-2",
+    "nombre": "LINEA ICON INODORO DE DOS PIEZAS DE LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMLESS CON TAPA CIERRE SUAVE UF MEDIDAS 620MM X 375MM X 820MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "INR-2C",
+    "nombre": "LINEA ICON INODORO CORTO DE LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMPLESS CON TAPA CIERRE SUAVE UF MEDIDAS 550MM X 370MM X 405MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "INR-3",
+    "nombre": "LINEA SYMPHONY INODORO DE DOS PIEZAS EN LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMLESS CON TAPA CIERRE SUAVE UF MEDIDAS 650MM X 375MM X 830MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "JANEM",
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO RECTANGULAR COLOR BLANCO",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "L1040",
+    "nombre": "PERFIL JOTA DE APLIQUE TIRA 3M ALUMINIO CY063 DIMOL",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "L12",
+    "nombre": "ANGULO L 12,7 X 12,7 MM ALUMINIO 3M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "L12N",
+    "nombre": "ANGULO L 12,7 X 12,7 MM NEGRO 3M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "M18",
+    "nombre": "MINIFIX PARA PLACA 18MM CAJA DE MIL UNIDADES VALOR POR UNIDAD",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "M537",
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V50",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MA0028",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR CAPUCCINO LIFE 1840X2750 ENCHAPADORA SAN JUAN",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MA0032",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR NEGRO LIFE 1840X2750 ENCHAPADORA SAN JUAN",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MAR60",
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V60",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MDF0001E",
+    "nombre": "FIBROPLUS BLANCO 3MM FONDO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ME0200",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR BLANCO 135 FA PLAC 183X275",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ME02024",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR STREET FA PLAC 183X275",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ME02030N",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR ROBLE AMERICANO NATURE FA PLAC 183X275",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ME02065",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR CAJU FA PLAC 183X275",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ME02107",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR GRIS GRAFITO FA PLAC 183X275",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ME0MEZZO",
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR CARVALLO MEZZO FA PLAC 183X275",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ME0SAHARA",
+    "nombre": "MELAMINA AGLOMERADO 18MM SAHARA PLAC 183X275",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MELAMINA AGLOMERADO 18MM GRIS TAPIR",
+    "nombre": "MELAMINA AGLOMERADO 18MM GRIS TAPIR FA PLAC",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MERCADOMH1",
+    "nombre": "VENTAS DE MERCADO LIBRE",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MGGOLD",
+    "nombre": "PLACA SIMIL METAL G GOLD 122X244",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "MIRRGOLDESP",
+    "nombre": "PLACA ESPEJADA DORADA 122X244",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "NCF495",
+    "nombre": "FIORINO 2013 FIRE 1.3",
+    "rubro": "",
+    "habilitado": true,
+    "iva": 0
+  },
+  {
+    "codigo": "OFICINA AJUSTABLE",
+    "nombre": "MUEBLES PARA OFICINA A MEDIDA",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "OVO",
+    "nombre": "CAÑO OVAL X 3M ALUMINIO ANODIZADO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "P10-80-FI",
+    "nombre": "PISTON A GAS FUERZA INVERSA 80NW BRONZEN",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "P6-60",
+    "nombre": "PISTON A GAS CHICO 6\" DE 60NW BRONZEN",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PA90",
+    "nombre": "4 COSTADOS 90X45",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PA90-2",
+    "nombre": "2 COSTADOS 90X45",
+    "rubro": "PLACARD 90",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PANEL A",
+    "nombre": "ALACENA PANEL COLOR",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PANEL B",
+    "nombre": "BAJO MESADA PANEL COLOR",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PBA122",
+    "nombre": "PLACA MARMOLFLEX BEIGE ARENA 122X244",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PETIRIBI 18 NAT",
+    "nombre": "MELAMINA AGLOMERADO 18MM PETIRIBI FA PLAC",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PHILPOR",
+    "nombre": "EQUIPO PORTATIL PHILCO PHP35HC3API FC 3500 W",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PINECOV7",
+    "nombre": "PINCEL ECO V7",
+    "rubro": "",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PLPUERTA",
+    "nombre": "PUERTA AGREGADA",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PM",
+    "nombre": "ALACENA PORTA MICROONDAS",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PNM122",
+    "nombre": "PLACA MARMOLFLEX NEGRO MARQUINA 122X244",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PORCENOT01",
+    "nombre": "PLACA SIMIL MARMOL FLEXIBLE EN ACRILICO PORCENOT",
+    "rubro": "REVESTIMIENTO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PORCENOT02",
+    "nombre": "PLACA TEXTURADA FLEXIBLE EN ACRILICO PORCENOT",
+    "rubro": "REVESTIMIENTO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC0,40C",
+    "nombre": "PVC 0,40 X22 CAJU 1 METRO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC0,40G",
+    "nombre": "PVC 0,40 X22 GRAFITO 1 METRO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC0,40H",
+    "nombre": "PVC 0,40 X22 STREET 1 METRO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC0,40M",
+    "nombre": "PVC 0,40 X22 MEZZO 1 METRO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC0,40S",
+    "nombre": "PVC 0,40 X22 SAHARA 1 METRO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC2MMB",
+    "nombre": "CANTO PVC 2MM BLANCO 100M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC2MMC",
+    "nombre": "CANTO PVC 2MM CAJU 150M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC2MMG",
+    "nombre": "CANTO PVC 2MM GRAFITO 150M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC2MMH",
+    "nombre": "CANTO PVC 2MM URBAN STREET (HORMIGON) 150M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC2MMM",
+    "nombre": "CANTO PVC 2MM MEZZO CARVALLO 150M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC2MMN",
+    "nombre": "CANTO PVC 2MM NEGRO 150M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "PVC2MMS",
+    "nombre": "CANTO PVC 2MM SAHARA 150M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "REC180",
+    "nombre": "RECEPTACULO DE DUCHA EN ACRILICO BLANCO 150CM X 70CM X 0.55CM ESPESOR 2.5MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "REC80",
+    "nombre": "RECEPTACULO DE DUCHA EN ACRILICO BLANCO 80CM X 80CM X 0.55CM ESPESOR 2.5MM",
+    "rubro": "SANITARIOS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "RECHAZO",
+    "nombre": "CHEQUE RECHAZADO",
+    "rubro": "",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S60R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S60RC",
+    "nombre": "ALACENA 60CM DOS PUERTAS REVATIBLES CERRADAS COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S60RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S60RVC",
+    "nombre": "ALACENA 60CM DOS PUERTAS REVATIBLES UNA CERRADA UNA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S80R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S80RC",
+    "nombre": "ALACENA 80CM DOS PUERTAS REVATIBLES CERRADAS COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S80RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "rubro": "BLANCO LINEA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "S80RVC",
+    "nombre": "ALACENA 80CM DOS PUERTAS REVATIBLES UNA CERRADA UNA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "rubro": "CLASSIC",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "SOPBRR",
+    "nombre": "SOPORTE LATERAL NIQUELADO PARA BARRAL OVAL",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "T10-3513",
+    "nombre": "TORNILLO DORADO 3,5 X 13 MM 1000 UNIDADES BRONZEN",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "T10-SKO-13",
+    "nombre": "TORNILLO AMARILLO 3,5X13MM CAJA X 500 UNIDANES SKO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "T10-SKO-16",
+    "nombre": "TORNILLO NEGRO 6X5/8 (3,5 X 16) SKO 1000 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "T10-SKO-30",
+    "nombre": "TORNILLO NEGRO 6X1 1/4 (3,5 X 32) SKO 1000 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "T10-SKO-40",
+    "nombre": "TPRNILLO NEGRO 6X1 1/2 (3,5 X 38) SKO 1000 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "T10-SKO-50",
+    "nombre": "TORNILLO NEGRO 6X2 3,5X50MM CAJA X 1000 UNIDADES SKO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAP2MM1",
+    "nombre": "TAPACANTO PVC 2MM LIFE ENCHAPADORA SAN JUAN",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA050",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 050",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA060M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 060",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA080M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 080",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA090M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 090",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA110M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 110",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA120M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 120",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA140M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 140",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA150M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 150",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPA190M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 190",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPAMARMOL060",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL BEIGE 060",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPAMARMOL060N",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL NEGRO MARQUINA 060",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPAMARMOL080",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL BEIGE 080",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TAPAMARMOL080N",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL NEGRO MARQUINA 080",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TCH1",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TCH2",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TCH3",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TCH4",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TCH5",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TCH6",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "rubro": "PLACARD",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TCP31",
+    "nombre": "CANTO DE PVC 2MM COLOR BLANCO ROLLO DE 100 M",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TER1",
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO RECTANGULAR MONOCOMANDO COLOR BLANCO PARA VMINI",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TER2",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR MONOCOMANDO PARA VMINI",
+    "rubro": "BACHAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TERMOV30",
+    "nombre": "CAJON TERMOFORMADO V30",
+    "rubro": "",
+    "habilitado": true,
+    "iva": 0
+  },
+  {
+    "codigo": "TPC-30",
+    "nombre": "PVC 0,40 X22 BLANCO 1 METRO",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TST27-4",
+    "nombre": "ANAFE VITRO ELECTRICO 4 HORNALLAS",
+    "rubro": "ELECTRO HOGAR",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TST32-60",
+    "nombre": "HORNO ELECTRICO DE EMBUTIR FORNELLO TST",
+    "rubro": "ELECTRO HOGAR",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "TT1",
+    "nombre": "TAPA TORNILLOS BLANCO PLANCHA 96 UNIDADES",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA100",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA30",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA30V",
+    "nombre": "ALACENA VIDRIADA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA35",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA40",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA40V",
+    "nombre": "ALACENA VIDRIADA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA45",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA50",
+    "nombre": "ALACENA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60B",
+    "nombre": "ALACENA BODEGA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60PM",
+    "nombre": "ALACENA PORTA MICRO",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60PMB",
+    "nombre": "ALACENA PORTA MICRO BODEGA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60R",
+    "nombre": "ALACENA REBATIBLE",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60RID",
+    "nombre": "ALACENA RINCONERO",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA60SH",
+    "nombre": "ALACENA 2 PUERTAS SOBRE SPAR 60X45",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA70",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA70B",
+    "nombre": "ALACENA BODEGA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA70R",
+    "nombre": "ALACENA REBATIBLE",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA80",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA80B",
+    "nombre": "ALACENA BODEGA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA80R",
+    "nombre": "ALACENA REBATIBLE",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA80RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UA90",
+    "nombre": "ALACENA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB10-25",
+    "nombre": "BAJO MESADA BANDEJERO",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB100",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB100R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB30",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB35",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB40",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB40 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB40 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB40 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB45",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB50",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB60",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB60 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB60 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB60 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB70",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB80",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB80 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB80 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB90",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UB90R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UESC30",
+    "nombre": "ESCOBERO DE 30CM DOS PUERTAS 195X57X30",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UESC40",
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UESC50",
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UPANEL A",
+    "nombre": "ALACENA PANEL COLOR",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UPANEL B",
+    "nombre": "BAJO MESADA PANEL COLOR",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "UPM",
+    "nombre": "ALACENA PORTA MICROONDAS",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "US60R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "US60RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "US80R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "US80RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "rubro": "UÑERO",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V110UB",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V110UB (ES COMPONENTE V80UB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V110UCB",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR CUATRO CAJONES COLOR BLANCO V110UCB (ES COMPONENTE V80UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V110UCCOLOR",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR CUATRO CAJONES COLOR V110UCCOLOR (ES COMPONENTE V80UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V110UCOLOR",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V110UCOLOR (ES COMPONENTE V80UCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V120UB",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR BLANCO V120UB (ES COMPONENTE V60UB+V30UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V120UCB",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR 6 CAJONES COLOR BLANCO V120UCB (ES COMPONENTE V30UCB+V60UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V120UCCOLOR",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR 6 CAJONES COLOR V120UCCOLOR (ES COMPONENTE V30UCCOLOR+V60UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V120UCOLOR",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR V120UCOLOR (ES COMPONENTE V60UCOLOR+V30UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V140UB",
+    "nombre": "VANITORY 140CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR BLANCO V140UB (ES COMPONENTE V80UB+V30UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V140UCOLOR",
+    "nombre": "VANITORY 140CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR V140UCOLOR (ES COMPONENTE V80UCOLOR+V30UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V150UB",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V150UB (ES COMPONENTE V60UB+V60UB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V150UCB",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR 6 CAJONES COLOR BLANCO V150UB (ES COMPONENTE V60UCB+V30UCB+V60UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V150UCCOLOR",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR 6 CAJONES CAJONES COLOR V150UCCOLOR (ES COMPONENTE V60UCCOLOR+V30UCCOLOR+V60UCCOLOR+)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V150UCOLOR",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V150UCOLOR (ES COMPONENTE V60UCOLOR+V60UCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V30UCB",
+    "nombre": "VANITORY 30CM UÑERO DE COLGAR DOS CAJONES COMPLEMENTO COLOR BLANCO V30",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V30UCCOLOR",
+    "nombre": "VANITORY 30CM UÑERO DE COLGAR DOS CAJONES COMPLEMENTO COLOR V30",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V50CLAH",
+    "nombre": "VANITORY 50CM DE PIE MODELO CLASSIC COLOR BLANCO CON HUECO EN ROBLE V50",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V50UB",
+    "nombre": "VANITORY 50CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V50",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V50UCOLOR",
+    "nombre": "VANITORY 50CM UÑERO DE COLGAR DOS PUERTAS COLOR V50",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V60CLAC",
+    "nombre": "VANITORY 60CM DE PIE MODELO CLASSIC COLOR BLANCO CON CAJON V60",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V60CLAH",
+    "nombre": "VANITORY 60CM DE PIE MODELO CLASSIC COLOR BLANCO CON HUECO EN ROBLE V60",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V60UB",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V60UB",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V60UCB",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS CAJONES COLOR BLANCO V60UCB",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V60UCCOLOR",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS CAJONES COLOR V60UCCOLOR",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V60UCOLOR",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS PUERTAS COLOR V60UCOLOR",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80ECO1C",
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON COLR BLANCO ALTURA 25CM TIPO POLLERA CLASSIC",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80ECO1CCOLOR",
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON COLOR ALTURA 25CM TIPO POLLERA CLASSIC",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80U1C",
+    "nombre": "VANITORY DE COLGAR UÑERO 80CM UN CAJON UN HUECO COLOR BLANCO CLASSIC",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80U1CCOLOR",
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON UN HUECO UÑERO COLOR CLASSIC",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80UB",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V80",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80UCB",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS CAJONES COLOR BLANCO V80C",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80UCCOLOR",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS CAJONES COLOR V80C",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V80UCOLOR",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS PUERTAS COLOR V80",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V90UB",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V90UB (ES COMPONENTE V60UB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V90UCB",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR CUATRO CAJONES COLOR BLANCO V90UCB (ES COMPONENTE V60UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V90UCCOLOR",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR CUATRO CAJONES COLOR V90UCCOLOR (ES COMPONENTE V60UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "V90UCOLOR",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V90UCOLOR (ES COMPONENTE V60UCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "VEDM60",
+    "nombre": "VANITORY DE 60CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR TERRA",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "VEDM60N",
+    "nombre": "VANITORY DE 60CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR NERO",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "VEDM80",
+    "nombre": "VANITORY DE 80CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR TERRA",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "VEDM80N",
+    "nombre": "VANITORY DE 80CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR NERO",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "VMINIB",
+    "nombre": "VANITORY 45CM UÑERO DE COLGAR UNA PUERTA REBATIBLE COLOR BLANCO VMINI",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "VMINICOLOR",
+    "nombre": "VANITORY 45CM UÑERO DE COLGAR UNA PUERTA REBATIBLE COLOR VMINI",
+    "rubro": "MUEBLES",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "WHITEGLOSS",
+    "nombre": "MELAMINA 18MM BLANCO BRILLANTE WHITE GLOSS TACTIL FA PLAC 275X130",
+    "rubro": "MATERIA PRIMA",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "Z8",
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V80",
+    "rubro": "MESADAS",
+    "habilitado": true,
+    "iva": 21
+  },
+  {
+    "codigo": "ZUNCHOS",
+    "nombre": "ZUNCHOS 12 MM BLANCO SEMIAUTOMATICO",
+    "rubro": "AJUSTABLES",
+    "habilitado": true,
+    "iva": 21
+  }
+]

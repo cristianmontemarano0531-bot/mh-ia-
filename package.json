@@ -1,0 +1,17 @@
+{
+  "name": "mh-whatsapp-ia",
+  "version": "2.0.0",
+  "description": "Agente WhatsApp MH Amoblamientos con búsqueda inteligente y sync Dux",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "sync": "node sincronizacion-automatica/sync-dux.js",
+    "sync:watch": "node sincronizacion-automatica/runner.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "twilio": "^4.19.0"
+  }
+}

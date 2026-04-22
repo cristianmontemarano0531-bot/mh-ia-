@@ -1,0 +1,3945 @@
+[
+  {
+    "codigo": "A100",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a100",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -5,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -5,
+        "stockReal": -5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 149400,
+      "mayorista1": 204678,
+      "mayorista2": 112050
+    }
+  },
+  {
+    "codigo": "A30",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a30",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 65500,
+      "mayorista1": 89735,
+      "mayorista2": 49125
+    }
+  },
+  {
+    "codigo": "A30V",
+    "nombre": "ALACENA VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a30v",
+      "alacena",
+      "alacená",
+      "vidriada"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 156000,
+      "mayorista1": 213720,
+      "mayorista2": 117000
+    }
+  },
+  {
+    "codigo": "A35",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a35",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 71100,
+      "mayorista1": 97407,
+      "mayorista2": 53325
+    }
+  },
+  {
+    "codigo": "A40",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a40",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -4,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 77100,
+      "mayorista1": 105627,
+      "mayorista2": 57825
+    }
+  },
+  {
+    "codigo": "A40V",
+    "nombre": "ALACENA VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a40v",
+      "alacena",
+      "alacená",
+      "vidriada"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 175900,
+      "mayorista1": 240983,
+      "mayorista2": 131925
+    }
+  },
+  {
+    "codigo": "A45",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a45",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 82300,
+      "mayorista1": 112751,
+      "mayorista2": 61725
+    }
+  },
+  {
+    "codigo": "A50",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a50",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 88300,
+      "mayorista1": 120971,
+      "mayorista2": 66225
+    }
+  },
+  {
+    "codigo": "A60",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a60",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 104000,
+      "mayorista1": 142480,
+      "mayorista2": 78000
+    }
+  },
+  {
+    "codigo": "A60B",
+    "nombre": "ALACENA BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a60",
+      "a60b",
+      "alacena",
+      "alacená",
+      "bodega"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 56900,
+      "mayorista1": 77953,
+      "mayorista2": 42675
+    }
+  },
+  {
+    "codigo": "A60PM",
+    "nombre": "ALACENA PORTA MICRO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a60pm",
+      "alacena",
+      "alacená",
+      "micro",
+      "porta"
+    ],
+    "stock": -5,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -5,
+        "stockReal": -5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 111300,
+      "mayorista1": 152481,
+      "mayorista2": 83475
+    }
+  },
+  {
+    "codigo": "A60PMB",
+    "nombre": "ALACENA PORTA MICRO BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a60pm",
+      "a60pmb",
+      "alacena",
+      "alacená",
+      "bodega",
+      "micro",
+      "porta"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 85700,
+      "mayorista1": 117409,
+      "mayorista2": 64275
+    }
+  },
+  {
+    "codigo": "A60R",
+    "nombre": "ALACENA REBATIBLE",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a60r",
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 68400,
+      "mayorista1": 93708,
+      "mayorista2": 51300
+    }
+  },
+  {
+    "codigo": "A60RID",
+    "nombre": "ALACENA RINCONERO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "NERO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "a60rid",
+      "alacena",
+      "alacená",
+      "marmol negro",
+      "mármol negro",
+      "negro",
+      "negro marquina",
+      "nero",
+      "néro",
+      "rinconero"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 124700,
+      "mayorista1": 170839,
+      "mayorista2": 93525
+    }
+  },
+  {
+    "codigo": "A60RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a60rv",
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "vidriada"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 155700,
+      "mayorista1": 213309,
+      "mayorista2": 116775
+    }
+  },
+  {
+    "codigo": "A60SH",
+    "nombre": "ALACENA 2 PUERTAS SOBRE SPAR 60X45",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60x45",
+      "a60sh",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "sobre",
+      "spar"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 104000,
+      "mayorista1": 142480,
+      "mayorista2": 78000
+    }
+  },
+  {
+    "codigo": "A70",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a70",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 115300,
+      "mayorista1": 157961,
+      "mayorista2": 86475
+    }
+  },
+  {
+    "codigo": "A70B",
+    "nombre": "ALACENA BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a70",
+      "a70b",
+      "alacena",
+      "alacená",
+      "bodega"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 78200,
+      "mayorista1": 107134,
+      "mayorista2": 58650
+    }
+  },
+  {
+    "codigo": "A70R",
+    "nombre": "ALACENA REBATIBLE",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a70r",
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 0,
+      "mayorista1": 0,
+      "mayorista2": 0
+    }
+  },
+  {
+    "codigo": "A80",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a80",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -8,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 126700,
+      "mayorista1": 173579,
+      "mayorista2": 95025
+    }
+  },
+  {
+    "codigo": "A80B",
+    "nombre": "ALACENA BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a80",
+      "a80b",
+      "alacena",
+      "alacená",
+      "bodega"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 78200,
+      "mayorista1": 107134,
+      "mayorista2": 58650
+    }
+  },
+  {
+    "codigo": "A80R",
+    "nombre": "ALACENA REBATIBLE",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a80r",
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 86300,
+      "mayorista1": 118231,
+      "mayorista2": 64725
+    }
+  },
+  {
+    "codigo": "A80RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a80rv",
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "vidriada"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 193700,
+      "mayorista1": 265369,
+      "mayorista2": 145275
+    }
+  },
+  {
+    "codigo": "A90",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "a90",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas"
+    ],
+    "stock": -8,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 139500,
+      "mayorista1": 191115,
+      "mayorista2": 104625
+    }
+  },
+  {
+    "codigo": "ESC30",
+    "nombre": "ESCOBERO DE 30CM DOS PUERTAS 195X57X30",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "30",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "195x57x30",
+      "30",
+      "30cm",
+      "alacena",
+      "alacená",
+      "de 30",
+      "dos",
+      "el de 30",
+      "esc30",
+      "escobero",
+      "puerta",
+      "puertas",
+      "treinta"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 322800,
+      "mayorista1": 442236,
+      "mayorista2": 242100
+    }
+  },
+  {
+    "codigo": "ESC40",
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "40",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "195x57x40",
+      "40",
+      "40cm",
+      "alacena",
+      "alacená",
+      "cuarenta",
+      "de 40",
+      "dos",
+      "el de 40",
+      "esc40",
+      "escobero",
+      "puerta",
+      "puertas"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 365100,
+      "mayorista1": 500187,
+      "mayorista2": 273825
+    }
+  },
+  {
+    "codigo": "ESC50",
+    "nombre": "ESCOBERO DE 50CM DOS PUERTAS 195X57X40",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "50",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "195x57x40",
+      "50",
+      "50cm",
+      "alacena",
+      "alacená",
+      "cincuenta",
+      "de 50",
+      "dos",
+      "el de 50",
+      "esc50",
+      "escobero",
+      "puerta",
+      "puertas"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 411900,
+      "mayorista1": 564303,
+      "mayorista2": 308925
+    }
+  },
+  {
+    "codigo": "S60R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "s60r"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 133300,
+      "mayorista1": 182621,
+      "mayorista2": 99975
+    }
+  },
+  {
+    "codigo": "S60RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "s60rv",
+      "vidrio"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 197200,
+      "mayorista1": 270164,
+      "mayorista2": 147900
+    }
+  },
+  {
+    "codigo": "S80R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "s80r"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 143500,
+      "mayorista1": 196595,
+      "mayorista2": 107625
+    }
+  },
+  {
+    "codigo": "S80RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "s80rv",
+      "vidrio"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 222600,
+      "mayorista1": 304962,
+      "mayorista2": 166950
+    }
+  },
+  {
+    "codigo": "UA100",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua100"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 199600,
+      "mayorista1": 273452,
+      "mayorista2": 149700
+    }
+  },
+  {
+    "codigo": "UA30",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua30"
+    ],
+    "stock": -4,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 91800,
+      "mayorista1": 125766,
+      "mayorista2": 68850
+    }
+  },
+  {
+    "codigo": "UA30V",
+    "nombre": "ALACENA VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "ua30v",
+      "vidriada"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 178700,
+      "mayorista1": 244819,
+      "mayorista2": 134025
+    }
+  },
+  {
+    "codigo": "UA35",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua35"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 99000,
+      "mayorista1": 135630,
+      "mayorista2": 74250
+    }
+  },
+  {
+    "codigo": "UA40",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua40"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 105900,
+      "mayorista1": 145083,
+      "mayorista2": 79425
+    }
+  },
+  {
+    "codigo": "UA40V",
+    "nombre": "ALACENA VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "ua40v",
+      "vidriada"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 208800,
+      "mayorista1": 286056,
+      "mayorista2": 156600
+    }
+  },
+  {
+    "codigo": "UA45",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua45"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 112500,
+      "mayorista1": 154125,
+      "mayorista2": 84375
+    }
+  },
+  {
+    "codigo": "UA50",
+    "nombre": "ALACENA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua50"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 119400,
+      "mayorista1": 163578,
+      "mayorista2": 89550
+    }
+  },
+  {
+    "codigo": "UA60",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua60"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 144100,
+      "mayorista1": 197417,
+      "mayorista2": 108075
+    }
+  },
+  {
+    "codigo": "UA60B",
+    "nombre": "ALACENA BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "bodega",
+      "ua60",
+      "ua60b"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 75100,
+      "mayorista1": 102887,
+      "mayorista2": 56325
+    }
+  },
+  {
+    "codigo": "UA60PM",
+    "nombre": "ALACENA PORTA MICRO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "micro",
+      "porta",
+      "ua60pm"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 137100,
+      "mayorista1": 187827,
+      "mayorista2": 102825
+    }
+  },
+  {
+    "codigo": "UA60PMB",
+    "nombre": "ALACENA PORTA MICRO BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "bodega",
+      "micro",
+      "porta",
+      "ua60pm",
+      "ua60pmb"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 110200,
+      "mayorista1": 150974,
+      "mayorista2": 82650
+    }
+  },
+  {
+    "codigo": "UA60R",
+    "nombre": "ALACENA REBATIBLE",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "ua60r"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 89500,
+      "mayorista1": 122615,
+      "mayorista2": 67125
+    }
+  },
+  {
+    "codigo": "UA60RID",
+    "nombre": "ALACENA RINCONERO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "NERO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "marmol negro",
+      "mármol negro",
+      "negro",
+      "negro marquina",
+      "nero",
+      "néro",
+      "rinconero",
+      "ua60rid"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 239600,
+      "mayorista1": 328252,
+      "mayorista2": 179700
+    }
+  },
+  {
+    "codigo": "UA60RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "ua60rv",
+      "vidriada"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 172900,
+      "mayorista1": 236873,
+      "mayorista2": 129675
+    }
+  },
+  {
+    "codigo": "UA60SH",
+    "nombre": "ALACENA 2 PUERTAS SOBRE SPAR 60X45",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60x45",
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "sobre",
+      "spar",
+      "ua60sh"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 0,
+      "mayorista1": 0,
+      "mayorista2": 0
+    }
+  },
+  {
+    "codigo": "UA70",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua70"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 149900,
+      "mayorista1": 205363,
+      "mayorista2": 112425
+    }
+  },
+  {
+    "codigo": "UA70B",
+    "nombre": "ALACENA BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "bodega",
+      "ua70",
+      "ua70b"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 100000,
+      "mayorista1": 137000,
+      "mayorista2": 75000
+    }
+  },
+  {
+    "codigo": "UA70R",
+    "nombre": "ALACENA REBATIBLE",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "ua70r"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 0,
+      "mayorista1": 0,
+      "mayorista2": 0
+    }
+  },
+  {
+    "codigo": "UA80",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua80"
+    ],
+    "stock": -8,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 171900,
+      "mayorista1": 235503,
+      "mayorista2": 128925
+    }
+  },
+  {
+    "codigo": "UA80B",
+    "nombre": "ALACENA BODEGA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "bodega",
+      "ua80",
+      "ua80b"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 100000,
+      "mayorista1": 137000,
+      "mayorista2": 75000
+    }
+  },
+  {
+    "codigo": "UA80R",
+    "nombre": "ALACENA REBATIBLE",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "ua80r"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 110200,
+      "mayorista1": 150974,
+      "mayorista2": 82650
+    }
+  },
+  {
+    "codigo": "UA80RV",
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "ua80rv",
+      "vidriada"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 214900,
+      "mayorista1": 294413,
+      "mayorista2": 161175
+    }
+  },
+  {
+    "codigo": "UA90",
+    "nombre": "ALACENA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "puerta",
+      "puertas",
+      "ua90"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 187200,
+      "mayorista1": 256464,
+      "mayorista2": 140400
+    }
+  },
+  {
+    "codigo": "UESC30",
+    "nombre": "ESCOBERO DE 30CM DOS PUERTAS 195X57X30",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "30",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "195x57x30",
+      "30",
+      "30cm",
+      "alacena",
+      "alacená",
+      "de 30",
+      "dos",
+      "el de 30",
+      "escobero",
+      "puerta",
+      "puertas",
+      "treinta",
+      "uesc30"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 441300,
+      "mayorista1": 604581,
+      "mayorista2": 330975
+    }
+  },
+  {
+    "codigo": "UESC40",
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "40",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "195x57x40",
+      "40",
+      "40cm",
+      "alacena",
+      "alacená",
+      "cuarenta",
+      "de 40",
+      "dos",
+      "el de 40",
+      "escobero",
+      "puerta",
+      "puertas",
+      "uesc40"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 485100,
+      "mayorista1": 664587,
+      "mayorista2": 363825
+    }
+  },
+  {
+    "codigo": "UESC50",
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "40",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "195x57x40",
+      "40",
+      "40cm",
+      "alacena",
+      "alacená",
+      "cuarenta",
+      "de 40",
+      "dos",
+      "el de 40",
+      "escobero",
+      "puerta",
+      "puertas",
+      "uesc50"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 566100,
+      "mayorista1": 775557,
+      "mayorista2": 424575
+    }
+  },
+  {
+    "codigo": "US60R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "us60r"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 160800,
+      "mayorista1": 220296,
+      "mayorista2": 120600
+    }
+  },
+  {
+    "codigo": "US60RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "us60rv",
+      "vidrio"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 237400,
+      "mayorista1": 325238,
+      "mayorista2": 178050
+    }
+  },
+  {
+    "codigo": "US80R",
+    "nombre": "ALACENA 2 REBATIBLES",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "us80r"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 197700,
+      "mayorista1": 270849,
+      "mayorista2": 148275
+    }
+  },
+  {
+    "codigo": "US80RV",
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "rebatible",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "rebatible",
+      "rebatibles",
+      "us80rv",
+      "vidrio"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 293200,
+      "mayorista1": 401684,
+      "mayorista2": 219900
+    }
+  },
+  {
+    "codigo": "B10-25",
+    "nombre": "BAJO MESADA BANDEJERO",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "10-25",
+      "b10-25",
+      "bajo",
+      "bandejero",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": -8,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 66800,
+      "mayorista1": 91516,
+      "mayorista2": 50100
+    }
+  },
+  {
+    "codigo": "B100",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "100",
+      "b100",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -10,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 213700,
+      "mayorista1": 292769,
+      "mayorista2": 160275
+    }
+  },
+  {
+    "codigo": "B100R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "NERO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "100r",
+      "b100r",
+      "bajo",
+      "marmol negro",
+      "mesada",
+      "mesada integrada",
+      "mármol negro",
+      "negro",
+      "negro marquina",
+      "nero",
+      "néro",
+      "rinconero",
+      "tapa"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 256400,
+      "mayorista1": 351268,
+      "mayorista2": 192300
+    }
+  },
+  {
+    "codigo": "B30",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "30",
+      "b30",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -6,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 107600,
+      "mayorista1": 147412,
+      "mayorista2": 80700
+    }
+  },
+  {
+    "codigo": "B35",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "35",
+      "b35",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -6,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 114600,
+      "mayorista1": 157002,
+      "mayorista2": 85950
+    }
+  },
+  {
+    "codigo": "B40",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40",
+      "b40",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -6,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 121700,
+      "mayorista1": 166729,
+      "mayorista2": 91275
+    }
+  },
+  {
+    "codigo": "B40 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40 2c",
+      "b40 2c",
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 233400,
+      "mayorista1": 319758,
+      "mayorista2": 175050
+    }
+  },
+  {
+    "codigo": "B40 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40 3c",
+      "b40 3c",
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": -23,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -23,
+        "stockReal": -23,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 271800,
+      "mayorista1": 372366,
+      "mayorista2": 203850
+    }
+  },
+  {
+    "codigo": "B40 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40 4c",
+      "b40 4c",
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": -5,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -5,
+        "stockReal": -5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 310200,
+      "mayorista1": 424974,
+      "mayorista2": 232650
+    }
+  },
+  {
+    "codigo": "B45",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "45",
+      "b45",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 130000,
+      "mayorista1": 178100,
+      "mayorista2": 97500
+    }
+  },
+  {
+    "codigo": "B50",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "50",
+      "b50",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -5,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 137300,
+      "mayorista1": 188101,
+      "mayorista2": 102975
+    }
+  },
+  {
+    "codigo": "B60",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60",
+      "b60",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -9,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -9,
+        "stockReal": -9,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 155600,
+      "mayorista1": 213172,
+      "mayorista2": 116700
+    }
+  },
+  {
+    "codigo": "B60 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60 2c",
+      "b60 2c",
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 266100,
+      "mayorista1": 364557,
+      "mayorista2": 199575
+    }
+  },
+  {
+    "codigo": "B60 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60 3c",
+      "b60 3c",
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 306200,
+      "mayorista1": 419494,
+      "mayorista2": 229650
+    }
+  },
+  {
+    "codigo": "B60 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60 4c",
+      "b60 4c",
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 346900,
+      "mayorista1": 475253,
+      "mayorista2": 260175
+    }
+  },
+  {
+    "codigo": "B60PHB",
+    "nombre": "BAJO MESADA PORTA HORNO BAJO",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "BLANCO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "60phb",
+      "b60phb",
+      "bajo",
+      "bl",
+      "blanc",
+      "blanca",
+      "blanco",
+      "el blanco",
+      "en blanco",
+      "horno",
+      "mesada",
+      "mesada integrada",
+      "porta",
+      "tapa"
+    ],
+    "stock": -21,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -21,
+        "stockReal": -21,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 0,
+      "mayorista1": 0,
+      "mayorista2": 0
+    }
+  },
+  {
+    "codigo": "B70",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "70",
+      "b70",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -10,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 170000,
+      "mayorista1": 232900,
+      "mayorista2": 127500
+    }
+  },
+  {
+    "codigo": "B80",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "80",
+      "b80",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -11,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -11,
+        "stockReal": -11,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 184700,
+      "mayorista1": 253039,
+      "mayorista2": 138525
+    }
+  },
+  {
+    "codigo": "B80 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "80 3c",
+      "b80 3c",
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 0,
+      "mayorista1": 0,
+      "mayorista2": 0
+    }
+  },
+  {
+    "codigo": "B90",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "90",
+      "b90",
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa"
+    ],
+    "stock": -20,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -20,
+        "stockReal": -20,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 199200,
+      "mayorista1": 272904,
+      "mayorista2": 149400
+    }
+  },
+  {
+    "codigo": "B90R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "NERO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "90r",
+      "b90r",
+      "bajo",
+      "marmol negro",
+      "mesada",
+      "mesada integrada",
+      "mármol negro",
+      "negro",
+      "negro marquina",
+      "nero",
+      "néro",
+      "rinconero",
+      "tapa"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 233400,
+      "mayorista1": 319758,
+      "mayorista2": 175050
+    }
+  },
+  {
+    "codigo": "UB10-25",
+    "nombre": "BAJO MESADA BANDEJERO",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "bandejero",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u10-25",
+      "ub10-25"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 72000,
+      "mayorista1": 98640,
+      "mayorista2": 54000
+    }
+  },
+  {
+    "codigo": "UB100",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u100",
+      "ub100"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 287600,
+      "mayorista1": 394012,
+      "mayorista2": 215700
+    }
+  },
+  {
+    "codigo": "UB100R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "NERO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "marmol negro",
+      "mesada",
+      "mesada integrada",
+      "mármol negro",
+      "negro",
+      "negro marquina",
+      "nero",
+      "néro",
+      "rinconero",
+      "tapa",
+      "u100r",
+      "ub100r"
+    ],
+    "stock": -4,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -4,
+        "stockReal": -4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 345100,
+      "mayorista1": 472787,
+      "mayorista2": 258825
+    }
+  },
+  {
+    "codigo": "UB30",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u30",
+      "ub30"
+    ],
+    "stock": -6,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 147100,
+      "mayorista1": 201527,
+      "mayorista2": 110325
+    }
+  },
+  {
+    "codigo": "UB35",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u35",
+      "ub35"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 153100,
+      "mayorista1": 209747,
+      "mayorista2": 114825
+    }
+  },
+  {
+    "codigo": "UB40",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u40",
+      "ub40"
+    ],
+    "stock": -7,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 161700,
+      "mayorista1": 221529,
+      "mayorista2": 121275
+    }
+  },
+  {
+    "codigo": "UB40 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u40 2c",
+      "ub40 2c"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 380700,
+      "mayorista1": 521559,
+      "mayorista2": 285525
+    }
+  },
+  {
+    "codigo": "UB40 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u40 3c",
+      "ub40 3c"
+    ],
+    "stock": -7,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -7,
+        "stockReal": -7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 392600,
+      "mayorista1": 537862,
+      "mayorista2": 294450
+    }
+  },
+  {
+    "codigo": "UB40 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u40 4c",
+      "ub40 4c"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 408700,
+      "mayorista1": 559919,
+      "mayorista2": 306525
+    }
+  },
+  {
+    "codigo": "UB45",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u45",
+      "ub45"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 180700,
+      "mayorista1": 247559,
+      "mayorista2": 135525
+    }
+  },
+  {
+    "codigo": "UB50",
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u50",
+      "ub50"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "UÑERO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 188700,
+      "mayorista1": 258519,
+      "mayorista2": 141525
+    }
+  },
+  {
+    "codigo": "UB60",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u60",
+      "ub60"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 215000,
+      "mayorista1": 294550,
+      "mayorista2": 161250
+    }
+  },
+  {
+    "codigo": "UB60 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u60 2c",
+      "ub60 2c"
+    ],
+    "stock": -6,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -6,
+        "stockReal": -6,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 434300,
+      "mayorista1": 594991,
+      "mayorista2": 325725
+    }
+  },
+  {
+    "codigo": "UB60 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u60 3c",
+      "ub60 3c"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 456400,
+      "mayorista1": 625268,
+      "mayorista2": 342300
+    }
+  },
+  {
+    "codigo": "UB60 4C",
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u60 4c",
+      "ub60 4c"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 466500,
+      "mayorista1": 639105,
+      "mayorista2": 349875
+    }
+  },
+  {
+    "codigo": "UB70",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u70",
+      "ub70"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 233100,
+      "mayorista1": 319347,
+      "mayorista2": 174825
+    }
+  },
+  {
+    "codigo": "UB80",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u80",
+      "ub80"
+    ],
+    "stock": -15,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -15,
+        "stockReal": -15,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 251400,
+      "mayorista1": 344418,
+      "mayorista2": 188550
+    }
+  },
+  {
+    "codigo": "UB80 2C",
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u80 2c",
+      "ub80 2c"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 579100,
+      "mayorista1": 793367,
+      "mayorista2": 434325
+    }
+  },
+  {
+    "codigo": "UB80 3C",
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "mesada",
+      "mesada integrada",
+      "tapa",
+      "u80 3c",
+      "ub80 3c"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 608500,
+      "mayorista1": 833645,
+      "mayorista2": 456375
+    }
+  },
+  {
+    "codigo": "UB90",
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "mesada",
+      "mesada integrada",
+      "puerta",
+      "puertas",
+      "tapa",
+      "u90",
+      "ub90"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 269500,
+      "mayorista1": 369215,
+      "mayorista2": 202125
+    }
+  },
+  {
+    "codigo": "UB90R",
+    "nombre": "BAJO MESADA RINCONERO",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "NERO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "bajo",
+      "marmol negro",
+      "mesada",
+      "mesada integrada",
+      "mármol negro",
+      "negro",
+      "negro marquina",
+      "nero",
+      "néro",
+      "rinconero",
+      "tapa",
+      "u90r",
+      "ub90r"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 345100,
+      "mayorista1": 472787,
+      "mayorista2": 258825
+    }
+  },
+  {
+    "codigo": "PANEL A",
+    "nombre": "ALACENA PANEL COLOR",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "HORMIGON",
+      "GRAFITO",
+      "MEZZO",
+      "CAJU",
+      "SAHARA"
+    ],
+    "es_componente": true,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "arena",
+      "beige",
+      "cajou",
+      "caju",
+      "cajú",
+      "color",
+      "el caju",
+      "el gris",
+      "el meso",
+      "el oscuro",
+      "grafito",
+      "grafitto",
+      "gris",
+      "gris oscuro",
+      "gráfito",
+      "hormigon",
+      "hormigón",
+      "kaju",
+      "madera",
+      "marron",
+      "marrón",
+      "meso",
+      "messo",
+      "mezo",
+      "mezzo",
+      "mezó",
+      "ormigon",
+      "ormigón",
+      "oscuro",
+      "panel",
+      "panel a",
+      "saara",
+      "sahara",
+      "sahará",
+      "sajara"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 11300,
+      "mayorista1": 15481,
+      "mayorista2": 8475
+    }
+  },
+  {
+    "codigo": "PM",
+    "nombre": "ALACENA PORTA MICROONDAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "microondas",
+      "pm",
+      "porta"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 41100,
+      "mayorista1": 56307,
+      "mayorista2": 30825
+    }
+  },
+  {
+    "codigo": "UPANEL A",
+    "nombre": "ALACENA PANEL COLOR",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "HORMIGON",
+      "GRAFITO",
+      "MEZZO",
+      "CAJU",
+      "SAHARA"
+    ],
+    "es_componente": true,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "arena",
+      "beige",
+      "cajou",
+      "caju",
+      "cajú",
+      "color",
+      "el caju",
+      "el gris",
+      "el meso",
+      "el oscuro",
+      "grafito",
+      "grafitto",
+      "gris",
+      "gris oscuro",
+      "gráfito",
+      "hormigon",
+      "hormigón",
+      "kaju",
+      "madera",
+      "marron",
+      "marrón",
+      "meso",
+      "messo",
+      "mezo",
+      "mezzo",
+      "mezó",
+      "ormigon",
+      "ormigón",
+      "oscuro",
+      "panel",
+      "saara",
+      "sahara",
+      "sahará",
+      "sajara",
+      "upanel a"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 17600,
+      "mayorista1": 24112,
+      "mayorista2": 13200
+    }
+  },
+  {
+    "codigo": "UPM",
+    "nombre": "ALACENA PORTA MICROONDAS",
+    "seccion": "cocina",
+    "categoria": "alacena",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "alacena",
+      "alacená",
+      "microondas",
+      "porta",
+      "upm"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 41100,
+      "mayorista1": 56307,
+      "mayorista2": 30825
+    }
+  },
+  {
+    "codigo": "PANEL B",
+    "nombre": "BAJO MESADA PANEL COLOR",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "blanco",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "BLANCO",
+      "HORMIGON",
+      "GRAFITO",
+      "MEZZO",
+      "CAJU",
+      "SAHARA"
+    ],
+    "es_componente": true,
+    "keywords": [
+      "arena",
+      "bajo",
+      "beige",
+      "bl",
+      "blanc",
+      "blanca",
+      "blanco",
+      "cajou",
+      "caju",
+      "cajú",
+      "color",
+      "el blanco",
+      "el caju",
+      "el gris",
+      "el meso",
+      "el oscuro",
+      "en blanco",
+      "grafito",
+      "grafitto",
+      "gris",
+      "gris oscuro",
+      "gráfito",
+      "hormigon",
+      "hormigón",
+      "kaju",
+      "madera",
+      "marron",
+      "marrón",
+      "mesada",
+      "mesada integrada",
+      "meso",
+      "messo",
+      "mezo",
+      "mezzo",
+      "mezó",
+      "ormigon",
+      "ormigón",
+      "oscuro",
+      "panel",
+      "panel ",
+      "panel b",
+      "saara",
+      "sahara",
+      "sahará",
+      "sajara",
+      "tapa"
+    ],
+    "stock": -10,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 25200,
+      "mayorista1": 34524,
+      "mayorista2": 18900
+    }
+  },
+  {
+    "codigo": "UPANEL B",
+    "nombre": "BAJO MESADA PANEL COLOR",
+    "seccion": "cocina",
+    "categoria": "mesada",
+    "linea": "uñero",
+    "medida": "",
+    "guardado": "",
+    "colores": [
+      "BLANCO",
+      "HORMIGON",
+      "GRAFITO",
+      "MEZZO",
+      "CAJU",
+      "SAHARA"
+    ],
+    "es_componente": true,
+    "keywords": [
+      "arena",
+      "bajo",
+      "beige",
+      "bl",
+      "blanc",
+      "blanca",
+      "blanco",
+      "cajou",
+      "caju",
+      "cajú",
+      "color",
+      "el blanco",
+      "el caju",
+      "el gris",
+      "el meso",
+      "el oscuro",
+      "en blanco",
+      "grafito",
+      "grafitto",
+      "gris",
+      "gris oscuro",
+      "gráfito",
+      "hormigon",
+      "hormigón",
+      "kaju",
+      "madera",
+      "marron",
+      "marrón",
+      "mesada",
+      "mesada integrada",
+      "meso",
+      "messo",
+      "mezo",
+      "mezzo",
+      "mezó",
+      "ormigon",
+      "ormigón",
+      "oscuro",
+      "panel",
+      "saara",
+      "sahara",
+      "sahará",
+      "sajara",
+      "tapa",
+      "upanel ",
+      "upanel b"
+    ],
+    "stock": -21,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -21,
+        "stockReal": -21,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 34600,
+      "mayorista1": 47402,
+      "mayorista2": 25950
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node sync/sync-dux.js)",
+      "Bash(node -e ' *)",
+      "Bash(node sync/runner.js)",
+      "Bash(node catalogo/generar-catalogo.js)",
+      "Bash(node sincronizacion-automatica/sync-dux.js)",
+      "Bash(node palabras-clave-y-detalles/generar-catalogo.js)",
+      "Bash(node -e \"require\\('./memoria-de-clientes/memoria-manager.js'\\).resumenCliente\\('5491149460531'\\) && console.log\\('memoria OK'\\)\")",
+      "Bash(node -e \"require\\('./imagenes-y-pdf-para-clientes/media-manager.js'\\).generarIndice\\(\\) && console.log\\('media OK'\\)\")",
+      "Bash(node -e \"const m = require\\('./imagenes-y-pdf-para-clientes/media-manager.js'\\); m.resumenCobertura\\(\\); m.generarIndice\\(\\);\")",
+      "Bash(python -c ' *)",
+      "Bash(pip install *)",
+      "Bash(python actualizar-base.py)",
+      "Bash(del \"C:\\\\Users\\\\CRISTIAN MONTEMARANO\\\\Desktop\\\\compartida con clude code\\\\actualizar-base.py\")",
+      "Bash(npm install *)",
+      "Bash(ngrok version *)"
+    ]
+  }
+}

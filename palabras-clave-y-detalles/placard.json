@@ -1,0 +1,1762 @@
+[
+  {
+    "codigo": "FRE180",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "seccion": "placard",
+    "categoria": "frente",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "2ptas",
+      "fre180",
+      "frente",
+      "frente placard",
+      "placard",
+      "puerta placard"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 385600,
+      "mayorista1": 528272,
+      "mayorista2": 289200
+    }
+  },
+  {
+    "codigo": "FRE200",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "seccion": "placard",
+    "categoria": "frente",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "2ptas",
+      "fre200",
+      "frente",
+      "frente placard",
+      "placard",
+      "puerta placard"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 574300,
+      "mayorista1": 786791,
+      "mayorista2": 430725
+    }
+  },
+  {
+    "codigo": "FRE300",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "seccion": "placard",
+    "categoria": "frente",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "2ptas",
+      "fre300",
+      "frente",
+      "frente placard",
+      "placard",
+      "puerta placard"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 595500,
+      "mayorista1": 815835,
+      "mayorista2": 446625
+    }
+  },
+  {
+    "codigo": "FRE400",
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "seccion": "placard",
+    "categoria": "frente",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "2ptas",
+      "fre400",
+      "frente",
+      "frente placard",
+      "placard",
+      "puerta placard"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 617500,
+      "mayorista1": 845975,
+      "mayorista2": 463125
+    }
+  },
+  {
+    "codigo": "40B",
+    "nombre": "MODULO CON ESTANTES REGULABLES 40 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "40",
+    "guardado": "estantes",
+    "colores": [
+      "BLANCO"
+    ],
+    "es_componente": false,
+    "keywords": [
+      "40",
+      "40b",
+      "bl",
+      "blanc",
+      "blanca",
+      "blanco",
+      "cm.",
+      "cuarenta",
+      "de 40",
+      "el blanco",
+      "el de 40",
+      "en blanco",
+      "estantes",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables"
+    ],
+    "stock": -23,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -23,
+        "stockReal": -23,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 120000,
+      "mayorista1": 164400,
+      "mayorista2": 90000
+    }
+  },
+  {
+    "codigo": "40C",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y 3 CAJONES TELESCOPICOS 40 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "40",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40",
+      "40c",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "cm.",
+      "cuarenta",
+      "de 40",
+      "el de 40",
+      "estantes",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables",
+      "telescopicos"
+    ],
+    "stock": -6,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -6,
+        "stockReal": -6,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 262800,
+      "mayorista1": 360036,
+      "mayorista2": 197100
+    }
+  },
+  {
+    "codigo": "40H",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y DOS BANDEJAS INFERIORES 40 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "40",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40",
+      "40h",
+      "bandejas",
+      "cm.",
+      "cuarenta",
+      "de 40",
+      "dos",
+      "el de 40",
+      "estantes",
+      "inferiores",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 160900,
+      "mayorista1": 220433,
+      "mayorista2": 120675
+    }
+  },
+  {
+    "codigo": "40J",
+    "nombre": "40J MODULO PARA INTERIOR DE PLACARD 90CM H POR 40CM DE ANCHO PARA ARMAR EN UNA SOLA CAJA",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "90",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40cm",
+      "40j",
+      "90",
+      "90cm",
+      "ancho",
+      "armar",
+      "caja",
+      "de 90",
+      "el de 90",
+      "interior",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "noventa",
+      "placard",
+      "sola"
+    ],
+    "stock": 9,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 9,
+        "stockReal": 9,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 77990,
+      "mayorista1": 106846,
+      "mayorista2": 58492
+    }
+  },
+  {
+    "codigo": "60A",
+    "nombre": "MODULO CON ESTANTES REGULABLES 60 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60",
+      "60a",
+      "cm.",
+      "de 60",
+      "el de 60",
+      "estantes",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables",
+      "seisenta",
+      "sesenta"
+    ],
+    "stock": -27,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -27,
+        "stockReal": -27,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 140800,
+      "mayorista1": 192896,
+      "mayorista2": 105600
+    }
+  },
+  {
+    "codigo": "60D",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y 3 CAJONES TELESCOPICOS 60 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60",
+      "60d",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "cm.",
+      "de 60",
+      "el de 60",
+      "estantes",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables",
+      "seisenta",
+      "sesenta",
+      "telescopicos"
+    ],
+    "stock": -32,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -32,
+        "stockReal": -32,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 299400,
+      "mayorista1": 410178,
+      "mayorista2": 224550
+    }
+  },
+  {
+    "codigo": "60E",
+    "nombre": "MODULO CON ESTANTES Y CUBOS REGULABLES 60 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60",
+      "60e",
+      "cm.",
+      "cubos",
+      "de 60",
+      "el de 60",
+      "estantes",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables",
+      "seisenta",
+      "sesenta"
+    ],
+    "stock": -10,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 163600,
+      "mayorista1": 224132,
+      "mayorista2": 122700
+    }
+  },
+  {
+    "codigo": "60F",
+    "nombre": "MODULO CON ESTANTES Y CUBOS REGULABLES MAS 3 CAJONES TELESCOPICOS 60 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60",
+      "60f",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "cm.",
+      "cubos",
+      "de 60",
+      "el de 60",
+      "estantes",
+      "interior placard",
+      "mas",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables",
+      "seisenta",
+      "sesenta",
+      "telescopicos"
+    ],
+    "stock": -7,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -7,
+        "stockReal": -7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 319800,
+      "mayorista1": 438126,
+      "mayorista2": 239850
+    }
+  },
+  {
+    "codigo": "60G",
+    "nombre": "MODULO CON ESTANTES REGULABLES Y DOS BANDEJAS INFERIORES 60 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60",
+      "60g",
+      "bandejas",
+      "cm.",
+      "de 60",
+      "dos",
+      "el de 60",
+      "estantes",
+      "inferiores",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "regulables",
+      "seisenta",
+      "sesenta"
+    ],
+    "stock": -2,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 190700,
+      "mayorista1": 261259,
+      "mayorista2": 143025
+    }
+  },
+  {
+    "codigo": "60I",
+    "nombre": "MODULO CON ESTANTES Y BARRAL SUPERIOR 60 CM.",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60",
+      "60i",
+      "barral",
+      "cm.",
+      "de 60",
+      "el de 60",
+      "estantes",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "seisenta",
+      "sesenta",
+      "superior"
+    ],
+    "stock": -3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 124900,
+      "mayorista1": 171113,
+      "mayorista2": 93675
+    }
+  },
+  {
+    "codigo": "40G",
+    "nombre": "PA90-2+ES40-2+CA40(3)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40g",
+      "pa90-2+es40-2+ca40(3)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 213232,
+      "mayorista1": 292128,
+      "mayorista2": 159924
+    }
+  },
+  {
+    "codigo": "40I",
+    "nombre": "PA90-2+ES40-2+CA40",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40i",
+      "pa90-2+es40-2+ca40"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 123704,
+      "mayorista1": 169474,
+      "mayorista2": 92778
+    }
+  },
+  {
+    "codigo": "40K",
+    "nombre": "PA90+ES40",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40k",
+      "pa90+es40"
+    ],
+    "stock": 4,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 128989,
+      "mayorista1": 176715,
+      "mayorista2": 96742
+    }
+  },
+  {
+    "codigo": "40L",
+    "nombre": "PA90-2+ES40-2+CA40(2)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40l",
+      "pa90-2+es40-2+ca40(2)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 168468,
+      "mayorista1": 230801,
+      "mayorista2": 126351
+    }
+  },
+  {
+    "codigo": "40M",
+    "nombre": "PA90+ES40+CA40",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40m",
+      "pa90+es40+ca40"
+    ],
+    "stock": 4,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 173753,
+      "mayorista1": 238042,
+      "mayorista2": 130315
+    }
+  },
+  {
+    "codigo": "40N",
+    "nombre": "PA90+ES40+CA40(2)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40n",
+      "pa90+es40+ca40(2)"
+    ],
+    "stock": 4,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 218517,
+      "mayorista1": 299368,
+      "mayorista2": 163888
+    }
+  },
+  {
+    "codigo": "40P",
+    "nombre": "PA90+ES40+CA40(3)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40p",
+      "pa90+es40+ca40(3)"
+    ],
+    "stock": 2.66666667,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 2.66666667,
+        "stockReal": 2.66666667,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 263281,
+      "mayorista1": 360695,
+      "mayorista2": 197461
+    }
+  },
+  {
+    "codigo": "40Q",
+    "nombre": "PA90-2+ES40-2+CA40",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40q",
+      "pa90-2+es40-2+ca40"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 123704,
+      "mayorista1": 169474,
+      "mayorista2": 92778
+    }
+  },
+  {
+    "codigo": "40R",
+    "nombre": "PA90-2+ES40-2+CA40(3)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "40r",
+      "pa90-2+es40-2+ca40(3)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 213232,
+      "mayorista1": 292128,
+      "mayorista2": 159924
+    }
+  },
+  {
+    "codigo": "60H",
+    "nombre": "PA90-2+ES60-2+CA60(2)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60h",
+      "pa90-2+es60-2+ca60(2)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 202295,
+      "mayorista1": 277144,
+      "mayorista2": 151721
+    }
+  },
+  {
+    "codigo": "60J",
+    "nombre": "PA90-2+ES60-2",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60j",
+      "pa90-2+es60-2"
+    ],
+    "stock": -1,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 95009,
+      "mayorista1": 130162,
+      "mayorista2": 71257
+    }
+  },
+  {
+    "codigo": "60K",
+    "nombre": "PA90+ES60",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60k",
+      "pa90+es60"
+    ],
+    "stock": 3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 161126,
+      "mayorista1": 220743,
+      "mayorista2": 120844
+    }
+  },
+  {
+    "codigo": "60L",
+    "nombre": "PA90-2+ES60-2+CA60(2)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60l",
+      "pa90-2+es60-2+ca60(2)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 202295,
+      "mayorista1": 277144,
+      "mayorista2": 151721
+    }
+  },
+  {
+    "codigo": "60M",
+    "nombre": "PA90+ES60+CA60",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60m",
+      "pa90+es60+ca60"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 214769,
+      "mayorista1": 294234,
+      "mayorista2": 161077
+    }
+  },
+  {
+    "codigo": "60N",
+    "nombre": "PA90+ES60+CA60(2)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60n",
+      "pa90+es60+ca60(2)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 268412,
+      "mayorista1": 367724,
+      "mayorista2": 201309
+    }
+  },
+  {
+    "codigo": "60P",
+    "nombre": "PA90+ES60+CA60(3)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60p",
+      "pa90+es60+ca60(3)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 322055,
+      "mayorista1": 441215,
+      "mayorista2": 241541
+    }
+  },
+  {
+    "codigo": "60Q",
+    "nombre": "PA90-2+ES60-2+CA60",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60q",
+      "pa90-2+es60-2+ca60"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 148652,
+      "mayorista1": 203653,
+      "mayorista2": 111489
+    }
+  },
+  {
+    "codigo": "60R",
+    "nombre": "PA90-2+ES60-2+CA60(3)",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": false,
+    "keywords": [
+      "60r",
+      "pa90-2+es60-2+ca60(3)"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 255938,
+      "mayorista1": 350635,
+      "mayorista2": 191953
+    }
+  },
+  {
+    "codigo": "BRR1",
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "barral",
+      "brr1",
+      "colgar",
+      "rr1",
+      "soportes"
+    ],
+    "stock": -49.34,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -49.34,
+        "stockReal": -49.34,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 14600,
+      "mayorista1": 20002,
+      "mayorista2": 10950
+    }
+  },
+  {
+    "codigo": "BRR2",
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "barral",
+      "brr2",
+      "colgar",
+      "rr2",
+      "soportes"
+    ],
+    "stock": -6.48,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -6.48,
+        "stockReal": -6.48,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 14600,
+      "mayorista1": 20002,
+      "mayorista2": 10950
+    }
+  },
+  {
+    "codigo": "BRR3",
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "barral",
+      "brr3",
+      "colgar",
+      "rr3",
+      "soportes"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 14600,
+      "mayorista1": 20002,
+      "mayorista2": 10950
+    }
+  },
+  {
+    "codigo": "CA40",
+    "nombre": "4 BASES DE 40CM CON PALO Y 2 ESTANTES",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "40",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "40",
+      "40cm",
+      "bases",
+      "ca40",
+      "cuarenta",
+      "de 40",
+      "el de 40",
+      "estantes",
+      "palo"
+    ],
+    "stock": 8,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 62914,
+      "mayorista1": 86192,
+      "mayorista2": 47185
+    }
+  },
+  {
+    "codigo": "ES40",
+    "nombre": "CAJON 40CM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "40",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "40",
+      "40cm",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "cuarenta",
+      "de 40",
+      "el de 40",
+      "es40"
+    ],
+    "stock": 8,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 62815,
+      "mayorista1": 86057,
+      "mayorista2": 47111
+    }
+  },
+  {
+    "codigo": "ES40-2",
+    "nombre": "2 BASES DE 40CM CON PALO Y ESTANTE",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "40",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "40",
+      "40cm",
+      "bases",
+      "cuarenta",
+      "de 40",
+      "el de 40",
+      "es40-2",
+      "estante",
+      "palo"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 40483,
+      "mayorista1": 55462,
+      "mayorista2": 30362
+    }
+  },
+  {
+    "codigo": "ES60",
+    "nombre": "CAJON 60CM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "60",
+      "60cm",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "de 60",
+      "el de 60",
+      "es60",
+      "seisenta",
+      "sesenta"
+    ],
+    "stock": 3,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 94953,
+      "mayorista1": 130086,
+      "mayorista2": 71215
+    }
+  },
+  {
+    "codigo": "ES60-2",
+    "nombre": "2 BASES DE 60CM CON PALO Y ESTANTE",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "60",
+      "60cm",
+      "bases",
+      "de 60",
+      "el de 60",
+      "es60-2",
+      "estante",
+      "palo",
+      "seisenta",
+      "sesenta"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 56551,
+      "mayorista1": 77475,
+      "mayorista2": 42413
+    }
+  },
+  {
+    "codigo": "PA90",
+    "nombre": "4 COSTADOS 90X45",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "90x45",
+      "costados",
+      "pa90"
+    ],
+    "stock": 4,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 78273,
+      "mayorista1": 107234,
+      "mayorista2": 58705
+    }
+  },
+  {
+    "codigo": "PA90-2",
+    "nombre": "2 COSTADOS 90X45",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "90x45",
+      "costados",
+      "pa90-2"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 50558,
+      "mayorista1": 69264,
+      "mayorista2": 37918
+    }
+  },
+  {
+    "codigo": "TCH1",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "baulera",
+      "estante",
+      "melamina",
+      "piso",
+      "tch1"
+    ],
+    "stock": -52.05,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -52.05,
+        "stockReal": -52.05,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 20900,
+      "mayorista1": 28633,
+      "mayorista2": 15675
+    }
+  },
+  {
+    "codigo": "TCH2",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "baulera",
+      "estante",
+      "melamina",
+      "piso",
+      "tch2"
+    ],
+    "stock": -18.85,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -18.85,
+        "stockReal": -18.85,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 20900,
+      "mayorista1": 28633,
+      "mayorista2": 15675
+    }
+  },
+  {
+    "codigo": "TCH3",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "baulera",
+      "estante",
+      "melamina",
+      "piso",
+      "tch3"
+    ],
+    "stock": -2.58,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -2.58,
+        "stockReal": -2.58,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 20900,
+      "mayorista1": 28633,
+      "mayorista2": 15675
+    }
+  },
+  {
+    "codigo": "TCH4",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "baulera",
+      "estante",
+      "melamina",
+      "piso",
+      "tch4"
+    ],
+    "stock": -6.51,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -6.51,
+        "stockReal": -6.51,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 20900,
+      "mayorista1": 28633,
+      "mayorista2": 15675
+    }
+  },
+  {
+    "codigo": "TCH5",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "baulera",
+      "estante",
+      "melamina",
+      "piso",
+      "tch5"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 20900,
+      "mayorista1": 28633,
+      "mayorista2": 15675
+    }
+  },
+  {
+    "codigo": "TCH6",
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "seccion": "placard",
+    "categoria": "componente_placard",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "estantes",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "baulera",
+      "estante",
+      "melamina",
+      "piso",
+      "tch6"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 20900,
+      "mayorista1": 28633,
+      "mayorista2": 15675
+    }
+  },
+  {
+    "codigo": "CA60",
+    "nombre": "CAJON DE 60CM PARA APLICAR EN MODULO UNA UNIDAD",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "60",
+    "guardado": "cajones",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "60",
+      "60cm",
+      "aplicar",
+      "ca60",
+      "cajon",
+      "cajonera",
+      "cajones",
+      "de 60",
+      "el de 60",
+      "interior placard",
+      "modulo",
+      "módulo",
+      "placard",
+      "seisenta",
+      "sesenta",
+      "unidad"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 71793,
+      "mayorista1": 98356,
+      "mayorista2": 53845
+    }
+  },
+  {
+    "codigo": "CUBO40",
+    "nombre": "CUBO SOBREPONER A MODULOS 40",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "cubo",
+      "cubo40",
+      "cuo40",
+      "interior placard",
+      "modulo",
+      "modulos",
+      "módulo",
+      "placard",
+      "sobreponer"
+    ],
+    "stock": -10,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 41800,
+      "mayorista1": 57266,
+      "mayorista2": 31350
+    }
+  },
+  {
+    "codigo": "CUBO60",
+    "nombre": "CUBO SOBREPONER A MODULOS 60",
+    "seccion": "placard",
+    "categoria": "modulo",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "cubo",
+      "cubo60",
+      "cuo60",
+      "interior placard",
+      "modulo",
+      "modulos",
+      "módulo",
+      "placard",
+      "sobreponer"
+    ],
+    "stock": -13,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": -13,
+        "stockReal": -13,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 41800,
+      "mayorista1": 57266,
+      "mayorista2": 31350
+    }
+  },
+  {
+    "codigo": "PLPUERTA",
+    "nombre": "PUERTA AGREGADA",
+    "seccion": "placard",
+    "categoria": "otro",
+    "linea": "placard",
+    "medida": "",
+    "guardado": "puertas",
+    "colores": [],
+    "es_componente": true,
+    "keywords": [
+      "agregada",
+      "plpuerta",
+      "puerta",
+      "puertas"
+    ],
+    "stock": 0,
+    "stock_variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    },
+    "precios": {
+      "madre": 0,
+      "mayorista1": 0,
+      "mayorista2": 0
+    }
+  }
+]

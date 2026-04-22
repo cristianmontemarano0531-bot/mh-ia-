@@ -1,0 +1,5678 @@
+{
+  "100": {
+    "nombre": "CORRGUADOS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "101": {
+    "nombre": "`TELGOPOR",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "103": {
+    "nombre": "TELGOPOR PLANCHA",
+    "stockTotal": 100,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 100,
+        "stockReal": 100,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "5004": {
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA CUADRADA 37 X 37 X 13.5 H",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "5007": {
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR 48 X 37 X 14 H",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "5012": {
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA REDONDA 32.5",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "5017": {
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR 51.5 X 43 X 14 H",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "5020": {
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA REDONDA 40 X 40 X 14.5 H",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "5021": {
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA OVALADA 41.5 X 33 X 14 H",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "127639": {
+    "nombre": "BOLSA DE PEGAMENTO PARA PEGADORA DE CANTOS RAKOLL 570X25KG",
+    "stockTotal": 4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "128718": {
+    "nombre": "TARUGO DE MADERA 8X30 1000 UNIDADES",
+    "stockTotal": 14,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 14,
+        "stockReal": 14,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40114435": {
+    "nombre": "TORNILLO AMARILLO 3,5 X 35MM CAJA X 500 UNIDANES SKO",
+    "stockTotal": 21,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 21,
+        "stockReal": 21,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40114959": {
+    "nombre": "TORNILLO NEGRO 6X3/4 (3,5 X 19) SKO 1000 UNIDADES",
+    "stockTotal": 12,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 12,
+        "stockReal": 12,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "2005CM": {
+    "nombre": "TIRADOR PATAGONIA MATE PEON",
+    "stockTotal": 20,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 20,
+        "stockReal": 20,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40B": {
+    "nombre": "MODULO CON ESTANTES REGULABLES 40 CM.",
+    "stockTotal": -23,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -23,
+        "stockReal": -23,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40C": {
+    "nombre": "MODULO CON ESTANTES REGULABLES Y 3 CAJONES TELESCOPICOS 40 CM.",
+    "stockTotal": -6,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -6,
+        "stockReal": -6,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40G": {
+    "nombre": "PA90-2+ES40-2+CA40(3)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40H": {
+    "nombre": "MODULO CON ESTANTES REGULABLES Y DOS BANDEJAS INFERIORES 40 CM.",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40I": {
+    "nombre": "PA90-2+ES40-2+CA40",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40J": {
+    "nombre": "40J MODULO PARA INTERIOR DE PLACARD 90CM H POR 40CM DE ANCHO PARA ARMAR EN UNA SOLA CAJA",
+    "stockTotal": 9,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 9,
+        "stockReal": 9,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40K": {
+    "nombre": "PA90+ES40",
+    "stockTotal": 4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40L": {
+    "nombre": "PA90-2+ES40-2+CA40(2)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40M": {
+    "nombre": "PA90+ES40+CA40",
+    "stockTotal": 4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40N": {
+    "nombre": "PA90+ES40+CA40(2)",
+    "stockTotal": 4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40P": {
+    "nombre": "PA90+ES40+CA40(3)",
+    "stockTotal": 2.66666667,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2.66666667,
+        "stockReal": 2.66666667,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40Q": {
+    "nombre": "PA90-2+ES40-2+CA40",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "40R": {
+    "nombre": "PA90-2+ES40-2+CA40(3)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60A": {
+    "nombre": "MODULO CON ESTANTES REGULABLES 60 CM.",
+    "stockTotal": -27,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -27,
+        "stockReal": -27,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60D": {
+    "nombre": "MODULO CON ESTANTES REGULABLES Y 3 CAJONES TELESCOPICOS 60 CM.",
+    "stockTotal": -32,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -32,
+        "stockReal": -32,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60E": {
+    "nombre": "MODULO CON ESTANTES Y CUBOS REGULABLES 60 CM.",
+    "stockTotal": -10,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60F": {
+    "nombre": "MODULO CON ESTANTES Y CUBOS REGULABLES MAS 3 CAJONES TELESCOPICOS 60 CM.",
+    "stockTotal": -7,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -7,
+        "stockReal": -7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60G": {
+    "nombre": "MODULO CON ESTANTES REGULABLES Y DOS BANDEJAS INFERIORES 60 CM.",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60H": {
+    "nombre": "PA90-2+ES60-2+CA60(2)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60I": {
+    "nombre": "MODULO CON ESTANTES Y BARRAL SUPERIOR 60 CM.",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60J": {
+    "nombre": "PA90-2+ES60-2",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60K": {
+    "nombre": "PA90+ES60",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60L": {
+    "nombre": "PA90-2+ES60-2+CA60(2)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60M": {
+    "nombre": "PA90+ES60+CA60",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60N": {
+    "nombre": "PA90+ES60+CA60(2)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60P": {
+    "nombre": "PA90+ES60+CA60(3)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60Q": {
+    "nombre": "PA90-2+ES60-2+CA60",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "60R": {
+    "nombre": "PA90-2+ES60-2+CA60(3)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A100": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -5,
+        "stockReal": -5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A146PIAZZA": {
+    "nombre": "BACHA PIAZZA DE APOYO EN PORCELANA RECTANGULAR MONOCOMANDO COLOR BLANCO PARA VMINI",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A30": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": -1,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A30CD": {
+    "nombre": "ALACENA 30CM UNA PUERTA DERECHA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A30CI": {
+    "nombre": "ALACENA 30CM UNA PUERTA IZQUIERDA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A30CVD": {
+    "nombre": "ALACENA 30CM UNA PUERTA DERECHA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A30CVI": {
+    "nombre": "ALACENA 30CM UNA PUERTA IZQUIERDA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A30V": {
+    "nombre": "ALACENA VIDRIADA",
+    "stockTotal": 0,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A35": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": -1,
+    "variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A40": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": -4,
+    "variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A40CD": {
+    "nombre": "ALACENA 40CM UNA PUERTA DERECHA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A40CI": {
+    "nombre": "ALACENA 40CM UNA PUERTA IZQUIERDA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A40CVD": {
+    "nombre": "ALACENA 40CM UNA PUERTA DERECHA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A40CVI": {
+    "nombre": "ALACENA 40CM UNA PUERTA IZQUIERDA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A40V": {
+    "nombre": "ALACENA VIDRIADA",
+    "stockTotal": 0,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A45": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": 0,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A45BC": {
+    "nombre": "ALACENA 60CM UNA PUERTA DE ABRIR IZQUIERDA 45CM MAS BODEGA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A50": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": -2,
+    "variantes": {
+      "BLANCO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60B": {
+    "nombre": "ALACENA BODEGA",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60C": {
+    "nombre": "ALACENA 60CM DOS PUERTAS COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60PM": {
+    "nombre": "ALACENA PORTA MICRO",
+    "stockTotal": -5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -5,
+        "stockReal": -5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60PMB": {
+    "nombre": "ALACENA PORTA MICRO BODEGA",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60PMBC": {
+    "nombre": "ALACENA 60CM PORTA MICROONDAS BODEGA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60PMC": {
+    "nombre": "ALACENA 60CM PORTA MICROONDAS PUERTA REVATIBLE COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60R": {
+    "nombre": "ALACENA REBATIBLE",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60RID": {
+    "nombre": "ALACENA RINCONERO",
+    "stockTotal": -1,
+    "variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60RV": {
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A60SH": {
+    "nombre": "ALACENA 2 PUERTAS SOBRE SPAR 60X45",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A70": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A70B": {
+    "nombre": "ALACENA BODEGA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A70R": {
+    "nombre": "ALACENA REBATIBLE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A80": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A80B": {
+    "nombre": "ALACENA BODEGA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A80C": {
+    "nombre": "ALACENA 80CM DOS PUERTAS COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A80R": {
+    "nombre": "ALACENA REBATIBLE",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A80RV": {
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "A90": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "AJUSMHCOCINA": {
+    "nombre": "COCINA MH",
+    "stockTotal": -4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -4,
+        "stockReal": -4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "AJUSTABLE1": {
+    "nombre": "HERRAJES ARRAIAL AJUSTABLE",
+    "stockTotal": 85,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 85,
+        "stockReal": 85,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "AJUSTABLE10": {
+    "nombre": "PRODUCTO:",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "AJUSTABLE2": {
+    "nombre": "PLACAS AJUSTABLE",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "AJUSTABLECOCINA": {
+    "nombre": "AJUSTABLE PARA COCINA",
+    "stockTotal": -16,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -16,
+        "stockReal": -16,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "AJUSTABLEMHCOCINA": {
+    "nombre": "MODULADO PARA MUEBLES DE COCINA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "AJUSTABLEMHMPLACARD": {
+    "nombre": "AJUSTABLE MODULOS DE PLACARD",
+    "stockTotal": -4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -4,
+        "stockReal": -4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ANAQUEL30B": {
+    "nombre": "ANAQUEL 30CM UÑERO DE COLGAR CON TRES PUERTAS COLOR BLANCO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ANAQUEL30COLOR": {
+    "nombre": "ANAQUEL 30CM UÑERO DE COLGAR CON TRES PUERTAS COLOR",
+    "stockTotal": 0,
+    "variantes": {
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ANAQUEL40B": {
+    "nombre": "ANAQUEL 40CM UÑERO DE COLGAR CON TRES PUERTAS COLOR BLANCO",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ANAQUEL40COLOR": {
+    "nombre": "ANAQUEL 40CM UÑERO DE COLGAR CON TRES PUERTAS COLOR",
+    "stockTotal": 2,
+    "variantes": {
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B10-25": {
+    "nombre": "BAJO MESADA BANDEJERO",
+    "stockTotal": -8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B100": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -10,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B100R": {
+    "nombre": "BAJO MESADA RINCONERO",
+    "stockTotal": -3,
+    "variantes": {
+      "BLANCO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B30": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -6,
+    "variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B35": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -6,
+    "variantes": {
+      "BLANCO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B40": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -6,
+    "variantes": {
+      "BLANCO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B40 2C": {
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B40 3C": {
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "stockTotal": -23,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -23,
+        "stockReal": -23,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B40 4C": {
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "stockTotal": -5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -5,
+        "stockReal": -5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B45": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": 0,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B50": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -5,
+    "variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B60": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -9,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -9,
+        "stockReal": -9,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B60 2C": {
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B60 3C": {
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B60 4C": {
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B60PHB": {
+    "nombre": "BAJO MESADA PORTA HORNO BAJO",
+    "stockTotal": -21,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -21,
+        "stockReal": -21,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B70": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -10,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B80": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -11,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -11,
+        "stockReal": -11,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B80 3C": {
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B90": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -20,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -20,
+        "stockReal": -20,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "B90R": {
+    "nombre": "BAJO MESADA RINCONERO",
+    "stockTotal": -3,
+    "variantes": {
+      "BLANCO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BIC-1": {
+    "nombre": "LINEA LIBERTY BIDET DE PIE DE LOZA BLANCO 1 Y 3 AGUJEROS MEDIDAS 520MM X 360MM X 400MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BIC-3": {
+    "nombre": "LINEA PRIDE BIODET DE PIE EN LOZA BLANCO MONOCOMANDO MEDIDAS 535MM X 350MM X 405MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BIR-1": {
+    "nombre": "LINEA UTOPIA BIDET DE PIE LOZA BLANCO CON DESCARGA VERTICAL MONOCOMANDO MEDIDAS 535MM X 355MM X 385MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BIR-2": {
+    "nombre": "LINEA ICON BIDET DE PIE DE LOZA BLANCO 1 Y 3 AGUJEROS MEDIDAS 350MM X 370MM X 405MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BIR-3": {
+    "nombre": "LINEA SYMPHONY BIDET DE PIE EN LOZA BLANCO 1 Y 3 AGUJEROS MEDIDAS 525MM X 350MM X 405MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BISA": {
+    "nombre": "BISAGRA CON FRENO BASE 3D POR UNIDAD",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BLACKTOUCH": {
+    "nombre": "MELAMINA 18MM MEGRO EXTRA MATTE LINEA TACTIL FA PLAC 275X130",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BLUNAM": {
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO CIRCULAR PARA MONOCOMANDO COLOR BLANCO",
+    "stockTotal": 4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BO": {
+    "nombre": "BONIFICACION",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BRR1": {
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "stockTotal": -49.34,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -49.34,
+        "stockReal": -49.34,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BRR2": {
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "stockTotal": -6.48,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -6.48,
+        "stockReal": -6.48,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BRR3": {
+    "nombre": "BARRAL PARA COLGAR CON SOPORTES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BRZ-1740-B": {
+    "nombre": "CORREDERA Z 400MM BLANCA",
+    "stockTotal": 25,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 25,
+        "stockReal": 25,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BWC035": {
+    "nombre": "BISAGRA CAZOLETA 35 STD DUCASSE CODO 0 COMUN X UNIDAD",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "BWFRE35N": {
+    "nombre": "BISAGRA NEGRA CODO 0 CON FRENO Y BASE HAITS X UNIDAD",
+    "stockTotal": 1800,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1800,
+        "stockReal": 1800,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CA40": {
+    "nombre": "4 BASES DE 40CM CON PALO Y 2 ESTANTES",
+    "stockTotal": 8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CA60": {
+    "nombre": "CAJON DE 60CM PARA APLICAR EN MODULO UNA UNIDAD",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CATALOGO": {
+    "nombre": "CATALOGO MH",
+    "stockTotal": 13,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 13,
+        "stockReal": 13,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CL200": {
+    "nombre": "KIT DE PLACARD GRUPO EURO CLASSIC X 2MT 2 HOJAS",
+    "stockTotal": 5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CL200N": {
+    "nombre": "KIT DE PLACARD * NEGRO * GRUPO EURO CLASSIC X 2MT 2 HOJAS",
+    "stockTotal": 5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CL300": {
+    "nombre": "KIL DE PLACARD GRUPO EURO CLASSIC X 3MT 2 HOJAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CLAV": {
+    "nombre": "CLAVO PUNTA PARIS CABEZA CHATA 1000 UNIDADES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "COLG0012": {
+    "nombre": "COLGADOR DE ALACENA REGULABLE BLANCO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "COLOCACION": {
+    "nombre": "COLOCACION EN OBRA",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "COMBUSTIBLE": {
+    "nombre": "COMBUSTIBLE",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CRETO02": {
+    "nombre": "PLACA CRETTO ENCOFRADO 2830 X 1140 X 5 MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CRETO03": {
+    "nombre": "PLACA CRETTO CEMENTO VARILLADO 2750 X 1060 X 8,5 MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CRETO04": {
+    "nombre": "PLACA CRETTO HORMIGON 3110 X 1180 X 4 MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CRETTO01": {
+    "nombre": "PLACA SIMIL TRAVERTINO FLEXIBLE 244 CM X 120 CM X 2.5 MM",
+    "stockTotal": 0,
+    "variantes": {
+      "GRIS": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BEIGE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CTR": {
+    "nombre": "CINTA DE EMBALAJE 48MM X 100 METROS TRANSPARENTE",
+    "stockTotal": 5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CUBO40": {
+    "nombre": "CUBO SOBREPONER A MODULOS 40",
+    "stockTotal": -10,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "CUBO60": {
+    "nombre": "CUBO SOBREPONER A MODULOS 60",
+    "stockTotal": -13,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -13,
+        "stockReal": -13,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "DLOZA1201": {
+    "nombre": "MESADA DE LOZA BLANCA 120X46 UNA BACHA",
+    "stockTotal": 19,
+    "variantes": {
+      "MONOCOMANDO": {
+        "stock": 10,
+        "stockReal": 10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "3 AGUJEROS": {
+        "stock": 9,
+        "stockReal": 9,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "DLOZA120DOBLE": {
+    "nombre": "MESADA DE LOZA BLANCA 120X46 DOBLE BACHA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "DLOZA50": {
+    "nombre": "MESADA DE LOZA BLANCA 50X40",
+    "stockTotal": 37,
+    "variantes": {
+      "MONOCOMANDO": {
+        "stock": 6,
+        "stockReal": 6,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "TRES AGUJEROS": {
+        "stock": 31,
+        "stockReal": 31,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "DLOZA60": {
+    "nombre": "MESADA DE LOZA BLANCA 60X46",
+    "stockTotal": 26,
+    "variantes": {
+      "MONOCOMANDO": {
+        "stock": 13,
+        "stockReal": 13,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "3 AGUJEROS": {
+        "stock": 13,
+        "stockReal": 13,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "DLOZA80": {
+    "nombre": "MESADA DE LOZA BLANCA 80X46",
+    "stockTotal": 92,
+    "variantes": {
+      "MONOCOMANDO": {
+        "stock": 84,
+        "stockReal": 84,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "3 AGUJEROS": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "DLOZA80NM": {
+    "nombre": "MESADA DE LOZA NEGRO MATE 80X46",
+    "stockTotal": 1,
+    "variantes": {
+      "MONOCOMANDO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "3 AGUJEROS": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EADN": {
+    "nombre": "ESCUADRA PLASTICA DE ARMAR DOBLE COLOR NEGRA",
+    "stockTotal": 200,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 200,
+        "stockReal": 200,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EDM60": {
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 60CM CON TAPA DE ACRILICO EN MARMOL COLOR TERRA EDM60",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EDM60N": {
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 60CM CON TAPA DE ACRILICO EN MARMOL COLOR NERO EDM60N",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EDM80": {
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 80CM CON TAPA DE ACRILICO EN MARMOL COLOR TERRA EDM80",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EDM80N": {
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 80CM CON TAPA DE ACRILICO EN MARMOL COLOR NERO EDM80N",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EHP8X100": {
+    "nombre": "PATAS OCTOGONAL PLASTICAS KIT DE 4",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EHPE100": {
+    "nombre": "PATAS PLASTICAS REDONDAS 10CM KIT DE 4",
+    "stockTotal": 100,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 100,
+        "stockReal": 100,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EMB": {
+    "nombre": "EMBALAJE EN CAJA PARA EXPRESO",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EPZ": {
+    "nombre": "ESCUADRA PLANA ALACENA 9X9",
+    "stockTotal": 250,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 250,
+        "stockReal": 250,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ES40": {
+    "nombre": "CAJON 40CM",
+    "stockTotal": 8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ES40-2": {
+    "nombre": "2 BASES DE 40CM CON PALO Y ESTANTE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ES60": {
+    "nombre": "CAJON 60CM",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ES60-2": {
+    "nombre": "2 BASES DE 60CM CON PALO Y ESTANTE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESC30": {
+    "nombre": "ESCOBERO DE 30CM DOS PUERTAS 195X57X30",
+    "stockTotal": -3,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESC40": {
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "stockTotal": 0,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESC50": {
+    "nombre": "ESCOBERO DE 50CM DOS PUERTAS 195X57X40",
+    "stockTotal": 0,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESK7025": {
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 90X80",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESK70252": {
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 80X80",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESK70253": {
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 60X80",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESK7060/1": {
+    "nombre": "ESPEJO CIRCULAR CON LUZ LED Y TOUCH 60",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ESKOVAL": {
+    "nombre": "ESPEJO OVAL CON LUZ LED Y TOUCH 50X80",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EXHA12": {
+    "nombre": "TURBO VENTILADOR 12 PULGADAS 3 ASPAS 3 VELOCIDADES PLASTICO TRB12",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EXPO1": {
+    "nombre": "EXPOSITOR VANITORYS MEDIO",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "EXPO2": {
+    "nombre": "EXPOSITOR VANITORYS MODULO COLGANTE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "F-6-1000": {
+    "nombre": "SOPORTE DE ESTANTE 5X5 ZINCADO X 1000 UNIDADES",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "FILOB22": {
+    "nombre": "FILO PRE ENCOLADO BLANCO 22MM 50 M",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "FLETE": {
+    "nombre": "FLETE",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "FRE180": {
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "FRE200": {
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "FRE300": {
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "FRE400": {
+    "nombre": "FRENTE PLACARD 2PTAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "GREYTOUCH": {
+    "nombre": "MELAMINA 18MM GRIS EXTRA MATTE LINEA TACTIL FA PLAC 275X130",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "GT4530Z": {
+    "nombre": "CORREDERA TELESCOPICA 45MM X 30CM GRUPO EURO X UNIDAD",
+    "stockTotal": 530,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 530,
+        "stockReal": 530,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "GT4540Z": {
+    "nombre": "CORREDERA TELESCOPICA 45MM X 40CM GRUPO EURO X UNIDAD",
+    "stockTotal": 50,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 50,
+        "stockReal": 50,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "GT4545Z": {
+    "nombre": "CORREDERA TELESCOPICA 45MM X 45CM GRUPO EURO X UNIDAD",
+    "stockTotal": 150,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 150,
+        "stockReal": 150,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "IMR-1": {
+    "nombre": "LINEA UTOPIA INODORO DE LOZA BLANCO CON DESCARGA VERTICAL 250MM CON TAPA CIERRE SUAVE DE PP MEDIDAS 705MM X 400MM X 765MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "INC-1": {
+    "nombre": "LINEA LIBERTY INODORO DE LOZA BLANCO CON DESCARGA VERTICAL 250MM / CON TAPA DE CIERRE SUAVE PP / UF MEDIDAS 600MM X 383MM X 790MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "INC-3": {
+    "nombre": "LINEA PRIDE INODORO DE DOS PIEZAS EN LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMPLESS CON TAPA CIERRE SUAVE UF MEDIDAS 650MM X 375MM X 830MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "INR-2": {
+    "nombre": "LINEA ICON INODORO DE DOS PIEZAS DE LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMLESS CON TAPA CIERRE SUAVE UF MEDIDAS 620MM X 375MM X 820MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "INR-2C": {
+    "nombre": "LINEA ICON INODORO CORTO DE LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMPLESS CON TAPA CIERRE SUAVE UF MEDIDAS 550MM X 370MM X 405MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "INR-3": {
+    "nombre": "LINEA SYMPHONY INODORO DE DOS PIEZAS EN LOZA BLANCO CON DESCARGA VERTICAL 250MM OPEN RIMLESS CON TAPA CIERRE SUAVE UF MEDIDAS 650MM X 375MM X 830MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "JANEM": {
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO RECTANGULAR COLOR BLANCO",
+    "stockTotal": 2,
+    "variantes": {
+      "BLANCO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "L1040": {
+    "nombre": "PERFIL JOTA DE APLIQUE TIRA 3M ALUMINIO CY063 DIMOL",
+    "stockTotal": 50,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 50,
+        "stockReal": 50,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "L12": {
+    "nombre": "ANGULO L 12,7 X 12,7 MM ALUMINIO 3M",
+    "stockTotal": 20,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 20,
+        "stockReal": 20,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "L12N": {
+    "nombre": "ANGULO L 12,7 X 12,7 MM NEGRO 3M",
+    "stockTotal": 70,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 70,
+        "stockReal": 70,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "M18": {
+    "nombre": "MINIFIX PARA PLACA 18MM CAJA DE MIL UNIDADES VALOR POR UNIDAD",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "M537": {
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V50",
+    "stockTotal": 0,
+    "variantes": {
+      "TRES AGUJEROS": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MONOCOMANDO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MA0028": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR CAPUCCINO LIFE 1840X2750 ENCHAPADORA SAN JUAN",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MA0032": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR NEGRO LIFE 1840X2750 ENCHAPADORA SAN JUAN",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MAR60": {
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V60",
+    "stockTotal": 1,
+    "variantes": {
+      "TRES AGUJEROS": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MONOCOMANDO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MDF0001E": {
+    "nombre": "FIBROPLUS BLANCO 3MM FONDO",
+    "stockTotal": 60,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 60,
+        "stockReal": 60,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ME0200": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR BLANCO 135 FA PLAC 183X275",
+    "stockTotal": 320,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 320,
+        "stockReal": 320,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ME02024": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR STREET FA PLAC 183X275",
+    "stockTotal": 27,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 27,
+        "stockReal": 27,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ME02030N": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR ROBLE AMERICANO NATURE FA PLAC 183X275",
+    "stockTotal": 4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ME02065": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR CAJU FA PLAC 183X275",
+    "stockTotal": 34,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 34,
+        "stockReal": 34,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ME02107": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR GRIS GRAFITO FA PLAC 183X275",
+    "stockTotal": 28,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 28,
+        "stockReal": 28,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ME0MEZZO": {
+    "nombre": "MELAMINA AGLOMERADO 18MM COLOR CARVALLO MEZZO FA PLAC 183X275",
+    "stockTotal": 9,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 9,
+        "stockReal": 9,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ME0SAHARA": {
+    "nombre": "MELAMINA AGLOMERADO 18MM SAHARA PLAC 183X275",
+    "stockTotal": 5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MELAMINA AGLOMERADO 18MM GRIS TAPIR": {
+    "nombre": "MELAMINA AGLOMERADO 18MM GRIS TAPIR FA PLAC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MERCADOMH1": {
+    "nombre": "VENTAS DE MERCADO LIBRE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MGGOLD": {
+    "nombre": "PLACA SIMIL METAL G GOLD 122X244",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "MIRRGOLDESP": {
+    "nombre": "PLACA ESPEJADA DORADA 122X244",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "NCF495": {
+    "nombre": "FIORINO 2013 FIRE 1.3",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "OFICINA AJUSTABLE": {
+    "nombre": "MUEBLES PARA OFICINA A MEDIDA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "OVO": {
+    "nombre": "CAÑO OVAL X 3M ALUMINIO ANODIZADO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "P10-80-FI": {
+    "nombre": "PISTON A GAS FUERZA INVERSA 80NW BRONZEN",
+    "stockTotal": 170,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 170,
+        "stockReal": 170,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "P6-60": {
+    "nombre": "PISTON A GAS CHICO 6\" DE 60NW BRONZEN",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PA90": {
+    "nombre": "4 COSTADOS 90X45",
+    "stockTotal": 4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PA90-2": {
+    "nombre": "2 COSTADOS 90X45",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PANEL A": {
+    "nombre": "ALACENA PANEL COLOR",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PANEL B": {
+    "nombre": "BAJO MESADA PANEL COLOR",
+    "stockTotal": -10,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -10,
+        "stockReal": -10,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PBA122": {
+    "nombre": "PLACA MARMOLFLEX BEIGE ARENA 122X244",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PETIRIBI 18 NAT": {
+    "nombre": "MELAMINA AGLOMERADO 18MM PETIRIBI FA PLAC",
+    "stockTotal": 5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PHILPOR": {
+    "nombre": "EQUIPO PORTATIL PHILCO PHP35HC3API FC 3500 W",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PINECOV7": {
+    "nombre": "PINCEL ECO V7",
+    "stockTotal": -96,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -96,
+        "stockReal": -96,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PLPUERTA": {
+    "nombre": "PUERTA AGREGADA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PM": {
+    "nombre": "ALACENA PORTA MICROONDAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PNM122": {
+    "nombre": "PLACA MARMOLFLEX NEGRO MARQUINA 122X244",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PORCENOT01": {
+    "nombre": "PLACA SIMIL MARMOL FLEXIBLE EN ACRILICO PORCENOT",
+    "stockTotal": 0,
+    "variantes": {
+      "MARSELLA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "IBIZA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "OCEAN": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "AMAZONAS": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SIRET": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "PENTELICO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MARMOR": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "LUXE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "AUTUMN": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SKYBLUE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "ORANGE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "NAKLE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "KINGBLACK": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "ANGELS": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GREY": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GREYBROWN": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SILVER": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CALEDONIA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "TYCHE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "LUXOR": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CREEM": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GINE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "VESTIGES": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GOLDMINE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SKY": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PORCENOT02": {
+    "nombre": "PLACA TEXTURADA FLEXIBLE EN ACRILICO PORCENOT",
+    "stockTotal": 0,
+    "variantes": {
+      "CONCRETO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CONCRETO TEX": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "OXIDO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CONCRETO LISO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC0,40C": {
+    "nombre": "PVC 0,40 X22 CAJU 1 METRO",
+    "stockTotal": 1100,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1100,
+        "stockReal": 1100,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC0,40G": {
+    "nombre": "PVC 0,40 X22 GRAFITO 1 METRO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC0,40H": {
+    "nombre": "PVC 0,40 X22 STREET 1 METRO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC0,40M": {
+    "nombre": "PVC 0,40 X22 MEZZO 1 METRO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC0,40S": {
+    "nombre": "PVC 0,40 X22 SAHARA 1 METRO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC2MMB": {
+    "nombre": "CANTO PVC 2MM BLANCO 100M",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC2MMC": {
+    "nombre": "CANTO PVC 2MM CAJU 150M",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC2MMG": {
+    "nombre": "CANTO PVC 2MM GRAFITO 150M",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC2MMH": {
+    "nombre": "CANTO PVC 2MM URBAN STREET (HORMIGON) 150M",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC2MMM": {
+    "nombre": "CANTO PVC 2MM MEZZO CARVALLO 150M",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC2MMN": {
+    "nombre": "CANTO PVC 2MM NEGRO 150M",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "PVC2MMS": {
+    "nombre": "CANTO PVC 2MM SAHARA 150M",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "REC180": {
+    "nombre": "RECEPTACULO DE DUCHA EN ACRILICO BLANCO 150CM X 70CM X 0.55CM ESPESOR 2.5MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "REC80": {
+    "nombre": "RECEPTACULO DE DUCHA EN ACRILICO BLANCO 80CM X 80CM X 0.55CM ESPESOR 2.5MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "RECHAZO": {
+    "nombre": "CHEQUE RECHAZADO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S60R": {
+    "nombre": "ALACENA 2 REBATIBLES",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S60RC": {
+    "nombre": "ALACENA 60CM DOS PUERTAS REVATIBLES CERRADAS COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S60RV": {
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S60RVC": {
+    "nombre": "ALACENA 60CM DOS PUERTAS REVATIBLES UNA CERRADA UNA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S80R": {
+    "nombre": "ALACENA 2 REBATIBLES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S80RC": {
+    "nombre": "ALACENA 80CM DOS PUERTAS REVATIBLES CERRADAS COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S80RV": {
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "S80RVC": {
+    "nombre": "ALACENA 80CM DOS PUERTAS REVATIBLES UNA CERRADA UNA VIDRIADA COLOR BLANCO MODELO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "SOPBRR": {
+    "nombre": "SOPORTE LATERAL NIQUELADO PARA BARRAL OVAL",
+    "stockTotal": 100,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 100,
+        "stockReal": 100,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "T10-3513": {
+    "nombre": "TORNILLO DORADO 3,5 X 13 MM 1000 UNIDADES BRONZEN",
+    "stockTotal": 15,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 15,
+        "stockReal": 15,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "T10-SKO-13": {
+    "nombre": "TORNILLO AMARILLO 3,5X13MM CAJA X 500 UNIDANES SKO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "T10-SKO-16": {
+    "nombre": "TORNILLO NEGRO 6X5/8 (3,5 X 16) SKO 1000 UNIDADES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "T10-SKO-30": {
+    "nombre": "TORNILLO NEGRO 6X1 1/4 (3,5 X 32) SKO 1000 UNIDADES",
+    "stockTotal": 5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "T10-SKO-40": {
+    "nombre": "TPRNILLO NEGRO 6X1 1/2 (3,5 X 38) SKO 1000 UNIDADES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "T10-SKO-50": {
+    "nombre": "TORNILLO NEGRO 6X2 3,5X50MM CAJA X 1000 UNIDADES SKO",
+    "stockTotal": 18,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 18,
+        "stockReal": 18,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAP2MM1": {
+    "nombre": "TAPACANTO PVC 2MM LIFE ENCHAPADORA SAN JUAN",
+    "stockTotal": 0,
+    "variantes": {
+      "CAPUCCINO LIFE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "NEGRO LIFE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA050": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 050",
+    "stockTotal": 0,
+    "variantes": {
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA060M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 060",
+    "stockTotal": 6,
+    "variantes": {
+      "CAJU": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MADERA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA080M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 080",
+    "stockTotal": 10,
+    "variantes": {
+      "MEZZO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MADERA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA090M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 090",
+    "stockTotal": 7,
+    "variantes": {
+      "MEZZO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MADERA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA110M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 110",
+    "stockTotal": 1,
+    "variantes": {
+      "MADERA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA120M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 120",
+    "stockTotal": 2,
+    "variantes": {
+      "ROBLE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA140M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 140",
+    "stockTotal": 4,
+    "variantes": {
+      "MEZZO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "ROBLE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA150M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 150",
+    "stockTotal": 8,
+    "variantes": {
+      "MADERA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPA190M": {
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 190",
+    "stockTotal": 0,
+    "variantes": {
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "ROBLE": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPAMARMOL060": {
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL BEIGE 060",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPAMARMOL060N": {
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL NEGRO MARQUINA 060",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPAMARMOL080": {
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL BEIGE 080",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TAPAMARMOL080N": {
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL NEGRO MARQUINA 080",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TCH1": {
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "stockTotal": -52.05,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -52.05,
+        "stockReal": -52.05,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TCH2": {
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "stockTotal": -18.85,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -18.85,
+        "stockReal": -18.85,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TCH3": {
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "stockTotal": -2.58,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2.58,
+        "stockReal": -2.58,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TCH4": {
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "stockTotal": -6.51,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -6.51,
+        "stockReal": -6.51,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TCH5": {
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TCH6": {
+    "nombre": "ESTANTE / PISO DE BAULERA MELAMINA 18 MM",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TCP31": {
+    "nombre": "CANTO DE PVC 2MM COLOR BLANCO ROLLO DE 100 M",
+    "stockTotal": 1084,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1084,
+        "stockReal": 1084,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TER1": {
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO RECTANGULAR MONOCOMANDO COLOR BLANCO PARA VMINI",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TER2": {
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR MONOCOMANDO PARA VMINI",
+    "stockTotal": 6,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 6,
+        "stockReal": 6,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TERMOV30": {
+    "nombre": "CAJON TERMOFORMADO V30",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TPC-30": {
+    "nombre": "PVC 0,40 X22 BLANCO 1 METRO",
+    "stockTotal": 8400,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 8400,
+        "stockReal": 8400,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TST27-4": {
+    "nombre": "ANAFE VITRO ELECTRICO 4 HORNALLAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TST32-60": {
+    "nombre": "HORNO ELECTRICO DE EMBUTIR FORNELLO TST",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "TT1": {
+    "nombre": "TAPA TORNILLOS BLANCO PLANCHA 96 UNIDADES",
+    "stockTotal": 30,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 30,
+        "stockReal": 30,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA100": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA30": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": -4,
+    "variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA30V": {
+    "nombre": "ALACENA VIDRIADA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA35": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": 0,
+    "variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA40": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": -2,
+    "variantes": {
+      "UÑERO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA40V": {
+    "nombre": "ALACENA VIDRIADA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA45": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": 0,
+    "variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA50": {
+    "nombre": "ALACENA 1 PUERTA",
+    "stockTotal": -2,
+    "variantes": {
+      "UÑERO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60B": {
+    "nombre": "ALACENA BODEGA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60PM": {
+    "nombre": "ALACENA PORTA MICRO",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60PMB": {
+    "nombre": "ALACENA PORTA MICRO BODEGA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60R": {
+    "nombre": "ALACENA REBATIBLE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60RID": {
+    "nombre": "ALACENA RINCONERO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60RV": {
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA60SH": {
+    "nombre": "ALACENA 2 PUERTAS SOBRE SPAR 60X45",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA70": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA70B": {
+    "nombre": "ALACENA BODEGA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA70R": {
+    "nombre": "ALACENA REBATIBLE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA80": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": -8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -8,
+        "stockReal": -8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA80B": {
+    "nombre": "ALACENA BODEGA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA80R": {
+    "nombre": "ALACENA REBATIBLE",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA80RV": {
+    "nombre": "ALACENA REBATIBLE VIDRIADA",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UA90": {
+    "nombre": "ALACENA 2 PUERTAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB10-25": {
+    "nombre": "BAJO MESADA BANDEJERO",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB100": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB100R": {
+    "nombre": "BAJO MESADA RINCONERO",
+    "stockTotal": -4,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -4,
+        "stockReal": -4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB30": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -6,
+    "variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB35": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -2,
+    "variantes": {
+      "UÑERO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB40": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -7,
+    "variantes": {
+      "UÑERO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB40 2C": {
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB40 3C": {
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "stockTotal": -7,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -7,
+        "stockReal": -7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB40 4C": {
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB45": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -1,
+    "variantes": {
+      "UÑERO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB50": {
+    "nombre": "BAJO MESADA 1 PUERTA",
+    "stockTotal": -3,
+    "variantes": {
+      "UÑERO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB60": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB60 2C": {
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "stockTotal": -6,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -6,
+        "stockReal": -6,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB60 3C": {
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "stockTotal": -2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -2,
+        "stockReal": -2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB60 4C": {
+    "nombre": "BAJO MESADA 4 CAJONES",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB70": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB80": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -15,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -15,
+        "stockReal": -15,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB80 2C": {
+    "nombre": "BAJO MESADA 2 CAJONES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB80 3C": {
+    "nombre": "BAJO MESADA 3 CAJONES",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB90": {
+    "nombre": "BAJO MESADA 2 PUERTAS",
+    "stockTotal": -3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UB90R": {
+    "nombre": "BAJO MESADA RINCONERO",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UESC30": {
+    "nombre": "ESCOBERO DE 30CM DOS PUERTAS 195X57X30",
+    "stockTotal": -1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -1,
+        "stockReal": -1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UESC40": {
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UESC50": {
+    "nombre": "ESCOBERO DE 40CM DOS PUERTAS 195X57X40",
+    "stockTotal": 0,
+    "variantes": {
+      "BLANCO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UPANEL A": {
+    "nombre": "ALACENA PANEL COLOR",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UPANEL B": {
+    "nombre": "BAJO MESADA PANEL COLOR",
+    "stockTotal": -21,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": -21,
+        "stockReal": -21,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "UPM": {
+    "nombre": "ALACENA PORTA MICROONDAS",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "US60R": {
+    "nombre": "ALACENA 2 REBATIBLES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "US60RV": {
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "US80R": {
+    "nombre": "ALACENA 2 REBATIBLES",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "US80RV": {
+    "nombre": "ALACENA 2 REBATIBLES 1 VIDRIO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V110UB": {
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V110UB (ES COMPONENTE V80UB+V30UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V110UCB": {
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR CUATRO CAJONES COLOR BLANCO V110UCB (ES COMPONENTE V80UCB+V30UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V110UCCOLOR": {
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR CUATRO CAJONES COLOR V110UCCOLOR (ES COMPONENTE V80UCCOLOR+V30UCCOLOR)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V110UCOLOR": {
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V110UCOLOR (ES COMPONENTE V80UCOLOR+V30UCCOLOR)",
+    "stockTotal": 0,
+    "variantes": {
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V120UB": {
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR BLANCO V120UB (ES COMPONENTE V60UB+V30UCB+V30UCB)",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V120UCB": {
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR 6 CAJONES COLOR BLANCO V120UCB (ES COMPONENTE V30UCB+V60UCB+V30UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V120UCCOLOR": {
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR 6 CAJONES COLOR V120UCCOLOR (ES COMPONENTE V30UCCOLOR+V60UCCOLOR+V30UCCOLOR)",
+    "stockTotal": 0,
+    "variantes": {
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V120UCOLOR": {
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR V120UCOLOR (ES COMPONENTE V60UCOLOR+V30UCCOLOR+V30UCCOLOR)",
+    "stockTotal": -7,
+    "variantes": {
+      "GRAFITO": {
+        "stock": -3,
+        "stockReal": -3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": -4,
+        "stockReal": -4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V140UB": {
+    "nombre": "VANITORY 140CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR BLANCO V140UB (ES COMPONENTE V80UB+V30UCB+V30UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V140UCOLOR": {
+    "nombre": "VANITORY 140CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR V140UCOLOR (ES COMPONENTE V80UCOLOR+V30UCCOLOR+V30UCCOLOR)",
+    "stockTotal": 0,
+    "variantes": {
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V150UB": {
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V150UB (ES COMPONENTE V60UB+V60UB+V30UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V150UCB": {
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR 6 CAJONES COLOR BLANCO V150UB (ES COMPONENTE V60UCB+V30UCB+V60UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V150UCCOLOR": {
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR 6 CAJONES CAJONES COLOR V150UCCOLOR (ES COMPONENTE V60UCCOLOR+V30UCCOLOR+V60UCCOLOR+)",
+    "stockTotal": 0,
+    "variantes": {
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V150UCOLOR": {
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V150UCOLOR (ES COMPONENTE V60UCOLOR+V60UCOLOR+V30UCCOLOR)",
+    "stockTotal": 0,
+    "variantes": {
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V30UCB": {
+    "nombre": "VANITORY 30CM UÑERO DE COLGAR DOS CAJONES COMPLEMENTO COLOR BLANCO V30",
+    "stockTotal": 8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V30UCCOLOR": {
+    "nombre": "VANITORY 30CM UÑERO DE COLGAR DOS CAJONES COMPLEMENTO COLOR V30",
+    "stockTotal": 29,
+    "variantes": {
+      "HORMIGON": {
+        "stock": 7,
+        "stockReal": 7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 9,
+        "stockReal": 9,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 7,
+        "stockReal": 7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V50CLAH": {
+    "nombre": "VANITORY 50CM DE PIE MODELO CLASSIC COLOR BLANCO CON HUECO EN ROBLE V50",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V50UB": {
+    "nombre": "VANITORY 50CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V50",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V50UCOLOR": {
+    "nombre": "VANITORY 50CM UÑERO DE COLGAR DOS PUERTAS COLOR V50",
+    "stockTotal": 25,
+    "variantes": {
+      "SAHARA": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 6,
+        "stockReal": 6,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V60CLAC": {
+    "nombre": "VANITORY 60CM DE PIE MODELO CLASSIC COLOR BLANCO CON CAJON V60",
+    "stockTotal": 5,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V60CLAH": {
+    "nombre": "VANITORY 60CM DE PIE MODELO CLASSIC COLOR BLANCO CON HUECO EN ROBLE V60",
+    "stockTotal": 2,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V60UB": {
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V60UB",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V60UCB": {
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS CAJONES COLOR BLANCO V60UCB",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V60UCCOLOR": {
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS CAJONES COLOR V60UCCOLOR",
+    "stockTotal": 13,
+    "variantes": {
+      "SAHARA": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 7,
+        "stockReal": 7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V60UCOLOR": {
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS PUERTAS COLOR V60UCOLOR",
+    "stockTotal": 9,
+    "variantes": {
+      "CAJU": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80ECO1C": {
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON COLR BLANCO ALTURA 25CM TIPO POLLERA CLASSIC",
+    "stockTotal": 64,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 64,
+        "stockReal": 64,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80ECO1CCOLOR": {
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON COLOR ALTURA 25CM TIPO POLLERA CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80U1C": {
+    "nombre": "VANITORY DE COLGAR UÑERO 80CM UN CAJON UN HUECO COLOR BLANCO CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80U1CCOLOR": {
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON UN HUECO UÑERO COLOR CLASSIC",
+    "stockTotal": 0,
+    "variantes": {
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80UB": {
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V80",
+    "stockTotal": 7,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 7,
+        "stockReal": 7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80UCB": {
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS CAJONES COLOR BLANCO V80C",
+    "stockTotal": 8,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80UCCOLOR": {
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS CAJONES COLOR V80C",
+    "stockTotal": 17,
+    "variantes": {
+      "MEZZO": {
+        "stock": 7,
+        "stockReal": 7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 2,
+        "stockReal": 2,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V80UCOLOR": {
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS PUERTAS COLOR V80",
+    "stockTotal": 19,
+    "variantes": {
+      "SAHARA": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 7,
+        "stockReal": 7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V90UB": {
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V90UB (ES COMPONENTE V60UB+V30UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V90UCB": {
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR CUATRO CAJONES COLOR BLANCO V90UCB (ES COMPONENTE V60UCB+V30UCB)",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V90UCCOLOR": {
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR CUATRO CAJONES COLOR V90UCCOLOR (ES COMPONENTE V60UCCOLOR+V30UCCOLOR)",
+    "stockTotal": 0,
+    "variantes": {
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "V90UCOLOR": {
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V90UCOLOR (ES COMPONENTE V60UCOLOR+V30UCCOLOR)",
+    "stockTotal": 0,
+    "variantes": {
+      "SAHARA": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "VEDM60": {
+    "nombre": "VANITORY DE 60CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR TERRA",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "VEDM60N": {
+    "nombre": "VANITORY DE 60CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR NERO",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "VEDM80": {
+    "nombre": "VANITORY DE 80CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR TERRA",
+    "stockTotal": 3,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 3,
+        "stockReal": 3,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "VEDM80N": {
+    "nombre": "VANITORY DE 80CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR NERO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "VMINIB": {
+    "nombre": "VANITORY 45CM UÑERO DE COLGAR UNA PUERTA REBATIBLE COLOR BLANCO VMINI",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "VMINICOLOR": {
+    "nombre": "VANITORY 45CM UÑERO DE COLGAR UNA PUERTA REBATIBLE COLOR VMINI",
+    "stockTotal": 25,
+    "variantes": {
+      "SAHARA": {
+        "stock": 5,
+        "stockReal": 5,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "CAJU": {
+        "stock": 4,
+        "stockReal": 4,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "GRAFITO": {
+        "stock": 7,
+        "stockReal": 7,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "MEZZO": {
+        "stock": 8,
+        "stockReal": 8,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "HORMIGON": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "WHITEGLOSS": {
+    "nombre": "MELAMINA 18MM BLANCO BRILLANTE WHITE GLOSS TACTIL FA PLAC 275X130",
+    "stockTotal": 1,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "Z8": {
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V80",
+    "stockTotal": 1,
+    "variantes": {
+      "MONOCOMANDO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      },
+      "TRES AGUJEROS": {
+        "stock": 1,
+        "stockReal": 1,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  },
+  "ZUNCHOS": {
+    "nombre": "ZUNCHOS 12 MM BLANCO SEMIAUTOMATICO",
+    "stockTotal": 0,
+    "variantes": {
+      "DEPOSITO": {
+        "stock": 0,
+        "stockReal": 0,
+        "reservado": 0,
+        "deposito": "DEPOSITO"
+      }
+    }
+  }
+}

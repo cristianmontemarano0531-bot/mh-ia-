@@ -1,0 +1,3518 @@
+{
+  "57669": {
+    "nombre": "LISTA MADRE 1925",
+    "items": {
+      "100": {
+        "precio": 0
+      },
+      "101": {
+        "precio": 0
+      },
+      "103": {
+        "precio": 0
+      },
+      "5004": {
+        "precio": 71500
+      },
+      "5007": {
+        "precio": 71500
+      },
+      "5012": {
+        "precio": 66000
+      },
+      "5017": {
+        "precio": 101791
+      },
+      "5020": {
+        "precio": 82500
+      },
+      "5021": {
+        "precio": 66000
+      },
+      "127639": {
+        "precio": 0
+      },
+      "128718": {
+        "precio": 0
+      },
+      "40114435": {
+        "precio": 0
+      },
+      "40114959": {
+        "precio": 0
+      },
+      "2005CM": {
+        "precio": 0
+      },
+      "40B": {
+        "precio": 120000
+      },
+      "40C": {
+        "precio": 262800
+      },
+      "40G": {
+        "precio": 213232
+      },
+      "40H": {
+        "precio": 160900
+      },
+      "40I": {
+        "precio": 123704
+      },
+      "40J": {
+        "precio": 77990
+      },
+      "40K": {
+        "precio": 128989
+      },
+      "40L": {
+        "precio": 168468
+      },
+      "40M": {
+        "precio": 173753
+      },
+      "40N": {
+        "precio": 218517
+      },
+      "40P": {
+        "precio": 263281
+      },
+      "40Q": {
+        "precio": 123704
+      },
+      "40R": {
+        "precio": 213232
+      },
+      "60A": {
+        "precio": 140800
+      },
+      "60D": {
+        "precio": 299400
+      },
+      "60E": {
+        "precio": 163600
+      },
+      "60F": {
+        "precio": 319800
+      },
+      "60G": {
+        "precio": 190700
+      },
+      "60H": {
+        "precio": 202295
+      },
+      "60I": {
+        "precio": 124900
+      },
+      "60J": {
+        "precio": 95009
+      },
+      "60K": {
+        "precio": 161126
+      },
+      "60L": {
+        "precio": 202295
+      },
+      "60M": {
+        "precio": 214769
+      },
+      "60N": {
+        "precio": 268412
+      },
+      "60P": {
+        "precio": 322055
+      },
+      "60Q": {
+        "precio": 148652
+      },
+      "60R": {
+        "precio": 255938
+      },
+      "A100": {
+        "precio": 149400
+      },
+      "A146PIAZZA": {
+        "precio": 97570
+      },
+      "A30": {
+        "precio": 65500
+      },
+      "A30CD": {
+        "precio": 0
+      },
+      "A30CI": {
+        "precio": 0
+      },
+      "A30CVD": {
+        "precio": 0
+      },
+      "A30CVI": {
+        "precio": 0
+      },
+      "A30V": {
+        "precio": 156000
+      },
+      "A35": {
+        "precio": 71100
+      },
+      "A40": {
+        "precio": 77100
+      },
+      "A40CD": {
+        "precio": 0
+      },
+      "A40CI": {
+        "precio": 0
+      },
+      "A40CVD": {
+        "precio": 0
+      },
+      "A40CVI": {
+        "precio": 0
+      },
+      "A40V": {
+        "precio": 175900
+      },
+      "A45": {
+        "precio": 82300
+      },
+      "A45BC": {
+        "precio": 0
+      },
+      "A50": {
+        "precio": 88300
+      },
+      "A60": {
+        "precio": 104000
+      },
+      "A60B": {
+        "precio": 56900
+      },
+      "A60C": {
+        "precio": 0
+      },
+      "A60PM": {
+        "precio": 111300
+      },
+      "A60PMB": {
+        "precio": 85700
+      },
+      "A60PMBC": {
+        "precio": 0
+      },
+      "A60PMC": {
+        "precio": 0
+      },
+      "A60R": {
+        "precio": 68400
+      },
+      "A60RID": {
+        "precio": 124700
+      },
+      "A60RV": {
+        "precio": 155700
+      },
+      "A60SH": {
+        "precio": 104000
+      },
+      "A70": {
+        "precio": 115300
+      },
+      "A70B": {
+        "precio": 78200
+      },
+      "A70R": {
+        "precio": 0
+      },
+      "A80": {
+        "precio": 126700
+      },
+      "A80B": {
+        "precio": 78200
+      },
+      "A80C": {
+        "precio": 0
+      },
+      "A80R": {
+        "precio": 86300
+      },
+      "A80RV": {
+        "precio": 193700
+      },
+      "A90": {
+        "precio": 139500
+      },
+      "AJUSMHCOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLE1": {
+        "precio": 0
+      },
+      "AJUSTABLE10": {
+        "precio": 0
+      },
+      "AJUSTABLE2": {
+        "precio": 0
+      },
+      "AJUSTABLECOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLEMHCOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLEMHMPLACARD": {
+        "precio": 0
+      },
+      "ANAQUEL30B": {
+        "precio": 313511
+      },
+      "ANAQUEL30COLOR": {
+        "precio": 438988
+      },
+      "ANAQUEL40B": {
+        "precio": 349690
+      },
+      "ANAQUEL40COLOR": {
+        "precio": 489566
+      },
+      "B10-25": {
+        "precio": 66800
+      },
+      "B100": {
+        "precio": 213700
+      },
+      "B100R": {
+        "precio": 256400
+      },
+      "B30": {
+        "precio": 107600
+      },
+      "B35": {
+        "precio": 114600
+      },
+      "B40": {
+        "precio": 121700
+      },
+      "B40 2C": {
+        "precio": 233400
+      },
+      "B40 3C": {
+        "precio": 271800
+      },
+      "B40 4C": {
+        "precio": 310200
+      },
+      "B45": {
+        "precio": 130000
+      },
+      "B50": {
+        "precio": 137300
+      },
+      "B60": {
+        "precio": 155600
+      },
+      "B60 2C": {
+        "precio": 266100
+      },
+      "B60 3C": {
+        "precio": 306200
+      },
+      "B60 4C": {
+        "precio": 346900
+      },
+      "B60PHB": {
+        "precio": 0
+      },
+      "B70": {
+        "precio": 170000
+      },
+      "B80": {
+        "precio": 184700
+      },
+      "B80 3C": {
+        "precio": 0
+      },
+      "B90": {
+        "precio": 199200
+      },
+      "B90R": {
+        "precio": 233400
+      },
+      "BIC-1": {
+        "precio": 0
+      },
+      "BIC-3": {
+        "precio": 0
+      },
+      "BIR-1": {
+        "precio": 0
+      },
+      "BIR-2": {
+        "precio": 0
+      },
+      "BIR-3": {
+        "precio": 0
+      },
+      "BISA": {
+        "precio": 0
+      },
+      "BLACKTOUCH": {
+        "precio": 0
+      },
+      "BLUNAM": {
+        "precio": 82423
+      },
+      "BO": {
+        "precio": 0
+      },
+      "BRR1": {
+        "precio": 14600
+      },
+      "BRR2": {
+        "precio": 14600
+      },
+      "BRR3": {
+        "precio": 14600
+      },
+      "BRZ-1740-B": {
+        "precio": 0
+      },
+      "BWC035": {
+        "precio": 0
+      },
+      "BWFRE35N": {
+        "precio": 0
+      },
+      "CA40": {
+        "precio": 62914
+      },
+      "CA60": {
+        "precio": 71793
+      },
+      "CATALOGO": {
+        "precio": 0
+      },
+      "CL200": {
+        "precio": 0
+      },
+      "CL200N": {
+        "precio": 0
+      },
+      "CL300": {
+        "precio": 0
+      },
+      "CLAV": {
+        "precio": 0
+      },
+      "COLG0012": {
+        "precio": 0
+      },
+      "COLOCACION": {
+        "precio": 0
+      },
+      "COMBUSTIBLE": {
+        "precio": 0
+      },
+      "CRETO02": {
+        "precio": 0
+      },
+      "CRETO03": {
+        "precio": 0
+      },
+      "CRETO04": {
+        "precio": 0
+      },
+      "CRETTO01": {
+        "precio": 0
+      },
+      "CTR": {
+        "precio": 0
+      },
+      "CUBO40": {
+        "precio": 41800
+      },
+      "CUBO60": {
+        "precio": 41800
+      },
+      "DLOZA1201": {
+        "precio": 202870
+      },
+      "DLOZA120DOBLE": {
+        "precio": 359137
+      },
+      "DLOZA50": {
+        "precio": 101791
+      },
+      "DLOZA60": {
+        "precio": 108103
+      },
+      "DLOZA80": {
+        "precio": 131842
+      },
+      "DLOZA80NM": {
+        "precio": 160783
+      },
+      "EADN": {
+        "precio": 0
+      },
+      "EDM60": {
+        "precio": 483274
+      },
+      "EDM60N": {
+        "precio": 483274
+      },
+      "EDM80": {
+        "precio": 539902
+      },
+      "EDM80N": {
+        "precio": 539902
+      },
+      "EHP8X100": {
+        "precio": 0
+      },
+      "EHPE100": {
+        "precio": 0
+      },
+      "EMB": {
+        "precio": 0
+      },
+      "EPZ": {
+        "precio": 0
+      },
+      "ES40": {
+        "precio": 62815
+      },
+      "ES40-2": {
+        "precio": 40483
+      },
+      "ES60": {
+        "precio": 94953
+      },
+      "ES60-2": {
+        "precio": 56551
+      },
+      "ESC30": {
+        "precio": 322800
+      },
+      "ESC40": {
+        "precio": 365100
+      },
+      "ESC50": {
+        "precio": 411900
+      },
+      "ESK7025": {
+        "precio": 305190
+      },
+      "ESK70252": {
+        "precio": 285794
+      },
+      "ESK70253": {
+        "precio": 251850
+      },
+      "ESK7060/1": {
+        "precio": 243970
+      },
+      "ESKOVAL": {
+        "precio": 229019
+      },
+      "EXHA12": {
+        "precio": 0
+      },
+      "EXPO1": {
+        "precio": 0
+      },
+      "EXPO2": {
+        "precio": 0
+      },
+      "F-6-1000": {
+        "precio": 0
+      },
+      "FILOB22": {
+        "precio": 0
+      },
+      "FLETE": {
+        "precio": 0
+      },
+      "FRE180": {
+        "precio": 385600
+      },
+      "FRE200": {
+        "precio": 574300
+      },
+      "FRE300": {
+        "precio": 595500
+      },
+      "FRE400": {
+        "precio": 617500
+      },
+      "GREYTOUCH": {
+        "precio": 0
+      },
+      "GT4530Z": {
+        "precio": 0
+      },
+      "GT4540Z": {
+        "precio": 0
+      },
+      "GT4545Z": {
+        "precio": 0
+      },
+      "IMR-1": {
+        "precio": 0
+      },
+      "INC-1": {
+        "precio": 0
+      },
+      "INC-3": {
+        "precio": 0
+      },
+      "INR-2": {
+        "precio": 0
+      },
+      "INR-2C": {
+        "precio": 0
+      },
+      "INR-3": {
+        "precio": 0
+      },
+      "JANEM": {
+        "precio": 111760
+      },
+      "L1040": {
+        "precio": 0
+      },
+      "L12": {
+        "precio": 0
+      },
+      "L12N": {
+        "precio": 0
+      },
+      "M18": {
+        "precio": 0
+      },
+      "M537": {
+        "precio": 53409
+      },
+      "MA0028": {
+        "precio": 0
+      },
+      "MA0032": {
+        "precio": 0
+      },
+      "MAR60": {
+        "precio": 87303
+      },
+      "MDF0001E": {
+        "precio": 0
+      },
+      "ME0200": {
+        "precio": 0
+      },
+      "ME02024": {
+        "precio": 0
+      },
+      "ME02030N": {
+        "precio": 0
+      },
+      "ME02065": {
+        "precio": 0
+      },
+      "ME02107": {
+        "precio": 0
+      },
+      "ME0MEZZO": {
+        "precio": 0
+      },
+      "ME0SAHARA": {
+        "precio": 0
+      },
+      "MELAMINA AGLOMERADO 18MM GRIS TAPIR": {
+        "precio": 0
+      },
+      "MERCADOMH1": {
+        "precio": 0
+      },
+      "MGGOLD": {
+        "precio": 0
+      },
+      "MIRRGOLDESP": {
+        "precio": 0
+      },
+      "NCF495": {
+        "precio": 0
+      },
+      "OFICINA AJUSTABLE": {
+        "precio": 0
+      },
+      "OVO": {
+        "precio": 0
+      },
+      "P10-80-FI": {
+        "precio": 0
+      },
+      "P6-60": {
+        "precio": 0
+      },
+      "PA90": {
+        "precio": 78273
+      },
+      "PA90-2": {
+        "precio": 50558
+      },
+      "PANEL A": {
+        "precio": 11300
+      },
+      "PANEL B": {
+        "precio": 25200
+      },
+      "PBA122": {
+        "precio": 0
+      },
+      "PETIRIBI 18 NAT": {
+        "precio": 0
+      },
+      "PHILPOR": {
+        "precio": 0
+      },
+      "PINECOV7": {
+        "precio": 931
+      },
+      "PLPUERTA": {
+        "precio": 0
+      },
+      "PM": {
+        "precio": 41100
+      },
+      "PNM122": {
+        "precio": 0
+      },
+      "PORCENOT01": {
+        "precio": 0
+      },
+      "PORCENOT02": {
+        "precio": 0
+      },
+      "PVC0,40C": {
+        "precio": 0
+      },
+      "PVC0,40G": {
+        "precio": 0
+      },
+      "PVC0,40H": {
+        "precio": 0
+      },
+      "PVC0,40M": {
+        "precio": 0
+      },
+      "PVC0,40S": {
+        "precio": 0
+      },
+      "PVC2MMB": {
+        "precio": 0
+      },
+      "PVC2MMC": {
+        "precio": 0
+      },
+      "PVC2MMG": {
+        "precio": 0
+      },
+      "PVC2MMH": {
+        "precio": 0
+      },
+      "PVC2MMM": {
+        "precio": 0
+      },
+      "PVC2MMN": {
+        "precio": 0
+      },
+      "PVC2MMS": {
+        "precio": 0
+      },
+      "REC180": {
+        "precio": 0
+      },
+      "REC80": {
+        "precio": 0
+      },
+      "RECHAZO": {
+        "precio": 0
+      },
+      "S60R": {
+        "precio": 133300
+      },
+      "S60RC": {
+        "precio": 0
+      },
+      "S60RV": {
+        "precio": 197200
+      },
+      "S60RVC": {
+        "precio": 0
+      },
+      "S80R": {
+        "precio": 143500
+      },
+      "S80RC": {
+        "precio": 0
+      },
+      "S80RV": {
+        "precio": 222600
+      },
+      "S80RVC": {
+        "precio": 0
+      },
+      "SOPBRR": {
+        "precio": 0
+      },
+      "T10-3513": {
+        "precio": 0
+      },
+      "T10-SKO-13": {
+        "precio": 0
+      },
+      "T10-SKO-16": {
+        "precio": 0
+      },
+      "T10-SKO-30": {
+        "precio": 0
+      },
+      "T10-SKO-40": {
+        "precio": 0
+      },
+      "T10-SKO-50": {
+        "precio": 0
+      },
+      "TAP2MM1": {
+        "precio": 0
+      },
+      "TAPA050": {
+        "precio": 9950
+      },
+      "TAPA060M": {
+        "precio": 12096
+      },
+      "TAPA080M": {
+        "precio": 15094
+      },
+      "TAPA090M": {
+        "precio": 16592
+      },
+      "TAPA110M": {
+        "precio": 22313
+      },
+      "TAPA120M": {
+        "precio": 23812
+      },
+      "TAPA140M": {
+        "precio": 26810
+      },
+      "TAPA150M": {
+        "precio": 28309
+      },
+      "TAPA190M": {
+        "precio": 34305
+      },
+      "TAPAMARMOL060": {
+        "precio": 91488
+      },
+      "TAPAMARMOL060N": {
+        "precio": 73191
+      },
+      "TAPAMARMOL080": {
+        "precio": 115894
+      },
+      "TAPAMARMOL080N": {
+        "precio": 92715
+      },
+      "TCH1": {
+        "precio": 20900
+      },
+      "TCH2": {
+        "precio": 20900
+      },
+      "TCH3": {
+        "precio": 20900
+      },
+      "TCH4": {
+        "precio": 20900
+      },
+      "TCH5": {
+        "precio": 20900
+      },
+      "TCH6": {
+        "precio": 20900
+      },
+      "TCP31": {
+        "precio": 0
+      },
+      "TER1": {
+        "precio": 92202
+      },
+      "TER2": {
+        "precio": 104272
+      },
+      "TERMOV30": {
+        "precio": 0
+      },
+      "TPC-30": {
+        "precio": 0
+      },
+      "TST27-4": {
+        "precio": 448156
+      },
+      "TST32-60": {
+        "precio": 817143
+      },
+      "TT1": {
+        "precio": 0
+      },
+      "UA100": {
+        "precio": 199600
+      },
+      "UA30": {
+        "precio": 91800
+      },
+      "UA30V": {
+        "precio": 178700
+      },
+      "UA35": {
+        "precio": 99000
+      },
+      "UA40": {
+        "precio": 105900
+      },
+      "UA40V": {
+        "precio": 208800
+      },
+      "UA45": {
+        "precio": 112500
+      },
+      "UA50": {
+        "precio": 119400
+      },
+      "UA60": {
+        "precio": 144100
+      },
+      "UA60B": {
+        "precio": 75100
+      },
+      "UA60PM": {
+        "precio": 137100
+      },
+      "UA60PMB": {
+        "precio": 110200
+      },
+      "UA60R": {
+        "precio": 89500
+      },
+      "UA60RID": {
+        "precio": 239600
+      },
+      "UA60RV": {
+        "precio": 172900
+      },
+      "UA60SH": {
+        "precio": 0
+      },
+      "UA70": {
+        "precio": 149900
+      },
+      "UA70B": {
+        "precio": 100000
+      },
+      "UA70R": {
+        "precio": 0
+      },
+      "UA80": {
+        "precio": 171900
+      },
+      "UA80B": {
+        "precio": 100000
+      },
+      "UA80R": {
+        "precio": 110200
+      },
+      "UA80RV": {
+        "precio": 214900
+      },
+      "UA90": {
+        "precio": 187200
+      },
+      "UB10-25": {
+        "precio": 72000
+      },
+      "UB100": {
+        "precio": 287600
+      },
+      "UB100R": {
+        "precio": 345100
+      },
+      "UB30": {
+        "precio": 147100
+      },
+      "UB35": {
+        "precio": 153100
+      },
+      "UB40": {
+        "precio": 161700
+      },
+      "UB40 2C": {
+        "precio": 380700
+      },
+      "UB40 3C": {
+        "precio": 392600
+      },
+      "UB40 4C": {
+        "precio": 408700
+      },
+      "UB45": {
+        "precio": 180700
+      },
+      "UB50": {
+        "precio": 188700
+      },
+      "UB60": {
+        "precio": 215000
+      },
+      "UB60 2C": {
+        "precio": 434300
+      },
+      "UB60 3C": {
+        "precio": 456400
+      },
+      "UB60 4C": {
+        "precio": 466500
+      },
+      "UB70": {
+        "precio": 233100
+      },
+      "UB80": {
+        "precio": 251400
+      },
+      "UB80 2C": {
+        "precio": 579100
+      },
+      "UB80 3C": {
+        "precio": 608500
+      },
+      "UB90": {
+        "precio": 269500
+      },
+      "UB90R": {
+        "precio": 345100
+      },
+      "UESC30": {
+        "precio": 441300
+      },
+      "UESC40": {
+        "precio": 485100
+      },
+      "UESC50": {
+        "precio": 566100
+      },
+      "UPANEL A": {
+        "precio": 17600
+      },
+      "UPANEL B": {
+        "precio": 34600
+      },
+      "UPM": {
+        "precio": 41100
+      },
+      "US60R": {
+        "precio": 160800
+      },
+      "US60RV": {
+        "precio": 237400
+      },
+      "US80R": {
+        "precio": 197700
+      },
+      "US80RV": {
+        "precio": 293200
+      },
+      "V110UB": {
+        "precio": 342672
+      },
+      "V110UCB": {
+        "precio": 379456
+      },
+      "V110UCCOLOR": {
+        "precio": 531190
+      },
+      "V110UCOLOR": {
+        "precio": 479765
+      },
+      "V120UB": {
+        "precio": 470448
+      },
+      "V120UCB": {
+        "precio": 511104
+      },
+      "V120UCCOLOR": {
+        "precio": 715594
+      },
+      "V120UCOLOR": {
+        "precio": 658603
+      },
+      "V140UB": {
+        "precio": 484847
+      },
+      "V140UCOLOR": {
+        "precio": 678810
+      },
+      "V150UB": {
+        "precio": 514371
+      },
+      "V150UCB": {
+        "precio": 595683
+      },
+      "V150UCCOLOR": {
+        "precio": 834053
+      },
+      "V150UCOLOR": {
+        "precio": 720071
+      },
+      "V30UCB": {
+        "precio": 142175
+      },
+      "V30UCCOLOR": {
+        "precio": 199045
+      },
+      "V50CLAH": {
+        "precio": 297539
+      },
+      "V50UB": {
+        "precio": 175329
+      },
+      "V50UCOLOR": {
+        "precio": 245509
+      },
+      "V60CLAC": {
+        "precio": 338437
+      },
+      "V60CLAH": {
+        "precio": 313995
+      },
+      "V60UB": {
+        "precio": 186098
+      },
+      "V60UCB": {
+        "precio": 226754
+      },
+      "V60UCCOLOR": {
+        "precio": 317504
+      },
+      "V60UCOLOR": {
+        "precio": 260513
+      },
+      "V80ECO1C": {
+        "precio": 170610
+      },
+      "V80ECO1CCOLOR": {
+        "precio": 196867
+      },
+      "V80U1C": {
+        "precio": 165286
+      },
+      "V80U1CCOLOR": {
+        "precio": 231352
+      },
+      "V80UB": {
+        "precio": 200497
+      },
+      "V80UCB": {
+        "precio": 237281
+      },
+      "V80UCCOLOR": {
+        "precio": 332145
+      },
+      "V80UCOLOR": {
+        "precio": 280720
+      },
+      "V90UB": {
+        "precio": 328273
+      },
+      "V90UCB": {
+        "precio": 368929
+      },
+      "V90UCCOLOR": {
+        "precio": 516549
+      },
+      "V90UCOLOR": {
+        "precio": 459558
+      },
+      "VEDM60": {
+        "precio": 391798
+      },
+      "VEDM60N": {
+        "precio": 391798
+      },
+      "VEDM80": {
+        "precio": 424105
+      },
+      "VEDM80N": {
+        "precio": 424105
+      },
+      "VMINIB": {
+        "precio": 123299
+      },
+      "VMINICOLOR": {
+        "precio": 172667
+      },
+      "WHITEGLOSS": {
+        "precio": 0
+      },
+      "Z8": {
+        "precio": 116548
+      },
+      "ZUNCHOS": {
+        "precio": 0
+      }
+    }
+  },
+  "58940": {
+    "nombre": "LISTA MAYORISTA 1",
+    "items": {
+      "100": {
+        "precio": 0
+      },
+      "101": {
+        "precio": 0
+      },
+      "103": {
+        "precio": 0
+      },
+      "5004": {
+        "precio": 45045
+      },
+      "5007": {
+        "precio": 45045
+      },
+      "5012": {
+        "precio": 41580
+      },
+      "5017": {
+        "precio": 64128
+      },
+      "5020": {
+        "precio": 51975
+      },
+      "5021": {
+        "precio": 41580
+      },
+      "127639": {
+        "precio": 0
+      },
+      "128718": {
+        "precio": 0
+      },
+      "40114435": {
+        "precio": 0
+      },
+      "40114959": {
+        "precio": 0
+      },
+      "2005CM": {
+        "precio": 0
+      },
+      "40B": {
+        "precio": 164400
+      },
+      "40C": {
+        "precio": 360036
+      },
+      "40G": {
+        "precio": 292128
+      },
+      "40H": {
+        "precio": 220433
+      },
+      "40I": {
+        "precio": 169474
+      },
+      "40J": {
+        "precio": 106846
+      },
+      "40K": {
+        "precio": 176715
+      },
+      "40L": {
+        "precio": 230801
+      },
+      "40M": {
+        "precio": 238042
+      },
+      "40N": {
+        "precio": 299368
+      },
+      "40P": {
+        "precio": 360695
+      },
+      "40Q": {
+        "precio": 169474
+      },
+      "40R": {
+        "precio": 292128
+      },
+      "60A": {
+        "precio": 192896
+      },
+      "60D": {
+        "precio": 410178
+      },
+      "60E": {
+        "precio": 224132
+      },
+      "60F": {
+        "precio": 438126
+      },
+      "60G": {
+        "precio": 261259
+      },
+      "60H": {
+        "precio": 277144
+      },
+      "60I": {
+        "precio": 171113
+      },
+      "60J": {
+        "precio": 130162
+      },
+      "60K": {
+        "precio": 220743
+      },
+      "60L": {
+        "precio": 277144
+      },
+      "60M": {
+        "precio": 294234
+      },
+      "60N": {
+        "precio": 367724
+      },
+      "60P": {
+        "precio": 441215
+      },
+      "60Q": {
+        "precio": 203653
+      },
+      "60R": {
+        "precio": 350635
+      },
+      "A100": {
+        "precio": 204678
+      },
+      "A146PIAZZA": {
+        "precio": 61469
+      },
+      "A30": {
+        "precio": 89735
+      },
+      "A30CD": {
+        "precio": 0
+      },
+      "A30CI": {
+        "precio": 0
+      },
+      "A30CVD": {
+        "precio": 0
+      },
+      "A30CVI": {
+        "precio": 0
+      },
+      "A30V": {
+        "precio": 213720
+      },
+      "A35": {
+        "precio": 97407
+      },
+      "A40": {
+        "precio": 105627
+      },
+      "A40CD": {
+        "precio": 0
+      },
+      "A40CI": {
+        "precio": 0
+      },
+      "A40CVD": {
+        "precio": 0
+      },
+      "A40CVI": {
+        "precio": 0
+      },
+      "A40V": {
+        "precio": 240983
+      },
+      "A45": {
+        "precio": 112751
+      },
+      "A45BC": {
+        "precio": 0
+      },
+      "A50": {
+        "precio": 120971
+      },
+      "A60": {
+        "precio": 142480
+      },
+      "A60B": {
+        "precio": 77953
+      },
+      "A60C": {
+        "precio": 0
+      },
+      "A60PM": {
+        "precio": 152481
+      },
+      "A60PMB": {
+        "precio": 117409
+      },
+      "A60PMBC": {
+        "precio": 0
+      },
+      "A60PMC": {
+        "precio": 0
+      },
+      "A60R": {
+        "precio": 93708
+      },
+      "A60RID": {
+        "precio": 170839
+      },
+      "A60RV": {
+        "precio": 213309
+      },
+      "A60SH": {
+        "precio": 142480
+      },
+      "A70": {
+        "precio": 157961
+      },
+      "A70B": {
+        "precio": 107134
+      },
+      "A70R": {
+        "precio": 0
+      },
+      "A80": {
+        "precio": 173579
+      },
+      "A80B": {
+        "precio": 107134
+      },
+      "A80C": {
+        "precio": 0
+      },
+      "A80R": {
+        "precio": 118231
+      },
+      "A80RV": {
+        "precio": 265369
+      },
+      "A90": {
+        "precio": 191115
+      },
+      "AJUSMHCOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLE1": {
+        "precio": 0
+      },
+      "AJUSTABLE10": {
+        "precio": 0
+      },
+      "AJUSTABLE2": {
+        "precio": 0
+      },
+      "AJUSTABLECOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLEMHCOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLEMHMPLACARD": {
+        "precio": 0
+      },
+      "ANAQUEL30B": {
+        "precio": 197512
+      },
+      "ANAQUEL30COLOR": {
+        "precio": 276562
+      },
+      "ANAQUEL40B": {
+        "precio": 220305
+      },
+      "ANAQUEL40COLOR": {
+        "precio": 308427
+      },
+      "B10-25": {
+        "precio": 91516
+      },
+      "B100": {
+        "precio": 292769
+      },
+      "B100R": {
+        "precio": 351268
+      },
+      "B30": {
+        "precio": 147412
+      },
+      "B35": {
+        "precio": 157002
+      },
+      "B40": {
+        "precio": 166729
+      },
+      "B40 2C": {
+        "precio": 319758
+      },
+      "B40 3C": {
+        "precio": 372366
+      },
+      "B40 4C": {
+        "precio": 424974
+      },
+      "B45": {
+        "precio": 178100
+      },
+      "B50": {
+        "precio": 188101
+      },
+      "B60": {
+        "precio": 213172
+      },
+      "B60 2C": {
+        "precio": 364557
+      },
+      "B60 3C": {
+        "precio": 419494
+      },
+      "B60 4C": {
+        "precio": 475253
+      },
+      "B60PHB": {
+        "precio": 0
+      },
+      "B70": {
+        "precio": 232900
+      },
+      "B80": {
+        "precio": 253039
+      },
+      "B80 3C": {
+        "precio": 0
+      },
+      "B90": {
+        "precio": 272904
+      },
+      "B90R": {
+        "precio": 319758
+      },
+      "BIC-1": {
+        "precio": 0
+      },
+      "BIC-3": {
+        "precio": 0
+      },
+      "BIR-1": {
+        "precio": 0
+      },
+      "BIR-2": {
+        "precio": 0
+      },
+      "BIR-3": {
+        "precio": 0
+      },
+      "BISA": {
+        "precio": 0
+      },
+      "BLACKTOUCH": {
+        "precio": 0
+      },
+      "BLUNAM": {
+        "precio": 51926
+      },
+      "BO": {
+        "precio": 0
+      },
+      "BRR1": {
+        "precio": 20002
+      },
+      "BRR2": {
+        "precio": 20002
+      },
+      "BRR3": {
+        "precio": 20002
+      },
+      "BRZ-1740-B": {
+        "precio": 0
+      },
+      "BWC035": {
+        "precio": 0
+      },
+      "BWFRE35N": {
+        "precio": 0
+      },
+      "CA40": {
+        "precio": 86192
+      },
+      "CA60": {
+        "precio": 98356
+      },
+      "CATALOGO": {
+        "precio": 0
+      },
+      "CL200": {
+        "precio": 0
+      },
+      "CL200N": {
+        "precio": 0
+      },
+      "CL300": {
+        "precio": 0
+      },
+      "CLAV": {
+        "precio": 0
+      },
+      "COLG0012": {
+        "precio": 0
+      },
+      "COLOCACION": {
+        "precio": 0
+      },
+      "COMBUSTIBLE": {
+        "precio": 0
+      },
+      "CRETO02": {
+        "precio": 0
+      },
+      "CRETO03": {
+        "precio": 0
+      },
+      "CRETO04": {
+        "precio": 0
+      },
+      "CRETTO01": {
+        "precio": 0
+      },
+      "CTR": {
+        "precio": 0
+      },
+      "CUBO40": {
+        "precio": 57266
+      },
+      "CUBO60": {
+        "precio": 57266
+      },
+      "DLOZA1201": {
+        "precio": 162296
+      },
+      "DLOZA120DOBLE": {
+        "precio": 287309
+      },
+      "DLOZA50": {
+        "precio": 81432
+      },
+      "DLOZA60": {
+        "precio": 86482
+      },
+      "DLOZA80": {
+        "precio": 105473
+      },
+      "DLOZA80NM": {
+        "precio": 128626
+      },
+      "EADN": {
+        "precio": 0
+      },
+      "EDM60": {
+        "precio": 304463
+      },
+      "EDM60N": {
+        "precio": 304463
+      },
+      "EDM80": {
+        "precio": 340138
+      },
+      "EDM80N": {
+        "precio": 340138
+      },
+      "EHP8X100": {
+        "precio": 0
+      },
+      "EHPE100": {
+        "precio": 0
+      },
+      "EMB": {
+        "precio": 0
+      },
+      "EPZ": {
+        "precio": 0
+      },
+      "ES40": {
+        "precio": 86057
+      },
+      "ES40-2": {
+        "precio": 55462
+      },
+      "ES60": {
+        "precio": 130086
+      },
+      "ES60-2": {
+        "precio": 77475
+      },
+      "ESC30": {
+        "precio": 442236
+      },
+      "ESC40": {
+        "precio": 500187
+      },
+      "ESC50": {
+        "precio": 564303
+      },
+      "ESK7025": {
+        "precio": 244152
+      },
+      "ESK70252": {
+        "precio": 228635
+      },
+      "ESK70253": {
+        "precio": 201480
+      },
+      "ESK7060/1": {
+        "precio": 195176
+      },
+      "ESKOVAL": {
+        "precio": 183215
+      },
+      "EXHA12": {
+        "precio": 0
+      },
+      "EXPO1": {
+        "precio": 0
+      },
+      "EXPO2": {
+        "precio": 0
+      },
+      "F-6-1000": {
+        "precio": 0
+      },
+      "FILOB22": {
+        "precio": 0
+      },
+      "FLETE": {
+        "precio": 0
+      },
+      "FRE180": {
+        "precio": 528272
+      },
+      "FRE200": {
+        "precio": 786791
+      },
+      "FRE300": {
+        "precio": 815835
+      },
+      "FRE400": {
+        "precio": 845975
+      },
+      "GREYTOUCH": {
+        "precio": 0
+      },
+      "GT4530Z": {
+        "precio": 0
+      },
+      "GT4540Z": {
+        "precio": 0
+      },
+      "GT4545Z": {
+        "precio": 0
+      },
+      "IMR-1": {
+        "precio": 0
+      },
+      "INC-1": {
+        "precio": 0
+      },
+      "INC-3": {
+        "precio": 0
+      },
+      "INR-2": {
+        "precio": 0
+      },
+      "INR-2C": {
+        "precio": 0
+      },
+      "INR-3": {
+        "precio": 0
+      },
+      "JANEM": {
+        "precio": 70409
+      },
+      "L1040": {
+        "precio": 0
+      },
+      "L12": {
+        "precio": 0
+      },
+      "L12N": {
+        "precio": 0
+      },
+      "M18": {
+        "precio": 0
+      },
+      "M537": {
+        "precio": 42727
+      },
+      "MA0028": {
+        "precio": 0
+      },
+      "MA0032": {
+        "precio": 0
+      },
+      "MAR60": {
+        "precio": 69842
+      },
+      "MDF0001E": {
+        "precio": 0
+      },
+      "ME0200": {
+        "precio": 0
+      },
+      "ME02024": {
+        "precio": 0
+      },
+      "ME02030N": {
+        "precio": 0
+      },
+      "ME02065": {
+        "precio": 0
+      },
+      "ME02107": {
+        "precio": 0
+      },
+      "ME0MEZZO": {
+        "precio": 0
+      },
+      "ME0SAHARA": {
+        "precio": 0
+      },
+      "MELAMINA AGLOMERADO 18MM GRIS TAPIR": {
+        "precio": 0
+      },
+      "MERCADOMH1": {
+        "precio": 0
+      },
+      "MGGOLD": {
+        "precio": 0
+      },
+      "MIRRGOLDESP": {
+        "precio": 0
+      },
+      "NCF495": {
+        "precio": 0
+      },
+      "OFICINA AJUSTABLE": {
+        "precio": 0
+      },
+      "OVO": {
+        "precio": 0
+      },
+      "P10-80-FI": {
+        "precio": 0
+      },
+      "P6-60": {
+        "precio": 0
+      },
+      "PA90": {
+        "precio": 107234
+      },
+      "PA90-2": {
+        "precio": 69264
+      },
+      "PANEL A": {
+        "precio": 15481
+      },
+      "PANEL B": {
+        "precio": 34524
+      },
+      "PBA122": {
+        "precio": 0
+      },
+      "PETIRIBI 18 NAT": {
+        "precio": 0
+      },
+      "PHILPOR": {
+        "precio": 0
+      },
+      "PINECOV7": {
+        "precio": 1275
+      },
+      "PLPUERTA": {
+        "precio": 0
+      },
+      "PM": {
+        "precio": 56307
+      },
+      "PNM122": {
+        "precio": 0
+      },
+      "PORCENOT01": {
+        "precio": 0
+      },
+      "PORCENOT02": {
+        "precio": 0
+      },
+      "PVC0,40C": {
+        "precio": 0
+      },
+      "PVC0,40G": {
+        "precio": 0
+      },
+      "PVC0,40H": {
+        "precio": 0
+      },
+      "PVC0,40M": {
+        "precio": 0
+      },
+      "PVC0,40S": {
+        "precio": 0
+      },
+      "PVC2MMB": {
+        "precio": 0
+      },
+      "PVC2MMC": {
+        "precio": 0
+      },
+      "PVC2MMG": {
+        "precio": 0
+      },
+      "PVC2MMH": {
+        "precio": 0
+      },
+      "PVC2MMM": {
+        "precio": 0
+      },
+      "PVC2MMN": {
+        "precio": 0
+      },
+      "PVC2MMS": {
+        "precio": 0
+      },
+      "REC180": {
+        "precio": 0
+      },
+      "REC80": {
+        "precio": 0
+      },
+      "RECHAZO": {
+        "precio": 0
+      },
+      "S60R": {
+        "precio": 182621
+      },
+      "S60RC": {
+        "precio": 0
+      },
+      "S60RV": {
+        "precio": 270164
+      },
+      "S60RVC": {
+        "precio": 0
+      },
+      "S80R": {
+        "precio": 196595
+      },
+      "S80RC": {
+        "precio": 0
+      },
+      "S80RV": {
+        "precio": 304962
+      },
+      "S80RVC": {
+        "precio": 0
+      },
+      "SOPBRR": {
+        "precio": 0
+      },
+      "T10-3513": {
+        "precio": 0
+      },
+      "T10-SKO-13": {
+        "precio": 0
+      },
+      "T10-SKO-16": {
+        "precio": 0
+      },
+      "T10-SKO-30": {
+        "precio": 0
+      },
+      "T10-SKO-40": {
+        "precio": 0
+      },
+      "T10-SKO-50": {
+        "precio": 0
+      },
+      "TAP2MM1": {
+        "precio": 0
+      },
+      "TAPA050": {
+        "precio": 7960
+      },
+      "TAPA060M": {
+        "precio": 9676
+      },
+      "TAPA080M": {
+        "precio": 12075
+      },
+      "TAPA090M": {
+        "precio": 13274
+      },
+      "TAPA110M": {
+        "precio": 17850
+      },
+      "TAPA120M": {
+        "precio": 19049
+      },
+      "TAPA140M": {
+        "precio": 21448
+      },
+      "TAPA150M": {
+        "precio": 22647
+      },
+      "TAPA190M": {
+        "precio": 27444
+      },
+      "TAPAMARMOL060": {
+        "precio": 73190
+      },
+      "TAPAMARMOL060N": {
+        "precio": 58553
+      },
+      "TAPAMARMOL080": {
+        "precio": 92715
+      },
+      "TAPAMARMOL080N": {
+        "precio": 74172
+      },
+      "TCH1": {
+        "precio": 28633
+      },
+      "TCH2": {
+        "precio": 28633
+      },
+      "TCH3": {
+        "precio": 28633
+      },
+      "TCH4": {
+        "precio": 28633
+      },
+      "TCH5": {
+        "precio": 28633
+      },
+      "TCH6": {
+        "precio": 28633
+      },
+      "TCP31": {
+        "precio": 0
+      },
+      "TER1": {
+        "precio": 58087
+      },
+      "TER2": {
+        "precio": 83417
+      },
+      "TERMOV30": {
+        "precio": 0
+      },
+      "TPC-30": {
+        "precio": 0
+      },
+      "TST27-4": {
+        "precio": 613974
+      },
+      "TST32-60": {
+        "precio": 1119486
+      },
+      "TT1": {
+        "precio": 0
+      },
+      "UA100": {
+        "precio": 273452
+      },
+      "UA30": {
+        "precio": 125766
+      },
+      "UA30V": {
+        "precio": 244819
+      },
+      "UA35": {
+        "precio": 135630
+      },
+      "UA40": {
+        "precio": 145083
+      },
+      "UA40V": {
+        "precio": 286056
+      },
+      "UA45": {
+        "precio": 154125
+      },
+      "UA50": {
+        "precio": 163578
+      },
+      "UA60": {
+        "precio": 197417
+      },
+      "UA60B": {
+        "precio": 102887
+      },
+      "UA60PM": {
+        "precio": 187827
+      },
+      "UA60PMB": {
+        "precio": 150974
+      },
+      "UA60R": {
+        "precio": 122615
+      },
+      "UA60RID": {
+        "precio": 328252
+      },
+      "UA60RV": {
+        "precio": 236873
+      },
+      "UA60SH": {
+        "precio": 0
+      },
+      "UA70": {
+        "precio": 205363
+      },
+      "UA70B": {
+        "precio": 137000
+      },
+      "UA70R": {
+        "precio": 0
+      },
+      "UA80": {
+        "precio": 235503
+      },
+      "UA80B": {
+        "precio": 137000
+      },
+      "UA80R": {
+        "precio": 150974
+      },
+      "UA80RV": {
+        "precio": 294413
+      },
+      "UA90": {
+        "precio": 256464
+      },
+      "UB10-25": {
+        "precio": 98640
+      },
+      "UB100": {
+        "precio": 394012
+      },
+      "UB100R": {
+        "precio": 472787
+      },
+      "UB30": {
+        "precio": 201527
+      },
+      "UB35": {
+        "precio": 209747
+      },
+      "UB40": {
+        "precio": 221529
+      },
+      "UB40 2C": {
+        "precio": 521559
+      },
+      "UB40 3C": {
+        "precio": 537862
+      },
+      "UB40 4C": {
+        "precio": 559919
+      },
+      "UB45": {
+        "precio": 247559
+      },
+      "UB50": {
+        "precio": 258519
+      },
+      "UB60": {
+        "precio": 294550
+      },
+      "UB60 2C": {
+        "precio": 594991
+      },
+      "UB60 3C": {
+        "precio": 625268
+      },
+      "UB60 4C": {
+        "precio": 639105
+      },
+      "UB70": {
+        "precio": 319347
+      },
+      "UB80": {
+        "precio": 344418
+      },
+      "UB80 2C": {
+        "precio": 793367
+      },
+      "UB80 3C": {
+        "precio": 833645
+      },
+      "UB90": {
+        "precio": 369215
+      },
+      "UB90R": {
+        "precio": 472787
+      },
+      "UESC30": {
+        "precio": 604581
+      },
+      "UESC40": {
+        "precio": 664587
+      },
+      "UESC50": {
+        "precio": 775557
+      },
+      "UPANEL A": {
+        "precio": 24112
+      },
+      "UPANEL B": {
+        "precio": 47402
+      },
+      "UPM": {
+        "precio": 56307
+      },
+      "US60R": {
+        "precio": 220296
+      },
+      "US60RV": {
+        "precio": 325238
+      },
+      "US80R": {
+        "precio": 270849
+      },
+      "US80RV": {
+        "precio": 401684
+      },
+      "V110UB": {
+        "precio": 215883
+      },
+      "V110UCB": {
+        "precio": 239057
+      },
+      "V110UCCOLOR": {
+        "precio": 334650
+      },
+      "V110UCOLOR": {
+        "precio": 302252
+      },
+      "V120UB": {
+        "precio": 296382
+      },
+      "V120UCB": {
+        "precio": 321996
+      },
+      "V120UCCOLOR": {
+        "precio": 450824
+      },
+      "V120UCOLOR": {
+        "precio": 414920
+      },
+      "V140UB": {
+        "precio": 305454
+      },
+      "V140UCOLOR": {
+        "precio": 427650
+      },
+      "V150UB": {
+        "precio": 324054
+      },
+      "V150UCB": {
+        "precio": 375280
+      },
+      "V150UCCOLOR": {
+        "precio": 525453
+      },
+      "V150UCOLOR": {
+        "precio": 453645
+      },
+      "V30UCB": {
+        "precio": 89570
+      },
+      "V30UCCOLOR": {
+        "precio": 125398
+      },
+      "V50CLAH": {
+        "precio": 187450
+      },
+      "V50UB": {
+        "precio": 110457
+      },
+      "V50UCOLOR": {
+        "precio": 154671
+      },
+      "V60CLAC": {
+        "precio": 213215
+      },
+      "V60CLAH": {
+        "precio": 197817
+      },
+      "V60UB": {
+        "precio": 117242
+      },
+      "V60UCB": {
+        "precio": 142855
+      },
+      "V60UCCOLOR": {
+        "precio": 200028
+      },
+      "V60UCOLOR": {
+        "precio": 164123
+      },
+      "V80ECO1C": {
+        "precio": 107484
+      },
+      "V80ECO1CCOLOR": {
+        "precio": 124026
+      },
+      "V80U1C": {
+        "precio": 104130
+      },
+      "V80U1CCOLOR": {
+        "precio": 145752
+      },
+      "V80UB": {
+        "precio": 126313
+      },
+      "V80UCB": {
+        "precio": 149487
+      },
+      "V80UCCOLOR": {
+        "precio": 209251
+      },
+      "V80UCOLOR": {
+        "precio": 176854
+      },
+      "V90UB": {
+        "precio": 206812
+      },
+      "V90UCB": {
+        "precio": 232425
+      },
+      "V90UCCOLOR": {
+        "precio": 325426
+      },
+      "V90UCOLOR": {
+        "precio": 289522
+      },
+      "VEDM60": {
+        "precio": 246833
+      },
+      "VEDM60N": {
+        "precio": 246833
+      },
+      "VEDM80": {
+        "precio": 267186
+      },
+      "VEDM80N": {
+        "precio": 267186
+      },
+      "VMINIB": {
+        "precio": 77678
+      },
+      "VMINICOLOR": {
+        "precio": 108780
+      },
+      "WHITEGLOSS": {
+        "precio": 0
+      },
+      "Z8": {
+        "precio": 93238
+      },
+      "ZUNCHOS": {
+        "precio": 0
+      }
+    }
+  },
+  "59895": {
+    "nombre": "LISTA MAYORISTA 2",
+    "items": {
+      "100": {
+        "precio": 0
+      },
+      "101": {
+        "precio": 0
+      },
+      "103": {
+        "precio": 0
+      },
+      "5004": {
+        "precio": 64350
+      },
+      "5007": {
+        "precio": 64350
+      },
+      "5012": {
+        "precio": 59400
+      },
+      "5017": {
+        "precio": 91612
+      },
+      "5020": {
+        "precio": 74250
+      },
+      "5021": {
+        "precio": 59400
+      },
+      "127639": {
+        "precio": 0
+      },
+      "128718": {
+        "precio": 0
+      },
+      "40114435": {
+        "precio": 0
+      },
+      "40114959": {
+        "precio": 0
+      },
+      "2005CM": {
+        "precio": 0
+      },
+      "40B": {
+        "precio": 90000
+      },
+      "40C": {
+        "precio": 197100
+      },
+      "40G": {
+        "precio": 159924
+      },
+      "40H": {
+        "precio": 120675
+      },
+      "40I": {
+        "precio": 92778
+      },
+      "40J": {
+        "precio": 58492
+      },
+      "40K": {
+        "precio": 96742
+      },
+      "40L": {
+        "precio": 126351
+      },
+      "40M": {
+        "precio": 130315
+      },
+      "40N": {
+        "precio": 163888
+      },
+      "40P": {
+        "precio": 197461
+      },
+      "40Q": {
+        "precio": 92778
+      },
+      "40R": {
+        "precio": 159924
+      },
+      "60A": {
+        "precio": 105600
+      },
+      "60D": {
+        "precio": 224550
+      },
+      "60E": {
+        "precio": 122700
+      },
+      "60F": {
+        "precio": 239850
+      },
+      "60G": {
+        "precio": 143025
+      },
+      "60H": {
+        "precio": 151721
+      },
+      "60I": {
+        "precio": 93675
+      },
+      "60J": {
+        "precio": 71257
+      },
+      "60K": {
+        "precio": 120844
+      },
+      "60L": {
+        "precio": 151721
+      },
+      "60M": {
+        "precio": 161077
+      },
+      "60N": {
+        "precio": 201309
+      },
+      "60P": {
+        "precio": 241541
+      },
+      "60Q": {
+        "precio": 111489
+      },
+      "60R": {
+        "precio": 191953
+      },
+      "A100": {
+        "precio": 112050
+      },
+      "A146PIAZZA": {
+        "precio": 87813
+      },
+      "A30": {
+        "precio": 49125
+      },
+      "A30CD": {
+        "precio": 0
+      },
+      "A30CI": {
+        "precio": 0
+      },
+      "A30CVD": {
+        "precio": 0
+      },
+      "A30CVI": {
+        "precio": 0
+      },
+      "A30V": {
+        "precio": 117000
+      },
+      "A35": {
+        "precio": 53325
+      },
+      "A40": {
+        "precio": 57825
+      },
+      "A40CD": {
+        "precio": 0
+      },
+      "A40CI": {
+        "precio": 0
+      },
+      "A40CVD": {
+        "precio": 0
+      },
+      "A40CVI": {
+        "precio": 0
+      },
+      "A40V": {
+        "precio": 131925
+      },
+      "A45": {
+        "precio": 61725
+      },
+      "A45BC": {
+        "precio": 0
+      },
+      "A50": {
+        "precio": 66225
+      },
+      "A60": {
+        "precio": 78000
+      },
+      "A60B": {
+        "precio": 42675
+      },
+      "A60C": {
+        "precio": 0
+      },
+      "A60PM": {
+        "precio": 83475
+      },
+      "A60PMB": {
+        "precio": 64275
+      },
+      "A60PMBC": {
+        "precio": 0
+      },
+      "A60PMC": {
+        "precio": 0
+      },
+      "A60R": {
+        "precio": 51300
+      },
+      "A60RID": {
+        "precio": 93525
+      },
+      "A60RV": {
+        "precio": 116775
+      },
+      "A60SH": {
+        "precio": 78000
+      },
+      "A70": {
+        "precio": 86475
+      },
+      "A70B": {
+        "precio": 58650
+      },
+      "A70R": {
+        "precio": 0
+      },
+      "A80": {
+        "precio": 95025
+      },
+      "A80B": {
+        "precio": 58650
+      },
+      "A80C": {
+        "precio": 0
+      },
+      "A80R": {
+        "precio": 64725
+      },
+      "A80RV": {
+        "precio": 145275
+      },
+      "A90": {
+        "precio": 104625
+      },
+      "AJUSMHCOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLE1": {
+        "precio": 0
+      },
+      "AJUSTABLE10": {
+        "precio": 0
+      },
+      "AJUSTABLE2": {
+        "precio": 0
+      },
+      "AJUSTABLECOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLEMHCOCINA": {
+        "precio": 0
+      },
+      "AJUSTABLEMHMPLACARD": {
+        "precio": 0
+      },
+      "ANAQUEL30B": {
+        "precio": 235133
+      },
+      "ANAQUEL30COLOR": {
+        "precio": 329241
+      },
+      "ANAQUEL40B": {
+        "precio": 262267
+      },
+      "ANAQUEL40COLOR": {
+        "precio": 367174
+      },
+      "B10-25": {
+        "precio": 50100
+      },
+      "B100": {
+        "precio": 160275
+      },
+      "B100R": {
+        "precio": 192300
+      },
+      "B30": {
+        "precio": 80700
+      },
+      "B35": {
+        "precio": 85950
+      },
+      "B40": {
+        "precio": 91275
+      },
+      "B40 2C": {
+        "precio": 175050
+      },
+      "B40 3C": {
+        "precio": 203850
+      },
+      "B40 4C": {
+        "precio": 232650
+      },
+      "B45": {
+        "precio": 97500
+      },
+      "B50": {
+        "precio": 102975
+      },
+      "B60": {
+        "precio": 116700
+      },
+      "B60 2C": {
+        "precio": 199575
+      },
+      "B60 3C": {
+        "precio": 229650
+      },
+      "B60 4C": {
+        "precio": 260175
+      },
+      "B60PHB": {
+        "precio": 0
+      },
+      "B70": {
+        "precio": 127500
+      },
+      "B80": {
+        "precio": 138525
+      },
+      "B80 3C": {
+        "precio": 0
+      },
+      "B90": {
+        "precio": 149400
+      },
+      "B90R": {
+        "precio": 175050
+      },
+      "BIC-1": {
+        "precio": 0
+      },
+      "BIC-3": {
+        "precio": 0
+      },
+      "BIR-1": {
+        "precio": 0
+      },
+      "BIR-2": {
+        "precio": 0
+      },
+      "BIR-3": {
+        "precio": 0
+      },
+      "BISA": {
+        "precio": 0
+      },
+      "BLACKTOUCH": {
+        "precio": 0
+      },
+      "BLUNAM": {
+        "precio": 74181
+      },
+      "BO": {
+        "precio": 0
+      },
+      "BRR1": {
+        "precio": 10950
+      },
+      "BRR2": {
+        "precio": 10950
+      },
+      "BRR3": {
+        "precio": 10950
+      },
+      "BRZ-1740-B": {
+        "precio": 0
+      },
+      "BWC035": {
+        "precio": 0
+      },
+      "BWFRE35N": {
+        "precio": 0
+      },
+      "CA40": {
+        "precio": 47185
+      },
+      "CA60": {
+        "precio": 53845
+      },
+      "CATALOGO": {
+        "precio": 0
+      },
+      "CL200": {
+        "precio": 0
+      },
+      "CL200N": {
+        "precio": 0
+      },
+      "CL300": {
+        "precio": 0
+      },
+      "CLAV": {
+        "precio": 0
+      },
+      "COLG0012": {
+        "precio": 0
+      },
+      "COLOCACION": {
+        "precio": 0
+      },
+      "COMBUSTIBLE": {
+        "precio": 0
+      },
+      "CRETO02": {
+        "precio": 0
+      },
+      "CRETO03": {
+        "precio": 0
+      },
+      "CRETO04": {
+        "precio": 0
+      },
+      "CRETTO01": {
+        "precio": 0
+      },
+      "CTR": {
+        "precio": 0
+      },
+      "CUBO40": {
+        "precio": 31350
+      },
+      "CUBO60": {
+        "precio": 31350
+      },
+      "DLOZA1201": {
+        "precio": 182583
+      },
+      "DLOZA120DOBLE": {
+        "precio": 323223
+      },
+      "DLOZA50": {
+        "precio": 91611
+      },
+      "DLOZA60": {
+        "precio": 97292
+      },
+      "DLOZA80": {
+        "precio": 118658
+      },
+      "DLOZA80NM": {
+        "precio": 144704
+      },
+      "EADN": {
+        "precio": 0
+      },
+      "EDM60": {
+        "precio": 362455
+      },
+      "EDM60N": {
+        "precio": 362455
+      },
+      "EDM80": {
+        "precio": 404926
+      },
+      "EDM80N": {
+        "precio": 404926
+      },
+      "EHP8X100": {
+        "precio": 0
+      },
+      "EHPE100": {
+        "precio": 0
+      },
+      "EMB": {
+        "precio": 0
+      },
+      "EPZ": {
+        "precio": 0
+      },
+      "ES40": {
+        "precio": 47111
+      },
+      "ES40-2": {
+        "precio": 30362
+      },
+      "ES60": {
+        "precio": 71215
+      },
+      "ES60-2": {
+        "precio": 42413
+      },
+      "ESC30": {
+        "precio": 242100
+      },
+      "ESC40": {
+        "precio": 273825
+      },
+      "ESC50": {
+        "precio": 308925
+      },
+      "ESK7025": {
+        "precio": 228893
+      },
+      "ESK70252": {
+        "precio": 214345
+      },
+      "ESK70253": {
+        "precio": 188888
+      },
+      "ESK7060/1": {
+        "precio": 182978
+      },
+      "ESKOVAL": {
+        "precio": 171764
+      },
+      "EXHA12": {
+        "precio": 0
+      },
+      "EXPO1": {
+        "precio": 0
+      },
+      "EXPO2": {
+        "precio": 0
+      },
+      "F-6-1000": {
+        "precio": 0
+      },
+      "FILOB22": {
+        "precio": 0
+      },
+      "FLETE": {
+        "precio": 0
+      },
+      "FRE180": {
+        "precio": 289200
+      },
+      "FRE200": {
+        "precio": 430725
+      },
+      "FRE300": {
+        "precio": 446625
+      },
+      "FRE400": {
+        "precio": 463125
+      },
+      "GREYTOUCH": {
+        "precio": 0
+      },
+      "GT4530Z": {
+        "precio": 0
+      },
+      "GT4540Z": {
+        "precio": 0
+      },
+      "GT4545Z": {
+        "precio": 0
+      },
+      "IMR-1": {
+        "precio": 0
+      },
+      "INC-1": {
+        "precio": 0
+      },
+      "INC-3": {
+        "precio": 0
+      },
+      "INR-2": {
+        "precio": 0
+      },
+      "INR-2C": {
+        "precio": 0
+      },
+      "INR-3": {
+        "precio": 0
+      },
+      "JANEM": {
+        "precio": 100584
+      },
+      "L1040": {
+        "precio": 0
+      },
+      "L12": {
+        "precio": 0
+      },
+      "L12N": {
+        "precio": 0
+      },
+      "M18": {
+        "precio": 0
+      },
+      "M537": {
+        "precio": 48068
+      },
+      "MA0028": {
+        "precio": 0
+      },
+      "MA0032": {
+        "precio": 0
+      },
+      "MAR60": {
+        "precio": 78572
+      },
+      "MDF0001E": {
+        "precio": 0
+      },
+      "ME0200": {
+        "precio": 0
+      },
+      "ME02024": {
+        "precio": 0
+      },
+      "ME02030N": {
+        "precio": 0
+      },
+      "ME02065": {
+        "precio": 0
+      },
+      "ME02107": {
+        "precio": 0
+      },
+      "ME0MEZZO": {
+        "precio": 0
+      },
+      "ME0SAHARA": {
+        "precio": 0
+      },
+      "MELAMINA AGLOMERADO 18MM GRIS TAPIR": {
+        "precio": 0
+      },
+      "MERCADOMH1": {
+        "precio": 0
+      },
+      "MGGOLD": {
+        "precio": 0
+      },
+      "MIRRGOLDESP": {
+        "precio": 0
+      },
+      "NCF495": {
+        "precio": 0
+      },
+      "OFICINA AJUSTABLE": {
+        "precio": 0
+      },
+      "OVO": {
+        "precio": 0
+      },
+      "P10-80-FI": {
+        "precio": 0
+      },
+      "P6-60": {
+        "precio": 0
+      },
+      "PA90": {
+        "precio": 58705
+      },
+      "PA90-2": {
+        "precio": 37918
+      },
+      "PANEL A": {
+        "precio": 8475
+      },
+      "PANEL B": {
+        "precio": 18900
+      },
+      "PBA122": {
+        "precio": 0
+      },
+      "PETIRIBI 18 NAT": {
+        "precio": 0
+      },
+      "PHILPOR": {
+        "precio": 0
+      },
+      "PINECOV7": {
+        "precio": 698
+      },
+      "PLPUERTA": {
+        "precio": 0
+      },
+      "PM": {
+        "precio": 30825
+      },
+      "PNM122": {
+        "precio": 0
+      },
+      "PORCENOT01": {
+        "precio": 0
+      },
+      "PORCENOT02": {
+        "precio": 0
+      },
+      "PVC0,40C": {
+        "precio": 0
+      },
+      "PVC0,40G": {
+        "precio": 0
+      },
+      "PVC0,40H": {
+        "precio": 0
+      },
+      "PVC0,40M": {
+        "precio": 0
+      },
+      "PVC0,40S": {
+        "precio": 0
+      },
+      "PVC2MMB": {
+        "precio": 0
+      },
+      "PVC2MMC": {
+        "precio": 0
+      },
+      "PVC2MMG": {
+        "precio": 0
+      },
+      "PVC2MMH": {
+        "precio": 0
+      },
+      "PVC2MMM": {
+        "precio": 0
+      },
+      "PVC2MMN": {
+        "precio": 0
+      },
+      "PVC2MMS": {
+        "precio": 0
+      },
+      "REC180": {
+        "precio": 0
+      },
+      "REC80": {
+        "precio": 0
+      },
+      "RECHAZO": {
+        "precio": 0
+      },
+      "S60R": {
+        "precio": 99975
+      },
+      "S60RC": {
+        "precio": 0
+      },
+      "S60RV": {
+        "precio": 147900
+      },
+      "S60RVC": {
+        "precio": 0
+      },
+      "S80R": {
+        "precio": 107625
+      },
+      "S80RC": {
+        "precio": 0
+      },
+      "S80RV": {
+        "precio": 166950
+      },
+      "S80RVC": {
+        "precio": 0
+      },
+      "SOPBRR": {
+        "precio": 0
+      },
+      "T10-3513": {
+        "precio": 0
+      },
+      "T10-SKO-13": {
+        "precio": 0
+      },
+      "T10-SKO-16": {
+        "precio": 0
+      },
+      "T10-SKO-30": {
+        "precio": 0
+      },
+      "T10-SKO-40": {
+        "precio": 0
+      },
+      "T10-SKO-50": {
+        "precio": 0
+      },
+      "TAP2MM1": {
+        "precio": 0
+      },
+      "TAPA050": {
+        "precio": 8955
+      },
+      "TAPA060M": {
+        "precio": 10886
+      },
+      "TAPA080M": {
+        "precio": 13584
+      },
+      "TAPA090M": {
+        "precio": 14933
+      },
+      "TAPA110M": {
+        "precio": 20082
+      },
+      "TAPA120M": {
+        "precio": 21431
+      },
+      "TAPA140M": {
+        "precio": 24129
+      },
+      "TAPA150M": {
+        "precio": 25478
+      },
+      "TAPA190M": {
+        "precio": 30874
+      },
+      "TAPAMARMOL060": {
+        "precio": 82339
+      },
+      "TAPAMARMOL060N": {
+        "precio": 65872
+      },
+      "TAPAMARMOL080": {
+        "precio": 104304
+      },
+      "TAPAMARMOL080N": {
+        "precio": 83443
+      },
+      "TCH1": {
+        "precio": 15675
+      },
+      "TCH2": {
+        "precio": 15675
+      },
+      "TCH3": {
+        "precio": 15675
+      },
+      "TCH4": {
+        "precio": 15675
+      },
+      "TCH5": {
+        "precio": 15675
+      },
+      "TCH6": {
+        "precio": 15675
+      },
+      "TCP31": {
+        "precio": 0
+      },
+      "TER1": {
+        "precio": 82982
+      },
+      "TER2": {
+        "precio": 93844
+      },
+      "TERMOV30": {
+        "precio": 0
+      },
+      "TPC-30": {
+        "precio": 0
+      },
+      "TST27-4": {
+        "precio": 336117
+      },
+      "TST32-60": {
+        "precio": 612857
+      },
+      "TT1": {
+        "precio": 0
+      },
+      "UA100": {
+        "precio": 149700
+      },
+      "UA30": {
+        "precio": 68850
+      },
+      "UA30V": {
+        "precio": 134025
+      },
+      "UA35": {
+        "precio": 74250
+      },
+      "UA40": {
+        "precio": 79425
+      },
+      "UA40V": {
+        "precio": 156600
+      },
+      "UA45": {
+        "precio": 84375
+      },
+      "UA50": {
+        "precio": 89550
+      },
+      "UA60": {
+        "precio": 108075
+      },
+      "UA60B": {
+        "precio": 56325
+      },
+      "UA60PM": {
+        "precio": 102825
+      },
+      "UA60PMB": {
+        "precio": 82650
+      },
+      "UA60R": {
+        "precio": 67125
+      },
+      "UA60RID": {
+        "precio": 179700
+      },
+      "UA60RV": {
+        "precio": 129675
+      },
+      "UA60SH": {
+        "precio": 0
+      },
+      "UA70": {
+        "precio": 112425
+      },
+      "UA70B": {
+        "precio": 75000
+      },
+      "UA70R": {
+        "precio": 0
+      },
+      "UA80": {
+        "precio": 128925
+      },
+      "UA80B": {
+        "precio": 75000
+      },
+      "UA80R": {
+        "precio": 82650
+      },
+      "UA80RV": {
+        "precio": 161175
+      },
+      "UA90": {
+        "precio": 140400
+      },
+      "UB10-25": {
+        "precio": 54000
+      },
+      "UB100": {
+        "precio": 215700
+      },
+      "UB100R": {
+        "precio": 258825
+      },
+      "UB30": {
+        "precio": 110325
+      },
+      "UB35": {
+        "precio": 114825
+      },
+      "UB40": {
+        "precio": 121275
+      },
+      "UB40 2C": {
+        "precio": 285525
+      },
+      "UB40 3C": {
+        "precio": 294450
+      },
+      "UB40 4C": {
+        "precio": 306525
+      },
+      "UB45": {
+        "precio": 135525
+      },
+      "UB50": {
+        "precio": 141525
+      },
+      "UB60": {
+        "precio": 161250
+      },
+      "UB60 2C": {
+        "precio": 325725
+      },
+      "UB60 3C": {
+        "precio": 342300
+      },
+      "UB60 4C": {
+        "precio": 349875
+      },
+      "UB70": {
+        "precio": 174825
+      },
+      "UB80": {
+        "precio": 188550
+      },
+      "UB80 2C": {
+        "precio": 434325
+      },
+      "UB80 3C": {
+        "precio": 456375
+      },
+      "UB90": {
+        "precio": 202125
+      },
+      "UB90R": {
+        "precio": 258825
+      },
+      "UESC30": {
+        "precio": 330975
+      },
+      "UESC40": {
+        "precio": 363825
+      },
+      "UESC50": {
+        "precio": 424575
+      },
+      "UPANEL A": {
+        "precio": 13200
+      },
+      "UPANEL B": {
+        "precio": 25950
+      },
+      "UPM": {
+        "precio": 30825
+      },
+      "US60R": {
+        "precio": 120600
+      },
+      "US60RV": {
+        "precio": 178050
+      },
+      "US80R": {
+        "precio": 148275
+      },
+      "US80RV": {
+        "precio": 219900
+      },
+      "V110UB": {
+        "precio": 257004
+      },
+      "V110UCB": {
+        "precio": 284592
+      },
+      "V110UCCOLOR": {
+        "precio": 398392
+      },
+      "V110UCOLOR": {
+        "precio": 359824
+      },
+      "V120UB": {
+        "precio": 352836
+      },
+      "V120UCB": {
+        "precio": 383328
+      },
+      "V120UCCOLOR": {
+        "precio": 536695
+      },
+      "V120UCOLOR": {
+        "precio": 493952
+      },
+      "V140UB": {
+        "precio": 363635
+      },
+      "V140UCOLOR": {
+        "precio": 509107
+      },
+      "V150UB": {
+        "precio": 385778
+      },
+      "V150UCB": {
+        "precio": 446762
+      },
+      "V150UCCOLOR": {
+        "precio": 625540
+      },
+      "V150UCOLOR": {
+        "precio": 540053
+      },
+      "V30UCB": {
+        "precio": 106631
+      },
+      "V30UCCOLOR": {
+        "precio": 149284
+      },
+      "V50CLAH": {
+        "precio": 223154
+      },
+      "V50UB": {
+        "precio": 131497
+      },
+      "V50UCOLOR": {
+        "precio": 184132
+      },
+      "V60CLAC": {
+        "precio": 253828
+      },
+      "V60CLAH": {
+        "precio": 235496
+      },
+      "V60UB": {
+        "precio": 139573
+      },
+      "V60UCB": {
+        "precio": 170065
+      },
+      "V60UCCOLOR": {
+        "precio": 238128
+      },
+      "V60UCOLOR": {
+        "precio": 195385
+      },
+      "V80ECO1C": {
+        "precio": 127957
+      },
+      "V80ECO1CCOLOR": {
+        "precio": 147650
+      },
+      "V80U1C": {
+        "precio": 123964
+      },
+      "V80U1CCOLOR": {
+        "precio": 173514
+      },
+      "V80UB": {
+        "precio": 150373
+      },
+      "V80UCB": {
+        "precio": 177961
+      },
+      "V80UCCOLOR": {
+        "precio": 249109
+      },
+      "V80UCOLOR": {
+        "precio": 210540
+      },
+      "V90UB": {
+        "precio": 246205
+      },
+      "V90UCB": {
+        "precio": 276697
+      },
+      "V90UCCOLOR": {
+        "precio": 387412
+      },
+      "V90UCOLOR": {
+        "precio": 344668
+      },
+      "VEDM60": {
+        "precio": 293848
+      },
+      "VEDM60N": {
+        "precio": 293848
+      },
+      "VEDM80": {
+        "precio": 318079
+      },
+      "VEDM80N": {
+        "precio": 318079
+      },
+      "VMINIB": {
+        "precio": 92474
+      },
+      "VMINICOLOR": {
+        "precio": 129500
+      },
+      "WHITEGLOSS": {
+        "precio": 0
+      },
+      "Z8": {
+        "precio": 104893
+      },
+      "ZUNCHOS": {
+        "precio": 0
+      }
+    }
+  }
+}

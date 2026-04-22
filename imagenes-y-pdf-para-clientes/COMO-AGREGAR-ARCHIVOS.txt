@@ -1,0 +1,68 @@
+═══════════════════════════════════════════════════════
+  CÓMO AGREGAR IMÁGENES Y PDFs DE PRODUCTOS
+═══════════════════════════════════════════════════════
+
+CARPETA: media/imagenes/
+  → Poner fotos de los productos
+  → Nombre del archivo = código del producto en Dux
+  → Formatos aceptados: .jpg .jpeg .png .webp
+
+  Ejemplos:
+    V60UCB.jpg         → foto del vanitory 60 blanco cajones
+    V80UCCOLOR.jpg     → foto del vanitory 80 color cajones
+    VMINICOLOR.jpg     → foto del mini color
+    EDM60.jpg          → foto Marbela 60 Terra
+    V80ECO1C.jpg       → foto eco
+
+CARPETA: media/pdf/
+  → Poner fichas técnicas en PDF
+  → Nombre del archivo = código base del producto
+  → Se busca también por código base (sin sufijo B o COLOR)
+
+  Ejemplos:
+    VMINI.pdf          → ficha del mini (cubre VMINIB y VMINICOLOR)
+    V50U.pdf           → ficha del 50 (cubre V50UB y V50UCOLOR)
+    V60U.pdf           → ficha del 60 puertas
+    V60UC.pdf          → ficha del 60 cajones
+    V80U.pdf           → ficha del 80 puertas
+    V80UC.pdf          → ficha del 80 cajones
+    V90U.pdf           → ficha del 90
+    V90UC.pdf
+    V110U.pdf
+    V110UC.pdf
+    V120U.pdf
+    V120UC.pdf
+    V140U.pdf
+    V140UC.pdf
+    V150U.pdf
+    V150UC.pdf
+    VEDM.pdf           → ficha Marbela Terra (EDM60 y EDM80)
+    VEDMN.pdf          → ficha Marbela Nero (EDM60N y EDM80N)
+    MAS_INFO.pdf       → info general de la empresa
+
+═══════════════════════════════════════════════════════
+  CÓMO FUNCIONA LA BÚSQUEDA AUTOMÁTICA
+═══════════════════════════════════════════════════════
+
+Cuando el agente de WhatsApp necesita enviar info de un
+producto, busca automáticamente:
+
+  1. Imagen exacta:  V60UCB.jpg
+  2. PDF exacto:     V60UCB.pdf
+  3. PDF base:       V60UC.pdf → V60U.pdf (quita sufijos)
+
+Así con un solo PDF de "V60UC" cubre todos los colores
+y variantes del vanitory 60 cajones.
+
+═══════════════════════════════════════════════════════
+  DESPUÉS DE AGREGAR ARCHIVOS
+═══════════════════════════════════════════════════════
+
+Correr este comando para actualizar el índice:
+
+  node media/media-manager.js
+
+Eso regenera el archivo indice.json que el agente usa
+para saber qué puede enviar sin buscar en disco.
+
+═══════════════════════════════════════════════════════
