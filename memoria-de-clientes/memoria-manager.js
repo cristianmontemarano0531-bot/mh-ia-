@@ -247,6 +247,25 @@ function marcarEsperandoSubrubro(numero, datos) {
   guardarMemoria(numero, mem);
 }
 
+// Consulta pendiente: el primer mensaje que un número nuevo mandó antes
+// de completar identificación. Se procesa después del saludo.
+function guardarConsultaPendiente(numero, texto) {
+  const mem = cargarMemoria(numero);
+  mem.contexto.consulta_pendiente = texto;
+  guardarMemoria(numero, mem);
+}
+
+function obtenerConsultaPendiente(numero) {
+  const mem = cargarMemoria(numero);
+  return mem.contexto?.consulta_pendiente || null;
+}
+
+function limpiarConsultaPendiente(numero) {
+  const mem = cargarMemoria(numero);
+  mem.contexto.consulta_pendiente = null;
+  guardarMemoria(numero, mem);
+}
+
 function asignarListaPrecios(numero, lista) {
   // lista: "madre" | "may1" | "may2"
   const listas = ["madre", "may1", "may2"];
@@ -313,5 +332,8 @@ module.exports = {
   guardarCuit,
   esClienteVerificado,
   estaEsperandoSubrubro,
-  marcarEsperandoSubrubro
+  marcarEsperandoSubrubro,
+  guardarConsultaPendiente,
+  obtenerConsultaPendiente,
+  limpiarConsultaPendiente
 };

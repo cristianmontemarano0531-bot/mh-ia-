@@ -424,8 +424,20 @@ Atendés por WhatsApp en español rioplatense, con tono humano, directo y sin vu
 - Hablá natural: "dale", "buenísimo", "perfecto", "te paso", "avanzamos". Sin tecnicismos innecesarios.
 - Si el cliente saluda o escribe informal, contestá igual de amable. Si va al grano, vos también.
 - Saludá por el nombre cuando lo tenés.${nombreCliente ? ` El cliente se llama ${nombreCliente}.` : ""}
-- Cerrá siempre con una pregunta comercial concreta: "¿Avanzamos?", "¿Te lo preparo?", "¿Abonás al retirar?", "¿Querés que te pase el flete?".
-- NUNCA inventes precios, códigos, stock ni productos. Usá SOLO los datos de la sección DATOS.`;
+- Cerrá siempre con una pregunta comercial concreta: "¿Avanzamos?", "¿Te lo preparo?", "¿Abonás al retirar?", "¿Querés que te pase el flete?".`;
+
+  const antiAlucinacion = `⛔ REGLA CRÍTICA — NUNCA INVENTES:
+- No inventes precios, códigos, medidas, stock ni colores que no estén en DATOS.
+- Si no aparece en DATOS, no existe. Punto.
+- Si te falta un dato, PREGUNTALE al cliente (no adivines).
+
+COLORES VÁLIDOS (los únicos que manejamos — nunca menciones otros):
+- BLANCO (terminación "B" en el código, ej: VMINIB, V60UCB)
+- SAHARA, GRAFITO, MEZZO, CAJU, HORMIGON (terminación "COLOR" en el código, ej: VMINICOLOR)
+- NEGRO MATE solo para mesadas de loza (DLOZA80NM / DLOZA120NM). No hay vanitorios en negro.
+- NO existen: rojo, azul, verde, amarillo, negro (excepto la mesada de loza), gris, marrón, roble, wengue, nogal, etc.
+
+Si el cliente pregunta un color que no está en la lista → decile "lo tenemos en blanco o en línea color (Sahara/Grafito/Mezzo/Cajú/Hormigón). ¿Cuál te gusta?"`;
 
   const scope = `SCOPE — qué vendemos por acá:
 - SOLO muebles de baño: vanitorios (Piatto, Marbela, Classic), bachas, mesadas, espejos/botiquines.
@@ -457,7 +469,7 @@ ${listaPrecios !== "madre" ? `- Este cliente tiene lista especial (${listaPrecio
 - Combos: si piden una bacha, podés sugerir la mesada compatible en la misma línea de respuesta.
 - Si piden PDF/foto/ficha de un producto, decile que responda "PDF" o "foto" y se lo mandás.`;
 
-  return [basePersona, estilo, scope, perfilBloque, resumenMem, saludoExtra, reglasBusqueda, `DATOS:\n${infoBusqueda}`]
+  return [basePersona, estilo, antiAlucinacion, scope, perfilBloque, resumenMem, saludoExtra, reglasBusqueda, `DATOS:\n${infoBusqueda}`]
     .filter(Boolean).join("\n\n");
 }
 
@@ -572,6 +584,15 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
       );
     }
     memoria.registrarMensaje(limpio, "assistant", resp);
+
+    // Si había una consulta pendiente, procesarla ahora en un segundo mensaje
+    const pendiente = memoria.obtenerConsultaPendiente(limpio);
+    if (pendiente) {
+      memoria.limpiarConsultaPendiente(limpio);
+      await enviarMensaje(limpio, resp);
+      return procesarMensaje(numero, pendiente, null);
+    }
+
     return { texto: resp, media: null };
   }
 
@@ -579,6 +600,19 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
   if (perfil.perfil === "externo" && memoria.estaEsperandoNombre(limpio)) {
     const nombreGuardado = memoria.guardarNombreDesdeChat(limpio, mensajeTexto);
     memoria.registrarMensaje(limpio, "user", mensajeTexto);
+
+    // Si había una consulta pendiente del primer mensaje, procesarla ahora.
+    const pendiente = memoria.obtenerConsultaPendiente(limpio);
+    if (pendiente) {
+      memoria.limpiarConsultaPendiente(limpio);
+      const saludo = `¡Perfecto, ${nombreGuardado}! Recuperando tu consulta...`;
+      await enviarMensaje(limpio, saludo);
+      memoria.registrarMensaje(limpio, "assistant", saludo);
+      // Reentrada recursiva con la consulta original
+      const perfilActualizado = await obtenerPerfil(numero);
+      return procesarMensaje(numero, pendiente, null);
+    }
+
     const respuesta = `¡Perfecto, ${nombreGuardado}! Bienvenido a *MH Amoblamientos*.\n\nSomos una fábrica argentina de muebles de baño: vanitorios, bachas, mesadas y espejos. ¿En qué te puedo ayudar hoy?`;
     memoria.registrarMensaje(limpio, "assistant", respuesta);
     return { texto: respuesta, media: null };
@@ -586,6 +620,11 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
 
   // ── NÚMERO NUEVO EXTERNO → preguntar si es cliente ─────────────────────────
   if (perfil.perfil === "externo" && memoria.esNumeroNuevo(limpio)) {
+    // Si el primer mensaje parece una consulta real (no solo un "hola"), guardala para procesarla después del saludo.
+    const esSoloSaludo = /^(hola|buen[oa]s?|buenas?\s?(dias?|tardes?|noches?)|hey|hi|holi|holis|que tal|qtal)[\s!.¡]*$/i.test(mensajeTexto.trim());
+    if (!esSoloSaludo && mensajeTexto.trim().length > 3) {
+      memoria.guardarConsultaPendiente(limpio, mensajeTexto);
+    }
     memoria.marcarEsperandoSiCliente(limpio, true);
     const respuesta = `¡Hola! 👋 Bienvenido a *MH Amoblamientos*, fábrica argentina de muebles de baño.\n\n¿Sos cliente nuestro?`;
     memoria.registrarMensaje(limpio, "assistant", respuesta);
@@ -783,7 +822,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.3",
+    version: "3.4",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -803,7 +842,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.3 — Scope: baño (89 productos)`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.4 — Scope: baño (89 productos)`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);
