@@ -554,8 +554,8 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
   const q = mensajeTexto.toLowerCase();
   let seccion = "baño";
   if (perfil.perfil === "interno") {
-    if (q.includes("en cocina") || q.includes("alacena") || q.includes("bajo mesada")) seccion = "cocina";
-    else if (q.includes("en placard") || q.includes("modulo placard")) seccion = "placard";
+    if (q.includes("cocina") || q.includes("alacena") || q.includes("bajo mesada")) seccion = "cocina";
+    else if (q.includes("placard") || q.includes("frente placard") || q.includes("modulo placard")) seccion = "placard";
   }
 
   const resultado = buscadorCtx.buscarConContexto(limpio, mensajeTexto, {

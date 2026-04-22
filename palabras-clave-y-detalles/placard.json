@@ -779,7 +779,8 @@
     "keywords": [
       "40g",
       "pa90-2+es40-2+ca40(3",
-      "pa90-2+es40-2+ca40(3)"
+      "pa90-2+es40-2+ca40(3)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -821,7 +822,8 @@
     "es_componente": false,
     "keywords": [
       "40i",
-      "pa90-2+es40-2+ca40"
+      "pa90-2+es40-2+ca40",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -863,7 +865,8 @@
     "es_componente": false,
     "keywords": [
       "40k",
-      "pa90+es40"
+      "pa90+es40",
+      "placard"
     ],
     "stock": 4,
     "stock_variantes": {
@@ -906,7 +909,8 @@
     "keywords": [
       "40l",
       "pa90-2+es40-2+ca40(2",
-      "pa90-2+es40-2+ca40(2)"
+      "pa90-2+es40-2+ca40(2)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -948,7 +952,8 @@
     "es_componente": false,
     "keywords": [
       "40m",
-      "pa90+es40+ca40"
+      "pa90+es40+ca40",
+      "placard"
     ],
     "stock": 4,
     "stock_variantes": {
@@ -991,7 +996,8 @@
     "keywords": [
       "40n",
       "pa90+es40+ca40(2",
-      "pa90+es40+ca40(2)"
+      "pa90+es40+ca40(2)",
+      "placard"
     ],
     "stock": 4,
     "stock_variantes": {
@@ -1034,7 +1040,8 @@
     "keywords": [
       "40p",
       "pa90+es40+ca40(3",
-      "pa90+es40+ca40(3)"
+      "pa90+es40+ca40(3)",
+      "placard"
     ],
     "stock": 2.66666667,
     "stock_variantes": {
@@ -1076,7 +1083,8 @@
     "es_componente": false,
     "keywords": [
       "40q",
-      "pa90-2+es40-2+ca40"
+      "pa90-2+es40-2+ca40",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1119,7 +1127,8 @@
     "keywords": [
       "40r",
       "pa90-2+es40-2+ca40(3",
-      "pa90-2+es40-2+ca40(3)"
+      "pa90-2+es40-2+ca40(3)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1162,7 +1171,8 @@
     "keywords": [
       "60h",
       "pa90-2+es60-2+ca60(2",
-      "pa90-2+es60-2+ca60(2)"
+      "pa90-2+es60-2+ca60(2)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1204,7 +1214,8 @@
     "es_componente": false,
     "keywords": [
       "60j",
-      "pa90-2+es60-2"
+      "pa90-2+es60-2",
+      "placard"
     ],
     "stock": -1,
     "stock_variantes": {
@@ -1246,7 +1257,8 @@
     "es_componente": false,
     "keywords": [
       "60k",
-      "pa90+es60"
+      "pa90+es60",
+      "placard"
     ],
     "stock": 3,
     "stock_variantes": {
@@ -1289,7 +1301,8 @@
     "keywords": [
       "60l",
       "pa90-2+es60-2+ca60(2",
-      "pa90-2+es60-2+ca60(2)"
+      "pa90-2+es60-2+ca60(2)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1331,7 +1344,8 @@
     "es_componente": false,
     "keywords": [
       "60m",
-      "pa90+es60+ca60"
+      "pa90+es60+ca60",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1374,7 +1388,8 @@
     "keywords": [
       "60n",
       "pa90+es60+ca60(2",
-      "pa90+es60+ca60(2)"
+      "pa90+es60+ca60(2)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1417,7 +1432,8 @@
     "keywords": [
       "60p",
       "pa90+es60+ca60(3",
-      "pa90+es60+ca60(3)"
+      "pa90+es60+ca60(3)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1459,7 +1475,8 @@
     "es_componente": false,
     "keywords": [
       "60q",
-      "pa90-2+es60-2+ca60"
+      "pa90-2+es60-2+ca60",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1502,7 +1519,8 @@
     "keywords": [
       "60r",
       "pa90-2+es60-2+ca60(3",
-      "pa90-2+es60-2+ca60(3)"
+      "pa90-2+es60-2+ca60(3)",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1546,7 +1564,8 @@
       "barral",
       "brr1",
       "colgar",
-      "soportes"
+      "soportes",
+      "placard"
     ],
     "stock": -49.34,
     "stock_variantes": {
@@ -1590,7 +1609,8 @@
       "barral",
       "brr2",
       "colgar",
-      "soportes"
+      "soportes",
+      "placard"
     ],
     "stock": -6.48,
     "stock_variantes": {
@@ -1634,7 +1654,8 @@
       "barral",
       "brr3",
       "colgar",
-      "soportes"
+      "soportes",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1683,7 +1704,8 @@
       "de 40",
       "el de 40",
       "estantes",
-      "palo"
+      "palo",
+      "placard"
     ],
     "stock": 8,
     "stock_variantes": {
@@ -1732,7 +1754,8 @@
       "cuarenta",
       "de 40",
       "el de 40",
-      "es40"
+      "es40",
+      "placard"
     ],
     "stock": 8,
     "stock_variantes": {
@@ -1781,7 +1804,8 @@
       "el de 40",
       "es40-2",
       "estante",
-      "palo"
+      "palo",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1831,7 +1855,8 @@
       "el de 60",
       "es60",
       "seisenta",
-      "sesenta"
+      "sesenta",
+      "placard"
     ],
     "stock": 3,
     "stock_variantes": {
@@ -1881,7 +1906,8 @@
       "estante",
       "palo",
       "seisenta",
-      "sesenta"
+      "sesenta",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1924,7 +1950,8 @@
     "keywords": [
       "90x45",
       "costados",
-      "pa90"
+      "pa90",
+      "placard"
     ],
     "stock": 4,
     "stock_variantes": {
@@ -1967,7 +1994,8 @@
     "keywords": [
       "90x45",
       "costados",
-      "pa90-2"
+      "pa90-2",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2014,7 +2042,8 @@
       "melamina",
       "mm",
       "piso",
-      "tch1"
+      "tch1",
+      "placard"
     ],
     "stock": -52.05,
     "stock_variantes": {
@@ -2061,7 +2090,8 @@
       "melamina",
       "mm",
       "piso",
-      "tch2"
+      "tch2",
+      "placard"
     ],
     "stock": -18.85,
     "stock_variantes": {
@@ -2108,7 +2138,8 @@
       "melamina",
       "mm",
       "piso",
-      "tch3"
+      "tch3",
+      "placard"
     ],
     "stock": -2.58,
     "stock_variantes": {
@@ -2155,7 +2186,8 @@
       "melamina",
       "mm",
       "piso",
-      "tch4"
+      "tch4",
+      "placard"
     ],
     "stock": -6.51,
     "stock_variantes": {
@@ -2202,7 +2234,8 @@
       "melamina",
       "mm",
       "piso",
-      "tch5"
+      "tch5",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2249,7 +2282,8 @@
       "melamina",
       "mm",
       "piso",
-      "tch6"
+      "tch6",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -2448,7 +2482,8 @@
       "agregada",
       "plpuerta",
       "puerta",
-      "puertas"
+      "puertas",
+      "placard"
     ],
     "stock": 0,
     "stock_variantes": {

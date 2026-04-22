@@ -162,6 +162,8 @@ function calcularScore(producto, consulta, medidas, colores, contextoCliente) {
   if ((q.includes("espejo") || q.includes("espejos")) && producto.categoria === "espejo") score += 20;
   if ((q.includes("marbela") || q.includes("marmol")) && producto.linea === "marbela") score += 20;
   if ((q.includes("vanitor") || q.includes("banitorio") || q.includes("mueble")) && producto.categoria === "vanitory") score += 15;
+  if ((q.includes("placard") || q.includes("frente") || q.includes("modulo")) && (producto.keywords || []).includes("placard")) score += 20;
+  if ((q.includes("cocina") || q.includes("alacena")) && (producto.keywords || []).includes("cocina")) score += 20;
 
   // 6. BOOST POR HISTORIAL DEL CLIENTE (reforma 7)
   if (contextoCliente) {
