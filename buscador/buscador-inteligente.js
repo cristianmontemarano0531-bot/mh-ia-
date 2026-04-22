@@ -160,9 +160,18 @@ function calcularScore(producto, consulta, medidas, colores, contextoCliente) {
   if ((q.includes("bacha") || q.includes("bachas") || q.includes("pileta")) && producto.categoria === "bacha") score += 20;
   if ((q.includes("mesada") || q.includes("mesadas")) && producto.categoria === "mesada") score += 20;
   if ((q.includes("espejo") || q.includes("espejos")) && producto.categoria === "espejo") score += 20;
-  if ((q.includes("marbela") || q.includes("marmol")) && producto.linea === "marbela") score += 20;
+  // Líneas de producto
+  if ((q.includes("marbela") || q.includes("marmol")) && producto.linea === "marbela") score += 25;
+  if (q.includes("classic") && producto.linea === "classic") score += 25;
+  if ((q.includes("piatto") || q.includes("estandar") || q.includes("estándar")) && producto.linea === "piatto") score += 25;
+  // Categorías vanitory
   if ((q.includes("vanitor") || q.includes("banitorio") || q.includes("mueble")) && producto.categoria === "vanitory") score += 15;
-  if ((q.includes("placard") || q.includes("frente") || q.includes("modulo")) && (producto.keywords || []).includes("placard")) score += 20;
+  // Categorías placard
+  if ((q.includes("placard") || q.includes("modulo") || q.includes("módulo")) && (producto.keywords || []).includes("placard")) score += 20;
+  if (q.includes("frente") && producto.categoria === "frente") score += 25;
+  if ((q.includes("modulo") || q.includes("módulo")) && producto.categoria === "modulo") score += 25;
+  if (q.includes("componente") && producto.categoria === "componente_placard") score += 25;
+  // Categorías cocina
   if ((q.includes("cocina") || q.includes("alacena")) && (producto.keywords || []).includes("cocina")) score += 20;
 
   // 6. BOOST POR HISTORIAL DEL CLIENTE (reforma 7)
