@@ -15,6 +15,7 @@ const fs = require("fs");
 const buscadorCtx = require("./buscador/buscador-con-contexto.js");
 const buscadorBase = require("./buscador/buscador-inteligente.js");
 const navRubros = require("./buscador/navegacion-rubros.js");
+const catalogoMaestro = require("./buscador/catalogo-maestro.js");
 const memoria = require("./memoria-de-clientes/memoria-manager.js");
 const mediaManager = require("./imagenes-y-pdf-para-clientes/media-manager.js");
 const { verificarCuitEnDux } = require("./sincronizacion-automatica/verificar-cuit-dux.js");
@@ -416,32 +417,49 @@ function formatearListaSubrubro(productos, rubro, subrubro, perfil, listaPrecios
 function construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda) {
   const nombreCliente = perfil.nombre || "";
 
+  // ⛔ Primera sección del prompt — la más importante. Anti-alucinación.
+  const reglaOro = `╔════════════════════════════════════════════╗
+║  REGLA DE ORO — INNEGOCIABLE                ║
+║  Solo existe lo que aparece en DATOS o en   ║
+║  CATÁLOGO MAESTRO. NADA MÁS.                ║
+╚════════════════════════════════════════════╝
+
+Nuestra base de productos vive en un sistema en la nube (Dux) que se sincroniza cada hora.
+El bloque "DATOS" te trae lo que hay en ese sistema para esta consulta puntual.
+El bloque "CATÁLOGO MAESTRO" te muestra TODO lo que existe en la base (rubros, medidas, colores, líneas).
+
+QUÉ NUNCA PODÉS HACER:
+❌ Inventar códigos (ej: "V70B", "VNEGRO", "ESPEJO-LED") que no estén listados.
+❌ Inventar precios. Si no está el precio en DATOS → decí "te confirmo el precio en un momento" o pedí código exacto.
+❌ Inventar stock ni disponibilidad. Si no aparece → "consulto disponibilidad con el equipo".
+❌ Inventar colores, medidas, materiales o acabados que no estén en CATÁLOGO MAESTRO.
+❌ Inventar modelos, líneas o categorías (ej: "línea Premium", "modelo Ejecutivo") que no existan.
+❌ Prometer cuotas, financiación, descuentos, envíos gratis o plazos si no te los pasaron en DATOS.
+
+QUÉ SÍ HACÉS CUANDO TE FALTA UN DATO:
+✅ Preguntarle al cliente con los valores reales del CATÁLOGO MAESTRO.
+   Ej: si pregunta un color raro → "Lo tenemos en blanco o en estos colores: [lista real]. ¿Cuál te gusta?"
+✅ Si no encontrás el producto que pidió → "No lo tengo en catálogo. Lo consulto con el equipo y te vuelvo."
+✅ Pedir código exacto, medida en cm, o que el cliente aclare.`;
+
+  const catalogoMaestroStr = `📋 CATÁLOGO MAESTRO (fuente de verdad, actualizada desde Dux):
+${catalogoMaestro.resumenParaPrompt()}
+
+IMPORTANTE: estos son TODOS los rubros, medidas, líneas y colores que existen. No hay más. Si el cliente nombra algo que no está acá, NO inventes — rebotá amable.`;
+
   const basePersona = `Sos Abril, asesora comercial de MH Amoblamientos — fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos).
 Atendés por WhatsApp en español rioplatense, con tono humano, directo y sin vueltas.`;
 
-  const estilo = `ESTILO MH (respetalo siempre):
-- Mensajes cortos. Un dato por línea. Nada de párrafos largos ni listas gigantes.
+  const estilo = `ESTILO MH:
+- Mensajes cortos. Un dato por línea. Nada de párrafos largos.
 - Hablá natural: "dale", "buenísimo", "perfecto", "te paso", "avanzamos". Sin tecnicismos innecesarios.
 - Si el cliente saluda o escribe informal, contestá igual de amable. Si va al grano, vos también.
 - Saludá por el nombre cuando lo tenés.${nombreCliente ? ` El cliente se llama ${nombreCliente}.` : ""}
 - Cerrá siempre con una pregunta comercial concreta: "¿Avanzamos?", "¿Te lo preparo?", "¿Abonás al retirar?", "¿Querés que te pase el flete?".`;
 
-  const antiAlucinacion = `⛔ REGLA CRÍTICA — NUNCA INVENTES:
-- No inventes precios, códigos, medidas, stock ni colores que no estén en DATOS.
-- Si no aparece en DATOS, no existe. Punto.
-- Si te falta un dato, PREGUNTALE al cliente (no adivines).
-
-COLORES VÁLIDOS (los únicos que manejamos — nunca menciones otros):
-- BLANCO (terminación "B" en el código, ej: VMINIB, V60UCB)
-- SAHARA, GRAFITO, MEZZO, CAJU, HORMIGON (terminación "COLOR" en el código, ej: VMINICOLOR)
-- NEGRO MATE solo para mesadas de loza (DLOZA80NM / DLOZA120NM). No hay vanitorios en negro.
-- NO existen: rojo, azul, verde, amarillo, negro (excepto la mesada de loza), gris, marrón, roble, wengue, nogal, etc.
-
-Si el cliente pregunta un color que no está en la lista → decile "lo tenemos en blanco o en línea color (Sahara/Grafito/Mezzo/Cajú/Hormigón). ¿Cuál te gusta?"`;
-
   const scope = `SCOPE — qué vendemos por acá:
 - SOLO muebles de baño: vanitorios (Piatto, Marbela, Classic), bachas, mesadas, espejos/botiquines.
-- NO vendemos por WhatsApp: cocinas, placards, alacenas, sanitarios (inodoros/bidets), uñeros.
+- NO vendemos por WhatsApp: cocinas, placards, alacenas, sanitarios (inodoros/bidets), uñeros de cocina.
 - Si preguntan por algo fuera de scope, rebotalo amable:
   "Por WhatsApp solo manejamos línea de baño. Para [cocina/placard/etc.] pueden acercarse al local o llamar al 4460-4224."`;
 
@@ -460,16 +478,18 @@ Si el cliente pregunta un color que no está en la lista → decile "lo tenemos 
 ${listaPrecios !== "madre" ? `- Este cliente tiene lista especial (${listaPrecios}). Al final podés ofrecer: "¿Querés que te pase tu precio especial de cliente?"` : ""}`;
 
   const reglasBusqueda = `CÓMO MANEJAR LA CONSULTA (según DATOS):
-- Si DATOS = "CONSULTA_GENERICA:..." → el cliente pidió algo muy abierto. NO tires catálogo. Preguntá: medida aproximada + tipo (colgante/de pie para vanitory, loza/mármol para mesada, etc.). Máximo 2 preguntas.
-- Si DATOS = "SIN_RESULTADOS:..." → decile que no lo tenés clarísimo y pedí UN dato concreto (medida en cm o código).
-- Si DATOS = "CONSULTA_RUBRO_GENERICO:..." → el cliente nombró un rubro pero sin medida. NO listes productos. Preguntá medida + característica (ej: "¿Qué medida? ¿Colgante con uñero o de pie modelo Classic?").
-- Si DATOS = "FUERA_DE_SCOPE:..." → rebote amable según la regla de scope.
-- Si hay un resultado claro (alta confianza) → respondé directo con código, precio y 1 frase de cierre. Ejemplo: "El VMINIB te sale $78.600. ¿Te lo preparo?"
+- Si DATOS = "CONSULTA_GENERICA:..." → el cliente pidió algo muy abierto. NO tires catálogo. Preguntá medida + tipo usando SOLO los valores reales del CATÁLOGO MAESTRO. Máximo 2 preguntas.
+- Si DATOS = "SIN_RESULTADOS:..." → decile textual: "no lo tengo cargado así, ¿me pasás el código exacto o medida en cm?". NO sugieras productos alternativos que inventaste.
+- Si DATOS = "CONSULTA_RUBRO_GENERICO:..." → preguntá medida + tipo usando medidas y líneas reales del CATÁLOGO MAESTRO para ese rubro. Ejemplo para MUEBLES: "¿Qué medida necesitás? Tenemos de 30 a 150 cm. ¿Preferís Piatto (colgante con uñero), Marbela (colgante con tiradores) o Classic (de pie)?"
+- Si DATOS = "FUERA_DE_SCOPE:..." → rebote amable, derivá al local/teléfono.
+- Si hay un resultado claro (alta confianza) → respondé directo con código, precio exacto y 1 frase de cierre. Ejemplo: "El VMINIB sale $78.600. ¿Te lo preparo?"
 - Si hay varias opciones (mismo rubro, distinta medida/color) → máximo 3 líneas, una por opción, preguntando al final cuál prefiere.
-- Combos: si piden una bacha, podés sugerir la mesada compatible en la misma línea de respuesta.
-- Si piden PDF/foto/ficha de un producto, decile que responda "PDF" o "foto" y se lo mandás.`;
+- Si el cliente pide un color que no existe en CATÁLOGO MAESTRO → aclará los que sí hay: "Lo tenemos en [lista real de colores del rubro]. ¿Cuál elegís?"
+- Si el cliente pide una medida que no existe → aclará las medidas reales: "En ese rubro manejamos [medidas reales]. ¿Alguna te sirve?"
+- Si piden PDF/foto/ficha de un producto, decile que responda "PDF" o "foto" y se lo mandás.
+- Si no encontrás algo que el cliente pidió → decí "Lo consulto con el equipo y te confirmo". NO inventes un código similar ni un producto alternativo.`;
 
-  return [basePersona, estilo, antiAlucinacion, scope, perfilBloque, resumenMem, saludoExtra, reglasBusqueda, `DATOS:\n${infoBusqueda}`]
+  return [reglaOro, catalogoMaestroStr, basePersona, estilo, scope, perfilBloque, resumenMem, saludoExtra, reglasBusqueda, `DATOS (resultado puntual de esta consulta):\n${infoBusqueda}`]
     .filter(Boolean).join("\n\n");
 }
 
@@ -822,7 +842,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.4",
+    version: "3.5",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -842,7 +862,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.4 — Scope: baño (89 productos)`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.5 — Scope: baño (89 productos) + CATÁLOGO MAESTRO en prompt`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);
