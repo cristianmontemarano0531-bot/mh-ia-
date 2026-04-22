@@ -13,6 +13,8 @@ const fs = require("fs");
 });
 
 const buscadorCtx = require("./buscador/buscador-con-contexto.js");
+const buscadorBase = require("./buscador/buscador-inteligente.js");
+const navRubros = require("./buscador/navegacion-rubros.js");
 const memoria = require("./memoria-de-clientes/memoria-manager.js");
 const mediaManager = require("./imagenes-y-pdf-para-clientes/media-manager.js");
 const { verificarCuitEnDux } = require("./sincronizacion-automatica/verificar-cuit-dux.js");
@@ -365,6 +367,78 @@ function formatearBusqueda(resultado, perfil, listaPrecios = "madre") {
   return lines.join("\n").trim();
 }
 
+// ─── FORMATEAR LISTA DE SUBRUBRO ──────────────────────────────────────────────
+function formatearListaSubrubro(productos, rubro, subrubro, perfil, listaPrecios) {
+  if (!productos || productos.length === 0) {
+    return `SIN_RESULTADOS: No hay productos catalogados en ${rubro}${subrubro ? " → " + subrubro : ""}.`;
+  }
+
+  const titulo = subrubro ? `${rubro} → ${subrubro}` : rubro;
+  const lines = [`📂 *${titulo}* (${productos.length} modelos):`];
+
+  // Deduplicar por familia
+  const familiaVista = new Set();
+  const deduplicados = [];
+  for (const p of productos) {
+    const clave = p.familia && p.familia !== p.codigo ? p.familia : p.codigo;
+    if (!familiaVista.has(clave)) {
+      familiaVista.add(clave);
+      deduplicados.push(p);
+    }
+  }
+
+  deduplicados.slice(0, 10).forEach((p, i) => {
+    let line = `[Opción ${i + 1}] ${p.codigo} — ${p.nombre}`;
+    if (p.medida) line += ` | ${p.medida}cm`;
+
+    if (perfil === "interno") {
+      line += ` | Stock: ${p.stock_total} uds`;
+      line += ` | $${p.precio_madre}/$${p.precio_may1}/$${p.precio_may2}`;
+    } else {
+      line += ` | ${p.stock_total > 0 ? "Disponible" : "Consultar"}`;
+      const precio = listaPrecios === "madre" ? p.precio_madre : precioSegunLista(p, listaPrecios);
+      line += ` | $${precio}`;
+      if (listaPrecios !== "madre") {
+        line += ` [especial]`;
+      }
+    }
+
+    if (p.colores && p.colores.length > 1) line += ` | Colores: ${p.colores.join("/")}`;
+    lines.push(line);
+  });
+
+  if (deduplicados.length > 10) lines.push(`... y ${deduplicados.length - 10} modelos más`);
+
+  return lines.join("\n");
+}
+
+// ─── CONSTRUIR SYSTEM PROMPT ──────────────────────────────────────────────────
+function construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda) {
+  return `Sos el asistente de ventas de MH Amoblamientos, fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos). Atendés por WhatsApp de forma concisa y amigable. Respondés siempre en español rioplatense.
+
+${resumenMem}
+${saludoExtra}
+
+PERFIL: ${perfil.perfil}${perfil.nombre ? ` | Nombre: ${perfil.nombre}` : ""}
+${perfil.perfil === "interno" ? "→ Equipo interno: mostrá stock exacto por color y todas las listas de precios." : ""}
+${perfil.perfil === "pdv" ? "→ Revendedor PDV: mostrá precio público Lista Madre. Al final preguntá: '¿Querés ver tu precio de compra?'" : ""}
+${perfil.perfil === "externo" ? `→ Consumidor final: mostrá siempre el "Precio lista pública". NUNCA menciones stock numérico ni unidades. Si el dato tiene "[Precio especial...]" o "[especial]", NO lo menciones a menos que el cliente lo pida explícitamente (dice "mi precio", "precio de cuenta", "precio especial"). Si el cliente tiene lista especial asignada (${listaPrecios !== "madre" ? `lista: ${listaPrecios}` : "lista madre por ahora"}), al final podés agregar: "¿Querés que te pase tu precio especial de cliente?"` : ""}
+
+DATOS DE LA BASE (actualizados desde Dux):
+${infoBusqueda}
+
+REGLAS:
+- Usá solo los datos de arriba. No inventes precios ni stock.
+- Si el resultado empieza con CONSULTA_GENERICA: respondé con un menú amigable de categorías disponibles.
+- Si el resultado empieza con SIN_RESULTADOS: pedí más detalle al cliente (medida, tipo, color).
+- Si hay OPCIONES DE COLOR: presentalas claramente y preguntá cuál prefiere.
+- Si hay un resultado claro con alta confianza, respondé directo con los datos.
+- Si hay varios similares, listá hasta 3 con sus diferencias clave.
+- Máximo 5 líneas de respuesta.
+- NUNCA des stock numérico a consumidores finales (perfil externo).
+- Si el cliente pide PDF o imagen, decile que responda "PDF" o "foto" y se lo enviás.`;
+}
+
 // ─── PROCESAR MENSAJE ─────────────────────────────────────────────────────────
 async function procesarMensaje(numero, texto, mediaUrl = null) {
   const perfil = await obtenerPerfil(numero);
@@ -547,6 +621,91 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
     return { texto: resp, media: null };
   }
 
+  // ── FLUJO: ESPERANDO ELECCIÓN DE SUBRUBRO ─────────────────────────────────
+  const estadoSubrubro = memoria.estaEsperandoSubrubro(limpio);
+  if (estadoSubrubro) {
+    const eleccion = navRubros.detectarEleccionSubrubro(mensajeTexto, estadoSubrubro.opciones);
+    memoria.registrarMensaje(limpio, "user", mensajeTexto);
+
+    if (eleccion) {
+      memoria.marcarEsperandoSubrubro(limpio, null);
+      const codigos = navRubros.obtenerProductos(estadoSubrubro.rubro, eleccion);
+
+      if (codigos.length > 0) {
+        const listaPrecios = memoria.obtenerListaPrecios(limpio);
+        const productos = buscadorBase.listarPorCodigos(codigos, estadoSubrubro.seccion);
+        const infoBusqueda = formatearListaSubrubro(productos, estadoSubrubro.rubro, eleccion, perfil.perfil, listaPrecios);
+        const resumenMem = memoria.resumenCliente(limpio);
+        const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
+        const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda);
+        try {
+          const respuesta = await llamarClaude(historial, systemPrompt);
+          memoria.registrarMensaje(limpio, "assistant", respuesta);
+          return { texto: respuesta, media: null };
+        } catch (error) {
+          console.error("Error Claude:", error.message);
+          return { texto: "Hubo un error. Intentá de nuevo.", media: null };
+        }
+      }
+      // si no hay codigos, caer al flujo normal
+
+    } else {
+      const ops = estadoSubrubro.opciones.map(o => `*${o}*`).join(" / ");
+      const resp = `No entendí. ¿Cuál de estas opciones?\n${ops}`;
+      memoria.registrarMensaje(limpio, "assistant", resp);
+      return { texto: resp, media: null };
+    }
+  }
+
+  // ── DETECCIÓN DE RUBRO → MENÚ DE SUBRUBRO ─────────────────────────────────
+  if (!estadoSubrubro) {
+    const rubroDetectado = navRubros.detectarRubro(mensajeTexto);
+    if (rubroDetectado) {
+      const palabrasQ = mensajeTexto.trim().split(/\s+/);
+      const sinMedida = !/\b\d{2,3}\s*cm?\b/i.test(mensajeTexto);
+      const esRubroGenerico = palabrasQ.length <= 4 && sinMedida;
+      const seccionRubro = navRubros.RUBRO_A_SECCION[rubroDetectado] || "baño";
+      const rubroPermitido = perfil.perfil === "interno" || seccionRubro === "baño";
+
+      if (esRubroGenerico && rubroPermitido) {
+        const subrubros = navRubros.obtenerSubrubros(rubroDetectado);
+        memoria.registrarMensaje(limpio, "user", mensajeTexto);
+
+        if (subrubros.length > 0) {
+          // Mostrar menú de subrubros
+          memoria.marcarEsperandoSubrubro(limpio, {
+            rubro: rubroDetectado,
+            seccion: seccionRubro,
+            opciones: subrubros.map(s => s.nombre)
+          });
+          const msg = navRubros.mensajeSeleccionSubrubro(rubroDetectado, subrubros);
+          memoria.registrarMensaje(limpio, "assistant", msg);
+          return { texto: msg, media: null };
+        } else {
+          // Sin subrubros → listar todos los productos del rubro
+          const codigos = navRubros.obtenerProductos(rubroDetectado);
+          if (codigos.length > 0) {
+            const listaPrecios = memoria.obtenerListaPrecios(limpio);
+            const productos = buscadorBase.listarPorCodigos(codigos, seccionRubro);
+            const infoBusqueda = formatearListaSubrubro(productos, rubroDetectado, null, perfil.perfil, listaPrecios);
+            const resumenMem = memoria.resumenCliente(limpio);
+            const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
+            const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda);
+            try {
+              const respuesta = await llamarClaude(historial, systemPrompt);
+              memoria.registrarMensaje(limpio, "assistant", respuesta);
+              return { texto: respuesta, media: null };
+            } catch (error) {
+              console.error("Error Claude:", error.message);
+              return { texto: "Hubo un error. Intentá de nuevo.", media: null };
+            }
+          }
+          // si rubros.json no tiene codigos, caer al flujo normal
+        }
+      }
+    }
+  }
+
   // ── GUARDAR MENSAJE Y BUSCAR ──────────────────────────────────────────────
   memoria.registrarMensaje(limpio, "user", mensajeTexto);
 
@@ -569,35 +728,12 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
   const resumenMem = memoria.resumenCliente(limpio);
   const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
 
-  // Saludo personalizado si es primera vez del día
   const esPrimeraMensajeHoy = memoria.esPrimeraVezHoy(limpio);
   const saludoExtra = (esPrimeraMensajeHoy && perfil.nombre && perfil.perfil !== "externo")
     ? `Hoy es la primera consulta del día de ${perfil.nombre}. Saludalo calurosamente por su nombre al inicio de la respuesta.`
     : "";
 
-  const systemPrompt = `Sos el asistente de ventas de MH Amoblamientos, fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos). Atendés por WhatsApp de forma concisa y amigable. Respondés siempre en español rioplatense.
-
-${resumenMem}
-${saludoExtra}
-
-PERFIL: ${perfil.perfil}${perfil.nombre ? ` | Nombre: ${perfil.nombre}` : ""}
-${perfil.perfil === "interno" ? "→ Equipo interno: mostrá stock exacto por color y todas las listas de precios." : ""}
-${perfil.perfil === "pdv" ? "→ Revendedor PDV: mostrá precio público Lista Madre. Al final preguntá: '¿Querés ver tu precio de compra?'" : ""}
-${perfil.perfil === "externo" ? `→ Consumidor final: mostrá siempre el "Precio lista pública". NUNCA menciones stock numérico ni unidades. Si el dato tiene "[Precio especial...]", NO lo menciones a menos que el cliente lo pida explícitamente (dice "mi precio", "precio de cuenta", "precio especial"). Si el cliente tiene lista especial asignada (${listaPrecios !== "madre" ? `lista: ${listaPrecios}` : "lista madre por ahora"}), al final podés agregar: "¿Querés que te pase tu precio especial de cliente?"` : ""}
-
-DATOS DE LA BASE (actualizados desde Dux):
-${infoBusqueda}
-
-REGLAS:
-- Usá solo los datos de arriba. No inventes precios ni stock.
-- Si el resultado empieza con CONSULTA_GENERICA: respondé con un menú amigable de categorías disponibles.
-- Si el resultado empieza con SIN_RESULTADOS: pedí más detalle al cliente (medida, tipo, color).
-- Si hay OPCIONES DE COLOR: presentalas claramente y preguntá cuál prefiere.
-- Si hay un resultado claro con alta confianza, respondé directo con los datos.
-- Si hay varios similares, listá hasta 3 con sus diferencias clave.
-- Máximo 5 líneas de respuesta.
-- NUNCA des stock numérico a consumidores finales (perfil externo).
-- Si el cliente pide PDF o imagen, decile que responda "PDF" o "foto" y se lo enviás.`;
+  const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda);
 
   try {
     const respuesta = await llamarClaude(historial, systemPrompt);
@@ -654,7 +790,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.1",
+    version: "3.2",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -674,7 +810,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.1`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.2`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);

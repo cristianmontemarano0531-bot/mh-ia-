@@ -44,6 +44,7 @@ function cargarMemoria(numero) {
         esperando_nombre: false,
         esperando_si_cliente: false,
         esperando_nombre_y_cuit: false,
+        esperando_subrubro: null,
         cuit: null,
         cliente_verificado: false
       }
@@ -235,6 +236,17 @@ function esClienteVerificado(numero) {
   return !!(memoria.contexto && memoria.contexto.cliente_verificado);
 }
 
+function estaEsperandoSubrubro(numero) {
+  const memoria = cargarMemoria(numero);
+  return memoria.contexto?.esperando_subrubro || null;
+}
+
+function marcarEsperandoSubrubro(numero, datos) {
+  const mem = cargarMemoria(numero);
+  mem.contexto.esperando_subrubro = datos;
+  guardarMemoria(numero, mem);
+}
+
 function asignarListaPrecios(numero, lista) {
   // lista: "madre" | "may1" | "may2"
   const listas = ["madre", "may1", "may2"];
@@ -299,5 +311,7 @@ module.exports = {
   estaEsperandoNombreYCuit,
   marcarEsperandoNombreYCuit,
   guardarCuit,
-  esClienteVerificado
+  esClienteVerificado,
+  estaEsperandoSubrubro,
+  marcarEsperandoSubrubro
 };

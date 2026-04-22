@@ -299,6 +299,34 @@ function buscarPorCodigo(codigo, seccion = "baño") {
   };
 }
 
+// ─── LISTAR PRODUCTOS POR CÓDIGOS (navegación rubro/subrubro) ────────────────
+function listarPorCodigos(codigos, seccion = "baño") {
+  const catalogo = cargarCatalogo(seccion);
+  const stock = cargarStock();
+  const precios = cargarPrecios();
+
+  const codigosSet = new Set((codigos || []).map(c => String(c).toUpperCase()));
+
+  return catalogo
+    .filter(p => codigosSet.has(String(p.codigo).toUpperCase()))
+    .map(p => ({
+      codigo: p.codigo,
+      nombre: p.nombre,
+      categoria: p.categoria,
+      medida: p.medida,
+      colores: p.colores || [],
+      linea: p.linea,
+      guardado: p.guardado,
+      familia: p.familia || "",
+      variantes_familia: p.variantes_familia || [],
+      stock_total: (stock[p.codigo] || { stockTotal: 0 }).stockTotal,
+      stock_variantes: (stock[p.codigo] || { variantes: {} }).variantes,
+      precio_madre: precios["57669"]?.items[p.codigo]?.precio || 0,
+      precio_may1: precios["58940"]?.items[p.codigo]?.precio || 0,
+      precio_may2: precios["59895"]?.items[p.codigo]?.precio || 0
+    }));
+}
+
 // ─── LISTAR SUGERENCIAS (para autocompletar) ───────────────────────────────────
 function sugerencias(inicio, seccion = "baño", limit = 5) {
   const catalogo = cargarCatalogo(seccion);
@@ -319,6 +347,7 @@ module.exports = {
   buscar,
   buscarPorCodigo,
   sugerencias,
+  listarPorCodigos,
   cargarCatalogo,
   cargarStock,
   cargarPrecios

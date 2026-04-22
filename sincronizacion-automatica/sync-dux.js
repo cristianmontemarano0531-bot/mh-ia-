@@ -100,9 +100,42 @@ function procesarProductos(items) {
       codigo: item.cod_item,
       nombre: item.item || "",
       rubro: item.rubro?.nombre || "",
+      sub_rubro: item.sub_rubro?.nombre || "",
       habilitado: item.habilitado === "S",
       iva: parseFloat(item.porc_iva) || 0
     }));
+}
+
+function construirArbolRubros(items) {
+  log("🌲 Construyendo árbol rubro → subrubro → productos...");
+  const arbol = {};
+
+  items.forEach(item => {
+    const rubro = item.rubro?.nombre;
+    const subrubro = item.sub_rubro?.nombre || null;
+    const codigo = item.cod_item;
+    if (!rubro || !codigo) return;
+
+    if (!arbol[rubro]) arbol[rubro] = { subrubros: {}, productos: [] };
+    if (!arbol[rubro].productos.includes(codigo)) arbol[rubro].productos.push(codigo);
+
+    if (subrubro) {
+      if (!arbol[rubro].subrubros[subrubro]) arbol[rubro].subrubros[subrubro] = [];
+      arbol[rubro].subrubros[subrubro].push(codigo);
+    }
+  });
+
+  // Convertir a formato más amigable
+  const resultado = {};
+  Object.entries(arbol).forEach(([rubro, data]) => {
+    resultado[rubro] = {
+      subrubros: Object.entries(data.subrubros).map(([nombre, codigos]) => ({ nombre, codigos })),
+      productos: data.productos
+    };
+  });
+
+  log(`✅ Árbol construido: ${Object.keys(resultado).length} rubros`);
+  return resultado;
 }
 
 function procesarStock(items) {
@@ -195,10 +228,12 @@ async function ejecutarSync() {
     const productos = procesarProductos(items);
     const stock = procesarStock(items);
     const precios = procesarPrecios(items);
+    const rubros = construirArbolRubros(items);
 
     guardarJSON("productos", productos);
     guardarJSON("stock", stock);
     guardarJSON("precios", precios);
+    guardarJSON("rubros", rubros);
 
     const segundos = ((Date.now() - inicio) / 1000).toFixed(1);
     log(`⏱️  Tiempo total: ${segundos}s`);
