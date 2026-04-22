@@ -181,6 +181,39 @@ async function llamarClaude(mensajes, systemPrompt) {
   return data.content?.[0]?.text || "Lo siento, hubo un error. Intentá de nuevo.";
 }
 
+// ─── CORRECTOR DE TRANSCRIPCIONES DE AUDIO ───────────────────────────────────
+// Whisper deforma nombres de productos en español rioplatense
+const CORRECCIONES_AUDIO = [
+  // Producto VMINI
+  [/\bb[\s-]?mini\b/gi, "vmini"],
+  [/\bv[\s-]?mini\b/gi, "vmini"],
+  [/\bbe[\s-]?mini\b/gi, "vmini"],
+  // Colores
+  [/\bhome\b/gi, "hormigon"],
+  [/\bormigon\b/gi, "hormigon"],
+  [/\bormi\b/gi, "hormigon"],
+  [/\bgrafitti\b/gi, "grafito"],
+  [/\bgrafico\b/gi, "grafito"],
+  [/\bzahara\b/gi, "sahara"],
+  [/\bneto\b/gi, "nero"],
+  [/\bkaju\b/gi, "caju"],
+  // Líneas
+  [/\bmar[\s-]?bela\b/gi, "marbela"],
+  [/\bmar[\s-]?bella\b/gi, "marbela"],
+  [/\bana[\s-]?quel\b/gi, "anaquel"],
+];
+
+function corregirTranscripcion(texto) {
+  let corregido = texto;
+  CORRECCIONES_AUDIO.forEach(([patron, reemplazo]) => {
+    corregido = corregido.replace(patron, reemplazo);
+  });
+  if (corregido !== texto) {
+    console.log(`🔧 Corrección audio: "${texto}" → "${corregido}"`);
+  }
+  return corregido;
+}
+
 // ─── DETECTAR PEDIDO DE MEDIA ─────────────────────────────────────────────────
 function detectarPedidoMedia(texto) {
   const q = texto.toLowerCase();
@@ -284,8 +317,8 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
     console.log(`🎤 Transcribiendo audio de ${limpio}...`);
     const transcripcion = await transcribirAudio(mediaUrl);
     if (transcripcion) {
-      mensajeTexto = transcripcion;
       console.log(`📝 "${transcripcion}"`);
+      mensajeTexto = corregirTranscripcion(transcripcion);
     } else {
       return { texto: "No pude escuchar el audio. ¿Podés escribirme?", media: null };
     }

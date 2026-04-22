@@ -76,13 +76,13 @@ function extraerMedidas(consulta) {
 function extraerColores(consulta) {
   const coloresMap = {
     "blanco|blanc|bl": "BLANCO",
-    "hormigon|hormigón|ormigon|gris|oscuro": "HORMIGON",
-    "grafito|gráfito": "GRAFITO",
-    "mezzo|mezo|meso|madera|marron|marrón": "MEZZO",
-    "caju|cajú|cajou|arena|beige": "CAJU",
-    "sahara|sahará": "SAHARA",
+    "hormigon|hormigón|ormigon|gris|oscuro|home|orme|ormi|hormigo": "HORMIGON",
+    "grafito|gráfito|grafico|grafitti": "GRAFITO",
+    "mezzo|mezo|meso|madera|marron|marrón|meso color": "MEZZO",
+    "caju|cajú|cajou|arena|beige|kaju|cahu": "CAJU",
+    "sahara|sahará|sahara color|zahara": "SAHARA",
     "terra|tierra|beige marmol": "TERRA",
-    "nero|negro|marquina": "NERO"
+    "nero|negro|marquina|neto": "NERO"
   };
 
   const coloresEncontrados = new Set();
