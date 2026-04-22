@@ -241,7 +241,9 @@ function buscar(consulta, seccion = "baño", limit = 5, contextoCliente = null) 
       linea: r.linea,
       guardado: r.guardado,
       familia: r.familia || "",
+      tipo_familia: r.tipo_familia || "",
       variantes_familia: r.variantes_familia || [],
+      variantes_familia_medida: r.variantes_familia_medida || [],
       colores_disponibles: r.colores_disponibles || [],
       relacionados: r.relacionados || [],
       frase: r.frase || ""

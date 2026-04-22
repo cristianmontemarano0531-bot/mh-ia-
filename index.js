@@ -251,7 +251,30 @@ function formatearBusqueda(resultado, perfil, listaPrecios = "madre") {
     return "SIN_RESULTADOS: No encontré productos claros para esta consulta. Pedí más detalle al cliente: medida en cm, tipo de producto (vanitorio/bacha/espejo/mesada) o color.";
   }
 
-  // Deduplicar por familia
+  // ── FAMILIA DE MEDIDAS: mostrar todas las variantes compactas (ej: mesadas de loza) ──
+  const topResultado = resultado.resultados[0];
+  if (topResultado?.tipo_familia === "medida" && topResultado?.variantes_familia_medida?.length > 1) {
+    const lines = [];
+    const nombre_familia = topResultado.nombre.split(" ").slice(0, 4).join(" ");
+    lines.push(`📐 *${nombre_familia}* — opciones disponibles:`);
+
+    resultado.resultados
+      .filter(p => p.tipo_familia === "medida")
+      .forEach(p => {
+        const stockStr = perfil === "interno"
+          ? `${p.stock_total} uds`
+          : p.stock_total > 0 ? "disponible" : "sin stock";
+        const precioStr = perfil === "interno"
+          ? `$${p.precio_madre}|$${p.precio_may1}|$${p.precio_may2}`
+          : `$${perfil === "pdv" ? p.precio_madre : precioSegunLista(p, listaPrecios)}`;
+        lines.push(`  → *${p.codigo}* ${p.nombre.replace(/MESADA DE LOZA /i,"").trim()} | ${stockStr} | ${precioStr}`);
+      });
+
+    lines.push(`\n¿Cuál medida necesitás?`);
+    return lines.join("\n");
+  }
+
+  // Deduplicar por familia (colores)
   const familiaVista = new Set();
   const deduplicados = [];
   for (const p of resultado.resultados) {

@@ -1633,7 +1633,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "DLOZA1201",
+    "familia": "DLOZA",
     "variantes_familia": [
       {
         "codigo": "DLOZA1201",
@@ -1669,7 +1669,8 @@
       "piatto",
       "solo",
       "tapa",
-      "tapas"
+      "tapas",
+      "mesada loza"
     ],
     "stock": 19,
     "stock_variantes": {
@@ -1690,7 +1691,40 @@
       "madre": 202870,
       "mayorista1": 162296,
       "mayorista2": 182583
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "DLOZA50",
+        "descripcion": "BLANCA 50X40",
+        "medida": "50x40"
+      },
+      {
+        "codigo": "DLOZA60",
+        "descripcion": "BLANCA 60X46",
+        "medida": "60x46"
+      },
+      {
+        "codigo": "DLOZA80",
+        "descripcion": "BLANCA 80X46",
+        "medida": "80x46"
+      },
+      {
+        "codigo": "DLOZA1201",
+        "descripcion": "BLANCA 120X46 UNA BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA120DOBLE",
+        "descripcion": "BLANCA 120X46 DOBLE BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA80NM",
+        "descripcion": "NEGRO MATE 80X46",
+        "medida": "80x46"
+      }
+    ]
   },
   {
     "codigo": "DLOZA120DOBLE",
@@ -1701,7 +1735,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "DLOZA120DOBLE",
+    "familia": "DLOZA",
     "variantes_familia": [
       {
         "codigo": "DLOZA120DOBLE",
@@ -1746,7 +1780,8 @@
       "solo",
       "suite",
       "tapa",
-      "tapas"
+      "tapas",
+      "mesada loza"
     ],
     "stock": 0,
     "stock_variantes": {
@@ -1761,7 +1796,40 @@
       "madre": 359137,
       "mayorista1": 287309,
       "mayorista2": 323223
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "DLOZA50",
+        "descripcion": "BLANCA 50X40",
+        "medida": "50x40"
+      },
+      {
+        "codigo": "DLOZA60",
+        "descripcion": "BLANCA 60X46",
+        "medida": "60x46"
+      },
+      {
+        "codigo": "DLOZA80",
+        "descripcion": "BLANCA 80X46",
+        "medida": "80x46"
+      },
+      {
+        "codigo": "DLOZA1201",
+        "descripcion": "BLANCA 120X46 UNA BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA120DOBLE",
+        "descripcion": "BLANCA 120X46 DOBLE BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA80NM",
+        "descripcion": "NEGRO MATE 80X46",
+        "medida": "80x46"
+      }
+    ]
   },
   {
     "codigo": "DLOZA50",
@@ -1772,7 +1840,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "DLOZA50",
+    "familia": "DLOZA",
     "variantes_familia": [
       {
         "codigo": "DLOZA50",
@@ -1808,7 +1876,8 @@
       "piatto",
       "solo",
       "tapa",
-      "tapas"
+      "tapas",
+      "mesada loza"
     ],
     "stock": 37,
     "stock_variantes": {
@@ -1829,7 +1898,40 @@
       "madre": 101791,
       "mayorista1": 81432,
       "mayorista2": 91611
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "DLOZA50",
+        "descripcion": "BLANCA 50X40",
+        "medida": "50x40"
+      },
+      {
+        "codigo": "DLOZA60",
+        "descripcion": "BLANCA 60X46",
+        "medida": "60x46"
+      },
+      {
+        "codigo": "DLOZA80",
+        "descripcion": "BLANCA 80X46",
+        "medida": "80x46"
+      },
+      {
+        "codigo": "DLOZA1201",
+        "descripcion": "BLANCA 120X46 UNA BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA120DOBLE",
+        "descripcion": "BLANCA 120X46 DOBLE BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA80NM",
+        "descripcion": "NEGRO MATE 80X46",
+        "medida": "80x46"
+      }
+    ]
   },
   {
     "codigo": "DLOZA60",
@@ -1840,7 +1942,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "DLOZA60",
+    "familia": "DLOZA",
     "variantes_familia": [
       {
         "codigo": "DLOZA60",
@@ -1881,7 +1983,8 @@
       "piatto",
       "solo",
       "tapa",
-      "tapas"
+      "tapas",
+      "mesada loza"
     ],
     "stock": 26,
     "stock_variantes": {
@@ -1902,7 +2005,40 @@
       "madre": 108103,
       "mayorista1": 86482,
       "mayorista2": 97292
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "DLOZA50",
+        "descripcion": "BLANCA 50X40",
+        "medida": "50x40"
+      },
+      {
+        "codigo": "DLOZA60",
+        "descripcion": "BLANCA 60X46",
+        "medida": "60x46"
+      },
+      {
+        "codigo": "DLOZA80",
+        "descripcion": "BLANCA 80X46",
+        "medida": "80x46"
+      },
+      {
+        "codigo": "DLOZA1201",
+        "descripcion": "BLANCA 120X46 UNA BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA120DOBLE",
+        "descripcion": "BLANCA 120X46 DOBLE BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA80NM",
+        "descripcion": "NEGRO MATE 80X46",
+        "medida": "80x46"
+      }
+    ]
   },
   {
     "codigo": "DLOZA80",
@@ -1913,7 +2049,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "DLOZA80",
+    "familia": "DLOZA",
     "variantes_familia": [
       {
         "codigo": "DLOZA80",
@@ -1956,7 +2092,8 @@
       "principal",
       "solo",
       "tapa",
-      "tapas"
+      "tapas",
+      "mesada loza"
     ],
     "stock": 92,
     "stock_variantes": {
@@ -1977,7 +2114,40 @@
       "madre": 131842,
       "mayorista1": 105473,
       "mayorista2": 118658
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "DLOZA50",
+        "descripcion": "BLANCA 50X40",
+        "medida": "50x40"
+      },
+      {
+        "codigo": "DLOZA60",
+        "descripcion": "BLANCA 60X46",
+        "medida": "60x46"
+      },
+      {
+        "codigo": "DLOZA80",
+        "descripcion": "BLANCA 80X46",
+        "medida": "80x46"
+      },
+      {
+        "codigo": "DLOZA1201",
+        "descripcion": "BLANCA 120X46 UNA BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA120DOBLE",
+        "descripcion": "BLANCA 120X46 DOBLE BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA80NM",
+        "descripcion": "NEGRO MATE 80X46",
+        "medida": "80x46"
+      }
+    ]
   },
   {
     "codigo": "DLOZA80NM",
@@ -1988,7 +2158,7 @@
     "medida": "",
     "guardado": "",
     "colores": [],
-    "familia": "DLOZA80NM",
+    "familia": "DLOZA",
     "variantes_familia": [
       {
         "codigo": "DLOZA80NM",
@@ -2032,7 +2202,8 @@
       "piatto",
       "tapa",
       "tapas",
-      "visual"
+      "visual",
+      "mesada loza"
     ],
     "stock": 1,
     "stock_variantes": {
@@ -2053,7 +2224,40 @@
       "madre": 160783,
       "mayorista1": 128626,
       "mayorista2": 144704
-    }
+    },
+    "tipo_familia": "medida",
+    "variantes_familia_medida": [
+      {
+        "codigo": "DLOZA50",
+        "descripcion": "BLANCA 50X40",
+        "medida": "50x40"
+      },
+      {
+        "codigo": "DLOZA60",
+        "descripcion": "BLANCA 60X46",
+        "medida": "60x46"
+      },
+      {
+        "codigo": "DLOZA80",
+        "descripcion": "BLANCA 80X46",
+        "medida": "80x46"
+      },
+      {
+        "codigo": "DLOZA1201",
+        "descripcion": "BLANCA 120X46 UNA BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA120DOBLE",
+        "descripcion": "BLANCA 120X46 DOBLE BACHA",
+        "medida": "120x46"
+      },
+      {
+        "codigo": "DLOZA80NM",
+        "descripcion": "NEGRO MATE 80X46",
+        "medida": "80x46"
+      }
+    ]
   },
   {
     "codigo": "EDM60",
