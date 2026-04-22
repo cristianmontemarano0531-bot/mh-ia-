@@ -1,0 +1,243 @@
+{
+  "MESADAS": {
+    "subrubros": [
+      {
+        "nombre": "LAMINADO",
+        "codigos": [
+          "TAPA150M",
+          "TAPA110M",
+          "TAPA190M",
+          "TAPA090M",
+          "TAPA120M",
+          "TAPA080M",
+          "TAPA060M",
+          "TAPA050",
+          "TAPA140M"
+        ]
+      },
+      {
+        "nombre": "LOZA",
+        "codigos": [
+          "DLOZA80NM",
+          "DLOZA120DOBLE",
+          "DLOZA60",
+          "DLOZA1201",
+          "DLOZA50",
+          "DLOZA80"
+        ]
+      },
+      {
+        "nombre": "SINTETICA",
+        "codigos": [
+          "MAR60",
+          "M537",
+          "Z8"
+        ]
+      },
+      {
+        "nombre": "MARMOL",
+        "codigos": [
+          "TAPAMARMOL060",
+          "TAPAMARMOL080",
+          "TAPAMARMOL060N",
+          "TAPAMARMOL080N"
+        ]
+      }
+    ],
+    "productos": [
+      "TAPA150M",
+      "DLOZA80NM",
+      "MAR60",
+      "TAPA110M",
+      "M537",
+      "Z8",
+      "TAPA190M",
+      "DLOZA120DOBLE",
+      "DLOZA60",
+      "DLOZA1201",
+      "TAPA090M",
+      "TAPA120M",
+      "TAPA080M",
+      "DLOZA50",
+      "TAPA060M",
+      "TAPA050",
+      "TAPAMARMOL060",
+      "TAPAMARMOL080",
+      "TAPAMARMOL060N",
+      "TAPAMARMOL080N",
+      "DLOZA80",
+      "TAPA140M"
+    ]
+  },
+  "BACHAS": {
+    "subrubros": [
+      {
+        "nombre": "LOZA",
+        "codigos": [
+          "5021",
+          "5020",
+          "5012",
+          "5004",
+          "TER2",
+          "5007",
+          "A146PIAZZA",
+          "5017"
+        ]
+      },
+      {
+        "nombre": "SINTETICO",
+        "codigos": [
+          "TER1",
+          "JANEM",
+          "BLUNAM"
+        ]
+      }
+    ],
+    "productos": [
+      "5021",
+      "5020",
+      "5012",
+      "5004",
+      "TER2",
+      "TER1",
+      "JANEM",
+      "5007",
+      "A146PIAZZA",
+      "5017",
+      "BLUNAM"
+    ]
+  },
+  "MUEBLES": {
+    "subrubros": [
+      {
+        "nombre": "VANITORY PIATTO",
+        "codigos": [
+          "V30UCB",
+          "V50UCOLOR",
+          "VMINICOLOR",
+          "V60UCCOLOR",
+          "V80UCCOLOR",
+          "V110UCOLOR",
+          "V120UCOLOR",
+          "V90UCB",
+          "ANAQUEL30B",
+          "V110UB",
+          "V50UB",
+          "V150UB",
+          "V30UCCOLOR",
+          "V80UCB",
+          "ANAQUEL40B",
+          "VMINIB",
+          "ANAQUEL30COLOR",
+          "ANAQUEL40COLOR",
+          "V150UCCOLOR",
+          "V150UCB",
+          "V120UCCOLOR",
+          "V90UCOLOR",
+          "V80UB",
+          "V60UB",
+          "V150UCOLOR",
+          "V90UB",
+          "V90UCCOLOR",
+          "V110UCB",
+          "V110UCCOLOR",
+          "V120UB",
+          "V120UCB",
+          "V140UB",
+          "V140UCOLOR",
+          "V60UCB",
+          "V60UCOLOR",
+          "V80UCOLOR"
+        ]
+      },
+      {
+        "nombre": "VANITORY CLASSIC",
+        "codigos": [
+          "V50CLAH",
+          "V60CLAH",
+          "V60CLAC",
+          "V80ECO1C",
+          "V80ECO1CCOLOR",
+          "V80U1C",
+          "V80U1CCOLOR"
+        ]
+      },
+      {
+        "nombre": "VANITORY MARBELA",
+        "codigos": [
+          "VEDM80",
+          "EDM80",
+          "EDM60",
+          "VEDM60",
+          "VEDM60N",
+          "VEDM80N",
+          "EDM60N",
+          "EDM80N"
+        ]
+      }
+    ],
+    "productos": [
+      "V30UCB",
+      "V50UCOLOR",
+      "VMINICOLOR",
+      "V60UCCOLOR",
+      "V80UCCOLOR",
+      "V50CLAH",
+      "V60CLAH",
+      "V60CLAC",
+      "V110UCOLOR",
+      "V120UCOLOR",
+      "V90UCB",
+      "ANAQUEL30B",
+      "V110UB",
+      "V50UB",
+      "V150UB",
+      "V30UCCOLOR",
+      "V80UCB",
+      "ANAQUEL40B",
+      "VMINIB",
+      "ANAQUEL30COLOR",
+      "ANAQUEL40COLOR",
+      "V150UCCOLOR",
+      "V150UCB",
+      "V120UCCOLOR",
+      "VEDM80",
+      "EDM80",
+      "EDM60",
+      "VEDM60",
+      "VEDM60N",
+      "VEDM80N",
+      "EDM60N",
+      "EDM80N",
+      "V90UCOLOR",
+      "V80UB",
+      "V60UB",
+      "V150UCOLOR",
+      "V80ECO1C",
+      "V80ECO1CCOLOR",
+      "V80U1C",
+      "V80U1CCOLOR",
+      "V90UB",
+      "V90UCCOLOR",
+      "V110UCB",
+      "V110UCCOLOR",
+      "V120UB",
+      "V120UCB",
+      "V140UB",
+      "V140UCOLOR",
+      "V60UCB",
+      "V60UCOLOR",
+      "V80UCOLOR"
+    ]
+  },
+  "ESPEJOS Y BOTIQUINES": {
+    "subrubros": [],
+    "productos": [
+      "ESK70252",
+      "ESK70253",
+      "ESKOVAL",
+      "ESK7060/1",
+      "ESK7025"
+    ]
+  }
+}

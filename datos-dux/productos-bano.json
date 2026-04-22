@@ -1,0 +1,892 @@
+[
+  {
+    "codigo": "TAPA150M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 150",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "DLOZA80NM",
+    "nombre": "MESADA DE LOZA NEGRO MATE 80X46",
+    "rubro": "MESADAS",
+    "sub_rubro": "LOZA",
+    "marca": "",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "5021",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA OVALADA 41.5 X 33 X 14 H",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "5020",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA REDONDA 40 X 40 X 14.5 H",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "5012",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA REDONDA 32.5",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "5004",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA CUADRADA 37 X 37 X 13.5 H",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "V30UCB",
+    "nombre": "VANITORY 30CM UÑERO DE COLGAR DOS CAJONES COMPLEMENTO COLOR BLANCO V30",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR COMPLEMENTO 30CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "MAR60",
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V60",
+    "rubro": "MESADAS",
+    "sub_rubro": "SINTETICA",
+    "marca": "POLYQUARTZ",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TER2",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR MONOCOMANDO PARA VMINI",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "V50UCOLOR",
+    "nombre": "VANITORY 50CM UÑERO DE COLGAR DOS PUERTAS COLOR V50",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 50CM ANCHO 48,2CM DE ALTO 37CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "VMINICOLOR",
+    "nombre": "VANITORY 45CM UÑERO DE COLGAR UNA PUERTA REBATIBLE COLOR VMINI",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 45CM ANCHO 45CM DE ALTO 26CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V60UCCOLOR",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS CAJONES COLOR V60UCCOLOR",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR 60CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V80UCCOLOR",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS CAJONES COLOR V80C",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR 80CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V50CLAH",
+    "nombre": "VANITORY 50CM DE PIE MODELO CLASSIC COLOR BLANCO CON HUECO EN ROBLE V50",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY CLASSIC",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE PIE 50CM ANCHO 82CM DE ALTO 37CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V60CLAH",
+    "nombre": "VANITORY 60CM DE PIE MODELO CLASSIC COLOR BLANCO CON HUECO EN ROBLE V60",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY CLASSIC",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE PIE 60CM ANCHO 82CM DE ALTO 37CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V60CLAC",
+    "nombre": "VANITORY 60CM DE PIE MODELO CLASSIC COLOR BLANCO CON CAJON V60",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY CLASSIC",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE PIE 60CM ANCHO 82CM DE ALTO 37CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V110UCOLOR",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V110UCOLOR (ES COMPONENTE V80UCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 110CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V120UCOLOR",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR V120UCOLOR (ES COMPONENTE V60UCOLOR+V30UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 120CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN TRES CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V90UCB",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR CUATRO CAJONES COLOR BLANCO V90UCB (ES COMPONENTE V60UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 90CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "ANAQUEL30B",
+    "nombre": "ANAQUEL 30CM UÑERO DE COLGAR CON TRES PUERTAS COLOR BLANCO",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 45CM ANCHO 45CM DE ALTO 26CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V110UB",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V110UB (ES COMPONENTE V80UB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 110CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "TAPA110M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 110",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "V50UB",
+    "nombre": "VANITORY 50CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V50",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 50CM ANCHO 48,2CM DE ALTO 37CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V150UB",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V150UB (ES COMPONENTE V60UB+V60UB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 150CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "M537",
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V50",
+    "rubro": "MESADAS",
+    "sub_rubro": "SINTETICA",
+    "marca": "POLYQUARTZ",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "Z8",
+    "nombre": "MESADA MARMOL SINTETICO COLOR BLANCO PARA V80",
+    "rubro": "MESADAS",
+    "sub_rubro": "SINTETICA",
+    "marca": "POLYQUARTZ",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TAPA190M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 190",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TER1",
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO RECTANGULAR MONOCOMANDO COLOR BLANCO PARA VMINI",
+    "rubro": "BACHAS",
+    "sub_rubro": "SINTETICO",
+    "marca": "POLYQUARTZ",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "ESK70252",
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 80X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "sub_rubro": "",
+    "marca": "KLEN",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "V30UCCOLOR",
+    "nombre": "VANITORY 30CM UÑERO DE COLGAR DOS CAJONES COMPLEMENTO COLOR V30",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR COMPLEMENTO 30CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V80UCB",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS CAJONES COLOR BLANCO V80C",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR 80CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "ANAQUEL40B",
+    "nombre": "ANAQUEL 40CM UÑERO DE COLGAR CON TRES PUERTAS COLOR BLANCO",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR 60CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "JANEM",
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO RECTANGULAR COLOR BLANCO",
+    "rubro": "BACHAS",
+    "sub_rubro": "SINTETICO",
+    "marca": "POLYQUARTZ",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "5007",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR 48 X 37 X 14 H",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "A146PIAZZA",
+    "nombre": "BACHA PIAZZA DE APOYO EN PORCELANA RECTANGULAR MONOCOMANDO COLOR BLANCO PARA VMINI",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "PIAZZA",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "5017",
+    "nombre": "BACHA DE APOYO EN LOZA BLANCA RECTANGULAR 51.5 X 43 X 14 H",
+    "rubro": "BACHAS",
+    "sub_rubro": "LOZA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "DLOZA120DOBLE",
+    "nombre": "MESADA DE LOZA BLANCA 120X46 DOBLE BACHA",
+    "rubro": "MESADAS",
+    "sub_rubro": "LOZA",
+    "marca": "",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "DLOZA60",
+    "nombre": "MESADA DE LOZA BLANCA 60X46",
+    "rubro": "MESADAS",
+    "sub_rubro": "LOZA",
+    "marca": "",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "DLOZA1201",
+    "nombre": "MESADA DE LOZA BLANCA 120X46 UNA BACHA",
+    "rubro": "MESADAS",
+    "sub_rubro": "LOZA",
+    "marca": "",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TAPA090M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 090",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "VMINIB",
+    "nombre": "VANITORY 45CM UÑERO DE COLGAR UNA PUERTA REBATIBLE COLOR BLANCO VMINI",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 45CM ANCHO 45CM DE ALTO 26CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "TAPA120M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 120",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TAPA080M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 080",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "DLOZA50",
+    "nombre": "MESADA DE LOZA BLANCA 50X40",
+    "rubro": "MESADAS",
+    "sub_rubro": "LOZA",
+    "marca": "",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TAPA060M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 060",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TAPA050",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 050",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "BLUNAM",
+    "nombre": "BACHA DE APOYO EN MARMOL SINTETICO CIRCULAR PARA MONOCOMANDO COLOR BLANCO",
+    "rubro": "BACHAS",
+    "sub_rubro": "SINTETICO",
+    "marca": "POLYQUARTZ",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "ANAQUEL30COLOR",
+    "nombre": "ANAQUEL 30CM UÑERO DE COLGAR CON TRES PUERTAS COLOR",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 45CM ANCHO 45CM DE ALTO 26CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "ANAQUEL40COLOR",
+    "nombre": "ANAQUEL 40CM UÑERO DE COLGAR CON TRES PUERTAS COLOR",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR 60CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V150UCCOLOR",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR 6 CAJONES CAJONES COLOR V150UCCOLOR (ES COMPONENTE V60UCCOLOR+V30UCCOLOR+V60UCCOLOR+)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 150CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN TRES CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V150UCB",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR 6 CAJONES COLOR BLANCO V150UB (ES COMPONENTE V60UCB+V30UCB+V60UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 150CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V120UCCOLOR",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR 6 CAJONES COLOR V120UCCOLOR (ES COMPONENTE V30UCCOLOR+V60UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 120CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN TRES CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "VEDM80",
+    "nombre": "VANITORY DE 80CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR TERRA",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "SOLO MUEBLE"
+  },
+  {
+    "codigo": "EDM80",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 80CM CON TAPA DE ACRILICO EN MARMOL COLOR TERRA EDM80",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "MUEBLE CON TAPA INCLUIDA"
+  },
+  {
+    "codigo": "TAPAMARMOL060",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL BEIGE 060",
+    "rubro": "MESADAS",
+    "sub_rubro": "MARMOL",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TAPAMARMOL080",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL BEIGE 080",
+    "rubro": "MESADAS",
+    "sub_rubro": "MARMOL",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "EDM60",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 60CM CON TAPA DE ACRILICO EN MARMOL COLOR TERRA EDM60",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "MUEBLE CON TAPA INCLUIDA"
+  },
+  {
+    "codigo": "VEDM60",
+    "nombre": "VANITORY DE 60CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR TERRA",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "SOLO MUEBLE"
+  },
+  {
+    "codigo": "VEDM60N",
+    "nombre": "VANITORY DE 60CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR NERO",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "SOLO MUEBLE"
+  },
+  {
+    "codigo": "TAPAMARMOL060N",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL NEGRO MARQUINA 060",
+    "rubro": "MESADAS",
+    "sub_rubro": "MARMOL",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "TAPAMARMOL080N",
+    "nombre": "TAPA ACRILICO EN COLOR MARMOL NEGRO MARQUINA 080",
+    "rubro": "MESADAS",
+    "sub_rubro": "MARMOL",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "VEDM80N",
+    "nombre": "VANITORY DE 80CM DE COLGAR LINEA MARBELA DOS CAJONES COLOR NERO",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "SOLO MUEBLE"
+  },
+  {
+    "codigo": "EDM60N",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 60CM CON TAPA DE ACRILICO EN MARMOL COLOR NERO EDM60N",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "MUEBLE CON TAPA INCLUIDA"
+  },
+  {
+    "codigo": "EDM80N",
+    "nombre": "VANITORY DE COLGAR LINEA MARBELA EN 80CM CON TAPA DE ACRILICO EN MARMOL COLOR NERO EDM80N",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY MARBELA",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 0,
+    "utiliza_variantes": false,
+    "descripcion": "MUEBLE CON TAPA INCLUIDA"
+  },
+  {
+    "codigo": "DLOZA80",
+    "nombre": "MESADA DE LOZA BLANCA 80X46",
+    "rubro": "MESADAS",
+    "sub_rubro": "LOZA",
+    "marca": "",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "V90UCOLOR",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V90UCOLOR (ES COMPONENTE V60UCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 90CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "ESK70253",
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 60X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "sub_rubro": "",
+    "marca": "KLEN",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "V80UB",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V80",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 80CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V60UB",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS PUERTAS COLOR BLANCO V60UB",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 60CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "TAPA140M",
+    "nombre": "TAPA DE MELAMINA PARA MESADA DE VANITORY 140",
+    "rubro": "MESADAS",
+    "sub_rubro": "LAMINADO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": ""
+  },
+  {
+    "codigo": "V150UCOLOR",
+    "nombre": "VANITORY 150CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR V150UCOLOR (ES COMPONENTE V60UCOLOR+V60UCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 150CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V80ECO1C",
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON COLR BLANCO ALTURA 25CM TIPO POLLERA CLASSIC",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY CLASSIC",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM COLOR BLANCO FA PLAC DE COLGAR LINEA CLASSIC SIN UÑERO"
+  },
+  {
+    "codigo": "V80ECO1CCOLOR",
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON COLOR ALTURA 25CM TIPO POLLERA CLASSIC",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY CLASSIC",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM COLOR BLANCO FA PLAC DE COLGAR LINEA CLASSIC SIN UÑERO"
+  },
+  {
+    "codigo": "V80U1C",
+    "nombre": "VANITORY DE COLGAR UÑERO 80CM UN CAJON UN HUECO COLOR BLANCO CLASSIC",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY CLASSIC",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM COLOR BLANCO FA PLAC DE COLGAR LINEA CLASSIC SIN UÑERO"
+  },
+  {
+    "codigo": "V80U1CCOLOR",
+    "nombre": "VANITORY DE COLGAR 80CM UN CAJON UN HUECO UÑERO COLOR CLASSIC",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY CLASSIC",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM COLOR BLANCO FA PLAC DE COLGAR LINEA CLASSIC UN SOLO CAJON"
+  },
+  {
+    "codigo": "V90UB",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR DOS PUERTAS Y DOS CAJONES COLOR BLANCO V90UB (ES COMPONENTE V60UB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 90CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V90UCCOLOR",
+    "nombre": "VANITORY 90CM UÑERO DE COLGAR CUATRO CAJONES COLOR V90UCCOLOR (ES COMPONENTE V60UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 90CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V110UCB",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR CUATRO CAJONES COLOR BLANCO V110UCB (ES COMPONENTE V80UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 110CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V110UCCOLOR",
+    "nombre": "VANITORY 110CM UÑERO DE COLGAR CUATRO CAJONES COLOR V110UCCOLOR (ES COMPONENTE V80UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 2,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 110CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V120UB",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR BLANCO V120UB (ES COMPONENTE V60UB+V30UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 120CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V120UCB",
+    "nombre": "VANITORY 120CM UÑERO DE COLGAR 6 CAJONES COLOR BLANCO V120UCB (ES COMPONENTE V30UCB+V60UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 120CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V140UB",
+    "nombre": "VANITORY 140CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR BLANCO V140UB (ES COMPONENTE V80UB+V30UCB+V30UCB)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 140CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V140UCOLOR",
+    "nombre": "VANITORY 140CM UÑERO DE COLGAR DOS PUERTAS Y CUATRO CAJONES COLOR V140UCOLOR (ES COMPONENTE V80UCOLOR+V30UCCOLOR+V30UCCOLOR)",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 3,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 140CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA ESTE PRODUCTO SE ENTREGA EN DOS CAJAS SEPARADAS YA QUE SE COMPONE DE COMPONENTES ESTO DEJA QUE EL CLIENTE PUEDA ORDENAR SU POSICIONA A SU GUSTO Y BENEFICIO"
+  },
+  {
+    "codigo": "V60UCB",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS CAJONES COLOR BLANCO V60UCB",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": "MELAMINA DE 18MM FAPLAC CANTOS DE PVC 2MM CORREDERAS TELESCOPICAS DE COLGAR 60CM DE ANCHO 48,2CM DE ALTO 45CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V60UCOLOR",
+    "nombre": "VANITORY 60CM UÑERO DE COLGAR DOS PUERTAS COLOR V60UCOLOR",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 60CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "V80UCOLOR",
+    "nombre": "VANITORY 80CM UÑERO DE COLGAR DOS PUERTAS COLOR V80",
+    "rubro": "MUEBLES",
+    "sub_rubro": "VANITORY PIATTO",
+    "marca": "MH AMOBLAMIENTOS",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": true,
+    "descripcion": "MELAMINA 18MM FAPLAC CANTOS DE PVC 2MM HERRAJES METALICOS DE COLGAR 80CM ANCHO 48,2CM DE ALTO 43CM DE PROFUNDIDAD TOTAL SIN MESADA"
+  },
+  {
+    "codigo": "ESKOVAL",
+    "nombre": "ESPEJO OVAL CON LUZ LED Y TOUCH 50X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "sub_rubro": "",
+    "marca": "KLEN",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "ESK7060/1",
+    "nombre": "ESPEJO CIRCULAR CON LUZ LED Y TOUCH 60",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "sub_rubro": "",
+    "marca": "KLEN",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  },
+  {
+    "codigo": "ESK7025",
+    "nombre": "ESPEJO RECTANGULAR CON LUZ LED Y TOUCH 90X80",
+    "rubro": "ESPEJOS Y BOTIQUINES",
+    "sub_rubro": "",
+    "marca": "KLEN",
+    "unidades_por_bulto": 1,
+    "utiliza_variantes": false,
+    "descripcion": ""
+  }
+]

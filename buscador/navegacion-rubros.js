@@ -1,39 +1,54 @@
 const fs = require("fs");
 const path = require("path");
 
-const RUBROS_FILE = path.join(__dirname, "../datos-dux/rubros.json");
+// FUENTE DE VERDAD: solo 89 productos de baño (curados desde Dux)
+const RUBROS_FILE = path.join(__dirname, "../datos-dux/rubros-bano.json");
 
-// Rubros relevantes para el bot (excluir materia prima, electro, etc.)
-const RUBROS_VISIBLES = [
-  "BACHAS", "BLANCO LINEA", "CLASSIC", "ESPEJOS Y BOTIQUINES",
-  "MESADAS", "MUEBLES", "PLACARD", "PLACARD 90", "UÑERO", "SANITARIOS"
+// Rubros de baño que vendemos por WhatsApp
+const RUBROS_VISIBLES = ["MUEBLES", "BACHAS", "MESADAS", "ESPEJOS Y BOTIQUINES"];
+
+// Todo mapea a sección "baño" (scope único del bot)
+const RUBRO_A_SECCION = {
+  "MUEBLES": "baño",
+  "BACHAS": "baño",
+  "MESADAS": "baño",
+  "ESPEJOS Y BOTIQUINES": "baño"
+};
+
+// Aliases para reconocer rubros desde texto natural. Orden: más específico primero.
+const ALIASES_RUBRO = [
+  ["espejos y botiquines", "ESPEJOS Y BOTIQUINES"],
+  ["espejos", "ESPEJOS Y BOTIQUINES"],
+  ["espejo", "ESPEJOS Y BOTIQUINES"],
+  ["botiquines", "ESPEJOS Y BOTIQUINES"],
+  ["botiquin", "ESPEJOS Y BOTIQUINES"],
+  ["bachas", "BACHAS"],
+  ["bacha", "BACHAS"],
+  ["piletas", "BACHAS"],
+  ["pileta", "BACHAS"],
+  ["mesadas", "MESADAS"],
+  ["mesada", "MESADAS"],
+  ["vanitorios", "MUEBLES"],
+  ["vanitorys", "MUEBLES"],
+  ["vanitoris", "MUEBLES"],
+  ["vanitory", "MUEBLES"],
+  ["vanitorio", "MUEBLES"],
+  ["muebles de bano", "MUEBLES"],
+  ["mueble de bano", "MUEBLES"],
+  ["muebles", "MUEBLES"],
+  ["mueble", "MUEBLES"]
 ];
 
-// Mapeo rubro Dux → sección del catálogo
-const RUBRO_A_SECCION = {
-  "BACHAS": "baño",
-  "BLANCO LINEA": "cocina",
-  "CLASSIC": "cocina",
-  "ESPEJOS Y BOTIQUINES": "baño",
-  "MESADAS": "baño",
-  "MUEBLES": "baño",
-  "PLACARD": "placard",
-  "PLACARD 90": "placard",
-  "UÑERO": "baño",
-  "SANITARIOS": "baño"
-};
-
-// Aliases para reconocer rubros desde texto natural
-const ALIASES_RUBRO = {
-  "bacha": "BACHAS", "bachas": "BACHAS", "pileta": "BACHAS",
-  "espejo": "ESPEJOS Y BOTIQUINES", "espejos": "ESPEJOS Y BOTIQUINES", "botiquin": "ESPEJOS Y BOTIQUINES",
-  "mesada": "MESADAS", "mesadas": "MESADAS",
-  "mueble": "MUEBLES", "muebles": "MUEBLES", "vanitory": "MUEBLES", "vanitorios": "MUEBLES",
-  "placard": "PLACARD", "placards": "PLACARD",
-  "blanco linea": "BLANCO LINEA", "blanco": "BLANCO LINEA",
-  "classic": "CLASSIC",
-  "unero": "UÑERO", "uñero": "UÑERO"
-};
+// Rubros FUERA DE SCOPE (cocina, placard, etc.) — el bot redirige
+const ALIASES_FUERA_SCOPE = [
+  "placard", "placards",
+  "cocina", "cocinas", "alacena", "alacenas",
+  "bajo mesada cocina", "modulo cocina",
+  "classic",
+  "blanco linea",
+  "unero", "uñero",
+  "sanitario", "sanitarios", "inodoro", "bidet", "bidé", "mochila"
+];
 
 function cargarArbol() {
   if (!fs.existsSync(RUBROS_FILE)) return {};
@@ -42,12 +57,30 @@ function cargarArbol() {
   } catch { return {}; }
 }
 
-// Detectar si la consulta es sobre un rubro específico (sin subrubro ni producto)
+function normalizar(texto) {
+  return texto.toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Detectar si la consulta es sobre un rubro específico de baño
 function detectarRubro(consulta) {
-  const q = consulta.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
-  for (const [alias, rubro] of Object.entries(ALIASES_RUBRO)) {
-    const regex = new RegExp(`\\b${alias}\\b`);
+  const q = normalizar(consulta);
+  for (const [alias, rubro] of ALIASES_RUBRO) {
+    const regex = new RegExp(`\\b${alias.replace(/\s/g, "\\s+")}\\b`);
     if (regex.test(q)) return rubro;
+  }
+  return null;
+}
+
+// Detectar si la consulta pide algo fuera de nuestro scope (cocina/placard/etc.)
+function detectarFueraDeScope(consulta) {
+  const q = normalizar(consulta);
+  for (const alias of ALIASES_FUERA_SCOPE) {
+    const regex = new RegExp(`\\b${alias.replace(/\s/g, "\\s+")}\\b`);
+    if (regex.test(q)) return alias;
   }
   return null;
 }
@@ -58,7 +91,7 @@ function obtenerSubrubros(rubro) {
   return arbol[rubro]?.subrubros || [];
 }
 
-// Obtener productos de un rubro + subrubro opcional
+// Obtener códigos de productos de un rubro (+ subrubro opcional)
 function obtenerProductos(rubro, subrubro = null) {
   const arbol = cargarArbol();
   const data = arbol[rubro];
@@ -70,26 +103,20 @@ function obtenerProductos(rubro, subrubro = null) {
 
 // Detectar si el texto es una respuesta a subrubro ofrecido
 function detectarEleccionSubrubro(texto, opcionesDisponibles) {
-  const q = texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  const q = normalizar(texto);
   for (const op of opcionesDisponibles) {
-    const opNorm = op.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const opNorm = normalizar(op);
     if (q.includes(opNorm) || opNorm.includes(q)) return op;
   }
   return null;
 }
 
-// Generar mensaje de selección de subrubro
-function mensajeSeleccionSubrubro(rubro, subrubros) {
-  if (!subrubros.length) return null;
-  const ops = subrubros.map(s => `*${s.nombre}*`).join(" / ");
-  return `📂 *${rubro}* — ¿Qué tipo?\n${ops}`;
-}
-
 module.exports = {
   detectarRubro,
+  detectarFueraDeScope,
   obtenerSubrubros,
   obtenerProductos,
   detectarEleccionSubrubro,
-  mensajeSeleccionSubrubro,
-  RUBRO_A_SECCION
+  RUBRO_A_SECCION,
+  RUBROS_VISIBLES
 };

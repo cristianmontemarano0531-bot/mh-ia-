@@ -414,29 +414,51 @@ function formatearListaSubrubro(productos, rubro, subrubro, perfil, listaPrecios
 
 // ─── CONSTRUIR SYSTEM PROMPT ──────────────────────────────────────────────────
 function construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda) {
-  return `Sos el asistente de ventas de MH Amoblamientos, fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos). Atendés por WhatsApp de forma concisa y amigable. Respondés siempre en español rioplatense.
+  const nombreCliente = perfil.nombre || "";
 
-${resumenMem}
-${saludoExtra}
+  const basePersona = `Sos Abril, asesora comercial de MH Amoblamientos — fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos).
+Atendés por WhatsApp en español rioplatense, con tono humano, directo y sin vueltas.`;
 
-PERFIL: ${perfil.perfil}${perfil.nombre ? ` | Nombre: ${perfil.nombre}` : ""}
-${perfil.perfil === "interno" ? "→ Equipo interno: mostrá stock exacto por color y todas las listas de precios." : ""}
-${perfil.perfil === "pdv" ? "→ Revendedor PDV: mostrá precio público Lista Madre. Al final preguntá: '¿Querés ver tu precio de compra?'" : ""}
-${perfil.perfil === "externo" ? `→ Consumidor final: mostrá siempre el "Precio lista pública". NUNCA menciones stock numérico ni unidades. Si el dato tiene "[Precio especial...]" o "[especial]", NO lo menciones a menos que el cliente lo pida explícitamente (dice "mi precio", "precio de cuenta", "precio especial"). Si el cliente tiene lista especial asignada (${listaPrecios !== "madre" ? `lista: ${listaPrecios}` : "lista madre por ahora"}), al final podés agregar: "¿Querés que te pase tu precio especial de cliente?"` : ""}
+  const estilo = `ESTILO MH (respetalo siempre):
+- Mensajes cortos. Un dato por línea. Nada de párrafos largos ni listas gigantes.
+- Hablá natural: "dale", "buenísimo", "perfecto", "te paso", "avanzamos". Sin tecnicismos innecesarios.
+- Si el cliente saluda o escribe informal, contestá igual de amable. Si va al grano, vos también.
+- Saludá por el nombre cuando lo tenés.${nombreCliente ? ` El cliente se llama ${nombreCliente}.` : ""}
+- Cerrá siempre con una pregunta comercial concreta: "¿Avanzamos?", "¿Te lo preparo?", "¿Abonás al retirar?", "¿Querés que te pase el flete?".
+- NUNCA inventes precios, códigos, stock ni productos. Usá SOLO los datos de la sección DATOS.`;
 
-DATOS DE LA BASE (actualizados desde Dux):
-${infoBusqueda}
+  const scope = `SCOPE — qué vendemos por acá:
+- SOLO muebles de baño: vanitorios (Piatto, Marbela, Classic), bachas, mesadas, espejos/botiquines.
+- NO vendemos por WhatsApp: cocinas, placards, alacenas, sanitarios (inodoros/bidets), uñeros.
+- Si preguntan por algo fuera de scope, rebotalo amable:
+  "Por WhatsApp solo manejamos línea de baño. Para [cocina/placard/etc.] pueden acercarse al local o llamar al 4460-4224."`;
 
-REGLAS:
-- Usá solo los datos de arriba. No inventes precios ni stock.
-- Si el resultado empieza con CONSULTA_GENERICA: respondé con un menú amigable de categorías disponibles.
-- Si el resultado empieza con SIN_RESULTADOS: pedí más detalle al cliente (medida, tipo, color).
-- Si hay OPCIONES DE COLOR: presentalas claramente y preguntá cuál prefiere.
-- Si hay un resultado claro con alta confianza, respondé directo con los datos.
-- Si hay varios similares, listá hasta 3 con sus diferencias clave.
-- Máximo 5 líneas de respuesta.
-- NUNCA des stock numérico a consumidores finales (perfil externo).
-- Si el cliente pide PDF o imagen, decile que responda "PDF" o "foto" y se lo enviás.`;
+  const perfilBloque = perfil.perfil === "interno"
+    ? `PERFIL CLIENTE: INTERNO (equipo MH)
+- Mostrale stock exacto por variante y las tres listas (Madre / May1 / May2).
+- Puede consultar TODO el catálogo (también rubros fuera del scope comercial).`
+    : perfil.perfil === "pdv"
+    ? `PERFIL CLIENTE: PDV (revendedor)
+- Precio público (Lista Madre).
+- Stock: "disponible" o "sin stock", sin números.
+- Al final ofrecé: "¿Querés ver tu precio de compra?"`
+    : `PERFIL CLIENTE: EXTERNO (consumidor final)
+- Mostrá SIEMPRE el precio lista pública. NUNCA des stock numérico (decí "disponible" o "consultar").
+- Si aparece "[Precio especial...]" o "[especial]", NO lo menciones salvo que el cliente pida explícitamente "mi precio", "precio de cuenta" o "precio especial".
+${listaPrecios !== "madre" ? `- Este cliente tiene lista especial (${listaPrecios}). Al final podés ofrecer: "¿Querés que te pase tu precio especial de cliente?"` : ""}`;
+
+  const reglasBusqueda = `CÓMO MANEJAR LA CONSULTA (según DATOS):
+- Si DATOS = "CONSULTA_GENERICA:..." → el cliente pidió algo muy abierto. NO tires catálogo. Preguntá: medida aproximada + tipo (colgante/de pie para vanitory, loza/mármol para mesada, etc.). Máximo 2 preguntas.
+- Si DATOS = "SIN_RESULTADOS:..." → decile que no lo tenés clarísimo y pedí UN dato concreto (medida en cm o código).
+- Si DATOS = "CONSULTA_RUBRO_GENERICO:..." → el cliente nombró un rubro pero sin medida. NO listes productos. Preguntá medida + característica (ej: "¿Qué medida? ¿Colgante con uñero o de pie modelo Classic?").
+- Si DATOS = "FUERA_DE_SCOPE:..." → rebote amable según la regla de scope.
+- Si hay un resultado claro (alta confianza) → respondé directo con código, precio y 1 frase de cierre. Ejemplo: "El VMINIB te sale $78.600. ¿Te lo preparo?"
+- Si hay varias opciones (mismo rubro, distinta medida/color) → máximo 3 líneas, una por opción, preguntando al final cuál prefiere.
+- Combos: si piden una bacha, podés sugerir la mesada compatible en la misma línea de respuesta.
+- Si piden PDF/foto/ficha de un producto, decile que responda "PDF" o "foto" y se lo mandás.`;
+
+  return [basePersona, estilo, scope, perfilBloque, resumenMem, saludoExtra, reglasBusqueda, `DATOS:\n${infoBusqueda}`]
+    .filter(Boolean).join("\n\n");
 }
 
 // ─── PROCESAR MENSAJE ─────────────────────────────────────────────────────────
@@ -621,86 +643,64 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
     return { texto: resp, media: null };
   }
 
-  // ── FLUJO: ESPERANDO ELECCIÓN DE SUBRUBRO ─────────────────────────────────
-  const estadoSubrubro = memoria.estaEsperandoSubrubro(limpio);
-  if (estadoSubrubro) {
-    const eleccion = navRubros.detectarEleccionSubrubro(mensajeTexto, estadoSubrubro.opciones);
-    memoria.registrarMensaje(limpio, "user", mensajeTexto);
+  // ── FUERA DE SCOPE (cocina/placard/sanitarios) → rebote conversacional ────
+  if (perfil.perfil !== "interno") {
+    const fueraScope = navRubros.detectarFueraDeScope(mensajeTexto);
+    const rubroBano = navRubros.detectarRubro(mensajeTexto);
+    // Solo rebota si mencionó fuera-de-scope Y no está hablando de algo de baño
+    if (fueraScope && !rubroBano) {
+      memoria.registrarMensaje(limpio, "user", mensajeTexto);
+      const listaPrecios = memoria.obtenerListaPrecios(limpio);
+      const resumenMem = memoria.resumenCliente(limpio);
+      const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
+      const infoBusqueda = `FUERA_DE_SCOPE: el cliente preguntó por "${fueraScope}". Recordale que por WhatsApp solo manejás línea de baño. Invitalo a pasar por el local (Av. Presidente Perón 3048, Haedo) o llamar al 4460-4224 para cocina/placard/sanitarios. Después ofrecele ayuda con algo de baño.`;
+      const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda);
+      try {
+        const respuesta = await llamarClaude(historial, systemPrompt);
+        memoria.registrarMensaje(limpio, "assistant", respuesta);
+        return { texto: respuesta, media: null };
+      } catch (error) {
+        console.error("Error Claude (fuera scope):", error.message);
+        return { texto: "Por WhatsApp solo manejamos línea de baño. Para otros productos acercate al local o al 4460-4224.", media: null };
+      }
+    }
+  }
 
-    if (eleccion) {
-      memoria.marcarEsperandoSubrubro(limpio, null);
-      const codigos = navRubros.obtenerProductos(estadoSubrubro.rubro, eleccion);
+  // ── RUBRO DE BAÑO DETECTADO + SIN MEDIDA → pedir calificación ────────────
+  {
+    const rubroDetectado = navRubros.detectarRubro(mensajeTexto);
+    if (rubroDetectado) {
+      const sinMedida = !/\b\d{2,3}\s*cm?\b/i.test(mensajeTexto);
+      const sinCodigo = !/\b[A-Z]{1,3}\d{2,3}[A-Z]*\b/i.test(mensajeTexto);
+      const palabrasQ = mensajeTexto.trim().split(/\s+/);
+      const esRubroGenerico = palabrasQ.length <= 5 && sinMedida && sinCodigo;
 
-      if (codigos.length > 0) {
+      if (esRubroGenerico) {
+        memoria.registrarMensaje(limpio, "user", mensajeTexto);
+        const subrubros = navRubros.obtenerSubrubros(rubroDetectado);
+        const subrubrosStr = subrubros.length
+          ? subrubros.map(s => s.nombre).join(" / ")
+          : "(sin subrubros)";
+
+        const pistas = {
+          "MUEBLES": "Preguntale: ¿qué medida (30, 45, 50, 60, 80, 90, 110, 120 cm)? y ¿colgante con uñero (línea Piatto), colgante con tiradores (Marbela) o de pie (Classic)?",
+          "BACHAS": "Preguntale: ¿de apoyo sobre mesada o de encastre? ¿prefiere loza blanca o sintética con color?",
+          "MESADAS": "Preguntale: ¿qué medida? ¿laminado (económico), loza, mármol sintético o mármol natural?",
+          "ESPEJOS Y BOTIQUINES": "Preguntale: ¿espejo simple o botiquín con puertas? ¿qué medida?"
+        };
+
         const listaPrecios = memoria.obtenerListaPrecios(limpio);
-        const productos = buscadorBase.listarPorCodigos(codigos, estadoSubrubro.seccion);
-        const infoBusqueda = formatearListaSubrubro(productos, estadoSubrubro.rubro, eleccion, perfil.perfil, listaPrecios);
         const resumenMem = memoria.resumenCliente(limpio);
         const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
+        const infoBusqueda = `CONSULTA_RUBRO_GENERICO: el cliente preguntó por "${rubroDetectado}" sin dar medida ni código. Subrubros disponibles: ${subrubrosStr}. ${pistas[rubroDetectado] || "Preguntá medida y tipo."} Máximo 2 preguntas, tono natural, no uses menús tipo lista.`;
         const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda);
         try {
           const respuesta = await llamarClaude(historial, systemPrompt);
           memoria.registrarMensaje(limpio, "assistant", respuesta);
           return { texto: respuesta, media: null };
         } catch (error) {
-          console.error("Error Claude:", error.message);
-          return { texto: "Hubo un error. Intentá de nuevo.", media: null };
-        }
-      }
-      // si no hay codigos, caer al flujo normal
-
-    } else {
-      const ops = estadoSubrubro.opciones.map(o => `*${o}*`).join(" / ");
-      const resp = `No entendí. ¿Cuál de estas opciones?\n${ops}`;
-      memoria.registrarMensaje(limpio, "assistant", resp);
-      return { texto: resp, media: null };
-    }
-  }
-
-  // ── DETECCIÓN DE RUBRO → MENÚ DE SUBRUBRO ─────────────────────────────────
-  if (!estadoSubrubro) {
-    const rubroDetectado = navRubros.detectarRubro(mensajeTexto);
-    if (rubroDetectado) {
-      const palabrasQ = mensajeTexto.trim().split(/\s+/);
-      const sinMedida = !/\b\d{2,3}\s*cm?\b/i.test(mensajeTexto);
-      const esRubroGenerico = palabrasQ.length <= 4 && sinMedida;
-      const seccionRubro = navRubros.RUBRO_A_SECCION[rubroDetectado] || "baño";
-      const rubroPermitido = perfil.perfil === "interno" || seccionRubro === "baño";
-
-      if (esRubroGenerico && rubroPermitido) {
-        const subrubros = navRubros.obtenerSubrubros(rubroDetectado);
-        memoria.registrarMensaje(limpio, "user", mensajeTexto);
-
-        if (subrubros.length > 0) {
-          // Mostrar menú de subrubros
-          memoria.marcarEsperandoSubrubro(limpio, {
-            rubro: rubroDetectado,
-            seccion: seccionRubro,
-            opciones: subrubros.map(s => s.nombre)
-          });
-          const msg = navRubros.mensajeSeleccionSubrubro(rubroDetectado, subrubros);
-          memoria.registrarMensaje(limpio, "assistant", msg);
-          return { texto: msg, media: null };
-        } else {
-          // Sin subrubros → listar todos los productos del rubro
-          const codigos = navRubros.obtenerProductos(rubroDetectado);
-          if (codigos.length > 0) {
-            const listaPrecios = memoria.obtenerListaPrecios(limpio);
-            const productos = buscadorBase.listarPorCodigos(codigos, seccionRubro);
-            const infoBusqueda = formatearListaSubrubro(productos, rubroDetectado, null, perfil.perfil, listaPrecios);
-            const resumenMem = memoria.resumenCliente(limpio);
-            const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
-            const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda);
-            try {
-              const respuesta = await llamarClaude(historial, systemPrompt);
-              memoria.registrarMensaje(limpio, "assistant", respuesta);
-              return { texto: respuesta, media: null };
-            } catch (error) {
-              console.error("Error Claude:", error.message);
-              return { texto: "Hubo un error. Intentá de nuevo.", media: null };
-            }
-          }
-          // si rubros.json no tiene codigos, caer al flujo normal
+          console.error("Error Claude (rubro generico):", error.message);
+          return { texto: "¿Me contás qué medida y tipo buscás?", media: null };
         }
       }
     }
@@ -709,16 +709,9 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
   // ── GUARDAR MENSAJE Y BUSCAR ──────────────────────────────────────────────
   memoria.registrarMensaje(limpio, "user", mensajeTexto);
 
-  // Determinar sección
-  const q = mensajeTexto.toLowerCase();
-  let seccion = "baño";
-  if (perfil.perfil === "interno") {
-    if (q.includes("cocina") || q.includes("alacena") || q.includes("bajo mesada")) seccion = "cocina";
-    else if (q.includes("placard") || q.includes("frente placard") || q.includes("modulo placard")) seccion = "placard";
-  }
-
+  // Sección: siempre baño (scope único del bot — solo 89 productos curados)
   const resultado = buscadorCtx.buscarConContexto(limpio, mensajeTexto, {
-    seccion,
+    seccion: "baño",
     perfil: perfil.perfil,
     limit: 6
   });
@@ -790,7 +783,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.2",
+    version: "3.3",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -810,7 +803,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.2`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.3 — Scope: baño (89 productos)`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);
