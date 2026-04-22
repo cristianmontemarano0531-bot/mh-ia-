@@ -1,39 +1,52 @@
 const buscador = require('./buscador-inteligente.js');
 const memoria = require('../memoria-de-clientes/memoria-manager.js');
 
+// ─── ENRIQUECER CONSULTA CON HISTORIAL RECIENTE ────────────────────────────────
+// Cuando el cliente manda respuestas cortas como "En 60", "De pie", "Con cajones"
+// (conversación en pedacitos), una búsqueda con solo ese texto devuelve nada.
+// Concatenamos los últimos mensajes del usuario para armar una consulta rica.
+function enriquecerConsulta(consulta, memoriaCliente) {
+  const texto = String(consulta || "").trim();
+  const palabras = texto.split(/\s+/).filter(Boolean);
+
+  // Si la consulta ya tiene código o ≥5 palabras, no necesita enriquecimiento
+  const tieneCodigo = /\b[A-Z]{1,3}\d{2,3}[A-Z]*\b/i.test(texto);
+  if (palabras.length >= 5 || tieneCodigo) return texto;
+
+  // Concatenar los últimos 3 mensajes del usuario del historial (el actual aún no está registrado).
+  // Cuando ya está registrado (dependiendo del orden), evitamos duplicarlo.
+  const historial = memoriaCliente?.historial || [];
+  const userMsgs = historial.filter(m => m.rol === "user").map(m => m.texto);
+  const ultimos3 = userMsgs.slice(-3).filter(t => t.trim() !== texto);
+
+  const userRecent = ultimos3.join(" ");
+  const enriquecida = (userRecent + " " + texto).trim();
+  if (enriquecida !== texto) {
+    console.log(`🔗 Query enriquecida: "${texto}" → "${enriquecida}"`);
+  }
+  return enriquecida || texto;
+}
+
 // ─── BUSCAR CON CONTEXTO DEL CLIENTE ───────────────────────────────────────────
 function buscarConContexto(numero, consulta, opciones = {}) {
   const {
-    seccion = null,  // null = auto, 'baño', 'cocina', 'placard'
+    seccion = null,
     limit = 5,
-    perfil = null    // 'interno', 'pdv', 'externo'
+    perfil = null
   } = opciones;
 
   // 1. OBTENER MEMORIA DEL CLIENTE
   const mem = memoria.cargarMemoria(numero);
 
-  // 2. DETERMINAR SECCIÓN (con contexto)
-  let seccion_busqueda = seccion;
+  // 2. SECCIÓN (scope único = baño para externos, flexible para internos)
+  let seccion_busqueda = seccion || mem.contexto.ultima_seccion || 'baño';
+  if (perfil === 'externo') seccion_busqueda = 'baño';
 
-  // Si es externo, SOLO baño
-  if (perfil === 'externo') {
-    seccion_busqueda = 'baño';
-  }
+  // 3. ENRIQUECER consulta con historial reciente (resuelve follow-ups cortos)
+  const consultaEnriquecida = enriquecerConsulta(consulta, mem);
 
-  // Si consulta menciona "cocina", busca en cocina
-  if (!seccion_busqueda) {
-    if (consulta.toLowerCase().includes('cocina') || consulta.toLowerCase().includes('alacena')) {
-      seccion_busqueda = 'cocina';
-    } else if (consulta.toLowerCase().includes('placard') || consulta.toLowerCase().includes('modulo')) {
-      seccion_busqueda = 'placard';
-    } else {
-      // Default: última sección consultada o baño
-      seccion_busqueda = mem.contexto.ultima_seccion || 'baño';
-    }
-  }
-
-  // 3. BUSCAR EN EL CATÁLOGO (con contexto del cliente para boost historial)
-  const resultados = buscador.buscar(consulta, seccion_busqueda, limit, mem.contexto);
+  // 4. BUSCAR EN EL CATÁLOGO
+  const resultados = buscador.buscar(consultaEnriquecida, seccion_busqueda, limit, mem.contexto);
 
   // 4. ENRIQUECER CON CONTEXTO
   const respuesta = {

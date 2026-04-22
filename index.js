@@ -254,37 +254,32 @@ function formatearBusqueda(resultado, perfil, listaPrecios = "madre") {
     return "SIN_RESULTADOS: No encontré productos claros para esta consulta. Pedí más detalle al cliente: medida en cm, tipo de producto (vanitorio/bacha/espejo/mesada) o color.";
   }
 
-  // ── FAMILIA VANITORY: mostrar opciones por medida (cajones/puertas × blanco/color) ──
+  // ── FAMILIA VANITORY: mostrar opciones por medida ──
   const topResultado = resultado.resultados[0];
   if (topResultado?.tipo_familia === "vanitory" && topResultado?.variantes_familia_medida?.length > 1) {
     const medida = topResultado.medida;
     const mismaMediaVans = resultado.resultados.filter(p => p.tipo_familia === "vanitory" && p.medida === medida);
 
-    // Ganador claro (≥20 pts de diferencia) → saltar al resultado directo
+    // Ganador claro (≥20 pts de diferencia) → flujo normal
     if (mismaMediaVans.length >= 2 && (mismaMediaVans[0].score - mismaMediaVans[1].score) >= 20) {
-      // Cae al flujo normal de deduplicación abajo
+      // cae al flujo normal
     } else {
 
-    const lines = [`🪟 *Vanitorios de ${medida}cm* — opciones disponibles:`];
+    const lines = [`🪟 Opciones disponibles de ${medida}cm:`];
+    mismaMediaVans.forEach(p => {
+      const guardadoStr = p.guardado || "hueco";
+      const lineaStr = p.linea ? p.linea.charAt(0).toUpperCase() + p.linea.slice(1) : "";
+      const coloresStr = (p.colores || []).length ? p.colores.join("/") : "—";
+      const stockStr = perfil === "interno"
+        ? `${p.stock_total} uds`
+        : p.stock_total > 0 ? "disponible" : "sin stock";
+      const precioStr = perfil === "interno"
+        ? `$${p.precio_madre}/$${p.precio_may1}/$${p.precio_may2}`
+        : `$${precioSegunLista(p, listaPrecios)}`;
+      lines.push(`  → ${p.codigo} | línea ${lineaStr} | ${guardadoStr} | color: ${coloresStr} | ${stockStr} | ${precioStr}`);
+    });
 
-    resultado.resultados
-      .filter(p => p.tipo_familia === "vanitory" && p.medida === medida)
-      .forEach(p => {
-        const guardadoStr = p.guardado ? p.guardado.charAt(0).toUpperCase() + p.guardado.slice(1) : "?";
-        const colorStr = (p.colores || []).length === 1 ? "Blanco" : "Color";
-        // Extraer nombre de línea del nombre del producto
-        const lineaMatch = p.nombre.match(/LINEA\s+(\w+)|ECO|MARBELA/i);
-        const linea = lineaMatch ? ` [${lineaMatch[0].trim()}]` : "";
-        const stockStr = perfil === "interno"
-          ? `${p.stock_total} uds`
-          : p.stock_total > 0 ? "✅" : "❌";
-        const precioStr = perfil === "interno"
-          ? `$${p.precio_madre}/$${p.precio_may1}/$${p.precio_may2}`
-          : `$${precioSegunLista(p, listaPrecios)}`;
-        lines.push(`  → *${p.codigo}*${linea} — ${guardadoStr}/${colorStr} | ${stockStr} | ${precioStr}`);
-      });
-
-    lines.push(`\n¿Con cajones o con puertas? ¿En blanco o con color?`);
+    lines.push(`\nINSTRUCCIÓN PARA VOS: listá las opciones arriba al cliente en lenguaje natural (no tabla), preguntale cuál prefiere según guardado/color. NO inventes diferencias que no estén en los datos.`);
     return lines.join("\n");
     } // fin else ganador claro
   }
@@ -413,8 +408,29 @@ function formatearListaSubrubro(productos, rubro, subrubro, perfil, listaPrecios
   return lines.join("\n");
 }
 
+// ─── FICHA DEL ÚLTIMO PRODUCTO VISTO (para follow-ups) ───────────────────────
+function fichaUltimoProducto(codigo) {
+  if (!codigo) return "";
+  try {
+    const p = buscadorBase.buscarPorCodigo(codigo);
+    if (!p || p.error) return "";
+    const parts = [
+      `[ÚLTIMO PRODUCTO MENCIONADO]`,
+      `  código: ${p.codigo}`,
+      `  nombre: ${p.nombre}`,
+      p.medida ? `  medida: ${p.medida} cm` : "",
+      p.linea ? `  línea: ${p.linea}` : "",
+      p.guardado ? `  guardado: ${p.guardado}` : "",
+      (p.colores || []).length ? `  colores: ${p.colores.join(", ")}` : "",
+      `  precio público: $${p.precio_madre}`,
+      p.desc_larga ? `  descripción: ${p.desc_larga}` : ""
+    ].filter(Boolean);
+    return parts.join("\n");
+  } catch { return ""; }
+}
+
 // ─── CONSTRUIR SYSTEM PROMPT ──────────────────────────────────────────────────
-function construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda) {
+function construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda, ultimoProducto = null) {
   const nombreCliente = perfil.nombre || "";
 
   // ⛔ Primera sección del prompt — la más importante. Anti-alucinación.
@@ -499,7 +515,15 @@ ${listaPrecios !== "madre" ? `- Este cliente tiene lista especial (${listaPrecio
 - Si piden PDF/foto/ficha de un producto, decile que responda "PDF" o "foto" y se lo mandás.
 - Si no encontrás algo que el cliente pidió → decí "Lo consulto con el equipo y te confirmo". NO inventes un código similar ni un producto alternativo.`;
 
-  return [reglaOro, catalogoMaestroStr, basePersona, estilo, scope, perfilBloque, resumenMem, saludoExtra, reglasBusqueda, `DATOS (resultado puntual de esta consulta):\n${infoBusqueda}`]
+  const fichaUltimo = fichaUltimoProducto(ultimoProducto);
+  const reglaFollowup = fichaUltimo
+    ? `REGLA DE FOLLOW-UP:
+Si el mensaje actual es corto (≤ 3 palabras) o una pregunta de aclaración ("¿viene con cajones?", "¿qué color?", "¿y el precio?", "¿te queda?"), el cliente está hablando del último producto mencionado. Respondé usando la ficha de abajo. NUNCA inventes características — si el dato no está en la ficha, decí "lo consulto con el equipo".
+
+${fichaUltimo}`
+    : "";
+
+  return [reglaOro, catalogoMaestroStr, basePersona, estilo, scope, perfilBloque, resumenMem, saludoExtra, reglaFollowup, reglasBusqueda, `DATOS (resultado puntual de esta consulta):\n${infoBusqueda}`]
     .filter(Boolean).join("\n\n");
 }
 
@@ -723,7 +747,8 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
       const resumenMem = memoria.resumenCliente(limpio);
       const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
       const infoBusqueda = `FUERA_DE_SCOPE: el cliente preguntó por "${fueraScope}". Recordale que por WhatsApp solo manejás línea de baño. Invitalo a pasar por el local (Av. Presidente Perón 3048, Haedo) o llamar al 4460-4224 para cocina/placard/sanitarios. Después ofrecele ayuda con algo de baño.`;
-      const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda);
+      const ultimoProd = memoria.cargarMemoria(limpio).contexto?.ultimo_producto || null;
+      const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda, ultimoProd);
       try {
         const respuesta = await llamarClaude(historial, systemPrompt);
         memoria.registrarMensaje(limpio, "assistant", respuesta);
@@ -762,7 +787,8 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
         const resumenMem = memoria.resumenCliente(limpio);
         const historial = memoria.obtenerHistorialClaude(limpio).slice(-8);
         const infoBusqueda = `CONSULTA_RUBRO_GENERICO: el cliente preguntó por "${rubroDetectado}" sin dar medida ni código. Subrubros disponibles: ${subrubrosStr}. ${pistas[rubroDetectado] || "Preguntá medida y tipo."} Máximo 2 preguntas, tono natural, no uses menús tipo lista.`;
-        const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda);
+        const ultimoProd = memoria.cargarMemoria(limpio).contexto?.ultimo_producto || null;
+        const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, "", infoBusqueda, ultimoProd);
         try {
           const respuesta = await llamarClaude(historial, systemPrompt);
           memoria.registrarMensaje(limpio, "assistant", respuesta);
@@ -795,7 +821,8 @@ async function procesarMensaje(numero, texto, mediaUrl = null) {
     ? `Hoy es la primera consulta del día de ${perfil.nombre}. Saludalo calurosamente por su nombre al inicio de la respuesta.`
     : "";
 
-  const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda);
+  const ultimoProd = memoria.cargarMemoria(limpio).contexto?.ultimo_producto || null;
+  const systemPrompt = construirSystemPrompt(perfil, listaPrecios, resumenMem, saludoExtra, infoBusqueda, ultimoProd);
 
   try {
     const respuesta = await llamarClaude(historial, systemPrompt);
@@ -852,7 +879,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.8",
+    version: "3.9",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -872,7 +899,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.8 — 77 productos comerciales (componentes internos ocultos)`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.9 — query enriquecida + follow-ups + Classic clean`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);
