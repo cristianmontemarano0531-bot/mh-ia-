@@ -449,11 +449,12 @@ IMPORTANTE:
 - Esos son TODOS los rubros, subrubros, medidas y colores que existen. No hay más.
 - Los colores y medidas dependen del SUBRUBRO (línea), no solo del rubro. Recordá las reglas duras:
   · VANITORY PIATTO → medidas 30 a 150 cm; colores: BLANCO o línea color (Cajú/Grafito/Hormigón/Mezzo/Sahara).
-  · VANITORY MARBELA → SOLO medidas 60 y 80 cm; SOLO colores NERO o TERRA. Nada más.
+  · VANITORY MARBELA → SOLO medidas 60 y 80 cm; SOLO colores NERO (negro) o TERRA (beige). Ya viene CON tapa de mármol integrada (no se vende sin tapa ni la tapa suelta).
   · VANITORY CLASSIC → SOLO medidas 50 y 60 cm; SOLO color BLANCO.
   · BACHAS → solo en BLANCO (loza o sintético).
   · MESADAS DE LOZA → BLANCO o NEGRO MATE.
-  · MESADAS DE MÁRMOL → colores de la línea mármol (ver catálogo).
+  · MESADAS laminado/sintética → las medidas estándar del catálogo.
+  · NO vendemos tapas de mármol sueltas (son componentes internos de los Marbela).
 - Si el cliente nombra un color o medida que no está en el subrubro correcto, aclarale cuáles sí hay. NO adaptes un producto a un valor inexistente.`;
 
   const basePersona = `Sos Abril, asesora comercial de MH Amoblamientos — fábrica argentina de muebles de baño (vanitorios, bachas, mesadas, espejos).
@@ -851,7 +852,7 @@ app.get("/", (req, res) => {
   });
   res.json({
     status: "ok",
-    version: "3.7",
+    version: "3.8",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
   });
@@ -871,7 +872,7 @@ cron.schedule("0 * * * *", () => { console.log("⏰ Cron: sync Dux..."); ejecuta
 
 // ─── ARRANCAR SERVIDOR ────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 MH Amoblamientos IA v3.7 — 85 productos activos, Marbela solo NERO/TERRA, Classic solo BLANCO`);
+  console.log(`\n🚀 MH Amoblamientos IA v3.8 — 77 productos comerciales (componentes internos ocultos)`);
   console.log(`📡 Puerto: ${PORT}`);
   console.log(`📱 Webhook: POST /webhook`);
   console.log(`📎 Media: GET /media/*`);

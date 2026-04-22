@@ -1,9 +1,24 @@
 {
-  "_comentario": "Códigos que ya no se venden. Se filtran de búsquedas, catálogo maestro y listados. Si el cliente los activa de nuevo en Dux, quitarlos de acá.",
+  "_comentario": "Códigos que NO se venden al cliente final. Se filtran de búsquedas, catálogo maestro y listados. Pueden ser discontinuados reales, o componentes internos que solo sirven para control de stock (no producto comercial).",
   "codigos": [
     "V80ECO1C",
     "V80ECO1CCOLOR",
     "V80U1C",
-    "V80U1CCOLOR"
-  ]
+    "V80U1CCOLOR",
+
+    "VEDM60",
+    "VEDM60N",
+    "VEDM80",
+    "VEDM80N",
+
+    "TAPAMARMOL060",
+    "TAPAMARMOL060N",
+    "TAPAMARMOL080",
+    "TAPAMARMOL080N"
+  ],
+  "_notas": {
+    "V80ECO1C / V80ECO1CCOLOR / V80U1C / V80U1CCOLOR": "Estaban cargados como VANITORY CLASSIC pero eran colgantes Piatto mal categorizados. Cliente decidió discontinuarlos.",
+    "VEDM60 / VEDM60N / VEDM80 / VEDM80N": "Componentes internos: vanitory Marbela SIN tapa. Solo se usan para stock separado; comercialmente se vende el EDM equivalente que ya incluye la tapa.",
+    "TAPAMARMOL060 / 060N / 080 / 080N": "Componentes internos: tapas de acrílico en color mármol. No se venden solas; van integradas al EDM."
+  }
 }
