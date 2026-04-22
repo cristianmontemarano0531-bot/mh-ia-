@@ -5001,7 +5001,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V30UC",
+    "familia": "V30U",
     "variantes_familia": [
       {
         "codigo": "V30UCB",
@@ -5083,7 +5083,32 @@
       "madre": 142175,
       "mayorista1": 89570,
       "mayorista2": 106631
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V30UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V30UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V30UCCOLOR",
@@ -5100,7 +5125,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V30UC",
+    "familia": "V30U",
     "variantes_familia": [
       {
         "codigo": "V30UCB",
@@ -5236,7 +5261,32 @@
       "madre": 199045,
       "mayorista1": 125398,
       "mayorista2": 149284
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V30UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V30UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V50CLAH",
@@ -5249,7 +5299,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V50CLAH",
+    "familia": "V50U",
     "variantes_familia": [
       {
         "codigo": "V50CLAH",
@@ -5322,7 +5372,41 @@
       "madre": 297539,
       "mayorista1": 187450,
       "mayorista2": 223154
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V50CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V50UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V50UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      }
+    ]
   },
   {
     "codigo": "V50UB",
@@ -5424,7 +5508,41 @@
       "madre": 175329,
       "mayorista1": 110457,
       "mayorista2": 131497
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V50CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V50UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V50UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      }
+    ]
   },
   {
     "codigo": "V50UCOLOR",
@@ -5584,7 +5702,41 @@
       "madre": 245509,
       "mayorista1": 154671,
       "mayorista2": 184132
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V50CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V50UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V50UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      }
+    ]
   },
   {
     "codigo": "V60CLAC",
@@ -5597,7 +5749,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V60CLAC",
+    "familia": "V60U",
     "variantes_familia": [
       {
         "codigo": "V60CLAC",
@@ -5667,7 +5819,100 @@
       "madre": 338437,
       "mayorista1": 213215,
       "mayorista2": 253828
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM60",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM60N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V60CLAH",
@@ -5680,7 +5925,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V60CLAH",
+    "familia": "V60U",
     "variantes_familia": [
       {
         "codigo": "V60CLAH",
@@ -5749,7 +5994,100 @@
       "madre": 313995,
       "mayorista1": 197817,
       "mayorista2": 235496
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM60",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM60N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V60UB",
@@ -5847,7 +6185,100 @@
       "madre": 186098,
       "mayorista1": 117242,
       "mayorista2": 139573
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM60",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM60N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V60UCB",
@@ -5860,7 +6291,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V60UC",
+    "familia": "V60U",
     "variantes_familia": [
       {
         "codigo": "V60UCB",
@@ -5946,7 +6377,100 @@
       "madre": 226754,
       "mayorista1": 142855,
       "mayorista2": 170065
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM60",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM60N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V60UCCOLOR",
@@ -5963,7 +6487,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V60UC",
+    "familia": "V60U",
     "variantes_familia": [
       {
         "codigo": "V60UCB",
@@ -6104,7 +6628,100 @@
       "madre": 317504,
       "mayorista1": 200028,
       "mayorista2": 238128
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM60",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM60N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V60UCOLOR",
@@ -6260,7 +6877,100 @@
       "madre": 260513,
       "mayorista1": 164123,
       "mayorista2": 195385
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM60",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM60N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80ECO1C",
@@ -6273,7 +6983,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V80ECO1C",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "V80ECO1C",
@@ -6360,7 +7070,126 @@
       "madre": 170610,
       "mayorista1": 107484,
       "mayorista2": 127957
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80ECO1CCOLOR",
@@ -6377,7 +7206,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V80ECO1C",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "V80ECO1C",
@@ -6519,7 +7348,126 @@
       "madre": 196867,
       "mayorista1": 124026,
       "mayorista2": 147650
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80U1C",
@@ -6532,7 +7480,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V80U1C",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "V80U1C",
@@ -6617,7 +7565,126 @@
       "madre": 165286,
       "mayorista1": 104130,
       "mayorista2": 123964
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80U1CCOLOR",
@@ -6634,7 +7701,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V80U1C",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "V80U1C",
@@ -6774,7 +7841,126 @@
       "madre": 231352,
       "mayorista1": 145752,
       "mayorista2": 173514
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80UB",
@@ -6880,7 +8066,126 @@
       "madre": 200497,
       "mayorista1": 126313,
       "mayorista2": 150373
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80UCB",
@@ -6893,7 +8198,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V80UC",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "V80UCB",
@@ -6987,7 +8292,126 @@
       "madre": 237281,
       "mayorista1": 149487,
       "mayorista2": 177961
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80UCCOLOR",
@@ -7004,7 +8428,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V80UC",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "V80UCB",
@@ -7152,7 +8576,126 @@
       "madre": 332145,
       "mayorista1": 209251,
       "mayorista2": 249109
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V80UCOLOR",
@@ -7316,7 +8859,126 @@
       "madre": 280720,
       "mayorista1": 176854,
       "mayorista2": 210540
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
+        "codigo": "VEDM80",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "VEDM80N",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "VMINIB",
@@ -7329,7 +8991,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "VMINI",
+    "familia": "V45U",
     "variantes_familia": [
       {
         "codigo": "VMINIB",
@@ -7428,7 +9090,32 @@
       "madre": 123299,
       "mayorista1": 77678,
       "mayorista2": 92474
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "VMINIB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "VMINICOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      }
+    ]
   },
   {
     "codigo": "VMINICOLOR",
@@ -7445,7 +9132,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "VMINI",
+    "familia": "V45U",
     "variantes_familia": [
       {
         "codigo": "VMINIB",
@@ -7598,7 +9285,32 @@
       "madre": 172667,
       "mayorista1": 108780,
       "mayorista2": 129500
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "VMINIB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "VMINICOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      }
+    ]
   },
   {
     "codigo": "V110UB",
@@ -7703,7 +9415,54 @@
       "madre": 342672,
       "mayorista1": 215883,
       "mayorista2": 257004
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V110UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V110UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V110UCB",
@@ -7716,7 +9475,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V110UC",
+    "familia": "V110U",
     "variantes_familia": [
       {
         "codigo": "V110UCB",
@@ -7808,7 +9567,54 @@
       "madre": 379456,
       "mayorista1": 239057,
       "mayorista2": 284592
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V110UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V110UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V110UCCOLOR",
@@ -7825,7 +9631,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V110UC",
+    "familia": "V110U",
     "variantes_familia": [
       {
         "codigo": "V110UCB",
@@ -7947,7 +9753,54 @@
       "madre": 531190,
       "mayorista1": 334650,
       "mayorista2": 398392
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V110UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V110UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V110UCOLOR",
@@ -8110,7 +9963,54 @@
       "madre": 479765,
       "mayorista1": 302252,
       "mayorista2": 359824
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V110UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V110UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V110UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V120UB",
@@ -8213,7 +10113,54 @@
       "madre": 470448,
       "mayorista1": 296382,
       "mayorista2": 352836
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V120UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V120UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V120UCB",
@@ -8226,7 +10173,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V120UC",
+    "familia": "V120U",
     "variantes_familia": [
       {
         "codigo": "V120UCB",
@@ -8319,7 +10266,54 @@
       "madre": 511104,
       "mayorista1": 321996,
       "mayorista2": 383328
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V120UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V120UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V120UCCOLOR",
@@ -8336,7 +10330,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V120UC",
+    "familia": "V120U",
     "variantes_familia": [
       {
         "codigo": "V120UCB",
@@ -8483,7 +10477,54 @@
       "madre": 715594,
       "mayorista1": 450824,
       "mayorista2": 536695
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V120UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V120UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V120UCOLOR",
@@ -8644,7 +10685,54 @@
       "madre": 658603,
       "mayorista1": 414920,
       "mayorista2": 493952
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V120UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V120UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V120UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V140UB",
@@ -8750,7 +10838,32 @@
       "madre": 484847,
       "mayorista1": 305454,
       "mayorista2": 363635
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V140UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V140UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V140UCOLOR",
@@ -8914,7 +11027,32 @@
       "madre": 678810,
       "mayorista1": 427650,
       "mayorista2": 509107
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V140UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V140UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V150UB",
@@ -9015,7 +11153,54 @@
       "madre": 514371,
       "mayorista1": 324054,
       "mayorista2": 385778
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V150UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V150UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V150UCB",
@@ -9028,7 +11213,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V150UC",
+    "familia": "V150U",
     "variantes_familia": [
       {
         "codigo": "V150UCB",
@@ -9124,7 +11309,54 @@
       "madre": 595683,
       "mayorista1": 375280,
       "mayorista2": 446762
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V150UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V150UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V150UCCOLOR",
@@ -9141,7 +11373,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V150UC",
+    "familia": "V150U",
     "variantes_familia": [
       {
         "codigo": "V150UCB",
@@ -9290,7 +11522,54 @@
       "madre": 834053,
       "mayorista1": 525453,
       "mayorista2": 625540
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V150UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V150UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V150UCOLOR",
@@ -9449,7 +11728,54 @@
       "madre": 720071,
       "mayorista1": 453645,
       "mayorista2": 540053
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V150UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V150UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V150UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V90UB",
@@ -9554,7 +11880,54 @@
       "madre": 328273,
       "mayorista1": 206812,
       "mayorista2": 246205
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V90UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V90UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V90UCB",
@@ -9567,7 +11940,7 @@
     "colores": [
       "BLANCO"
     ],
-    "familia": "V90UC",
+    "familia": "V90U",
     "variantes_familia": [
       {
         "codigo": "V90UCB",
@@ -9659,7 +12032,54 @@
       "madre": 368929,
       "mayorista1": 232425,
       "mayorista2": 276697
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V90UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V90UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V90UCCOLOR",
@@ -9676,7 +12096,7 @@
       "CAJU",
       "SAHARA"
     ],
-    "familia": "V90UC",
+    "familia": "V90U",
     "variantes_familia": [
       {
         "codigo": "V90UCB",
@@ -9822,7 +12242,54 @@
       "madre": 516549,
       "mayorista1": 325426,
       "mayorista2": 387412
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V90UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V90UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "V90UCOLOR",
@@ -9985,7 +12452,54 @@
       "madre": 459558,
       "mayorista1": 289522,
       "mayorista2": 344668
-    }
+    },
+    "tipo_familia": "vanitory",
+    "variantes_familia_medida": [
+      {
+        "codigo": "V90UB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V90UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V90UCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      }
+    ]
   },
   {
     "codigo": "VEDM60",
@@ -10003,7 +12517,7 @@
       "SAHARA",
       "TERRA"
     ],
-    "familia": "VEDM",
+    "familia": "V60U",
     "variantes_familia": [
       {
         "codigo": "VEDM60",
@@ -10108,23 +12622,97 @@
       "mayorista1": 246833,
       "mayorista2": 293848
     },
-    "tipo_familia": "medida_color",
+    "tipo_familia": "vanitory",
     "variantes_familia_medida": [
       {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
         "codigo": "VEDM60",
-        "descripcion": "60cm Blanco"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       },
       {
         "codigo": "VEDM60N",
-        "descripcion": "60cm Nero"
-      },
-      {
-        "codigo": "VEDM80",
-        "descripcion": "80cm Blanco"
-      },
-      {
-        "codigo": "VEDM80N",
-        "descripcion": "80cm Nero"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       }
     ]
   },
@@ -10144,7 +12732,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "VEDM",
+    "familia": "V60U",
     "variantes_familia": [
       {
         "codigo": "VEDM60N",
@@ -10254,23 +12842,97 @@
       "mayorista1": 246833,
       "mayorista2": 293848
     },
-    "tipo_familia": "medida_color",
+    "tipo_familia": "vanitory",
     "variantes_familia_medida": [
       {
+        "codigo": "V60CLAC",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60CLAH",
+        "guardado": "N/A",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": " | blanco"
+      },
+      {
+        "codigo": "V60UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V60UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V60UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V60UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
+      },
+      {
         "codigo": "VEDM60",
-        "descripcion": "60cm Blanco"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       },
       {
         "codigo": "VEDM60N",
-        "descripcion": "60cm Nero"
-      },
-      {
-        "codigo": "VEDM80",
-        "descripcion": "80cm Blanco"
-      },
-      {
-        "codigo": "VEDM80N",
-        "descripcion": "80cm Nero"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       }
     ]
   },
@@ -10290,7 +12952,7 @@
       "SAHARA",
       "TERRA"
     ],
-    "familia": "VEDM",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "VEDM80",
@@ -10394,23 +13056,123 @@
       "mayorista1": 267186,
       "mayorista2": 318079
     },
-    "tipo_familia": "medida_color",
+    "tipo_familia": "vanitory",
     "variantes_familia_medida": [
       {
-        "codigo": "VEDM60",
-        "descripcion": "60cm Blanco"
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
       },
       {
-        "codigo": "VEDM60N",
-        "descripcion": "60cm Nero"
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
       },
       {
         "codigo": "VEDM80",
-        "descripcion": "80cm Blanco"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       },
       {
         "codigo": "VEDM80N",
-        "descripcion": "80cm Nero"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       }
     ]
   },
@@ -10430,7 +13192,7 @@
       "SAHARA",
       "NERO"
     ],
-    "familia": "VEDM",
+    "familia": "V80U",
     "variantes_familia": [
       {
         "codigo": "VEDM80N",
@@ -10539,23 +13301,123 @@
       "mayorista1": 267186,
       "mayorista2": 318079
     },
-    "tipo_familia": "medida_color",
+    "tipo_familia": "vanitory",
     "variantes_familia_medida": [
       {
-        "codigo": "VEDM60",
-        "descripcion": "60cm Blanco"
+        "codigo": "V80ECO1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
       },
       {
-        "codigo": "VEDM60N",
-        "descripcion": "60cm Nero"
+        "codigo": "V80ECO1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80U1C",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80U1CCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UB",
+        "guardado": "puertas",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "puertas | blanco"
+      },
+      {
+        "codigo": "V80UCB",
+        "guardado": "cajones",
+        "colores": [
+          "BLANCO"
+        ],
+        "es_blanco": true,
+        "descripcion": "cajones | blanco"
+      },
+      {
+        "codigo": "V80UCCOLOR",
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
+      },
+      {
+        "codigo": "V80UCOLOR",
+        "guardado": "puertas",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA"
+        ],
+        "es_blanco": false,
+        "descripcion": "puertas | color"
       },
       {
         "codigo": "VEDM80",
-        "descripcion": "80cm Blanco"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "TERRA"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       },
       {
         "codigo": "VEDM80N",
-        "descripcion": "80cm Nero"
+        "guardado": "cajones",
+        "colores": [
+          "HORMIGON",
+          "GRAFITO",
+          "MEZZO",
+          "CAJU",
+          "SAHARA",
+          "NERO"
+        ],
+        "es_blanco": false,
+        "descripcion": "cajones | color"
       }
     ]
   }

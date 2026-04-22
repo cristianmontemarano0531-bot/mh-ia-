@@ -251,8 +251,42 @@ function formatearBusqueda(resultado, perfil, listaPrecios = "madre") {
     return "SIN_RESULTADOS: No encontré productos claros para esta consulta. Pedí más detalle al cliente: medida en cm, tipo de producto (vanitorio/bacha/espejo/mesada) o color.";
   }
 
-  // ── FAMILIA DE MEDIDAS: mostrar todas las variantes compactas (ej: mesadas de loza) ──
+  // ── FAMILIA VANITORY: mostrar opciones por medida (cajones/puertas × blanco/color) ──
   const topResultado = resultado.resultados[0];
+  if (topResultado?.tipo_familia === "vanitory" && topResultado?.variantes_familia_medida?.length > 1) {
+    const medida = topResultado.medida;
+    const mismaMediaVans = resultado.resultados.filter(p => p.tipo_familia === "vanitory" && p.medida === medida);
+
+    // Ganador claro (≥20 pts de diferencia) → saltar al resultado directo
+    if (mismaMediaVans.length >= 2 && (mismaMediaVans[0].score - mismaMediaVans[1].score) >= 20) {
+      // Cae al flujo normal de deduplicación abajo
+    } else {
+
+    const lines = [`🪟 *Vanitorios de ${medida}cm* — opciones disponibles:`];
+
+    resultado.resultados
+      .filter(p => p.tipo_familia === "vanitory" && p.medida === medida)
+      .forEach(p => {
+        const guardadoStr = p.guardado ? p.guardado.charAt(0).toUpperCase() + p.guardado.slice(1) : "?";
+        const colorStr = (p.colores || []).length === 1 ? "Blanco" : "Color";
+        // Extraer nombre de línea del nombre del producto
+        const lineaMatch = p.nombre.match(/LINEA\s+(\w+)|ECO|MARBELA/i);
+        const linea = lineaMatch ? ` [${lineaMatch[0].trim()}]` : "";
+        const stockStr = perfil === "interno"
+          ? `${p.stock_total} uds`
+          : p.stock_total > 0 ? "✅" : "❌";
+        const precioStr = perfil === "interno"
+          ? `$${p.precio_madre}/$${p.precio_may1}/$${p.precio_may2}`
+          : `$${precioSegunLista(p, listaPrecios)}`;
+        lines.push(`  → *${p.codigo}*${linea} — ${guardadoStr}/${colorStr} | ${stockStr} | ${precioStr}`);
+      });
+
+    lines.push(`\n¿Con cajones o con puertas? ¿En blanco o con color?`);
+    return lines.join("\n");
+    } // fin else ganador claro
+  }
+
+  // ── FAMILIA DE MEDIDAS: mostrar todas las variantes compactas (ej: mesadas de loza) ──
   if ((topResultado?.tipo_familia === "medida" || topResultado?.tipo_familia === "medida_color") && topResultado?.variantes_familia_medida?.length > 1) {
     const lines = [];
     const nombre_familia = topResultado.nombre.split(" ").slice(0, 4).join(" ");
