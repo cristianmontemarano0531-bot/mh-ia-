@@ -31,7 +31,12 @@ const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID;
 const TWILIO_AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const BASE_URL = process.env.RAILWAY_STATIC_URL || process.env.BASE_URL || "";
+// Railway setea RAILWAY_STATIC_URL sin "https://" — lo forzamos siempre
+const RAW_BASE_URL = process.env.RAILWAY_STATIC_URL || process.env.BASE_URL || "";
+const BASE_URL = RAW_BASE_URL && !/^https?:\/\//i.test(RAW_BASE_URL)
+  ? `https://${RAW_BASE_URL}`
+  : RAW_BASE_URL;
+console.log(`🌐 BASE_URL=${BASE_URL || "(vacío)"}`);
 const PORT = process.env.PORT || 3000;
 
 // ─── PERFILES INTERNOS ────────────────────────────────────────────────────────
@@ -147,7 +152,12 @@ async function enviarMedia(numero, mediaPath, caption = "") {
         body: params
       }
     );
-    if (res.ok) console.log(`📎 Media enviada: ${mediaUrl}`);
+    const body = await res.text();
+    if (res.ok) {
+      console.log(`📎 Media OK → ${mediaUrl}`);
+    } else {
+      console.error(`❌ Media FAIL (${res.status}) URL=${mediaUrl}\n${body.substring(0, 500)}`);
+    }
     return res.ok;
   } catch (e) {
     console.error("Error enviando media:", e.message);
@@ -894,6 +904,62 @@ app.get("/", (req, res) => {
     version: "3.10",
     hora: new Date().toLocaleString("es-AR", { timeZone: "America/Argentina/Buenos_Aires" }),
     datos_dux: estado
+  });
+});
+
+// ─── ENDPOINTS DE DEBUG DE MEDIA ──────────────────────────────────────────────
+// GET /debug/media → lista todo lo que el server ve, con URL pública
+app.get("/debug/media", (req, res) => {
+  const media = mediaManager.listarTodoElMedia();
+  const mapear = (item, tipo) => {
+    const rel = path
+      .relative(path.join(__dirname, "imagenes-y-pdf-para-clientes"), item.ruta)
+      .replace(/\\/g, "/");
+    const url = BASE_URL ? `${BASE_URL}/media/${rel}` : `(sin BASE_URL) /media/${rel}`;
+    const stat = fs.existsSync(item.ruta) ? fs.statSync(item.ruta) : null;
+    return {
+      codigo: item.codigo,
+      archivo: item.archivo,
+      tipo,
+      existe: !!stat,
+      tamano_kb: stat ? +(stat.size / 1024).toFixed(1) : null,
+      url
+    };
+  };
+  res.json({
+    base_url: BASE_URL || "(vacío — no se pueden enviar medios)",
+    base_url_tiene_https: BASE_URL.startsWith("https://"),
+    pdfs: media.pdf.map(m => mapear(m, "pdf")),
+    imagenes: media.imagenes.map(m => mapear(m, "imagen"))
+  });
+});
+
+// GET /debug/pdf/:codigo → chequea qué PDF se enviaría para un código
+app.get("/debug/pdf/:codigo", (req, res) => {
+  const codigo = req.params.codigo;
+  const archivo = mediaManager.obtenerPDF(codigo);
+  if (!archivo) {
+    return res.status(404).json({
+      codigo,
+      error: "No se encontró PDF para este código",
+      sugerencia: "Probá GET /debug/media para ver los códigos con PDF disponible"
+    });
+  }
+  const rel = path
+    .relative(path.join(__dirname, "imagenes-y-pdf-para-clientes"), archivo)
+    .replace(/\\/g, "/");
+  const url = BASE_URL ? `${BASE_URL}/media/${rel}` : null;
+  const stat = fs.statSync(archivo);
+  res.json({
+    codigo,
+    archivo_encontrado: archivo,
+    archivo_existe: true,
+    tamano_bytes: stat.size,
+    tamano_mb: +(stat.size / 1024 / 1024).toFixed(2),
+    supera_limite_twilio_5mb: stat.size > 5 * 1024 * 1024,
+    url_generada: url,
+    url_valida_https: url ? url.startsWith("https://") : false,
+    base_url_actual: BASE_URL || "(vacío)"
   });
 });
 
