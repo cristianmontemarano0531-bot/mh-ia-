@@ -22,7 +22,22 @@ const usuariosMgr = require("./config/usuarios-manager.js");
 const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use("/media", express.static(path.join(__dirname, "imagenes-y-pdf-para-clientes")));
+// Middleware: forzar Content-Disposition con filename para que WhatsApp
+// reconozca el documento con su nombre. Algunos clientes no renderizan
+// bien el adjunto sin este header.
+app.use("/media", (req, res, next) => {
+  const filename = path.basename(req.path);
+  if (filename) {
+    res.setHeader("Content-Disposition", `inline; filename="${filename}"`);
+  }
+  next();
+}, express.static(path.join(__dirname, "imagenes-y-pdf-para-clientes"), {
+  setHeaders: (res, filePath) => {
+    if (filePath.toLowerCase().endsWith(".pdf")) {
+      res.setHeader("Content-Type", "application/pdf");
+    }
+  }
+}));
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID;
@@ -108,7 +123,9 @@ async function enviarMedia(numero, mediaPath, caption = "") {
       path.join(__dirname, "imagenes-y-pdf-para-clientes"),
       mediaPath
     ).replace(/\\/g, "/");
-    const mediaUrl = `${BASE_URL}/media/${rel}`;
+    // Cache-busting: si Twilio/WhatsApp cacheó un intento anterior fallido,
+    // el query param fuerza que lo traten como URL nueva.
+    const mediaUrl = `${BASE_URL}/media/${rel}?v=${Date.now()}`;
 
     const params = new URLSearchParams({
       To: `whatsapp:+${numero}`,
