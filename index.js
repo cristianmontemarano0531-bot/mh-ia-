@@ -52,7 +52,7 @@ const BASE_URL = RAW_BASE_URL && !/^https?:\/\//i.test(RAW_BASE_URL)
   : RAW_BASE_URL;
 console.log(`🌐 BASE_URL=${BASE_URL || "(vacío)"}`);
 
-const VERSION = "4.0";
+const VERSION = "4.1.1";
 
 // ═════════════════════════════════════════════════════════════════════════════
 // HELPERS DE COMUNICACIÓN
@@ -777,6 +777,12 @@ app.get("/debug/media", (req, res) => {
     pdfs: media.pdf.map(m => mapear(m, "pdf")),
     imagenes: media.imagenes.map(m => mapear(m, "imagen"))
   });
+});
+
+app.get("/debug/producto/:codigo", (req, res) => {
+  const codigo = req.params.codigo;
+  const prod = buscadorBase.buscarPorCodigo(codigo, "baño");
+  res.json(prod);
 });
 
 app.get("/debug/pdf/:codigo", (req, res) => {
