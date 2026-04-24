@@ -52,7 +52,7 @@ const BASE_URL = RAW_BASE_URL && !/^https?:\/\//i.test(RAW_BASE_URL)
   : RAW_BASE_URL;
 console.log(`🌐 BASE_URL=${BASE_URL || "(vacío)"}`);
 
-const VERSION = "4.1.1";
+const VERSION = "4.1.3";
 
 // ═════════════════════════════════════════════════════════════════════════════
 // HELPERS DE COMUNICACIÓN
