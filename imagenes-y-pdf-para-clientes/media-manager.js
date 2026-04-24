@@ -37,18 +37,25 @@ function obtenerImagen(codigo) {
 function obtenerPDF(codigo) {
   // Primero busca por código exacto, luego por código base
   // Ej: V60UCB → V60UC → V60U
+  const codigoUpper = codigo.toUpperCase();
   const candidatos = [codigo];
 
   // Marbela: EDM60 → VEDM | EDM60N → VEDMN
-  if (codigo.startsWith("EDM")) {
-    const conN = codigo.includes("N") ? "VEDMN" : "VEDM";
+  if (codigoUpper.startsWith("EDM")) {
+    const conN = codigoUpper.includes("N") ? "VEDMN" : "VEDM";
     candidatos.push(conN, "VEDM");
   }
 
+  // Familia V\d+ sin sufijo (ej V150, V120): probar V150U, V150UC
+  // El usuario a veces pide "catalogo v150" refiriéndose a la familia.
+  if (/^V\d{2,3}$/i.test(codigo)) {
+    candidatos.push(codigo + "U", codigo + "UC");
+  }
+
   // Generar códigos base (quitar sufijo B o COLOR)
-  const sinB = codigo.replace(/B$/, "");
-  const sinColor = codigo.replace(/COLOR$/, "");
-  const sinSufijo = codigo.replace(/(B|COLOR|UCB|UCCOLOR|UB|UCOLOR)$/, "");
+  const sinB = codigo.replace(/B$/i, "");
+  const sinColor = codigo.replace(/COLOR$/i, "");
+  const sinSufijo = codigo.replace(/(B|COLOR|UCB|UCCOLOR|UB|UCOLOR)$/i, "");
 
   [sinB, sinColor, sinSufijo].forEach(c => {
     if (c !== codigo && c.length > 2) candidatos.push(c);
@@ -58,6 +65,19 @@ function obtenerPDF(codigo) {
     const encontrado = buscarArchivo(PDF_DIR, candidato, EXT_PDF);
     if (encontrado) return encontrado;
   }
+
+  // Último fallback: cualquier archivo que EMPIECE con el código (tolerante)
+  // Ej: "V150" → v150u.pdf (el primero que matchee)
+  if (fs.existsSync(PDF_DIR)) {
+    const archivos = fs.readdirSync(PDF_DIR);
+    const match = archivos.find(a => {
+      if (!EXT_PDF.includes(path.extname(a).toLowerCase())) return false;
+      const base = path.basename(a, path.extname(a)).toUpperCase();
+      return base.startsWith(codigoUpper);
+    });
+    if (match) return path.join(PDF_DIR, match);
+  }
+
   return null;
 }
 
