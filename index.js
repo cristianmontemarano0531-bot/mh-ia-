@@ -567,11 +567,13 @@ async function procesarMensaje(numero, texto, mediaUrl) {
     }
   }
 
-  // ── Guardar mensaje ──
-  memoria.registrarMensaje(limpio, "user", mensaje);
+  // ── Chequear si es primera consulta del día ANTES de registrar el mensaje ──
   const esPrimera = memoria.esPrimeraVezHoy(limpio);
   const primerNombre = (usuario?.nombre || "").split(" ")[0] || "";
   const saludo = esPrimera && primerNombre ? `Hola ${primerNombre},\n` : "";
+
+  // ── Guardar mensaje ──
+  memoria.registrarMensaje(limpio, "user", mensaje);
 
   // ── Casual replies (hola/gracias/ok) — respuesta instantánea, sin buscador ──
   const casual = /^(hola|holis|buenos? d[ií]as|buenas(?: tardes| noches)?|gracias|ok|dale|listo)[.!?]?$/i;
@@ -590,20 +592,45 @@ async function procesarMensaje(numero, texto, mediaUrl) {
     return { texto: respuesta, media: null };
   }
 
-  // ═══ MODO 1 — Código exacto ═══
+  // ═══ MODO 1 — Código exacto (con fallback a prefijo) ═══
   const codigo = extraerCodigo(mensaje);
   if (codigo) {
-    const prod = buscadorBase.buscarPorCodigo(codigo, "baño");
+    let prod = buscadorBase.buscarPorCodigo(codigo, "baño");
+
+    // Fallback: si no hay match exacto (ej "VMINI" no existe pero sí VMINICOLOR/VMINIB),
+    // buscar productos que empiecen con ese código. Si la query tiene una variante
+    // (color), priorizar el código que tenga esa variante en stock.
+    if (prod.error) {
+      const variante = extraerVariante(mensaje);
+      const catalogo = require("./palabras-clave-y-detalles/baño.json");
+      const candidatos = catalogo
+        .map(p => p.codigo)
+        .filter(c => c.toUpperCase().startsWith(codigo.toUpperCase()));
+
+      if (variante) {
+        // Probar cada candidato y elegir el que tenga esa variante en stock
+        for (const c of candidatos) {
+          const p = buscadorBase.buscarPorCodigo(c, "baño");
+          if (!p.error && p.stock_variantes?.[variante]) {
+            prod = p;
+            break;
+          }
+        }
+      }
+      // Si sigue sin match y hay 1 solo candidato, elegirlo
+      if (prod.error && candidatos.length === 1) {
+        prod = buscadorBase.buscarPorCodigo(candidatos[0], "baño");
+      }
+    }
+
     if (!prod.error) {
       const variante = extraerVariante(mensaje);
       const cuadro = formatearCodigoExacto(prod, variante);
       const respuesta = saludo + cuadro;
       memoria.registrarMensaje(limpio, "assistant", respuesta);
-      // Actualizar ultimo_producto en memoria
       memoria.actualizarContexto(limpio, { producto: prod.codigo });
       return { texto: respuesta, media: null };
     }
-    // Si el código no existe, seguimos al buscador general por si hay algo parecido
   }
 
   // ═══ MODO 3 — Rubro solo (lista directa, sin preguntar) ═══
@@ -799,10 +826,16 @@ cron.schedule("0 * * * *", ejecutarSync);
 // START SERVER
 // ═════════════════════════════════════════════════════════════════════════════
 
-app.listen(PORT, () => {
-  console.log(`\n🚀 MH-IA v${VERSION} (herramienta interna)`);
-  console.log(`   Puerto: ${PORT}`);
-  console.log(`   Base URL: ${BASE_URL || "(vacío)"}`);
-  const u = usuariosMgr.listarUsuarios();
-  console.log(`   Usuarios: ${u.fijos.length} fijos + ${u.extras.length} extras\n`);
-});
+// Solo arrancar el server si este archivo se corre directo (no cuando se require() desde tests)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`\n🚀 MH-IA v${VERSION} (herramienta interna)`);
+    console.log(`   Puerto: ${PORT}`);
+    console.log(`   Base URL: ${BASE_URL || "(vacío)"}`);
+    const u = usuariosMgr.listarUsuarios();
+    console.log(`   Usuarios: ${u.fijos.length} fijos + ${u.extras.length} extras\n`);
+  });
+}
+
+// Exports para testing
+module.exports = { procesarMensaje };
