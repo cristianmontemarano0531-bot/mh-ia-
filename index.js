@@ -236,13 +236,18 @@ function extraerCodigo(texto) {
   return null;
 }
 
-// Detecta si el texto menciona un RUBRO sin especificar medida/código.
-// "vanitorios" → MUEBLES, "bachas" → BACHAS, etc.
+// Detecta si el texto menciona un RUBRO sin especificar medida/código/qualifier.
+// "vanitorios" → MUEBLES  |  "bachas" → BACHAS  |  "mesadas" → MESADAS
+// PERO "mesadas de loza" → null (tiene qualifier "loza" → va a Modo 2)
 function detectarRubroSolo(texto) {
   const t = texto.toLowerCase().trim();
-  if (t.split(/\s+/).length > 4) return null;  // si es muy largo ya es semi-específico
-  if (/\d{2,3}/.test(t)) return null;           // si menciona medida, no es rubro solo
-  if (extraerCodigo(texto)) return null;        // si tiene código, no es rubro solo
+  if (t.split(/\s+/).length > 4) return null;
+  if (/\d{2,3}/.test(t)) return null;
+  if (extraerCodigo(texto)) return null;
+
+  // Si menciona un qualifier (subrubro / color / tipo), NO es rubro solo → va a Modo 2
+  const QUALIFIERS = /\b(loza|losa|sint[eé]tic|laminad|marmol|m[aá]rmol|classic|clasic|piatto|piato|marbela|blanco|blanca|negro|mate|monocomando|agujero|apoyo|encastre|color|sahara|caju|caj[uú]|mezzo|grafito|hormigon|hormig[oó]n|nero|terra|cajon|caj[oó]n|hueco|puerta|colgante|de pie|u[ñn]ero)\b/i;
+  if (QUALIFIERS.test(t)) return null;
 
   if (/\b(vanitor|mueble)/i.test(t)) return "MUEBLES";
   if (/\bbacha/i.test(t)) return "BACHAS";

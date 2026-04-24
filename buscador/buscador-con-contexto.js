@@ -14,10 +14,20 @@ function enriquecerConsulta(consulta, memoriaCliente) {
   if (palabras.length >= 5 || tieneCodigo) return texto;
 
   // Concatenar los últimos 3 mensajes del usuario del historial (el actual aún no está registrado).
-  // Cuando ya está registrado (dependiendo del orden), evitamos duplicarlo.
+  // Filtramos: (a) el mensaje actual, (b) comandos admin (/agregar, /usuarios, etc),
+  // (c) respuestas monosílabas a preguntas del bot que no aportan info de producto.
   const historial = memoriaCliente?.historial || [];
   const userMsgs = historial.filter(m => m.rol === "user").map(m => m.texto);
-  const ultimos3 = userMsgs.slice(-3).filter(t => t.trim() !== texto);
+  const SHORT_REPLIES = /^(si|sí|no|ok|dale|gracias|listo|bueno|perfecto)$/i;
+  const ultimos3 = userMsgs
+    .slice(-3)
+    .map(t => t.trim())
+    .filter(t => {
+      if (!t || t === texto.trim()) return false;
+      if (t.startsWith("/")) return false;              // comandos admin
+      if (SHORT_REPLIES.test(t)) return false;          // yes/no/ok
+      return true;
+    });
 
   const userRecent = ultimos3.join(" ");
   const enriquecida = (userRecent + " " + texto).trim();
