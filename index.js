@@ -661,8 +661,25 @@ async function procesarMensaje(numero, texto, mediaUrl) {
   const resultado = buscadorCtx.buscarConContexto(limpio, mensaje, {
     seccion: "baño",
     perfil: "interno",
-    limit: 10
+    limit: 15
   });
+
+  // Filtro por categoría: si la query menciona explícitamente un tipo de producto,
+  // descartar resultados de otras categorías. Evita que "mesadas de loza" traiga
+  // vanitorys Marbela que tienen keyword 'mesada integrada'.
+  if (resultado && resultado.resultados && resultado.resultados.length > 0) {
+    const q = mensaje.toLowerCase();
+    let categoriaEsperada = null;
+    if (/\bmesada/i.test(q)) categoriaEsperada = "mesada";
+    else if (/\bbacha/i.test(q)) categoriaEsperada = "bacha";
+    else if (/\b(vanitor|mueble)/i.test(q)) categoriaEsperada = "vanitory";
+    else if (/\b(espejo|botiqu[ií]n)/i.test(q)) categoriaEsperada = "espejo";
+
+    if (categoriaEsperada) {
+      const filtrados = resultado.resultados.filter(p => p.categoria === categoriaEsperada);
+      if (filtrados.length > 0) resultado.resultados = filtrados;
+    }
+  }
 
   if (!resultado || !resultado.resultados || resultado.resultados.length === 0) {
     const r = saludo + `No encontré productos con "${mensaje}".\nProbá con un código (ej V60CLAC), rubro (mesadas / bachas / vanitorios) o descripción con medida (vanitory 60, mesada 80).`;
@@ -826,7 +843,10 @@ function ejecutarSync() {
 }
 
 setTimeout(ejecutarSync, 5000);
-cron.schedule("0 * * * *", ejecutarSync);
+cron.schedule("0 * * * *", ejecutarSync, {
+  timezone: "America/Argentina/Buenos_Aires"
+});
+console.log("⏰ Cron sync programado: cada hora en punto (America/Argentina/Buenos_Aires)");
 
 // ═════════════════════════════════════════════════════════════════════════════
 // START SERVER

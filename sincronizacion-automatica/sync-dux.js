@@ -207,8 +207,12 @@ function procesarPrecios(items) {
 }
 
 function guardarJSON(nombre, datos) {
+  // Escritura atómica: escribir a .tmp y renombrar al final.
+  // Así las consultas del bot que lean mientras escribimos nunca ven un archivo a medio armar.
   const ruta = path.join(DATA_DIR, `${nombre}.json`);
-  fs.writeFileSync(ruta, JSON.stringify(datos, null, 2), "utf8");
+  const rutaTmp = ruta + ".tmp";
+  fs.writeFileSync(rutaTmp, JSON.stringify(datos, null, 2), "utf8");
+  fs.renameSync(rutaTmp, ruta);  // rename es atómico en sistemas POSIX
   const kb = (fs.statSync(ruta).size / 1024).toFixed(2);
   log(`💾 Guardado: data/${nombre}.json (${kb} KB)`);
 }
