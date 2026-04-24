@@ -167,7 +167,7 @@ async function llamarClaude(mensajes, systemPrompt) {
     },
     body: JSON.stringify({
       model: "claude-haiku-4-5-20251001",
-      max_tokens: 600,
+      max_tokens: 1200,
       system: systemPrompt,
       messages: mensajes
     })
@@ -341,12 +341,23 @@ function formatearLista(resultados, limit = 8) {
   if (!resultados || resultados.length === 0) return null;
   const lista = resultados.slice(0, limit);
   return lista.map(p => {
-    const linea = p.linea ? ` ${p.linea}` : "";
+    // Mostrar "linea" (piatto/marbela/classic) SOLO en muebles.
+    // En bachas/mesadas/espejos es ruido (son marcados como "piatto" por tema de matching dimensional).
+    const mostrarLinea = p.categoria === "vanitory" && p.linea;
+    const linea = mostrarLinea ? ` ${p.linea}` : "";
     const medida = p.medida ? ` (${p.medida}cm)` : "";
     const l1 = `• *${p.codigo}*${medida}${linea} — ${fmtPrecio(p.precio_madre)}`;
     const l2 = `  ${fmtStockInline(p.stock_variantes)}`;
     return `${l1}\n${l2}`;
   }).join("\n");
+}
+
+// Lista SIMPLE: solo código + stock (sin precio, sin medida). Para Modo 3 / rubro completo.
+function formatearListaSimple(productos, limit = 30) {
+  if (!productos || productos.length === 0) return null;
+  return productos.slice(0, limit).map(p =>
+    `• *${p.codigo}* — ${fmtStockInline(p.stock_variantes)}`
+  ).join("\n");
 }
 
 // Modo 3 — rubro genérico
@@ -388,7 +399,6 @@ CÓMO RESPONDER SEGÚN EL MODO DE INFO:
 - MODO: lista de productos → copiá la lista tal cual, NO pidas al usuario que elija uno, NO la resumas.
 - MODO: demasiados matches → mostrá el preview y pedile que filtre por medida/color.
 - MODO: sin match → decí que no encontraste y pedí más detalle.
-- MODO: rubro genérico → hacé la pregunta que indica INFO (lista completa con precios / solo stock / solo precios).
 - MODO: código exacto → copiá el cuadro tal cual.
 
 REGLAS GENERALES:
@@ -577,16 +587,30 @@ async function procesarMensaje(numero, texto, mediaUrl) {
     // Si el código no existe, seguimos al buscador general por si hay algo parecido
   }
 
-  // ═══ MODO 3 — Rubro solo ═══
+  // ═══ MODO 3 — Rubro solo (sin preguntar: tirar lista directa) ═══
   const rubroSolo = detectarRubroSolo(mensaje);
   if (rubroSolo) {
-    const res = resumenRubro(rubroSolo);
-    const info = `MODO: rubro genérico
-Rubro: ${rubroSolo}
-Cantidad de productos activos: ${res.total}
-Subrubros: ${res.detalle}
+    // Obtener todos los códigos del rubro desde navegacion-rubros y armar la lista
+    const subrubros = navRubros.obtenerSubrubros(rubroSolo) || [];
+    const codigos = [];
+    subrubros.forEach(s => {
+      const prods = navRubros.obtenerProductos(rubroSolo, s.nombre) || [];
+      prods.forEach(c => codigos.push(c));
+    });
 
-Preguntale al usuario qué quiere ver: "lista completa con precios", "solo stock" o "solo precios".`;
+    // Cargar la info completa (stock + precio) de cada código
+    const productos = codigos
+      .map(c => buscadorBase.buscarPorCodigo(c, "baño"))
+      .filter(p => !p.error);
+
+    let info;
+    if (productos.length === 0) {
+      info = `MODO: sin match\nNo tengo productos cargados en ${rubroSolo}.`;
+    } else {
+      const lista = formatearListaSimple(productos, 30);
+      info = `MODO: lista de productos (mostrá esta lista tal cual al usuario, NO pidas que elija uno)\nRubro: ${rubroSolo} (${productos.length} productos)\n${lista}`;
+    }
+
     const systemPrompt = construirSystemPrompt(usuario, esPrimera, info);
     const historial = memoria.obtenerHistorialClaude(limpio).slice(-6);
     const resp = await llamarClaude(historial, systemPrompt);
