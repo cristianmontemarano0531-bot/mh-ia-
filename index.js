@@ -570,6 +570,25 @@ async function procesarMensaje(numero, texto, mediaUrl) {
   // ── Guardar mensaje ──
   memoria.registrarMensaje(limpio, "user", mensaje);
   const esPrimera = memoria.esPrimeraVezHoy(limpio);
+  const primerNombre = (usuario?.nombre || "").split(" ")[0] || "";
+  const saludo = esPrimera && primerNombre ? `Hola ${primerNombre},\n` : "";
+
+  // ── Casual replies (hola/gracias/ok) — respuesta instantánea, sin buscador ──
+  const casual = /^(hola|holis|buenos? d[ií]as|buenas(?: tardes| noches)?|gracias|ok|dale|listo)[.!?]?$/i;
+  if (casual.test(mensaje.trim())) {
+    let respuesta;
+    if (/^gracias/i.test(mensaje.trim())) {
+      respuesta = "👍";
+    } else if (/^(ok|dale|listo)/i.test(mensaje.trim())) {
+      respuesta = "Dale.";
+    } else {
+      respuesta = primerNombre
+        ? `Hola ${primerNombre}. Consultame por código (ej V60CLAC), descripción (vanitory 60) o rubro (mesadas).`
+        : "Hola. Consultame por código, descripción o rubro.";
+    }
+    memoria.registrarMensaje(limpio, "assistant", respuesta);
+    return { texto: respuesta, media: null };
+  }
 
   // ═══ MODO 1 — Código exacto ═══
   const codigo = extraerCodigo(mensaje);
@@ -578,81 +597,76 @@ async function procesarMensaje(numero, texto, mediaUrl) {
     if (!prod.error) {
       const variante = extraerVariante(mensaje);
       const cuadro = formatearCodigoExacto(prod, variante);
-      const systemPrompt = construirSystemPrompt(usuario, esPrimera, `MODO: código exacto\n${cuadro}`);
-      const historial = memoria.obtenerHistorialClaude(limpio).slice(-6);
-      const resp = await llamarClaude(historial, systemPrompt);
-      memoria.registrarMensaje(limpio, "assistant", resp);
-      return { texto: resp, media: null };
+      const respuesta = saludo + cuadro;
+      memoria.registrarMensaje(limpio, "assistant", respuesta);
+      // Actualizar ultimo_producto en memoria
+      memoria.actualizarContexto(limpio, { producto: prod.codigo });
+      return { texto: respuesta, media: null };
     }
     // Si el código no existe, seguimos al buscador general por si hay algo parecido
   }
 
-  // ═══ MODO 3 — Rubro solo (sin preguntar: tirar lista directa) ═══
+  // ═══ MODO 3 — Rubro solo (lista directa, sin preguntar) ═══
   const rubroSolo = detectarRubroSolo(mensaje);
   if (rubroSolo) {
-    // Obtener todos los códigos del rubro desde navegacion-rubros y armar la lista
     const subrubros = navRubros.obtenerSubrubros(rubroSolo) || [];
     const codigos = [];
     subrubros.forEach(s => {
       const prods = navRubros.obtenerProductos(rubroSolo, s.nombre) || [];
       prods.forEach(c => codigos.push(c));
     });
-
-    // Cargar la info completa (stock + precio) de cada código
     const productos = codigos
       .map(c => buscadorBase.buscarPorCodigo(c, "baño"))
       .filter(p => !p.error);
 
-    let info;
     if (productos.length === 0) {
-      info = `MODO: sin match\nNo tengo productos cargados en ${rubroSolo}.`;
-    } else {
-      const lista = formatearListaSimple(productos, 30);
-      info = `MODO: lista de productos (mostrá esta lista tal cual al usuario, NO pidas que elija uno)\nRubro: ${rubroSolo} (${productos.length} productos)\n${lista}`;
+      const r = saludo + `No tengo productos cargados en ${rubroSolo}.`;
+      memoria.registrarMensaje(limpio, "assistant", r);
+      return { texto: r, media: null };
     }
-
-    const systemPrompt = construirSystemPrompt(usuario, esPrimera, info);
-    const historial = memoria.obtenerHistorialClaude(limpio).slice(-6);
-    const resp = await llamarClaude(historial, systemPrompt);
-    memoria.registrarMensaje(limpio, "assistant", resp);
-    return { texto: resp, media: null };
+    const lista = formatearListaSimple(productos, 30);
+    const respuesta = `${saludo}Rubro: *${rubroSolo}* (${productos.length} productos)\n${lista}`;
+    memoria.registrarMensaje(limpio, "assistant", respuesta);
+    return { texto: respuesta, media: null };
   }
 
   // ═══ MODO 2 — Semi-específico ═══
   const resultado = buscadorCtx.buscarConContexto(limpio, mensaje, {
     seccion: "baño",
     perfil: "interno",
-    limit: 8
+    limit: 10
   });
 
-  let info;
   if (!resultado || !resultado.resultados || resultado.resultados.length === 0) {
-    info = `MODO: sin match
-No encontré productos con esa descripción. Pedile más detalle (medida, tipo, color) o el código exacto.`;
-  } else if (resultado.resultados.length === 1 || (resultado.resultados[0].score >= 60 && resultado.resultados.length <= 3)) {
-    // Match clarísimo: mostrar los resultados directo
-    const cuadros = resultado.resultados.slice(0, 3).map(p => formatearCodigoExacto(p, null)).join("\n\n");
-    info = `MODO: match directo (mostrá esta info tal cual)\n${cuadros}`;
-  } else if (resultado.resultados.length <= 10) {
-    // Cantidad razonable: mostrar lista tal cual
-    const lista = formatearLista(resultado.resultados, 10);
-    info = `MODO: lista de productos (mostrá esta lista tal cual al usuario, NO pidas que elija uno)\n${lista}`;
-  } else {
-    // Demasiados: pedir que filtre
-    const preview = formatearLista(resultado.resultados.slice(0, 5), 5);
-    info = `MODO: demasiados matches (${resultado.resultados.length} productos). Pedile al usuario que filtre por medida, color o tipo.\nPreview de los primeros 5:\n${preview}`;
+    const r = saludo + `No encontré productos con "${mensaje}".\nProbá con un código (ej V60CLAC), rubro (mesadas / bachas / vanitorios) o descripción con medida (vanitory 60, mesada 80).`;
+    memoria.registrarMensaje(limpio, "assistant", r);
+    return { texto: r, media: null };
   }
 
-  const systemPrompt = construirSystemPrompt(usuario, esPrimera, info);
-  const historial = memoria.obtenerHistorialClaude(limpio).slice(-6);
-  try {
-    const resp = await llamarClaude(historial, systemPrompt);
-    memoria.registrarMensaje(limpio, "assistant", resp);
-    return { texto: resp, media: null };
-  } catch (e) {
-    console.error("Error Claude:", e.message);
-    return { texto: "Hubo un error procesando. Intentá de nuevo.", media: null };
+  // Si el top match es muy claro (1 o 2 con score alto) → cuadro detallado
+  if (resultado.resultados.length === 1 || (resultado.resultados[0].score >= 60 && resultado.resultados.length <= 3)) {
+    const cuadros = resultado.resultados.slice(0, 3).map(p => formatearCodigoExacto(p, null)).join("\n\n");
+    const respuesta = saludo + cuadros;
+    memoria.registrarMensaje(limpio, "assistant", respuesta);
+    if (resultado.resultados[0].codigo) {
+      memoria.actualizarContexto(limpio, { ultimo_producto: resultado.resultados[0].codigo });
+    }
+    return { texto: respuesta, media: null };
   }
+
+  // Cantidad razonable → lista con precio
+  if (resultado.resultados.length <= 10) {
+    const lista = formatearLista(resultado.resultados, 10);
+    const respuesta = saludo + lista;
+    memoria.registrarMensaje(limpio, "assistant", respuesta);
+    return { texto: respuesta, media: null };
+  }
+
+  // Demasiados → preview + pedir filtro
+  const preview = formatearLista(resultado.resultados.slice(0, 5), 5);
+  const respuesta = `${saludo}Encontré ${resultado.resultados.length} productos. Te paso los primeros 5:\n${preview}\n\nFiltrá por medida, color o tipo para ver más.`;
+  memoria.registrarMensaje(limpio, "assistant", respuesta);
+  return { texto: respuesta, media: null };
 }
 
 // ═════════════════════════════════════════════════════════════════════════════

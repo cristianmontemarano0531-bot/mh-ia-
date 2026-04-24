@@ -1,40 +1,14 @@
 const buscador = require('./buscador-inteligente.js');
 const memoria = require('../memoria-de-clientes/memoria-manager.js');
 
-// ─── ENRIQUECER CONSULTA CON HISTORIAL RECIENTE ────────────────────────────────
-// Cuando el cliente manda respuestas cortas como "En 60", "De pie", "Con cajones"
-// (conversación en pedacitos), una búsqueda con solo ese texto devuelve nada.
-// Concatenamos los últimos mensajes del usuario para armar una consulta rica.
-function enriquecerConsulta(consulta, memoriaCliente) {
-  const texto = String(consulta || "").trim();
-  const palabras = texto.split(/\s+/).filter(Boolean);
-
-  // Si la consulta ya tiene código o ≥5 palabras, no necesita enriquecimiento
-  const tieneCodigo = /\b[A-Z]{1,3}\d{2,3}[A-Z]*\b/i.test(texto);
-  if (palabras.length >= 5 || tieneCodigo) return texto;
-
-  // Concatenar los últimos 3 mensajes del usuario del historial (el actual aún no está registrado).
-  // Filtramos: (a) el mensaje actual, (b) comandos admin (/agregar, /usuarios, etc),
-  // (c) respuestas monosílabas a preguntas del bot que no aportan info de producto.
-  const historial = memoriaCliente?.historial || [];
-  const userMsgs = historial.filter(m => m.rol === "user").map(m => m.texto);
-  const SHORT_REPLIES = /^(si|sí|no|ok|dale|gracias|listo|bueno|perfecto)$/i;
-  const ultimos3 = userMsgs
-    .slice(-3)
-    .map(t => t.trim())
-    .filter(t => {
-      if (!t || t === texto.trim()) return false;
-      if (t.startsWith("/")) return false;              // comandos admin
-      if (SHORT_REPLIES.test(t)) return false;          // yes/no/ok
-      return true;
-    });
-
-  const userRecent = ultimos3.join(" ");
-  const enriquecida = (userRecent + " " + texto).trim();
-  if (enriquecida !== texto) {
-    console.log(`🔗 Query enriquecida: "${texto}" → "${enriquecida}"`);
-  }
-  return enriquecida || texto;
+// ─── ENRIQUECER CONSULTA — DESACTIVADO ─────────────────────────────────────────
+// Antes concatenaba historial para manejar "de pie", "en 60", etc como follow-ups.
+// Pero arrastraba historial viejo (días anteriores) que contaminaba las búsquedas
+// (ej "mesadas de loza" + historial viejo "V80UCCOLOR" → matcheaba vanitorys en vez
+// de mesadas). Para una herramienta interna donde los empleados escriben claro,
+// el enriquecimiento es más peligroso que útil. Desactivado.
+function enriquecerConsulta(consulta /* memoriaCliente ignorado */) {
+  return String(consulta || "").trim();
 }
 
 // ─── BUSCAR CON CONTEXTO DEL CLIENTE ───────────────────────────────────────────
