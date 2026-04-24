@@ -505,9 +505,25 @@ async function procesarMensaje(numero, texto, mediaUrl) {
     memoria.registrarMensaje(limpio, "user", mensaje);
 
     if (archivo) {
-      const caption = `📄 ${tipoMedia} de *${codigoMedia}*`;
-      memoria.registrarMensaje(limpio, "assistant", caption);
-      return { texto: caption, media: archivo };
+      const ext = path.extname(archivo).toLowerCase();
+      const esPDF = ext === ".pdf";
+
+      if (esPDF) {
+        // Twilio Sandbox no entrega PDFs bien como adjunto → mandamos link clickeable
+        const rel = path.relative(
+          path.join(__dirname, "imagenes-y-pdf-para-clientes"),
+          archivo
+        ).replace(/\\/g, "/");
+        const url = `${BASE_URL}/media/${rel}`;
+        const respuesta = `📄 Ficha técnica de *${codigoMedia}*\n${url}`;
+        memoria.registrarMensaje(limpio, "assistant", respuesta);
+        return { texto: respuesta, media: null };
+      } else {
+        // Imágenes sí se entregan bien por MMS
+        const caption = `🖼️ Imagen de *${codigoMedia}*`;
+        memoria.registrarMensaje(limpio, "assistant", caption);
+        return { texto: caption, media: archivo };
+      }
     } else {
       const r = `No tengo ${tipoMedia} cargado para *${codigoMedia}* todavía.`;
       memoria.registrarMensaje(limpio, "assistant", r);
