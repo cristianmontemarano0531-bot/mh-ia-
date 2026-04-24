@@ -319,15 +319,29 @@ function formatearCodigoExacto(prod, varianteSolicitada = null) {
   return `${linea1}\n${linea2}\n${stockTxt}`;
 }
 
-// Modo 2 — varios productos matcheados (tabla compacta)
-function formatearLista(resultados, limit = 6) {
+// Modo 2 — varios productos matcheados (tabla compacta, una sola línea de stock por producto)
+function fmtStockInline(stock_variantes) {
+  if (!stock_variantes || Object.keys(stock_variantes).length === 0) return "sin stock";
+  const entries = Object.entries(stock_variantes);
+  const unico = entries.length === 1 && entries[0][0] === "DEPOSITO";
+  if (unico) return `Stock: ${entries[0][1].stock ?? 0}`;
+  const partes = entries
+    .filter(([k]) => k !== "DEPOSITO")
+    .map(([k, v]) => `${k} ${v.stock ?? 0}`);
+  const total = entries.reduce((acc, [k, v]) => acc + (v.stock || 0), 0);
+  return `Stock: ${partes.join(" · ")} (total ${total})`;
+}
+
+function formatearLista(resultados, limit = 8) {
   if (!resultados || resultados.length === 0) return null;
   const lista = resultados.slice(0, limit);
-  const lineas = lista.map(p => {
-    const stock = fmtStockVariantes(p.stock_variantes, null).replace(/\n/g, " · ").replace(/Stock por variante: /, "").replace(/Stock: /, "Stock ");
-    return `• *${p.codigo}* ${p.medida ? `(${p.medida}cm)` : ""} ${p.linea || ""} — ${fmtPrecio(p.precio_madre)}\n  ${stock}`;
-  });
-  return lineas.join("\n");
+  return lista.map(p => {
+    const linea = p.linea ? ` ${p.linea}` : "";
+    const medida = p.medida ? ` (${p.medida}cm)` : "";
+    const l1 = `• *${p.codigo}*${medida}${linea} — ${fmtPrecio(p.precio_madre)}`;
+    const l2 = `  ${fmtStockInline(p.stock_variantes)}`;
+    return `${l1}\n${l2}`;
+  }).join("\n");
 }
 
 // Modo 3 — rubro genérico
@@ -362,12 +376,19 @@ ESTILO:
 REGLA DE ORO (anti-alucinación):
 - NUNCA inventes códigos, colores, medidas, stock ni precios.
 - Solo usás los datos de la sección INFO que te paso abajo.
-- Si INFO dice "sin datos" o algo no está, decís: "no tengo ese dato cargado, consultá en Dux".
+- Solo decís "no tengo ese dato cargado" si INFO comienza literalmente con "MODO: sin match" o dice que no hay datos. Si INFO te trae productos formateados (con código, precio, stock), los tenés que mostrar.
 
-FORMATO DE STOCK:
-- Si la INFO ya viene formateada con cuadro (código, precio, stock desagregado), devolvela TAL CUAL (con saludo si corresponde).
-- NO agregues comentarios tipo "te paso el dato" o "avisame si necesitás algo más", salvo que sea muy corto.
-- Nunca sumarices el stock en un total único si hay variantes por color/modelo — mostralas desagregadas.
+CÓMO RESPONDER SEGÚN EL MODO DE INFO:
+- MODO: match directo → copiá la info tal cual, sin cambios.
+- MODO: lista de productos → copiá la lista tal cual, NO pidas al usuario que elija uno, NO la resumas.
+- MODO: demasiados matches → mostrá el preview y pedile que filtre por medida/color.
+- MODO: sin match → decí que no encontraste y pedí más detalle.
+- MODO: rubro genérico → hacé la pregunta que indica INFO (lista completa con precios / solo stock / solo precios).
+- MODO: código exacto → copiá el cuadro tal cual.
+
+REGLAS GENERALES:
+- No agregues comentarios tipo "te paso el dato" o "avisame si necesitás algo más".
+- Nunca sumarices el stock en total único si hay variantes — mostralas desagregadas (ya viene así en INFO).
 
 CATÁLOGO ACTIVO: 77 productos de baño
 • Muebles (43): Piatto 36, Marbela 4, Classic 3
@@ -577,16 +598,20 @@ Preguntale al usuario qué quiere ver: "lista completa con precios", "solo stock
 
   let info;
   if (!resultado || !resultado.resultados || resultado.resultados.length === 0) {
-    info = `MODO: sin match claro
-No encontré productos con esa descripción. Pedí más detalle (medida, tipo, color) o el código exacto.`;
+    info = `MODO: sin match
+No encontré productos con esa descripción. Pedile más detalle (medida, tipo, color) o el código exacto.`;
   } else if (resultado.resultados.length === 1 || (resultado.resultados[0].score >= 60 && resultado.resultados.length <= 3)) {
     // Match clarísimo: mostrar los resultados directo
     const cuadros = resultado.resultados.slice(0, 3).map(p => formatearCodigoExacto(p, null)).join("\n\n");
-    info = `MODO: match directo\n${cuadros}`;
+    info = `MODO: match directo (mostrá esta info tal cual)\n${cuadros}`;
+  } else if (resultado.resultados.length <= 10) {
+    // Cantidad razonable: mostrar lista tal cual
+    const lista = formatearLista(resultado.resultados, 10);
+    info = `MODO: lista de productos (mostrá esta lista tal cual al usuario, NO pidas que elija uno)\n${lista}`;
   } else {
-    // Hay varios — armar lista compacta
-    const lista = formatearLista(resultado.resultados, 6);
-    info = `MODO: lista múltiple (preguntá cuál quiere para detalles)\n${lista}`;
+    // Demasiados: pedir que filtre
+    const preview = formatearLista(resultado.resultados.slice(0, 5), 5);
+    info = `MODO: demasiados matches (${resultado.resultados.length} productos). Pedile al usuario que filtre por medida, color o tipo.\nPreview de los primeros 5:\n${preview}`;
   }
 
   const systemPrompt = construirSystemPrompt(usuario, esPrimera, info);
