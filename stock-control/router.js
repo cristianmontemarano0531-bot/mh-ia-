@@ -12,13 +12,20 @@ const router = express.Router();
 const STOCK_JSON = path.join(__dirname, "..", "datos-dux", "stock.json");
 const PRODUCTOS_JSON = path.join(__dirname, "productos.json");
 
+// Algunos archivos JSON generados en Windows tienen BOM (EF BB BF) al inicio
+// y JSON.parse los rechaza con "Unexpected token". Lo strippeamos defensivamente.
+function parseJsonSeguro(raw) {
+  return JSON.parse(raw.replace(/^﻿/, ""));
+}
+
 // Cache en memoria del catálogo de productos (no cambia hasta redeploy).
-let productosCache = null;
+// Inicializo undefined (no null/[]) así si el primer parse falla podemos reintentar.
+let productosCache;
 function leerProductos() {
-  if (productosCache) return productosCache;
+  if (Array.isArray(productosCache) && productosCache.length > 0) return productosCache;
   try {
     const raw = fs.readFileSync(PRODUCTOS_JSON, "utf8");
-    productosCache = JSON.parse(raw);
+    productosCache = parseJsonSeguro(raw);
   } catch (e) {
     console.error("[stock-control] no pude leer productos.json:", e.message);
     productosCache = [];
@@ -31,7 +38,7 @@ function leerProductos() {
 function leerStock() {
   try {
     const raw = fs.readFileSync(STOCK_JSON, "utf8");
-    return JSON.parse(raw);
+    return parseJsonSeguro(raw);
   } catch (e) {
     console.warn("[stock-control] no pude leer stock.json:", e.message);
     return {};
