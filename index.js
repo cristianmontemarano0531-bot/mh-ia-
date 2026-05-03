@@ -41,6 +41,10 @@ app.use("/media", (req, res, next) => {
   }
 }));
 
+// Módulo de control de stock móvil (web app interna para depósito).
+// Aislado del flujo del bot: vive en /control y tiene su propio router.
+app.use("/control", require("./stock-control/router.js"));
+
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID;
 const TWILIO_AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN;
