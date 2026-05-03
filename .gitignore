@@ -8,3 +8,6 @@ desktop.ini
 .env.local
 back up.txt
 contexto 22-4.txt
+gastos-credentials.json
+mh-gastos-*.json
+gastos-railway-vars.txt

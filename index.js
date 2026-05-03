@@ -18,6 +18,8 @@ const navRubros = require("./buscador/navegacion-rubros.js");
 const memoria = require("./memoria-de-clientes/memoria-manager.js");
 const mediaManager = require("./imagenes-y-pdf-para-clientes/media-manager.js");
 const usuariosMgr = require("./config/usuarios-manager.js");
+const detectorGastos = require("./gastos/detector.js");
+const procesadorGastos = require("./gastos/index.js");
 
 const app = express();
 app.use(express.urlencoded({ extended: false }));
@@ -505,6 +507,15 @@ async function procesarMensaje(numero, texto, mediaUrl) {
       texto: "Esta es una herramienta interna de MH Amoblamientos.\nPara consultas contactanos al 11-4460-4224 o visitá Av. Presidente Perón 3048, Haedo.",
       media: null
     };
+  }
+
+  // ── Módulo de gastos personales (solo admin, prefijo "gasto") ──
+  if (usuariosMgr.esAdmin(limpio) && detectorGastos.esGasto(mensaje)) {
+    console.log(`💸 Gasto detectado de ${limpio}`);
+    const resp = await procesadorGastos.procesarGasto(mensaje);
+    memoria.registrarMensaje(limpio, "user", mensaje);
+    memoria.registrarMensaje(limpio, "assistant", resp);
+    return { texto: resp, media: null };
   }
 
   // ── Comandos admin ──
