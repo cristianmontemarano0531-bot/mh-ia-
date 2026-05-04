@@ -305,8 +305,8 @@
         const talleChip = (p.talle && p.talle.toUpperCase() !== "UNICO") ? `<span class="result-color" style="background:#475569">${escape(p.talle)}</span>` : "";
         const q = item.qty;
         const qClass = q>0?"pos":(q<0?"neg":"");
-        const qTag = q>0?'<span class="qty-tag pos">ENTRADA</span>'
-                   :q<0?'<span class="qty-tag neg">SALIDA</span>'
+        const qTag = q>0?'<span class="qty-tag pos">INGRESO</span>'
+                   :q<0?'<span class="qty-tag neg">EGRESO</span>'
                    :'<span class="qty-tag">sin cambio</span>';
         return `
           <div id="row-${cssId(id)}" class="row">
@@ -347,7 +347,7 @@
       const p = item.producto;
       const meta = [p.color, (p.talle && p.talle.toUpperCase()!=="UNICO") ? p.talle : null].filter(Boolean).join(" · ") || "sin variante";
       const sign = item.qty>0?"+":"";
-      const tag = item.qty>0?"ENTRADA":"SALIDA";
+      const tag = item.qty>0?"INGRESO":"EGRESO";
       return `
         <div class="summary-row">
           <div class="summary-info">

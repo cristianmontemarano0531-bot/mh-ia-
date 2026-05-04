@@ -21,8 +21,8 @@ const SCOPE = "https://www.googleapis.com/auth/spreadsheets";
 const HEADER = [
   "Fecha/Hora",
   "Operario",
-  "Tipo",
-  "Código Producto",
+  "Tipo de Movimiento",
+  "Código",
   "Producto",
   "Color",
   "Talle",

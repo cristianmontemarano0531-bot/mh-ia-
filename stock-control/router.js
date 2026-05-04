@@ -90,7 +90,8 @@ router.get("/api/health", (_req, res) => {
 // POST /control/api/movimientos — recibe los movimientos confirmados y los
 // agrega como filas en la pestaña Movimientos del Google Sheet.
 // Body: { operario: string, items: [{codigo, color, talle, producto, qty}] }
-//   - qty positivo => ENTRADA, negativo => SALIDA. qty=0 se ignora.
+//   - qty positivo => INGRESO, negativo => EGRESO. qty=0 se ignora.
+//     (Esos términos los entiende Dux para importación de movimientos.)
 router.post("/api/movimientos", express.json(), async (req, res) => {
   try {
     const { operario, items } = req.body || {};
@@ -119,7 +120,7 @@ router.post("/api/movimientos", express.json(), async (req, res) => {
 
     const filas = validos.map(it => {
       const qty = Number(it.qty);
-      const tipo = qty > 0 ? "ENTRADA" : "SALIDA";
+      const tipo = qty > 0 ? "INGRESO" : "EGRESO";
       return [
         fechaHora,
         operario,
